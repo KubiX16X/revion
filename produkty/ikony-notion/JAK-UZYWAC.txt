@@ -1,0 +1,12 @@
+Pakiet 50 ikon Revion do Notion
+
+Folder "neon": ikony na przezroczystym tle (wyglądają dobrze w jasnym i ciemnym motywie Notion).
+Folder "kafel": ikony na ciemnym kafelku (najlepsze w ciemnym motywie).
+
+Jak ustawić ikonę strony w Notion:
+1. Najedź na tytuł strony i kliknij "Dodaj ikonę" (albo kliknij obecną ikonę).
+2. Wybierz zakładkę "Prześlij" (Upload) i wskaż plik PNG z tego pakietu.
+3. Ikona pojawi się przy stronie, w pasku bocznym i w bazach danych.
+
+Licencja: na użytek własny (szczegóły w regulaminie revion.pl).
+Glify pochodzą z biblioteki Lucide (licencja ISC, treść w pliku LICENCJA-Lucide.txt).

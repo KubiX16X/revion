@@ -1,0 +1,22 @@
+{
+  "name": "revion-agent",
+  "private": true,
+  "type": "module",
+  "description": "Agent AI marki Revion: generuje posty i publikuje je na stronie Facebook i Instagramie (Meta Graph API).",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sprawdz": "node src/sprawdz.mjs",
+    "publikuj": "node src/publikuj.mjs",
+    "generuj": "node src/generuj.mjs",
+    "grafiki": "node src/grafiki.mjs",
+    "statystyki": "node src/statystyki.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "playwright": "^1.56.1",
+    "zod": "^4.6.5"
+  }
+}

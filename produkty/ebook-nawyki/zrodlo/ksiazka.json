@@ -1,0 +1,25 @@
+{
+  "tytul": "Nawyki Żelaznej Dyscypliny",
+  "podtytul": "Dyscyplina, która nie zależy od silnej woli. Pięć nawyków opartych na badaniach i plan na 30 dni.",
+  "seria": "Biblioteka Revion · 01",
+  "plik_pdf": "Nawyki-Zelaznej-Dyscypliny-Revion.pdf",
+  "okladka": "okladka.png",
+  "redakcja": "**Nawyki Żelaznej Dyscypliny**  \nBiblioteka Revion · 01  \nWydanie 1, październik 2026\n\n© 2026 Revion, revion.pl. Wszelkie prawa zastrzeżone. Licencja na użytek własny: nie udostępniaj tego pliku publicznie ani nie odsprzedawaj.\n\nTreść ma charakter edukacyjny i nie zastępuje porady lekarza ani psychologa. Jeśli od dawna masz problemy ze snem, nastrojem lub koncentracją, skonsultuj się ze specjalistą.\n\nKażde badanie przywołane w tekście ma pełny opis w sekcji „Źródła” na końcu rozdziału.\n\nKontakt: kontakt@revion.pl",
+  "czesci": [
+    { "typ": "wstep", "plik": "00-wstep.md", "tytul": "Zanim zaczniesz" },
+    { "typ": "rozdzial", "plik": "01-poranek.md", "numer": "01", "etykieta": "Nawyk I", "tytul": "Poranek Zwycięzców", "lead": "Nie musisz wstawać o 5:00. Musisz wiedzieć, co zrobisz w pierwszej godzinie, zanim świat zacznie decydować za Ciebie." },
+    { "typ": "rozdzial", "plik": "02-general-i-zolnierz.md", "numer": "02", "etykieta": "Nawyk II", "tytul": "Strategia Generała i Żołnierza", "lead": "Wieczorem decydujesz, rano wykonujesz. Pięć minut planu oszczędza godzinę wahania." },
+    { "typ": "rozdzial", "plik": "03-zasada-3-sekund.md", "numer": "03", "etykieta": "Nawyk III", "tytul": "Zasada 3 Sekund", "lead": "Wewnętrzny negocjator zawsze ma argument. Nie dyskutuj z nim, tylko wykonaj pierwszy ruch, zanim zdąży otworzyć usta." },
+    { "typ": "rozdzial", "plik": "04-biologiczna-maszyna.md", "numer": "04", "etykieta": "Nawyk IV", "tytul": "Biologiczna Maszyna", "lead": "Czasu każdy ma tyle samo. Różnicę robi energia: sen, światło, ruch i pora najtrudniejszej pracy." },
+    { "typ": "rozdzial", "plik": "05-architektura-otoczenia.md", "numer": "05", "etykieta": "Nawyk V", "tytul": "Architektura Otoczenia", "lead": "Ludzie z „żelazną dyscypliną” nie wygrywają z pokusami. Oni się z nimi po prostu rzadziej spotykają." },
+    { "typ": "rozdzial", "plik": "06-lancuch.md", "numer": "06", "etykieta": "Bonus", "tytul": "Łańcuch, który się nie urywa", "lead": "Nawyk nie powstaje w 21 dni i nie umiera po jednym opuszczonym dniu. Oto, co naprawdę mówią dane." },
+    { "typ": "zakonczenie", "plik": "07-plan-30-dni.md", "numer": "", "tytul": "Plan na 30 dni" }
+  ],
+  "promo": {
+    "etykieta": "Następny krok",
+    "tytul": "Przenieś te nawyki do jednego systemu",
+    "tekst": "Revion Life OS to gotowy pulpit w Notion, w którym wieczorny plan, trzy priorytety, tracker nawyków i cele są w jednym miejscu. Działa na darmowym planie Notion, na komputerze i telefonie.",
+    "punkty": ["Widok „Dziś” z trzema priorytetami", "Tracker nawyków i cele z postępem", "Projekty, finanse i biblioteka wiedzy", "Jednorazowa płatność, bez abonamentu"],
+    "przycisk": "revion.pl"
+  }
+}

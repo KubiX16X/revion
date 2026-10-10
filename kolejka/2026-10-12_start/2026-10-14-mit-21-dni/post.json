@@ -1,0 +1,62 @@
+{
+  "id": "2026-10-14-mit-21-dni",
+  "kiedy": "2026-10-14T18:30:00+02:00",
+  "status": "zaplanowany",
+  "platformy": [
+    "facebook",
+    "instagram"
+  ],
+  "temat": "Mit: nawyk powstaje w 21 dni",
+  "filar": "Nawyki i dyscyplina bez ściemy",
+  "cel": "zasieg",
+  "opis": "„Nawyk powstaje w 21 dni.” Słyszysz to wszędzie. Problem w tym, że nikt tego nie zbadał.\n\nLiczba pochodzi z książki chirurga plastycznego Maxwella Maltza z 1960 roku: tyle mniej więcej zajmowało pacjentom przyzwyczajenie się do nowego wyglądu.\n\nKiedy naukowcy z University College London sprawdzili to naprawdę (Lally i in., 2010), mediana wyniosła 66 dni. Jednym wystarczyło 18, innym trzeba było 254.\n\nDobra wiadomość: jeden opuszczony dzień nie przekreślał postępów. Więcej w darmowym ebooku: {LINK}\n\nZapisz, żeby nie rzucić nowego nawyku w 22. dniu.",
+  "hashtagi": [
+    "nawyki",
+    "samodyscyplina",
+    "psychologia",
+    "produktywnosc"
+  ],
+  "slajdy": [
+    {
+      "typ": "okladka",
+      "etykieta": "Mit vs fakt",
+      "naglowek": "Nawyk w ==21 dni==? Nie do końca.",
+      "tekst": "Co pokazało badanie, które naprawdę to sprawdziło."
+    },
+    {
+      "typ": "tekst",
+      "etykieta": "Skąd ta liczba",
+      "naglowek": "Z anegdoty, nie z badań",
+      "tekst": "Maxwell Maltz, chirurg plastyczny, pisał w 1960 roku, że pacjenci przyzwyczajają się do nowego wyglądu po **około 21 dniach**. Nikt nie testował tego jako reguły."
+    },
+    {
+      "typ": "tekst",
+      "etykieta": "Co mówi badanie",
+      "naglowek": "Mediana: ==66 dni==",
+      "tekst": "W badaniu Lally i in. (2010) uczestnicy codziennie powtarzali jedno zachowanie. Czas do automatyzmu wahał się **od 18 do 254 dni**."
+    },
+    {
+      "typ": "lista",
+      "naglowek": "Co z tego wynika",
+      "punkty": [
+        "Daj sobie 2–3 miesiące, nie 3 tygodnie",
+        "Jeden opuszczony dzień nie przekreśla postępu",
+        "Nie opuszczaj dwa razy z rzędu",
+        "Odhaczaj, żeby widzieć serię"
+      ]
+    },
+    {
+      "typ": "cta",
+      "naglowek": "Więcej w darmowym ebooku",
+      "tekst": "„Nawyki Żelaznej Dyscypliny”: rozdział o łańcuchu, który się nie urywa.",
+      "przycisk": "Link w bio"
+    }
+  ],
+  "grafiki": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg"
+  ]
+}

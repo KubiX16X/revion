@@ -1,0 +1,97 @@
+name: "Revion: posty na kolejny tydzień"
+
+# W każdą sobotę: pobiera wyniki ostatnich postów, Claude pisze posty na kolejny tydzień, powstają grafiki.
+# Przy "akceptacja": "pr" (domyślnie) dostajesz pull request do zatwierdzenia; po scaleniu posty wychodzą same.
+# Przy "akceptacja": "auto" posty od razu trafiają do kolejki.
+
+on:
+  schedule:
+    - cron: "41 13 * * 6"
+  workflow_dispatch:
+    inputs:
+      od:
+        description: "Poniedziałek tygodnia (RRRR-MM-DD). Puste = najbliższy poniedziałek."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: revion-tresci
+  cancel-in-progress: false
+
+jobs:
+  tresci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: agent
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+      META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      GALAZ: revion-tresci-${{ github.run_number }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Czy agent jest włączony?
+        id: stan
+        run: |
+          echo "wlaczony=$(jq -r '.agent_wlaczony' ../ustawienia.json)" >> "$GITHUB_OUTPUT"
+          echo "akceptacja=$(jq -r '.akceptacja' ../ustawienia.json)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-node@v4
+        if: steps.stan.outputs.wlaczony == 'true' || github.event_name == 'workflow_dispatch'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: agent/package-lock.json
+
+      - name: Instalacja (z przeglądarką do grafik)
+        if: steps.stan.outputs.wlaczony == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Wyniki poprzednich postów
+        if: steps.stan.outputs.wlaczony == 'true' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: node src/statystyki.mjs
+
+      - name: Claude pisze posty i grafiki
+        id: generuj
+        if: steps.stan.outputs.wlaczony == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OD: ${{ inputs.od }}
+        run: node src/generuj.mjs ${OD:+--od "$OD"} --pr-opis "$RUNNER_TEMP/pr.md"
+
+      - name: Do kolejki (od razu albo przez pull request)
+        if: steps.generuj.outcome == 'success'
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BAZA: ${{ github.ref_name }}
+          AKCEPTACJA: ${{ steps.stan.outputs.akceptacja }}
+          OD: ${{ steps.generuj.outputs.od }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kolejka
+          if [ "$AKCEPTACJA" = "auto" ]; then
+            git commit -m "Revion: posty na tydzień od $OD"
+            for proba in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+            exit 1
+          fi
+          git switch -c "$GALAZ"
+          git commit -m "Revion: posty na tydzień od $OD"
+          git push -u origin "$GALAZ"
+          gh pr create --base "$BAZA" --head "$GALAZ" \
+            --title "Revion: posty na tydzień od $OD (do zatwierdzenia)" \
+            --body-file "$RUNNER_TEMP/pr.md" || {
+            echo "::error::Nie udało się otworzyć pull requesta. Włącz: Settings → Actions → General → Workflow permissions → 'Allow GitHub Actions to create and approve pull requests'. Posty są na gałęzi $GALAZ."
+            exit 1
+          }

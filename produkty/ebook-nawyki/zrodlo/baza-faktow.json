@@ -1,0 +1,408 @@
+{
+ "fakty": [
+  {
+   "teza": "Nowy nawyk powstaje w 21 dni (albo dokładnie w 66 dni).",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Liczba 21 dni pochodzi z anegdoty chirurga plastycznego Maxwella Maltza („Psycho-Cybernetics”, 1960: „minimum około 21 dni”, żeby przyzwyczaić się do nowego wyglądu). Nikt jej nie testował jako reguły tworzenia nawyków. Lally, van Jaarsveld, Potts i Wardle (2010, European Journal of Social Psychology): 96 ochotników przez 84 dni powtarzało codziennie jedno zachowanie zdrowotne w stałym kontekście. Automatyzm rósł po krzywej: najszybciej na początku, potem się wypłaszczał. Przegląd Singh, Murphy, Maher i Smith (2024, Healthcare; 20 badań, 2601 osób): mediany 59–66 dni, średnie 106–154 dni, rozrzut od 4 do 335 dni. Silniejsze były nawyki wybrane samodzielnie i wykonywane rano. Większość badań miała wysokie ryzyko błędu. Buyalskaya i in. (2023, PNAS; uczenie maszynowe na ponad 12 mln wizyt na siłowni i ponad 40 mln zdarzeń mycia rąk): nawyk chodzenia na siłownię powstaje miesiącami, mycia rąk w szpitalu tygodniami. Keller i in. (2021, British Journal of Health Psychology; RCT, 192 osoby, 84 dni): u osób, które wytworzyły nawyk, szczyt automatyzmu po medianie ok. 59 dni. PEWNOŚĆ: wysoka, że nie ma jednej „magicznej liczby” i że 21 dni to mit. Średnia co do konkretnych wartości: małe próby, automatyzm deklarowany przez badanych, 66 dni to wynik 39 osób z dobrym dopasowaniem modelu, a 254 dni to ekstrapolacja poza 84 dni trwania badania.",
+   "konkretne_liczby": "Lally 2010: N=96 (82 w analizie), mediana 66 dni do 95% maksymalnego automatyzmu, zakres 18–254 dni. Singh 2024: 20 badań, 2601 osób, mediany 59–66 dni, średnie 106–154 dni, zakres 4–335 dni, wzrost siły nawyku SMD=0,69 (95% CI 0,49–0,88). Buyalskaya 2023: >12 mln obserwacji (siłownia), >40 mln (mycie rąk). Keller 2021: N=192, mediana ok. 59 dni.",
+   "zrodla": [
+    "https://www.ucl.ac.uk/news/2009/aug/how-long-does-it-take-form-habit",
+    "https://repositorio.ispa.pt/handle/10400.12/3364",
+    "https://doi.org/10.1002/ejsp.674",
+    "https://bps.org.uk/research-digest/how-form-habit",
+    "https://www.thebehavioralscientist.com/articles/how-long-to-form-a-habit",
+    "https://digital.library.adelaide.edu.au/items/fe6ba93e-1d6b-42b8-9ee7-a231a64ff006",
+    "https://doi.org/10.3390/healthcare12232488",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10151500",
+    "https://experts.caltech.edu/news/no-magic-number-for-time-it-takes-to-form-habits",
+    "https://discovery-pp.ucl.ac.uk/id/eprint/10118622",
+    "https://nesslabs.com/creating-habits"
+   ],
+   "jak_uzyc_w_ebooku": "Wstęp albo Architektura Otoczenia: „Licz w miesiącach, nie w dniach. Prosty nawyk (szklanka wody po przebudzeniu) to kilka tygodni, złożony (trening) kilka miesięcy.” W Notion zamiast „21-dniowego wyzwania” proponujemy „Projekt 90 dni”. Nie piszemy „po 66 dniach nawyk jest gotowy”, tylko „średnio ok. 2 miesiące, z ogromnym rozrzutem między ludźmi”. Wskazówka z Singh 2024: na start nawyk wybrany samodzielnie i wykonywany rano."
+  },
+  {
+   "teza": "Jedno opuszczenie dnia niszczy budowany nawyk („nie przerywaj łańcucha”).",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Lally i in. (2010), abstrakt: pominięcie jednej okazji nie wpłynęło istotnie na proces tworzenia nawyku. Ogólnie większa regularność dawała jednak lepszy przebieg. Badania nad seriami pokazują drugą stronę. Silverman i Barasch (2023, Journal of Consumer Research; 7 badań): gdy dziennik albo aplikacja pokazuje przerwaną serię, ludzie później angażują się mniej, nawet przy identycznym faktycznym zachowaniu. Efekt jest silniejszy, gdy winią za przerwę siebie, a słabszy, gdy serię da się „naprawić”. Wniosek: dla samego nawyku jedno opuszczenie nie szkodzi, ale widok zerwanego łańcucha może zniechęcić („i tak już zepsułem”). Megabadanie Milkman i in. (2021, Nature; 61 293 członków sieci siłowni, 54 programy): wg omówienia jednym z najskuteczniejszych elementów była drobna nagroda za powrót po opuszczonym treningu. Pełnego tekstu i adresu URL nie zweryfikowałem w tej sesji, link podaję z wiedzy własnej. PEWNOŚĆ: średnia (główny dowód to jedno badanie, ale spójny z resztą literatury).",
+   "konkretne_liczby": "Lally 2010: 82 osoby w analizie, 84 dni. Silverman & Barasch 2023: 7 badań. Megabadanie 2021: 61 293 osób, 54 interwencje, 45% z nich istotnie zwiększyło liczbę wizyt na siłowni (o 9–27%).",
+   "zrodla": [
+    "https://repositorio.ispa.pt/handle/10400.12/3364",
+    "https://www.colorado.edu/business/faculty-research/2023/04/19/or-track-how-broken-streaks-affect-consumer-decisions",
+    "https://doi.org/10.1093/jcr/ucac029",
+    "https://www.psychologytoday.com/us/blog/ulterior-motives/202306/how-broken-streaks-sap-motivation",
+    "https://www.nature.com/articles/s41586-021-04128-4"
+   ],
+   "jak_uzyc_w_ebooku": "Zamiast „nie przerywaj łańcucha” wprowadzamy zasadę „Nigdy dwa razy z rzędu” i zapisujemy ją wprost jako heurystykę (James Clear), której nikt nie testował bezpośrednio. W trackerze Notion seria liczona jako „wykonane dni z ostatnich 30”, a nie „dni bez przerwy”. Do tego pole „Powrót”, które pozwala serię naprawić. Trzeba też zmienić tekst na stronie sprzedażowej: obecnie brzmi „nie przerywasz łańcucha sukcesów”."
+  },
+  {
+   "teza": "Plany „jeśli–to” (implementation intentions) zwiększają szansę realizacji celów.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Gollwitzer i Sheeran (2006, Advances in Experimental Social Psychology, 38, 69–119): meta-analiza 94 niezależnych testów (ponad 8000 osób). Plany „jeśli sytuacja X, to robię Y” zwiększają realizację celów ze średnim lub dużym efektem. Pomagają zacząć działanie, chronią je przed rozpraszaczami i ułatwiają porzucenie złego kierunku. Sheeran, Listrom i Gollwitzer (online 2024, druk 2025, European Review of Social Psychology; 642 testy): plany działają na wyniki poznawcze, emocjonalne i behawioralne. Efekty są większe, gdy plan ma formę warunkową „jeśli–to”, gdy motywacja do celu jest wysoka i gdy plan się powtarza. PEWNOŚĆ: wysoka. To jedna z najlepiej udokumentowanych technik zmiany zachowania, choć nowsza meta-analiza daje częściowo mniejsze efekty niż ta z 2006 r.",
+   "konkretne_liczby": "2006: k=94, d=0,65 (95% CI ok. 0,6–0,7). 2024/25: k=642, d od 0,27 do 0,66 zależnie od rodzaju wyniku. Jednej łącznej wartości dla realizacji celów nie potwierdziłem.",
+   "zrodla": [
+    "https://www.socmot.uni-konstanz.de/publications/implementation-intentions-and-goal-achievement-meta-analysis-effects-and-processes",
+    "https://doi.org/10.1016/S0065-2601(06)38002-1",
+    "https://www.tandfonline.com/doi/abs/10.1080/10463283.2024.2334563",
+    "https://kops.uni-konstanz.de/handle/123456789/69905",
+    "https://www.researchgate.net/publication/378870694_The_When_and_How_of_Planning_Meta-Analysis_of_the_Scope_and_Components_of_Implementation_Intentions_in_642_Tests"
+   ],
+   "jak_uzyc_w_ebooku": "Fundament rozdziałów „Strategia Generała” i „Zasada 3 Sekund”. Wzór: „JEŚLI [konkretna sytuacja, czas, miejsce], TO [konkretne, małe działanie]”. Przykłady: „Jeśli dzwoni budzik, stawiam stopy na podłodze i idę do kuchni po wodę.” „Jeśli o 14:00 czuję zjazd, wychodzę na 10-minutowy spacer.” Ćwiczenie: zapisz 3 plany i przeczytaj każdy na głos 2 razy, bo powtórzenie zwiększa efekt. W Notion baza z kolumnami „Jeśli” i „To”."
+  },
+  {
+   "teza": "Doklejanie nawyku do istniejącej czynności („habit stacking”, kotwice) to najlepszy sposób budowania nawyków.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Mechanizm jest prawdziwy: nawyk to skojarzenie kontekst→reakcja (Wood i Rünger 2016), a w badaniu Lally uczestnicy wiązali zachowanie z codzienną wskazówką. Bezpośrednie testy dają jednak mieszane wyniki. Judah, Gardner i Aunger (2013, British Journal of Health Psychology; N=50): nitkowanie zębów PO szczotkowaniu dało silniejszy nawyk i częstsze nitkowanie po 8 miesiącach niż nitkowanie PRZED. W większym badaniu z doktoratu Judah (2015, LSHTM; N=118) kolejność nie miała znaczenia. Automatyzm zwiększało natomiast odczuwanie zachowania jako nagradzającego. Keller i in. (2021, RCT; N=192, 84 dni): wskazówka oparta na rutynie („po śniadaniu”) i na godzinie („o 8:00”) zadziałały tak samo dobrze. Najsilniejszym predyktorem automatyzmu było regularne wykonywanie planu. PEWNOŚĆ: średnia. Kotwiczenie działa, ale nie ma dowodu, że jest lepsze od innej stałej wskazówki.",
+   "konkretne_liczby": "Judah 2013: N=50, obserwacja po 8 mies. Judah 2015: N=118, brak efektu kolejności. Keller 2021: N=192, mediana ok. 59 dni do szczytu automatyzmu, brak różnic między warunkami.",
+   "zrodla": [
+    "https://pubmed.ncbi.nlm.nih.gov/22989272/",
+    "https://researchonline.lshtm.ac.uk/2121556",
+    "https://discovery-pp.ucl.ac.uk/id/eprint/10118622",
+    "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/85b44c09-6a67-58ce-ac9d-8d12c3e421bb/content",
+    "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/wood.runger.2016.pdf"
+   ],
+   "jak_uzyc_w_ebooku": "Kotwice przedstawiamy jako jeden z dwóch równorzędnych sposobów: po istniejącej czynności ALBO o stałej godzinie. Formuła: „Po [istniejąca czynność] robię [nowy, mały nawyk]”. Kotwica ma występować codziennie i o podobnej porze (kawa, mycie zębów, zamknięcie laptopa). Nie obiecujemy, że „stacking” przyspiesza powstanie nawyku X razy. Akcent pada na powtarzanie i przyjemność."
+  },
+  {
+   "teza": "Silna wola to wyczerpywalny zasób jak bateria (ego depletion), a cukier ją uzupełnia.",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Model „baterii silnej woli” (Baumeister, lata 90.) nie przetrwał dużych prerejestrowanych replikacji. Hagger i in. (2016, Perspectives on Psychological Science): 23 laboratoria, efekt praktycznie zerowy, a przedział ufności obejmuje zero. Vohs i in. (2021, Psychological Science; współautorka oryginalnego modelu): 36 laboratoriów, w teście konfirmacyjnym brak efektu. Analiza bayesowska: dane ok. 4 razy bardziej zgodne z brakiem efektu niż z jego obecnością. Eksploracyjnie efekt był nieco większy u osób, które zgłaszały zmęczenie. Glukoza: Vadillo, Gold i Osman (2016, Psychological Science) wykazali, że literatura jest obciążona selektywnym publikowaniem i ma słabą wartość dowodową. PEWNOŚĆ: wysoka, że silny efekt „wyczerpania woli” nie istnieje. Możliwy jest co najwyżej bardzo mały efekt, a subiektywne zmęczenie jest realne.",
+   "konkretne_liczby": "Hagger 2016: k=23, N=2141, d=0,04 (95% CI od −0,07 do 0,15). Vohs 2021: k=36, N=3531, d=0,06; Bayes ok. 4:1 na korzyść braku efektu; eksploracyjnie d=0,08.",
+   "zrodla": [
+    "https://doi.org/10.1177/1745691616652873",
+    "https://cris.maastrichtuniversity.nl/en/publications/a-multilab-preregistered-replication-of-the-ego-depletion-effect/",
+    "https://doi.org/10.1177/0956797621989733",
+    "https://bura.brunel.ac.uk/handle/2438/28246",
+    "https://www.psychologicalscience.org/journals/psychological-science/0956797616654911/",
+    "https://eprints.lse.ac.uk/109256/"
+   ],
+   "jak_uzyc_w_ebooku": "Główny argument całego ebooka: „Nie budujemy dyscypliny na sile woli. Nie dlatego, że to bateria, która się wyczerpuje (to mit), tylko dlatego, że w chwili pokusy często po prostu przegrywa. Dlatego budujemy system.” Nie używamy metafory „baterii” ani „zmęczonego mięśnia woli”. Nie radzimy „zjeść coś słodkiego dla siły woli”."
+  },
+  {
+   "teza": "Osoby o wysokiej samokontroli rzadziej walczą z pokusami, a bardziej polegają na nawykach i otoczeniu.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Hofmann, Baumeister, Förster i Vohs (2012, JPSP): 205 dorosłych przez tydzień raportowało swoje pragnienia na sygnał pagera (7827 raportów). Osoby o wysokiej samokontroli RZADZIEJ zgłaszały, że opierają się pokusom. Autorzy interpretują to tak, że unikają pokus i sytuacji konfliktowych zamiast z nimi walczyć. Galla i Duckworth (2015, JPSP; 6 badań, wg omówień ponad 2000 osób): związek samokontroli z dobrymi wynikami (sen, nauka, oceny, utrzymanie się na studiach) w dużej mierze wyjaśniały dobre nawyki, a nie wysiłkowe hamowanie. Duckworth, Gendler i Gross (2016, Perspectives on Psychological Science): strategie sytuacyjne (wybór i zmiana sytuacji) działają na wcześniejszym etapie powstawania impulsu i według ich modelu powinny być skuteczniejsze niż strategie „w głowie”. PEWNOŚĆ: wysoka co do kierunku, bo wyniki są spójne. Średnia co do wielkości efektów (dane głównie korelacyjne).",
+   "konkretne_liczby": "Hofmann 2012: N=205, 7827 raportów. Wg omówienia wtórnego opór obniżał odsetek ulegnięcia pragnieniu z ok. 70% do ok. 17% (do sprawdzenia w oryginale). Galla & Duckworth 2015: 6 badań.",
+   "zrodla": [
+    "https://pubmed.ncbi.nlm.nih.gov/22149456/",
+    "https://cdn.prod.website-files.com/66a7f3a2c30119bdaf395e96/6717b577a2a8636a7232fcb5_Baumeister%20et%20al.%202019-Self-control%20in%20the%20wild.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4731333",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4736542/"
+   ],
+   "jak_uzyc_w_ebooku": "Otwarcie rozdziału „Architektura Otoczenia”: „Najbardziej zdyscyplinowani ludzie wcale nie walczą z pokusami częściej. Walczą rzadziej, bo ułożyli życie tak, żeby pokus było mniej.” To najmocniejszy i uczciwy naukowo „hak” ebooka, zgodny z obietnicą „dyscypliny bez silnej woli”."
+  },
+  {
+   "teza": "Projektowanie otoczenia i dodawanie „tarcia” zmienia zachowanie skuteczniej niż silna wola.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Wood, Quinn i Kashy (2002, JPSP): studenci co godzinę zapisywali, co robią. Ok. 43% codziennych zachowań miało charakter nawykowy: niemal codziennie, w tym samym miejscu, z myślami gdzie indziej. Wood i Rünger (2016, Annual Review of Psychology) oraz Wood (2019, „Good Habits, Bad Habits”): nawyki to skojarzenia kontekst→reakcja, które słabo zależą od intencji. Główne dźwignie zmiany to wskazówki z otoczenia i „tarcie”: utrudnić złe zachowanie, ułatwić dobre. Przegląd Cochrane (Hollands i in. 2019): przesunięcie przekąski dalej od ludzi zmniejszało jej spożycie, a efekt rósł z odległością. Pewność tego wyniku jest niska, bo to głównie badania laboratoryjne. PEWNOŚĆ: wysoka co do mechanizmu (kontekst uruchamia nawyk), niska–średnia co do dokładnej wielkości efektu tarcia.",
+   "konkretne_liczby": "Ok. 43% zachowań nawykowych (Wood 2002, próba studentów). Cochrane 2019: 24 badania, w tym 18 o odległości; dla spożycia SMD=−0,60 (95% CI od −0,84 do −0,36), 12 badań, n=1098, pewność niska.",
+   "zrodla": [
+    "https://courses.lumenlearning.com/waymaker-psychology/chapter/psychology-in-real-life-habits/",
+    "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/wood.runger.2016.pdf",
+    "https://www.psychologicalscience.org/journals/current-directions/09637214241246480/",
+    "https://bigthink.com/the-well/how-to-change-habits/",
+    "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD012573.pub2/information",
+    "https://ph.cochrane.org/news/can-changes-food-environments-influence-consumption"
+   ],
+   "jak_uzyc_w_ebooku": "Rozdział „Architektura Otoczenia”. Ćwiczenia: telefon ładuje się poza sypialnią, ubrania treningowe przygotowane wieczorem, książka na poduszce, słodycze wysoko w szafce albo poza domem, wylogowanie z social mediów na komputerze, blokery stron. Audyt pokoju: „Co tu zachęca do złego nawyku? Co mogę odsunąć o kilka metrów albo schować?” Regułę „20 sekund tarcia” podajemy jako heurystykę, nie jako wynik badań."
+  },
+  {
+   "teza": "Sam widok smartfona na biurku obniża sprawność umysłu („brain drain”), a ciągłe powiadomienia rozbijają skupienie (podstawa „Monk Mode”).",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Ward i in. (2017) opisali spadek sprawności umysłowej przy telefonie leżącym w zasięgu wzroku. Prerejestrowane replikacje (Ruiz Pardo i Minda 2022; Hartmann i in. 2020/21) nie znalazły efektu. Meta-analiza Böttger, Poschik i Zierer (2023; 22 badania, 43 efekty) pokazuje ogólny efekt negatywny, ale łączy używanie telefonu z samą jego obecnością. Meta-analiza Parry (2024; k=56, n=7093; znam ją tylko z omówienia, bez URL) wskazuje wpływ samej obecności tylko na pamięć roboczą. Mocniejsze dane dotyczą powiadomień. Fitz, Kushlev, Ariely i in. (2019, Computers in Human Behavior; eksperyment terenowy z losowym przydziałem, N=237): powiadomienia grupowane 3 razy dziennie zwiększały uważność, poczucie produktywności, nastrój i kontrolę nad telefonem oraz obniżały stres. Całkowity brak powiadomień zwiększał lęk i FOMO. „Monk Mode” nie jest pojęciem naukowym i nie był badany jako całość. PEWNOŚĆ: niska dla „brain drain”, średnia dla grupowania powiadomień (jedno RCT).",
+   "konkretne_liczby": "Fitz 2019: N=237, 3 grupy (zwykłe / grupowane 3 razy dziennie / brak powiadomień). Böttger 2023: 22 badania, 43 efekty. Parry 2024: k=56, n=7093 (z omówienia).",
+   "zrodla": [
+    "https://www.bps.org.uk/research-digest/revisiting-brain-drain-effect",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10525686/",
+    "https://forrt.org/flora-replication-atlas/doi/10.1086/691462/",
+    "https://scholars.duke.edu/publication/1402953",
+    "https://communities.springernature.com/posts/batching-notifications-can-improve-attention-well-being-and-productivity"
+   ],
+   "jak_uzyc_w_ebooku": "W „Poranku Zwycięzców (Monk Mode)” odłożenie telefonu uzasadniamy tarciem i powiadomieniami, nie „drenażem mózgu”. Konkretnie: tryb skupienia lub „nie przeszkadzać”, powiadomienia zbiorcze o 3 stałych porach, telefon w innym pokoju na czas bloku pracy. Ostrzegamy, że całkowity zakaz może zwiększać FOMO, więc lepszy jest harmonogram niż abstynencja. „Monk Mode” opisujemy jako nazwę własną zestawu praktyk, nie jako metodę naukową."
+  },
+  {
+   "teza": "Wstawanie o 5:00 (i poranne rutyny „ludzi sukcesu”) zwiększa produktywność i szanse na sukces.",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Nie znalazłem badań, które pokazują, że wstawanie o konkretnej wczesnej godzinie samo w sobie poprawia wyniki. Gale i Martyn (1998, BMJ; 1229 osób w wieku 65+, 23 lata obserwacji): „skowronki” nie były zdrowsze, bogatsze ani sprawniejsze umysłowo od „sów”, a sowy miały najwyższy średni dochód. To dane obserwacyjne ze starszej kohorty. Roenneberg i in. (2012, Current Biology; ok. 65 000 kwestionariuszy): „społeczny jetlag”, czyli rozjazd zegara biologicznego z grafikiem pracy, wiązał się z wyższym BMI (badanie przekrojowe). Facer-Childs i in. (2019, Sleep Medicine; 22 „sowy”, 3 tygodnie): poranne światło, stałe pory snu także w weekendy i stałe pory posiłków przesunęły sen o ok. 2 godziny wcześniej bez jego skracania. Spadły objawy depresji i stresu oraz senność w dzień, a poranna wydajność wzrosła. Wniosek: liczy się ilość i regularność snu, nie godzina na zegarze. PEWNOŚĆ: średnia (brak bezpośrednich badań typu RCT nad „wstawaniem o 5:00”).",
+   "konkretne_liczby": "Gale & Martyn: N=1229, 29% skowronków, 26% sów, 23 lata. Facer-Childs: N=22, przesunięcie ok. 2 h w 3 tygodnie; typowe pory sów przed badaniem to sen ok. 2:30 i pobudka ok. 10:15. Roenneberg: ok. 65 000 kwestionariuszy.",
+   "zrodla": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC28744",
+    "https://www.birmingham.ac.uk/news/2019/night-owls-can-retrain-their-body-clocks-to-improve-mental-well-being-and-performance",
+    "https://www.surrey.ac.uk/news/night-owls-can-retrain-their-body-clocks-improve-mental-well-being-and-performance",
+    "https://www.sciencedaily.com/releases/2012/05/120510122802.htm"
+   ],
+   "jak_uzyc_w_ebooku": "„Poranek Zwycięzców” definiujemy jako pierwsze 60 minut po TWOIM przebudzeniu, a nie „pobudkę o 5:00”. Ścieżka dla sów: stopniowe przesuwanie pory wstawania, światło rano, ta sama pora w weekendy. Krok 15–30 min co kilka dni to sugestia praktyczna; w badaniu przesunięto sen łącznie o ok. 2 h w 3 tygodnie. Twardy warunek: nigdy kosztem snu. Odrzucamy argument „bo tak robią CEO”, bo to błąd przeżywalności."
+  },
+  {
+   "teza": "Ludzie różnią się chronotypem (skowronki i sowy), a chronotyp jest częściowo zapisany w genach.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Jones i in. (2019, Nature Communications; 697 828 osób z UK Biobank i 23andMe): 351 miejsc w genomie związanych z „byciem rannym ptaszkiem”. Osoby z największą liczbą „porannych” wariantów zasypiały średnio ok. 25 min wcześniej (pomiar opaską na nadgarstku u 85 760 osób). Te warianty dotyczą genów zegara biologicznego i tkanek takich jak siatkówka. Chronotyp jest częściowo dziedziczny, ale da się go przesuwać światłem i stałym grafikiem (Facer-Childs 2019, Wright 2013). Monk (2005): popołudniowy spadek bywa silniejszy u skrajnych rannych ptaszków. PEWNOŚĆ: wysoka co do istnienia chronotypów i ich podłoża genetycznego. Średnia dla rady „najtrudniejsze zadania planuj na swój szczyt”: jest logiczna, ale w tej sesji nie sprawdziłem bezpośrednich testów.",
+   "konkretne_liczby": "N=697 828; 351 loci (w tym 24 znane wcześniej); ok. 25 min różnicy w porze snu między genetycznymi skrajnościami.",
+   "zrodla": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/6351539",
+    "https://research-information.bris.ac.uk/en/publications/genome-wide-association-analyses-of-chronotype-in-697828-individu/",
+    "https://pubmed.ncbi.nlm.nih.gov/15892914/"
+   ],
+   "jak_uzyc_w_ebooku": "„Biologiczna Maszyna”: prosty autotest chronotypu (środek snu w dni wolne, bez budzika) i „mapa energii” w Notion: ocena energii 1–5 co 2 godziny przez tydzień. Komunikat dla czytelnika: „To, że nie działasz o 5:00, nie znaczy, że jesteś leniwy. Możesz mieć późny chronotyp. Zaplanuj najtrudniejszą pracę na swój szczyt.”"
+  },
+  {
+   "teza": "Światło dzienne rano (i ciemność wieczorem) ustawia rytm dobowy i wspiera sen oraz nastrój.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Wright i in. (2013, Current Biology; 8 osób): po tygodniu biwakowania (ok. 4 razy więcej światła w dzień, brak sztucznego światła wieczorem) wieczorny wzrost melatoniny przesunął się o prawie 2 godziny wcześniej. W kolejnym badaniu wystarczył weekend: 1,4 h, czyli 69% efektu tygodnia. Konsensus ekspertów Brown i in. (2022, PLOS Biology) zaleca: w dzień co najmniej 250 lx melanopowego EDI na wysokości oczu, najlepiej ze światła dziennego; wieczorem, od 3 h przed snem, maksymalnie 10 lx; w sypialni maksymalnie 1 lx. Burns i in. (2023, Nature Mental Health; 86 772 osoby z UK Biobank z czujnikiem światła na nadgarstku): więcej światła w nocy wiązało się z ok. 30% wyższym ryzykiem depresji, więcej światła w dzień z ok. 20% niższym. To dane obserwacyjne, a procenty pochodzą z komunikatów prasowych. PEWNOŚĆ: wysoka co do wpływu światła na zegar biologiczny, średnia co do wpływu na nastrój.",
+   "konkretne_liczby": "Wright 2013: ok. 2 h przesunięcia melatoniny po tygodniu, 1,4 h po weekendzie. Brown 2022: ≥250 lx w dzień, ≤10 lx wieczorem, ≤1 lx w nocy (melanopowe EDI). Burns 2023: N=86 772; ok. +30% ryzyka depresji przy świetle w nocy, ok. −20% przy świetle w dzień.",
+   "zrodla": [
+    "https://sciencedaily.com/releases/2013/08/130801125601.htm",
+    "https://www.colorado.edu/today/2017/02/01/cant-get-sleep-wilderness-weekend-can-help",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8929548/",
+    "https://pubmed.ncbi.nlm.nih.gov/35298459/",
+    "https://www.monash.edu/news/articles/largest-ever-study-on-light-exposure-proves-its-impact-on-mental-health",
+    "https://www.nationalelfservice.net/mental-health/depression/associations-between-daily-light-exposure-and-psychiatric-disorders/"
+   ],
+   "jak_uzyc_w_ebooku": "Element „Poranka” o nazwie „Pierwsze światło”: w pierwszej godzinie po przebudzeniu wyjście na zewnątrz, na balkon albo praca przy oknie. Wieczorem przyciemnione, ciepłe światło i ciemna sypialnia. Konkretnej liczby minut nie podajemy jako „naukowej”, bo te źródła jej nie dają. Można napisać „kilkanaście–kilkadziesiąt minut, w pochmurny dzień dłużej” jako praktyczną wskazówkę."
+  },
+  {
+   "teza": "Niedobór snu obniża samokontrolę i wydajność, a ludzie tego nie zauważają.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Van Dongen i in. (2003, Sleep; 48 zdrowych dorosłych): 6 h snu przez 14 nocy dawało narastające deficyty we wszystkich testach poznawczych, rosnące wraz z „dawką” niewyspania. Wg omówień pod koniec ich poziom był porównywalny z całkowitym brakiem snu przez noc lub dwie. Badanie porównywało to z 3 dobami bez snu, więc „równoważność dwóch nocy” to uproszczenie. Subiektywna senność prawie nie rosła, więc badani nie zauważali spadku. Guarana i in. (2021, Sleep Medicine Reviews; 61 badań): jakość i długość snu wiążą się z samokontrolą. Silniejszy związek widać w obrębie tej samej osoby: gorsza noc oznacza gorszą samokontrolę następnego dnia. Zalecenie AASM/SRS (Watson i in. 2015): dorośli powinni regularnie spać co najmniej 7 h. Tego nie zweryfikowałem wyszukiwaniem w tej sesji, podaję z wiedzy ogólnej, a link z pamięci. PEWNOŚĆ: wysoka.",
+   "konkretne_liczby": "Van Dongen: N=48, grupy 8 h, 6 h i 4 h przez 14 dni oraz 0 h przez 3 dni. Guarana: k=61; jakość snu 0,26 (między osobami) i 0,35 (w obrębie osoby); długość snu 0,14 i 0,20. Miara efektu to prawdopodobnie korelacja, do sprawdzenia w pełnym tekście.",
+   "zrodla": [
+    "https://pubmed.ncbi.nlm.nih.gov/12683469/",
+    "https://ntrs.nasa.gov/citations/20040087752",
+    "https://pdxscholar.library.pdx.edu/busadmin_fac/329",
+    "https://jcsm.aasm.org/doi/10.5664/jcsm.4758"
+   ],
+   "jak_uzyc_w_ebooku": "Rozdział otwierający „Biologiczną Maszynę”: „Sen to pierwszy nawyk dyscypliny.” Kalkulator w Notion: pora pójścia spać = pobudka minus 7,5–8,5 h. Kluczowe zdanie: „Po dwóch tygodniach spania po 6 godzin działasz wyraźnie gorzej, a czujesz się prawie normalnie.” Nie promujemy skracania snu dla porannej rutyny."
+  },
+  {
+   "teza": "Popołudniowy spadek energii (post-lunch dip) jest realny i wynika z biologii, nie tylko z obiadu.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Monk (2005, Clinics in Sports Medicine): popołudniowy spadek wydajności to realne zjawisko związane z rytmem dobowym (12-godzinną składową zegara). Może wystąpić nawet bez obiadu i bez wiedzy, która jest godzina. Obiad bogaty w węglowodany go nasila, ale go nie wywołuje. Częściej dotyczy skrajnych rannych ptaszków i nie każdego zadania ani każdej osoby. Drzemka: Brooks i Lack (2006, Sleep), po nocy skróconej do ok. 5 h, drzemki o 15:00. 10 minut snu dało natychmiastową poprawę czujności, samopoczucia i wyników, utrzymującą się do ok. 155 min. 5 minut dało niewiele, 20 minut poprawę po ok. 35 min, a 30 minut najpierw pogorszenie (inercja senna). PEWNOŚĆ: wysoka co do istnienia spadku, średnia co do drzemek (małe badania laboratoryjne).",
+   "konkretne_liczby": "Brooks & Lack 2006: warunki bez drzemki oraz drzemki 5, 10, 20 i 30 min; korzyści z 10 min trwały do 155 min, z 20 min do 125 min.",
+   "zrodla": [
+    "https://pubmed.ncbi.nlm.nih.gov/15892914/",
+    "https://doi.org/10.1093/sleep/29.6.831",
+    "https://evanhahn.com/naps-and-their-effectiveness",
+    "https://pubmed.ncbi.nlm.nih.gov/12220317/"
+   ],
+   "jak_uzyc_w_ebooku": "„Biologiczna Maszyna”: „Okno zjazdu” mniej więcej między 13:00 a 16:00. Planujemy tam zadania lekkie i rutynowe, spotkania, spacer. Proponujemy lżejszy obiad z mniejszą ilością rafinowanych węglowodanów, z zaznaczeniem, że to modulator, a nie przyczyna spadku. Drzemka 10–20 min z budzikiem. Unikamy obietnicy „zero zjazdu”. Mówimy o „łagodzeniu zjazdu” i „planowaniu pod niego”."
+  },
+  {
+   "teza": "Kofeinę należy odłożyć o 90–120 minut po przebudzeniu, żeby uniknąć popołudniowego zjazdu.",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Zalecenie spopularyzował podcast Huberman Lab. Wywodzi je z fizjologii (poranny szczyt kortyzolu, adenozyna), a nie z badań porównawczych. Nie znalazłem randomizowanego badania, które porównywałoby kawę od razu z kawą po 90 min pod kątem energii czy popołudniowego zjazdu. Omówienia krytyczne wskazują, że adenozyna jest usuwana głównie podczas snu, więc proponowany mechanizm jest wątpliwy. Moje źródła w tej kwestii to głównie popularne omówienia, nie prace naukowe. Mocne dane dotyczą natomiast kofeiny wieczorem. Gardiner i in. (2023, Sleep Medicine Reviews; meta-analiza 24 badań): kofeina skraca sen średnio o 45 min, obniża efektywność snu o 7%, wydłuża zasypianie o 9 min i skraca sen głęboki o ok. 11 min. Aby nie tracić snu, kawę (107 mg) warto wypić co najmniej 8,8 h przed snem, a porcję przedtreningówki (217,5 mg) co najmniej 13,2 h. PEWNOŚĆ: wysoka, że brak dowodów na regułę 90 minut. Wysoka, że późna kofeina szkodzi snowi.",
+   "konkretne_liczby": "Gardiner 2023: −45 min snu, −7% efektywności snu, +9 min do zaśnięcia, +12 min wybudzeń, −11,4 min snu głębokiego. Graniczny czas przed snem: 8,8 h dla kawy 107 mg, 13,2 h dla 217,5 mg.",
+   "zrodla": [
+    "https://eprints.leedsbeckett.ac.uk/id/eprint/9625/1/TheEffectOfCaffeineOnSubsequentSleepASystematicReviewAndMetaanalysisPV-WEAKLEY.pdf",
+    "https://ajmc.com/view/caffeine-and-sleep-review-suggests-consumption-guidelines",
+    "https://ai.hubermanlab.com/s/h1cIxEGW",
+    "https://provatrack.com/blog/caffeine-delay-90-minutes/",
+    "https://shortcutu.substack.com/p/mean-muggin-part-ii"
+   ],
+   "jak_uzyc_w_ebooku": "„Biologiczna Maszyna”: zamiast „90 minut bez kawy” wprowadzamy „godzinę policyjną dla kofeiny”: ostatnia kawa ok. 9 h przed snem (przy śnie o 23:00 to ok. 14:00), a mocne przedtreningówki jeszcze wcześniej. Późniejszą poranną kawę można zaproponować jako eksperyment na sobie, wyraźnie oznaczony jako niepotwierdzony naukowo."
+  },
+  {
+   "teza": "Ruch i ćwiczenia poprawiają nastrój oraz (doraźnie) sprawność umysłową.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Singh i in. (2023, British Journal of Sports Medicine; przegląd 97 przeglądów: 1039 badań, ok. 128 000 osób): aktywność fizyczna zmniejsza objawy depresji, lęku i stresu psychicznego w porównaniu ze zwykłą opieką. Większa intensywność daje większą poprawę, a najskuteczniejsze były programy do 12 tygodni. Hasło z komunikatu prasowego „1,5 raza skuteczniejsze niż leki i terapia” wykracza poza porównanie w samym przeglądzie i nie należy go powtarzać. Jednorazowy wysiłek: Chang i in. (2012, Brain Research; 79 badań) – mały efekt na funkcje poznawcze. Nowszy przegląd meta-analiz (2025, Psychological Bulletin; 30 meta-analiz, 383 badania, 18 347 osób) – efekt mały do umiarkowanego. Spacer: Oppezzo i Schwartz (2014): chodzenie poprawiło myślenie dywergentne u 81% uczestników. To odsetek osób, a nie wzrost o 81%. Efekt utrzymywał się chwilę po spacerze, a spacer na zewnątrz dawał najlepsze wyniki. PEWNOŚĆ: wysoka dla nastroju, średnia dla doraźnych efektów poznawczych.",
+   "konkretne_liczby": "Singh 2023: depresja −0,43, lęk −0,42, stres psychiczny −0,60 (mediany efektów). Chang 2012: g=0,097. Przegląd 2025: SMD=0,33. Oppezzo 2014: poprawa u 81% uczestników (myślenie dywergentne) i u 23% (konwergentne).",
+   "zrodla": [
+    "https://bjsm.bmj.com/content/bjsports/early/2023/07/11/bjsports-2022-106195.full.pdf",
+    "https://www.unisa.edu.au/media-centre/Releases/2023/exercise-more-effective-than-medicines-to-manage-mental-health",
+    "https://pubmed.ncbi.nlm.nih.gov/22480735/",
+    "https://www.gwern.net/doc/psychology/novelty/2014-oppezzo.pdf"
+   ],
+   "jak_uzyc_w_ebooku": "„Biologiczna Maszyna”: „Ruch jako reset”, czyli 10–15 min szybkiego spaceru w oknie zjazdu. Trening ok. 3 razy w tygodniu jako nawyk filarowy dla nastroju. Do burzy mózgów spacer. Zastrzeżenie: to nie zastępuje leczenia depresji."
+  },
+  {
+   "teza": "Zimne prysznice wzmacniają odporność, dyscyplinę i dają „zastrzyk dopaminy”.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Buijze i in. (2016, PLOS ONE; RCT, 3018 osób): 30, 60 lub 90 sekund zimnej wody na koniec ciepłego prysznica przez 30 dni. Absencja chorobowa w pracy (deklarowana) spadła o 29%, ale liczba dni choroby się nie zmieniła. Meta-analiza Cain i in. (2025, PLOS ONE; 11 badań, 3177 osób, woda 7–15°C): stres spadał dopiero 12 h po zanurzeniu, a nie od razu, po 1 h ani po 24 h. Stan zapalny krótko rósł. Odnotowano poprawę jakości snu i jakości życia, ale nie nastroju. Badań RCT jest mało, a próby są małe. Popularne „+250% dopaminy” pochodzi z badania Šrámek i in. (2000): była to 1 GODZINA zanurzenia po szyję w wodzie o 14°C, pomiar dopaminy we krwi (nie w mózgu), mała grupa młodych mężczyzn. PEWNOŚĆ: średnia do niskiej.",
+   "konkretne_liczby": "Buijze 2016: N=3018, IRR=0,71 (−29% absencji), p=0,003; brak efektu na dni choroby. Cain 2025: k=11, N=3177; stres po 12 h SMD=−1,00; stan zapalny od razu SMD=1,03, po 1 h 1,26. Šrámek 2000: 1 h w 14°C, noradrenalina we krwi +530%, dopamina +250%.",
+   "zrodla": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5025014",
+    "https://bps.org.uk/research-digest/daily-cold-shower-seems-have-some-psychological-benefits",
+    "https://pubmed.ncbi.nlm.nih.gov/39879231/",
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317615",
+    "https://pubmed.ncbi.nlm.nih.gov/10751106/"
+   ],
+   "jak_uzyc_w_ebooku": "Element opcjonalny w „Poranku”: trening znoszenia dyskomfortu, NIE „hack dopaminowy”. Formuła: 30–90 s zimnej wody na koniec prysznica. Ostrzeżenie: przy chorobach serca, nadciśnieniu i w ciąży najpierw konsultacja z lekarzem. To ogólne zastrzeżenie medyczne o ryzyku szoku zimna, nie zweryfikowałem go źródłem w tej sesji."
+  },
+  {
+   "teza": "„Zasada 5 sekund” (Mel Robbins) / „Zasada 3 Sekund” to sprawdzony sposób na pokonanie prokrastynacji i „wewnętrznego negocjatora”.",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Nie znalazłem żadnego recenzowanego badania, które testowałoby „5 Second Rule” albo odliczanie jako technikę. Wsparciem są anegdoty i świadectwa. Neurobiologiczne uzasadnienia w rodzaju „aktywujesz korę przedczołową” nie mają oparcia w badaniach. Uwaga: badania nad „zasadą 5 sekund” w bazach naukowych dotyczą jedzenia podniesionego z podłogi, a nie motywacji. Pokrewne obszary są za to dobrze zbadane. Steel (2007, Psychological Bulletin; 691 korelacji): prokrastynację najlepiej przewidują awersyjność zadania, impulsywność, niska wiara we własną skuteczność, niska sumienność i rozpraszalność. Sirois i Pychyl (2013): prokrastynacja to głównie doraźna poprawa nastroju kosztem „przyszłego ja”, czyli problem emocji, a nie lenistwa. van Eerde i Klingsieck (2018; 24 badania): interwencje wyraźnie zmniejszają prokrastynację, najsilniej terapia poznawczo-behawioralna (CBT). Plany „jeśli–to” ułatwiają rozpoczęcie działania (Gollwitzer i Sheeran 2006). PEWNOŚĆ: wysoka, że brak bezpośrednich dowodów. Pokrewne mechanizmy są dobrze udokumentowane.",
+   "konkretne_liczby": "Steel 2007: 691 korelacji. van Eerde & Klingsieck 2018: 24 badania, k=44, N=1173; dokładnej łącznej wielkości efektu nie zweryfikowałem.",
+   "zrodla": [
+    "https://supersummary.com/the-5-second-rule/background",
+    "https://prism.ucalgary.ca/handle/1880/47914",
+    "https://eprints.whiterose.ac.uk/91793",
+    "https://dare.uva.nl/id/12627c11-4b2f-401a-b9fc-1a7ee4d7cf91",
+    "https://ris.uni-paderborn.de/record/29118"
+   ],
+   "jak_uzyc_w_ebooku": "Rozdział zostaje, ale opisany uczciwie: „Zasada 3 Sekund to rytuał startowy, a nie odkrycie neuronauki.” Uzasadnienie: (1) decyzja zapada wcześniej jako plan „jeśli–to” (wieczorem), a rano jest tylko wykonanie; (2) pierwszy ruch ma być fizyczny i mały (stopy na podłogę); (3) prokrastynacja to ucieczka od złego nastroju, więc nazwij uczucie i zrób 2 minuty. Usuwamy sformułowania o „przechytrzeniu mózgu”. Ze względu na podobieństwo do znanej marki Robbins warto rozważyć inną nazwę (np. „Zasada Pierwszego Ruchu”) i uczciwie wskazać ją jako inspirację."
+  },
+  {
+   "teza": "Drzemka po budziku (snooze) niszczy poranek, więc trzeba wstawać natychmiast.",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Sundelin, Landry i Axelsson (2023, Journal of Sleep Research). Ankieta (1732 osoby): snooze jest częsty i wiąże się z porannym zmęczeniem i krótszym snem, ale to tylko korelacja. Badanie w laboratorium snu (31 osób, które regularnie korzystają ze snooze): 30 min drzemki po budziku nie pogorszyło, a nawet lekko poprawiło wyniki testów tuż po wstaniu. Nie zmieniło porannego kortyzolu, nastroju ani senności. Kosztowało ok. 6 min snu i chroniło przed wybudzeniem z głębokiego snu. Autorzy zastrzegają, że wynik nie dotyczy każdego. PEWNOŚĆ: niska do średniej (jedno małe badanie), ale brak też dowodów na szkodliwość snooze.",
+   "konkretne_liczby": "Ankieta N=1732; laboratorium N=31; 30 min drzemki po budziku; ok. 6 min utraconego snu.",
+   "zrodla": [
+    "https://www.psypost.org/2023/12/brief-snooze-periods-might-help-alleviate-drowsiness-without-other-adverse-consequences-214909",
+    "https://www.sleepfoundation.org/sleep-news/hitting-snooze-button-may-be-good-for-sleep"
+   ],
+   "jak_uzyc_w_ebooku": "W „Zasadzie 3 Sekund” nie straszymy drzemką. Uczciwie: „Natychmiastowe wstanie to wybór, który buduje tożsamość i usuwa poranne negocjacje, a nie konieczność biologiczna.” Praktyka: budzik poza zasięgiem ręki (tarcie) i jedna realna godzina budzika zamiast trzech drzemek."
+  },
+  {
+   "teza": "Spisanie listy zadań przed snem pomaga szybciej zasnąć.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Scullin i in. (2018, Journal of Experimental Psychology: General): 57 zdrowych osób w wieku 18–30 lat spało w laboratorium snu z pełnym pomiarem snu (polisomnografia). Przed snem pisały przez 5 minut. Grupa spisująca zadania na najbliższe dni zasypiała szybciej niż grupa opisująca zadania już wykonane. Im bardziej szczegółowa lista, tym szybciej zasypiali. Ograniczenia: jedna noc, mała próba, młodzi zdrowi ludzie, brak danych dla osób z bezsennością. PEWNOŚĆ: średnia.",
+   "konkretne_liczby": "N=57 (28 i 29 osób). Czas zasypiania ok. 15,8 min wobec 25,1 min (p=0,02), czyli ok. 9 min szybciej.",
+   "zrodla": [
+    "https://news.web.baylor.edu/news/story/2018/can-writing-your-dos-help-you-doze-baylor-study-suggests-jotting-down-tasks-can",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5758411/",
+    "https://bps.org.uk/node/2257"
+   ],
+   "jak_uzyc_w_ebooku": "„Strategia Generała”: rytuał „5 minut Generała”, czyli wieczorem konkretna lista zadań na jutro (im bardziej szczegółowa, tym lepiej). Uczciwie opisujemy korzyść: szybsze zasypianie i mniej „mielenia” w głowie. NIE piszemy „5 minut ratuje 5 godzin”, bo tej liczby nie ma w badaniach."
+  },
+  {
+   "teza": "Konkretny plan dla niedokończonego celu wycisza natrętne myśli o nim.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Masicampo i Baumeister (2011, JPSP; seria eksperymentów laboratoryjnych). Niezrealizowane cele powodowały natrętne myśli podczas niezwiązanej lektury, większą dostępność słów związanych z celem i gorsze wyniki w anagramach. Konkretny plan (kiedy, gdzie, jak) usuwał te efekty, choć nie zmniejszał niepokoju. Ci sami autorzy (2012) pokazali też drugą stronę: zbyt sztywny, szczegółowy plan może zawężać uwagę i utrudniać zmianę kursu, gdy pojawią się przeszkody. PEWNOŚĆ: średnia. To badania laboratoryjne na studentach, z kręgu autorów modelu ego depletion. Dużych replikacji nie znalazłem w tej sesji, więc stan replikacji jest nieznany.",
+   "konkretne_liczby": "Badania 1–5B. Brak dużych replikacji znalezionych w tej sesji.",
+   "zrodla": [
+    "https://doi.org/10.1037/a0024192",
+    "https://www.psychologytoday.com/us/blog/tech-support/201310/why-your-to-do-list-drives-you-crazy",
+    "https://roybaumeister.com/2012/06/16/committed-but-closed-minded-when-making-a-specific-plan-for-a-goal-hinders-success/",
+    "https://www.uni-mannheim.de/forschung-erleben/artikel/lieber-planlos-als-verplant/"
+   ],
+   "jak_uzyc_w_ebooku": "„Strategia Generała”: „Generał nie rozwiązuje problemu wieczorem, tylko przydziela mu miejsce w planie.” Ćwiczenie „Zamknięcie dnia”: lista otwartych spraw i dla każdej następny krok z terminem. Do tego elastyczność: plan na jutro to 3 priorytety i bufor, a nie grafik co do minuty."
+  },
+  {
+   "teza": "Planowanie rano to błąd, a 5 minut planowania wieczorem ratuje 5 godzin pracy (obietnica ze strony).",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Nie znalazłem badania, które porównywałoby wprost planowanie wieczorne z porannym pod kątem produktywności. Są pośrednie argumenty za wieczornym: szybsze zasypianie po spisaniu zadań (Scullin 2018), wyciszenie natrętnych myśli dzięki planowi (Masicampo i Baumeister 2011) oraz to, że przygotowany wcześniej plan „jeśli–to” ułatwia start (Gollwitzer i Sheeran 2006). Liczba „5 minut ratuje 5 godzin” nie ma żadnego źródła. PEWNOŚĆ: wysoka, że brak bezpośrednich dowodów.",
+   "konkretne_liczby": "Brak badań porównawczych. Liczba „5 h” nie ma źródła.",
+   "zrodla": [
+    "https://news.web.baylor.edu/news/story/2018/can-writing-your-dos-help-you-doze-baylor-study-suggests-jotting-down-tasks-can",
+    "https://doi.org/10.1037/a0024192",
+    "https://www.socmot.uni-konstanz.de/publications/implementation-intentions-and-goal-achievement-meta-analysis-effects-and-processes"
+   ],
+   "jak_uzyc_w_ebooku": "Zmieniamy obietnicę na stronie i w ebooku. Zamiast „planowanie rano to błąd”: „Wieczorny plan pozwala zacząć dzień od działania, a nie od decydowania, i pomaga zasnąć.” Dopuszczamy poranną 2-minutową korektę planu: Generał planuje wieczorem, Żołnierz rano wykonuje, ale może zgłosić zmianę warunków. Tekst na revion.pl trzeba zaktualizować."
+  },
+  {
+   "teza": "Efekt Zeigarnik: lepiej pamiętamy zadania niedokończone niż ukończone.",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Meta-analiza Ghibellini i Meier (2025, Humanities and Social Sciences Communications; Uniwersytet w Bernie): nie ma ogólnej przewagi pamięciowej dla zadań przerwanych, więc efekt Zeigarnik nie jest uniwersalny. Potwierdzona jest natomiast ogólna skłonność do WZNAWIANIA przerwanych zadań (efekt Owsiankiny). Autorzy sugerują, że dawny efekt pamięciowy mógł zależeć od warunków badań, np. autorytetu badacza i zaangażowania w zadanie. Uwaga: jedno źródło wtórne podaje rok 2023, ale ta meta-analiza jest z 2025 r. PEWNOŚĆ: średnia do wysokiej (meta-analiza, ale szczegółowe liczby znam z omówień).",
+   "konkretne_liczby": "Wg omówień (do sprawdzenia w pełnym tekście): stosunek przypominanych zadań przerwanych do ukończonych ok. 0,99 w 37 badaniach (bez badania samej Zeigarnik), d ok. 0,15; wznowienia ok. 67% zadań przerwanych wobec 50% oczekiwanych przypadkowo.",
+   "zrodla": [
+    "https://doi.org/10.1057/s41599-025-05000-w",
+    "https://ideas.repec.org/a/pal/palcom/v12y2025i1d10.1057_s41599-025-05000-w.html",
+    "https://en.wikipedia.org/wiki/Zeigarnik_effect"
+   ],
+   "jak_uzyc_w_ebooku": "Nie piszemy „mózg obsesyjnie pamięta niedokończone sprawy (efekt Zeigarnik)”. Zamiast tego: „Mamy naturalną skłonność do wracania do przerwanych zadań (efekt Owsiankiny).” Praktyczna wskazówka: kończ pracę w połowie kroku albo zdania, żeby łatwiej wrócić jutro (tzw. trik Hemingwaya; nie był testowany bezpośrednio). Natrętne myśli o niedokończonych celach lepiej uzasadnić badaniem Masicampo i Baumeistera."
+  },
+  {
+   "teza": "„Dopamine detox” (post dopaminowy) obniża poziom dopaminy i „resetuje” mózg.",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Harvard Health (Grinspoon, 2020): „post dopaminowy” nie obniża poziomu dopaminy. Dopamina to nie narkotyk, od którego robi się „przerwę tolerancyjną”. Autor pojęcia, psycholog kliniczny Cameron Sepah (UCSF), opisywał w rzeczywistości technikę z terapii poznawczo-behawioralnej: kontrolę bodźców, czyli ograniczanie wyzwalaczy problematycznych zachowań. Nazwa była zabiegiem marketingowym, a unikanie ludzi czy rozmów nigdy nie było częścią jego pomysłu. PEWNOŚĆ: wysoka, że mechanizm „obniżania dopaminy” to mit. Kontrola bodźców jest uznaną techniką w terapii poznawczo-behawioralnej.",
+   "konkretne_liczby": "Brak sensownych liczb. Nie przytaczamy „resetu receptorów w 24 godziny czy 7 dni”.",
+   "zrodla": [
+    "https://www.health.harvard.edu/blog/dopamine-fasting-misunderstanding-science-spawns-a-maladaptive-fad-2020022618917",
+    "https://www.businessinsider.nl/silicon-valley-vc-culture-dopamine-fasting-tech-addiction-2019-10/",
+    "https://en.wikipedia.org/wiki/Dopamine_fasting"
+   ],
+   "jak_uzyc_w_ebooku": "Jeśli ebook mówi o „detoksie”, nazywamy to „kontrolą bodźców” albo „dietą informacyjną” i opisujemy jako zmianę otoczenia: ekran w odcieniach szarości, telefon w szufladzie, usunięte aplikacje, stałe okna na social media. Na stronie sprzedażowej zamiast „Satysfakcja z odhaczania zadań (dopamina)” wystarczy „satysfakcja z odhaczania”, bez etykiety neuro."
+  },
+  {
+   "teza": "Natychmiastowe nagrody (przyjemność, satysfakcja z odhaczania) zwiększają wytrwałość w nawykach.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Woolley i Fishbach (2017, Personality and Social Psychology Bulletin; 5 badań): przy celach długoterminowych (postanowienia noworoczne, ćwiczenia, nauka) wytrwałość lepiej przewidywały nagrody natychmiastowe, np. przyjemność z samej czynności, niż korzyści odroczone. Działo się tak, choć ludzie deklarują, że robią te rzeczy dla korzyści odroczonych. Judah (2015, doktorat LSHTM): odczuwanie zachowania jako nagradzającego zwiększało jego automatyzm. „Wiązanie pokus”: Milkman, Minson i Volpp (2014, Management Science) dali uczestnikom wciągające audiobooki dostępne tylko na siłowni. Frekwencja wzrosła na początku o 51% (wersja z ograniczeniem dostępu) i o 29% (sama zachęta), ale efekt z czasem słabł. PEWNOŚĆ: średnia do wysokiej.",
+   "konkretne_liczby": "Woolley & Fishbach: 5 badań. Milkman 2014: początkowo +51% i +29% wizyt na siłowni, efekt spadał po Święcie Dziękczynienia.",
+   "zrodla": [
+    "https://www.chicagobooth.edu/media-relations-and-communications/press-releases/implement-immediate-rewards-as-you-pursue-that-long-term-goal",
+    "https://www.chicagobooth.edu/review/achieve-long-term-goals-focus-short-term",
+    "https://pubmed.ncbi.nlm.nih.gov/25843979/",
+    "https://researchonline.lshtm.ac.uk/2121556"
+   ],
+   "jak_uzyc_w_ebooku": "W każdym rozdziale reguła „dodaj przyjemność teraz”: ulubiony podcast tylko podczas spaceru lub treningu, dobra kawa tylko przy bloku głębokiej pracy, świętowanie odhaczenia w Notion (checkbox, licznik, pasek postępu). Nazywamy to nagrodą albo satysfakcją, nie „strzałem dopaminy”."
+  },
+  {
+   "teza": "Monitorowanie postępów (zapisywanie, śledzenie) zwiększa szansę osiągnięcia celu.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Harkin i in. (2016, Psychological Bulletin; 138 eksperymentów z losowym przydziałem, N=19 951): interwencje zachęcające do monitorowania postępów mocno zwiększyły częstość monitorowania i poprawiły osiąganie celów. Monitorowanie było mediatorem tego efektu. Efekt był większy, gdy postępy były fizycznie zapisywane oraz zgłaszane innym albo upubliczniane. Większość badań dotyczyła zdrowia (aktywność, waga, dieta, ciśnienie, glukoza). PEWNOŚĆ: wysoka.",
+   "konkretne_liczby": "Częstość monitorowania d=1,98 (95% CI 1,71–2,24). Osiąganie celów d=0,40 (95% CI 0,32–0,48). Wg omówienia wtórnego (do weryfikacji): zgłaszane prywatnie d ok. 0,47, niezgłaszane d ok. 0,19, publiczne d ok. 0,55 (tylko 3 badania).",
+   "zrodla": [
+    "https://eprints.whiterose.ac.uk/91437/",
+    "https://eprints.whiterose.ac.uk/91437/8/3_PDFsam_Does%20monitoring%20goal.pdf",
+    "https://scienceforwork.com/blog/goal-monitoring/"
+   ],
+   "jak_uzyc_w_ebooku": "Najmocniejszy pomost do produktu Life OS: „Tracker nawyków w Notion to nie gadżet. Zapisywanie postępów to jedna z najlepiej udokumentowanych technik (138 eksperymentów, prawie 20 tys. osób).” Zalecenie: zapis codziennie, przegląd raz w tygodniu, raport postępów zaufanej osobie."
+  },
+  {
+   "teza": "Ogłaszanie celów innym ludziom pomaga je osiągnąć (albo odwrotnie: „nie mów nikomu, bo stracisz motywację”).",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Gollwitzer, Sheeran, Michalski i Seifert (2009, Psychological Science; 4 badania, małe próby): gdy inni zauważyli zamiar związany z tożsamością (np. „zostanę prawnikiem”), ludzie wkładali potem mniej wysiłku. Mechanizm to przedwczesne poczucie, że już się „jest” tą osobą. Efekt wystąpił tylko przy silnym zaangażowaniu w cel. Klein, Lount, Park i Linford (2020, Journal of Applied Psychology; 4 badania): dzielenie się celem z osobą postrzeganą jako wyżej w hierarchii zwiększało zaangażowanie i wyniki, bo ludzie dbali o jej ocenę. Dzielenie się z osobą niżej działało tak jak zachowanie celu dla siebie. Harkin (2016): zgłaszanie i upublicznianie POSTĘPÓW wzmacniało efekt monitorowania. PEWNOŚĆ: średnia.",
+   "konkretne_liczby": "Gollwitzer 2009: 4 badania (laboratoryjne i terenowe, 1 tydzień). Klein 2020: 4 badania. Harkin 2016: zob. fakt o monitorowaniu.",
+   "zrodla": [
+    "https://www.socmot.uni-konstanz.de/sites/default/files/09_Gollwitzer_Sheeran_Seifert_Michalski_When_Intentions_.pdf",
+    "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2009.02336.x/",
+    "https://news.osu.edu/share-your-goals--but-be-careful-whom-you-tell/",
+    "https://pure.psu.edu/en/publications/when-goals-are-known-the-effects-of-audience-relative-status-on-g/"
+   ],
+   "jak_uzyc_w_ebooku": "Reguła dla czytelnika: „Nie ogłaszaj tożsamości („od dziś jestem zdyscyplinowany”). Raportuj konkretne działania i postępy osobie, której opinię szanujesz: mentorowi, szefowi, trenerowi.” W Notion cotygodniowy raport dla „partnera odpowiedzialności”."
+  },
+  {
+   "teza": "Zarządzanie energią (przerwy, rytm pracy) zamiast czasem poprawia wydajność.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Albulescu i in. (2022, PLOS ONE; meta-analiza 22 prób, N=2335): mikroprzerwy (do 10 min) zwiększają poczucie wigoru i zmniejszają zmęczenie, ale efekty są małe. Ogólny wpływ na wydajność był nieistotny statystycznie. Istotny był tylko przy zadaniach mniej wymagających umysłowo, a dłuższe przerwy wiązały się z większym wzrostem wydajności. Hasło „zarządzaj energią, nie czasem” to popularna koncepcja z publikacji biznesowych (m.in. Harvard Business Review 2007; nie weryfikowałem jej w tej sesji). Popularnej reguły „90-minutowych cykli ultradiańnych w pracy” nie potwierdziłem badaniami w tej sesji, więc traktujemy ją jako heurystykę. PEWNOŚĆ: średnia.",
+   "konkretne_liczby": "Wigor d=0,36 (k=9); zmęczenie d=0,35 (k=9); wydajność d=0,16, nieistotne (p=0,116; k=15).",
+   "zrodla": [
+    "https://doaj.org/article/c6f37b6ba159469296b2cb968b65505f",
+    "https://www.eurekalert.org/news-releases/962663",
+    "https://Www.sciencedaily.com/releases/2022/08/220831152754.htm"
+   ],
+   "jak_uzyc_w_ebooku": "„Biologiczna Maszyna”: bloki pracy po 50–90 min to praktyczna konwencja, nie prawo biologii. Przerwy z ruchem albo na zewnątrz. Po wymagającej pracy przerwa dłuższa niż 10 min. Narzędzie: dziennik energii (skala 1–5) zamiast „magicznego” cyklu."
+  }
+ ],
+ "mity_do_unikniecia": [
+  "„Nawyk powstaje w 21 dni”. To anegdota chirurga Maxwella Maltza (1960), nigdy nie testowana. Badania dają medianę ok. 2 miesięcy i rozrzut od kilku dni do prawie roku (Lally 2010; Singh 2024).",
+  "„66 dni i nawyk gotowy”. To mediana z dużym rozrzutem, oparta na 39 osobach z dobrym dopasowaniem modelu. Nie wolno jej podawać jako stałej.",
+  "„Silna wola to bateria, która wyczerpuje się decyzjami” (ego depletion) i „cukier wzmacnia silną wolę”. Duże replikacje nie potwierdziły efektu: d=0,04 (Hagger 2016) i d=0,06 (Vohs 2021). Literatura o glukozie ma słabą wartość dowodową (Vadillo 2016). Ostrożnie także z „naukowo udowodnionym zmęczeniem decyzyjnym” (np. „Jobs nosił te same ubrania”), bo opiera się na tym samym modelu. Tego ostatniego nie weryfikowałem osobno.",
+  "„Wstawaj o 5:00 jak ludzie sukcesu”. Brak dowodów, że sama wczesna godzina pobudki pomaga. Rutyny prezesów to błąd przeżywalności. Skowronki nie są zdrowsze ani bogatsze od sów (Gale i Martyn 1998, BMJ).",
+  "„Śpij mniej, żeby zrobić więcej”. 6 h snu przez 2 tygodnie daje narastające deficyty, których człowiek nie zauważa (Van Dongen 2003).",
+  "„Dopamine detox obniża dopaminę i resetuje receptory”. Mechanizm jest nieprawdziwy (Harvard Health 2020). Sensowna treść to kontrola bodźców z terapii poznawczo-behawioralnej. Na stronie sprzedażowej: „odhaczanie zadań = dopamina” to uproszczenie i lepiej je usunąć.",
+  "„Zimny prysznic daje +250% dopaminy”. Ta liczba pochodzi z 1-godzinnego zanurzenia w wodzie o 14°C i dotyczy dopaminy we krwi, nie w mózgu (Šrámek 2000). Zimne prysznice nie zmniejszyły liczby dni choroby, tylko deklarowaną absencję w pracy (Buijze 2016).",
+  "„Odczekaj 90 minut z kawą po przebudzeniu, bo tak mówi nauka”. Brak badań porównawczych, to ekstrapolacja z podcastu. Udokumentowane jest za to, że późna kofeina skraca sen o ok. 45 min (Gardiner 2023).",
+  "„Po każdym rozproszeniu potrzebujesz 23 minut, żeby wrócić do skupienia”. Tej liczby nie ma w badaniu Mark, Gudith i Klocke (2008). Pochodzi z wywiadu o badaniach terenowych i oznacza czas powrotu do przerwanego zadania (wliczając inne prace), a nie odzyskiwanie koncentracji. Źródła: https://www.ics.uci.edu/~gmark/chi08-mark.pdf oraz https://news.gallup.com/businessjournal/23146/too-many-interruptions-work.aspx",
+  "„Efekt Zeigarnik: mózg lepiej pamięta niedokończone zadania”. Meta-analiza z 2025 r. nie potwierdza przewagi pamięciowej. Prawdziwa jest tylko skłonność do wznawiania przerwanych zadań (efekt Owsiankiny).",
+  "„Sam widok telefonu na biurku obniża twoją inteligencję” (brain drain). Replikacje dały wyniki zerowe lub słabe (Ruiz Pardo i Minda 2022; Parry 2024). Mocniej udokumentowany jest wpływ powiadomień.",
+  "„Nie przerywaj łańcucha, bo jedno opuszczenie zeruje postęp”. Jedno opuszczenie nie szkodzi nawykowi (Lally 2010). Szkodzi raczej demotywacja na widok zerwanej serii (Silverman i Barasch 2023).",
+  "„Nigdy nikomu nie mów o swoich celach” albo „publiczne ogłoszenie zawsze pomaga”. Oba są uproszczeniami. Szkodzi ogłaszanie tożsamości (Gollwitzer 2009), pomaga raportowanie postępów osobie o wyższym statusie (Klein 2020; Harkin 2016).",
+  "„Zasada 5/3 sekund przechytrza mózg i aktywuje korę przedczołową”. Brak recenzowanych badań nad tą techniką i brak badań neurobiologicznych potwierdzających taki mechanizm.",
+  "„Planowanie rano to błąd” i „5 minut planowania wieczorem ratuje 5 godzin”. Brak badań porównawczych, a liczba 5 godzin nie ma źródła. To obecna obietnica na stronie revion.pl.",
+  "„Ćwiczenia są 1,5 raza skuteczniejsze niż leki i terapia”. To nadinterpretacja z komunikatu prasowego. Przegląd porównywał ruch ze zwykłą opieką (Singh 2023).",
+  "„Spacer zwiększa kreatywność o 81% (albo 60%)”. Liczba 81% to odsetek uczestników, u których nastąpiła poprawa, a nie wielkość wzrostu (Oppezzo i Schwartz 2014).",
+  "„Drzemka po budziku (snooze) rujnuje cały dzień”. Brak dowodów. Jedyne porządne badanie nie wykazało szkody u osób, które regularnie korzystają ze snooze (Sundelin 2023).",
+  "„Pracuj w 90-minutowych cyklach ultradiańnych, bo tak działa mózg”. Nie potwierdziłem tego badaniami w tej sesji. Można to podawać tylko jako umowną heurystykę.",
+  "Badania Briana Wansinka o jedzeniu (np. „miska bez dna”, odległość słodyczy w biurze) często pojawiają się w książkach o nawykach. Wiele jego prac wycofano, a on sam odszedł z Cornell w 2018 r. Podaję to z wiedzy własnej, liczby wycofań nie zweryfikowałem w tej sesji. Nie cytować; zamiast tego używać przeglądu Cochrane (Hollands 2019).",
+  "„Monk Mode” jako metoda naukowa i neuro-buzzwordy („kora przedczołowa się męczy”, „lewa i prawa półkula”, „reset dopaminowy”). Można ich używać jako nazw własnych praktyk, ale nie jako wyjaśnień naukowych."
+ ],
+ "techniki_z_dowodami": [
+  "1. Plany „jeśli–to” (implementation intentions). Najlepiej udokumentowana technika: meta-analiza 94 testów d=0,65 (Gollwitzer i Sheeran 2006) oraz 642 testy d=0,27–0,66 (Sheeran i in. 2024/25). Działa najlepiej w formie warunkowej, przy wysokiej motywacji i z powtarzaniem planu. Rozdziały: Strategia Generała, Zasada 3 Sekund.",
+  "2. Monitorowanie postępów z zapisem i raportowaniem: 138 eksperymentów, N=19 951, d=0,40 dla osiągania celów. Efekt jest silniejszy, gdy postępy są fizycznie zapisywane i zgłaszane innym (Harkin i in. 2016). To bezpośrednie uzasadnienie trackera w Life OS.",
+  "3. Strategie sytuacyjne i projektowanie otoczenia (tarcie, odległość, usuwanie wskazówek). Duckworth, Gendler i Gross 2016; Wood i Rünger 2016; Wood 2019. Osoby o wysokiej samokontroli rzadziej się opierają, bo unikają pokus (Hofmann 2012), a ich sukcesy tłumaczą nawyki (Galla i Duckworth 2015). Odsunięcie przekąski: SMD −0,60, ale pewność niska (Cochrane 2019).",
+  "4. Stała wskazówka i codzienne powtarzanie w tym samym kontekście. Kotwica po istniejącej czynności i stała godzina działają równie dobrze (Keller 2021, RCT N=192). Automatyzm rośnie po krzywej, zwykle tygodniami lub miesiącami (Lally 2010; Singh 2024).",
+  "5. Natychmiastowa przyjemność i nagroda, w tym wiązanie pokus (np. podcast tylko na treningu). Woolley i Fishbach 2017 (5 badań); Milkman, Minson i Volpp 2014 (początkowo +51% wizyt na siłowni, efekt słabnie). Przeżywanie zachowania jako nagradzającego zwiększa automatyzm (Judah 2015).",
+  "6. Sen co najmniej 7 h i stałe pory, także w weekendy. Van Dongen 2003 (6 h przez 14 dni daje deficyty, których badani nie zauważają); Guarana 2021 (61 badań: sen a samokontrola); Facer-Childs 2019 (stałe pory i światło poprawiły samopoczucie sów).",
+  "7. Dużo światła dziennego rano i w dzień, ciemność wieczorem i w nocy. Wright 2013 (rytm przesunięty o ok. 2 h); konsensus Brown i in. 2022 (≥250 lx w dzień, ≤10 lx wieczorem, ≤1 lx w nocy); Burns 2023 (N=86 772, związek z ryzykiem depresji).",
+  "8. Regularna aktywność fizyczna dla nastroju, a doraźnie spacer na popołudniowy zjazd i do twórczego myślenia. Singh 2023 (depresja −0,43, lęk −0,42, stres −0,60); Oppezzo i Schwartz 2014; przegląd meta-analiz z 2025 r. (doraźny wpływ na funkcje poznawcze SMD 0,33).",
+  "9. Wieczorne zamknięcie dnia: konkretna lista zadań na jutro i plan dla każdej otwartej sprawy. Scullin 2018 (zasypianie ok. 9 min szybciej, N=57); Masicampo i Baumeister 2011 (plan wycisza natrętne myśli; badania laboratoryjne bez dużych replikacji).",
+  "10. Powiadomienia zbiorcze o 3 stałych porach dnia zamiast ciągłych albo całkowitego zakazu. Fitz i in. 2019, RCT N=237: większa uważność, lepszy nastrój, mniej stresu. Całkowity brak powiadomień zwiększał FOMO.",
+  "11. Krótka drzemka 10–20 min (nie dłużej niż ok. 20 min, żeby uniknąć inercji sennej) albo przerwy w ciągu dnia. Brooks i Lack 2006 (10 min najskuteczniejsze); Albulescu 2022 (mikroprzerwy zwiększają wigor i zmniejszają zmęczenie; na wydajność działają głównie przy prostszych zadaniach).",
+  "12. Godzina policyjna dla kofeiny: filiżanka kawy (ok. 100 mg) co najmniej ok. 9 h przed snem, mocne przedtreningówki ok. 13 h przed snem (Gardiner 2023, 24 badania).",
+  "13. Raportowanie konkretnych postępów osobie o wyższym statusie (mentor, szef, trener) zamiast ogłaszania tożsamości. Klein i in. 2020 (4 badania); Gollwitzer i in. 2009; Harkin 2016.",
+  "14. Plan powrotu po potknięciu: „nigdy dwa razy z rzędu” (heurystyka) i serie, które da się naprawić. Opiera się na Lally 2010 (jedno opuszczenie nie szkodzi) oraz Silverman i Barasch 2023 (zerwana seria demotywuje, możliwość naprawy osłabia ten efekt).",
+  "15. Techniki z terapii poznawczo-behawioralnej na prokrastynację: rozbijanie zadania na pierwszy krok, nazwanie emocji, plan. van Eerde i Klingsieck 2018 (24 badania, CBT najskuteczniejsza); Sirois i Pychyl 2013 (prokrastynacja jako regulacja nastroju).",
+  "16. Kontrastowanie mentalne z planem (WOOP/MCII). Istnieje meta-analiza: Wang, Wang i Gai 2021, Frontiers in Psychology, https://www.frontiersin.org/articles/10.3389/fpsyg.2021.565202/full. Wielkości efektu nie zweryfikowałem w tej sesji (limit wyszukiwań), więc przed cytowaniem liczb trzeba je sprawdzić."
+ ],
+ "podsumowanie": "Ocena ogólna: koncepcja ebooka „Nawyki Żelaznej Dyscypliny” da się obronić naukowo, ale trzeba przestawić jej główną tezę i poprawić kilka obietnic ze strony revion.pl. Najmocniej udokumentowany przekaz pokrywa się z obietnicą „dyscypliny bez silnej woli”: osoby o wysokiej samokontroli rzadziej walczą z pokusami, a ich sukcesy wyjaśniają nawyki i otoczenie (Hofmann 2012; Galla i Duckworth 2015; Duckworth 2016). Model „baterii silnej woli” nie przetrwał replikacji (Hagger 2016; Vohs 2021). Proponowana główna myśl ebooka: „Dyscyplina to system, nie charakter.”\n\nOcena rozdziałów:\n(1) „Architektura Otoczenia” ma najmocniejsze podstawy: tarcie, wskazówki z otoczenia, strategie sytuacyjne, monitorowanie postępów (d=0,40). To idealny pomost do trackera w Life OS.\n(2) „Strategia Generała i Żołnierza” ma dobre pośrednie dowody: plany „jeśli–to” (d=0,65), lista zadań przed snem (zasypianie ok. 9 min szybciej), plan wyciszający natrętne myśli. Trzeba jednak usunąć tezy „planowanie rano to błąd” i „5 minut ratuje 5 godzin”, bo nie mają źródeł.\n(3) „Biologiczna Maszyna” ma solidne podstawy: sen, światło, popołudniowy spadek energii (realny i biologiczny, Monk 2005), ruch, pora ostatniej kofeiny. Należy usunąć „90 minut bez kawy” jako fakt naukowy oraz „90-minutowe cykle ultradiańne” jako prawo biologii.\n(4) „Poranek Zwycięzców (Monk Mode)”: brak dowodów na korzyść z samej godziny 5:00. Rozdział warto przeformułować na „pierwszą godzinę po TWOIM przebudzeniu”: światło dzienne, brak telefonu i powiadomienia zbiorcze (Fitz 2019), opcjonalnie zimny prysznic bez „dopaminowych” obietnic. Ścieżka dla sów: tylko bez skracania snu.\n(5) „Zasada 3 Sekund” ma najsłabsze podstawy. Nie ma żadnych badań nad „5 Second Rule” Mel Robbins. Rozdział można utrzymać jako rytuał startowy oparty na planach „jeśli–to” i wiedzy o prokrastynacji jako ucieczce od złego nastroju, ale z uczciwym opisem. Warto rozważyć zmianę nazwy, żeby nie kopiować cudzej marki.\n\nKorekty na stronie sprzedażowej wynikające z faktów: „nie przerywasz łańcucha sukcesów” (jedno opuszczenie nie szkodzi), „satysfakcja z odhaczania (dopamina)” (uproszczenie), „planowanie rano to błąd” i „5 minut ratuje 5 godzin” (brak źródeł).\n\nDo ebooka warto dodać zastrzeżenie, że treść nie jest poradą medyczną (zimna woda, depresja, sen). Uwagi metodologiczne: WebFetch był zablokowany przez sieć, więc liczby pochodzą głównie z abstraktów i rzetelnych omówień znalezionych przez WebSearch. Wyczerpałem limit 200 wyszukiwań na turę, wspólny dla wszystkich agentów. Dlatego bez weryfikacji w tej sesji zostały: zalecenie AASM/SRS „7+ h snu” (Watson 2015, podane z wiedzy ogólnej z linkiem z pamięci), DOI pracy Brooks i Lack 2006, URL megabadania Milkman 2021 w Nature, meta-analiza Parry 2024 (brak URL), wielkości efektów dla WOOP/MCII, liczba wycofanych prac Wansinka oraz reguła 90-minutowych cykli ultradiańnych. Przed publikacją te pozycje trzeba sprawdzić albo pominąć. Liczby oznaczone „z omówienia” (np. 70%→17% u Hofmanna, podgrupy u Harkina, 0,99 i 67% w meta-analizie Zeigarnik, +30%/−20% u Burnsa) warto sprawdzić w pełnych tekstach, zanim trafią do ebooka jako cytaty."
+}

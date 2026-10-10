@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-12-witaj-w-revion",
+  "kiedy": "2026-10-12T18:30:00+02:00",
+  "status": "zaplanowany",
+  "platformy": [
+    "facebook",
+    "instagram"
+  ],
+  "temat": "Przedstawienie marki Revion",
+  "filar": "Oferta i newsletter",
+  "cel": "zaufanie",
+  "opis": "Mniej chaosu, więcej systemu. Tak w skrócie wygląda Revion.\n\nTu będziesz dostawać konkretne sposoby na ogarnięcie dnia, nawyków, skupienia i pieniędzy. Bez motywacyjnej waty: mówimy, co ma dowody w badaniach, a co jest mitem.\n\nNa start mamy dla Ciebie prezent: ebook „Nawyki Żelaznej Dyscypliny”. Pięć nawyków opartych na badaniach i plan na 30 dni. Za darmo: {LINK}\n\nO czym napisać w pierwszej kolejności? Daj znać w komentarzu.",
+  "hashtagi": [
+    "produktywnosc",
+    "notion",
+    "nawyki",
+    "samorozwoj"
+  ],
+  "slajdy": [
+    {
+      "typ": "okladka",
+      "etykieta": "Witaj w Revion",
+      "naglowek": "Mniej chaosu. ==Więcej systemu.==",
+      "tekst": "Szablony Notion i ebooki, które porządkują dzień, nawyki i finanse."
+    },
+    {
+      "typ": "tekst",
+      "etykieta": "Co tu znajdziesz",
+      "naglowek": "Konkret zamiast motywacyjnej waty",
+      "tekst": "Techniki do ogarniania dnia, które mają oparcie w badaniach. I uczciwie: co z popularnych porad jest **mitem**."
+    },
+    {
+      "typ": "lista",
+      "naglowek": "O czym piszemy",
+      "punkty": [
+        "Systemy i Notion: wszystko w jednym miejscu",
+        "Nawyki i dyscyplina ==bez ściemy==",
+        "Skupienie i mity produktywności",
+        "Finanse osobiste w praktyce"
+      ]
+    },
+    {
+      "typ": "cta",
+      "naglowek": "Zacznij od darmowego ebooka",
+      "tekst": "„Nawyki Żelaznej Dyscypliny”: 5 nawyków i plan na 30 dni.",
+      "przycisk": "Link w bio"
+    }
+  ],
+  "grafiki": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "tytul": "Skupienie Absolutne",
+  "podtytul": "Protokoły głębokiej pracy: jak skupiać się dłużej i lepiej w świecie, który zarabia na Twoim rozproszeniu.",
+  "seria": "Biblioteka Revion · 02",
+  "plik_pdf": "Skupienie-Absolutne-Revion.pdf",
+  "okladka": "okladka.png",
+  "redakcja": "**Skupienie Absolutne**  \nBiblioteka Revion · 02  \nWydanie 1, październik 2026\n\n© 2026 Revion, revion.pl. Wszelkie prawa zastrzeżone. Licencja na użytek własny: nie udostępniaj tego pliku publicznie ani nie odsprzedawaj.\n\nTreść ma charakter edukacyjny i nie zastępuje porady lekarza ani psychologa. Jeśli podejrzewasz u siebie zaburzenia snu, uwagi (np. ADHD) albo nastroju, skonsultuj się ze specjalistą.\n\n„Głęboka praca” (deep work) to pojęcie spopularyzowane przez Cala Newporta. Ten ebook nie jest powiązany z autorem ani wydawcą jego książek.\n\nKontakt: kontakt@revion.pl",
+  "czesci": [
+    {
+      "typ": "wstep",
+      "plik": "00-wstep.md",
+      "tytul": "Zanim zaczniesz"
+    },
+    {
+      "typ": "rozdzial",
+      "plik": "01-anatomia-rozproszenia.md",
+      "numer": "01",
+      "tytul": "Anatomia rozproszenia",
+      "lead": "Każde „szybkie zerknięcie” ma ukryty koszt. Zanim go obniżysz, musisz go zobaczyć."
+    },
+    {
+      "typ": "rozdzial",
+      "plik": "02-gleboka-praca.md",
+      "numer": "02",
+      "tytul": "Głęboka praca: ile i jak",
+      "lead": "Godzina pełnego skupienia to nie godzina „w pracy”. Ile takich godzin naprawdę da się mieć i jak je zaplanować."
+    },
+    {
+      "typ": "rozdzial",
+      "plik": "03-srodowisko.md",
+      "numer": "03",
+      "tytul": "Środowisko zero rozproszeń",
+      "lead": "Silna wola przegrywa z powiadomieniem. Wygrywa telefon w innym pokoju."
+    },
+    {
+      "typ": "rozdzial",
+      "plik": "04-biologia-skupienia.md",
+      "numer": "04",
+      "tytul": "Biologia skupienia",
+      "lead": "Twój mózg to nie procesor, tylko organ. Sen, kofeina, ruch i przerwy decydują, ile skupienia masz do dyspozycji."
+    },
+    {
+      "typ": "rozdzial",
+      "plik": "05-rytualy.md",
+      "numer": "05",
+      "tytul": "Rytuały wejścia i wyjścia",
+      "lead": "Najtrudniejsze są pierwsze trzy minuty bloku i ostatnie pięć minut dnia. Oba da się zautomatyzować."
+    },
+    {
+      "typ": "rozdzial",
+      "plik": "06-plan-tygodnia.md",
+      "numer": "06",
+      "tytul": "Tydzień zaprojektowany pod skupienie",
+      "lead": "Skupienie, którego nie ma w kalendarzu, przegra z pierwszym mailem."
+    },
+    {
+      "typ": "rozdzial",
+      "plik": "07-trening-uwagi.md",
+      "numer": "07",
+      "tytul": "Trening uwagi",
+      "lead": "Uwaga działa jak mięsień w jednym ważnym sensie: rośnie od używania i słabnie od ciągłego przełączania."
+    },
+    {
+      "typ": "rozdzial",
+      "plik": "08-protokol-30-dni.md",
+      "numer": "08",
+      "tytul": "Protokół 30 dni",
+      "lead": "Cztery tygodnie, cztery zmiany, jeden mierzalny wynik: więcej godzin prawdziwego skupienia."
+    },
+    {
+      "typ": "zakonczenie",
+      "plik": "09-zakonczenie.md",
+      "numer": "",
+      "tytul": "Co dalej"
+    }
+  ],
+  "promo": {
+    "etykieta": "Następny krok",
+    "tytul": "Pierwszy blok jeszcze dziś",
+    "tekst": "Ustaw protokół 30 dni w Revion Life OS w 10 minut. Nie masz jeszcze Life OS? Wszystko zrobisz też w zeszycie, a szczegóły szablonu znajdziesz na revion.pl.",
+    "punkty": [
+      "Nawyki „Blok głęboki” i „Zamknięcie dnia” w tabelce",
+      "Cel z postępem: 5 bloków w tygodniu",
+      "Jutrzejszy blok jako priorytet w widoku „Dziś”",
+      "Wiersz „dzień 0” w karcie pomiaru"
+    ],
+    "przycisk": "revion.pl"
+  }
+}

@@ -1,0 +1,4 @@
+﻿Lp.;Data sprzedaży;Wartość sprzedaży (zł);Narastająco od początku miesiąca (zł);Narastająco od początku kwartału (zł);Produkt;Numer płatności Stripe;Sposób zapłaty;Kraj nabywcy;Nr rachunku lub faktury;Uwagi
+1;12.10.2026;47,00;47,00;47,00;Life OS;pi_PRZYKLAD0001;karta (Stripe);PL;;PRZYKŁAD - usuń ten wiersz
+2;12.10.2026;69,00;116,00;116,00;Pakiet Pro;pi_PRZYKLAD0002;BLIK (Stripe);PL;R/1/2026;PRZYKŁAD - usuń ten wiersz, rachunek wystawiony na prośbę
+3;20.10.2026;-47,00;69,00;69,00;Life OS - zwrot;pi_PRZYKLAD0001;zwrot przez Stripe;PL;;PRZYKŁAD - usuń ten wiersz, zwrot w ramach gwarancji 14 dni do Lp. 1

@@ -1,0 +1,52 @@
+{
+  "id": "przyklad-karuzela",
+  "kiedy": "2026-10-12T18:30:00+02:00",
+  "status": "przyklad",
+  "temat": "Przykład wszystkich typów slajdów (nie jest publikowany)",
+  "opis": "Przykładowy opis posta. Na Facebooku {LINK} zamieni się w adres strony, na Instagramie w „link w bio”.",
+  "hashtagi": [
+    "przyklad"
+  ],
+  "slajdy": [
+    {
+      "typ": "okladka",
+      "etykieta": "Poradnik",
+      "naglowek": "5 błędów, które ==kosztują Cię== klientów",
+      "tekst": "Sprawdź, czy nie robisz ich u siebie."
+    },
+    {
+      "typ": "tekst",
+      "etykieta": "Błąd nr 1",
+      "naglowek": "Brak jednej, jasnej obietnicy",
+      "tekst": "Klient w 3 sekundy musi wiedzieć, **co dostanie** i dlaczego od Ciebie, a nie od konkurencji."
+    },
+    {
+      "typ": "lista",
+      "naglowek": "Zamiast tego:",
+      "punkty": [
+        "Napisz obietnicę w jednym zdaniu",
+        "Pokaż ==efekt==, nie funkcje",
+        "Dodaj jeden przycisk, nie pięć",
+        "Zbieraj e-maile od pierwszego dnia"
+      ]
+    },
+    {
+      "typ": "cytat",
+      "naglowek": "Ludzie nie kupują produktu. Kupują ==lepszą wersję siebie==.",
+      "tekst": "Zasada, którą warto mieć z tyłu głowy"
+    },
+    {
+      "typ": "cta",
+      "naglowek": "Chcesz więcej takich wskazówek?",
+      "tekst": "Co tydzień jedna konkretna rzecz do wdrożenia. Bez spamu.",
+      "przycisk": "Zapisz się na newsletter"
+    }
+  ],
+  "grafiki": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg"
+  ]
+}

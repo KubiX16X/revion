@@ -1,0 +1,62 @@
+{
+  "id": "2026-10-16-wieczorne-5-minut",
+  "kiedy": "2026-10-16T17:00:00+02:00",
+  "status": "zaplanowany",
+  "platformy": [
+    "facebook",
+    "instagram"
+  ],
+  "temat": "Wieczorne 5 minut: Strategia Generała i Żołnierza",
+  "filar": "Systemy i Notion",
+  "cel": "newsletter",
+  "opis": "Rano pytasz „od czego zacząć?” i nagle jest 10:15, a Ty znasz wszystkie cudze sprawy.\n\nRozwiązanie: rozdziel decydowanie i wykonywanie. Wieczorem jesteś Generałem i wybierasz trzy priorytety na jutro. Rano jesteś Żołnierzem i po prostu ruszasz.\n\nBonus: w badaniu Scullina i in. (2018) osoby, które przed snem przez 5 minut spisywały zadania na kolejne dni, zasypiały szybciej niż te, które opisywały rzeczy już zrobione. To jedno, małe badanie, ale warto spróbować.\n\nCały protokół jest w darmowym ebooku „Nawyki Żelaznej Dyscypliny”: {LINK}",
+  "hashtagi": [
+    "planowanie",
+    "produktywnosc",
+    "notion",
+    "nawyki"
+  ],
+  "slajdy": [
+    {
+      "typ": "okladka",
+      "etykieta": "Protokół",
+      "naglowek": "Zrób to ==wieczorem==, a rano nie zgubisz godziny",
+      "tekst": "Strategia Generała i Żołnierza w 5 minut."
+    },
+    {
+      "typ": "tekst",
+      "etykieta": "Zasada",
+      "naglowek": "Wieczorem decydujesz, rano wykonujesz",
+      "tekst": "Każda decyzja odłożona na rano to szczelina, przez którą wchodzi mail, telefon i „najpierw ogarnę biurko”."
+    },
+    {
+      "typ": "lista",
+      "naglowek": "Wieczorne 5 minut",
+      "punkty": [
+        "Wypisz wszystko, co krąży Ci po głowie",
+        "Wybierz najwyżej ==3 priorytety== na jutro",
+        "Do każdego dopisz pierwszy fizyczny krok",
+        "Ustal godzinę startu najważniejszego"
+      ]
+    },
+    {
+      "typ": "tekst",
+      "etykieta": "Co mówią badania",
+      "naglowek": "Lista na jutro przed snem",
+      "tekst": "Osoby, które przez 5 minut spisywały zadania na kolejne dni, zasypiały szybciej niż ci, którzy opisywali rzeczy już zrobione (Scullin i in., 2018)."
+    },
+    {
+      "typ": "cta",
+      "naglowek": "Cały protokół w darmowym ebooku",
+      "tekst": "„Nawyki Żelaznej Dyscypliny”, rozdział 02. Zapisz ten post na wieczór.",
+      "przycisk": "Link w bio"
+    }
+  ],
+  "grafiki": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg"
+  ]
+}

@@ -1,0 +1,603 @@
+{
+ "fakty": [
+  {
+   "teza": "Po przełączeniu się z niedokończonego zadania część uwagi zostaje przy poprzednim zadaniu („resztki uwagi”, ang. attention residue), co pogarsza wykonanie następnego zadania.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka co do samego badania, średnia co do uogólniania na pracę biurową. Sophie Leroy (2009) w dwóch eksperymentach laboratoryjnych pokazała, że po przejściu z zadania A do B myśli o A zostają aktywne (mierzone testem decyzji leksykalnej), a wynik w zadaniu B jest gorszy. Resztki uwagi są większe, gdy zadanie A nie zostało dokończone. W badaniu 2 nawet dokończenie zadania bez presji czasu nie usuwało ich w pełni. Uczestnikami byli studenci, a zadania były krótkie. Zjawisko zgadza się z badaniami nad przerwaniami, ale nie ma dużych replikacji ani pomiaru, ile procent wydajności się traci.",
+   "konkretne_liczby": "2 eksperymenty; Organizational Behavior and Human Decision Processes 2009, t. 109(2), s. 168–181. Nie istnieje rzetelna liczba typu „tracisz X% wydajności” i nie należy jej podawać.",
+   "zrodla": [
+    "https://doi.org/10.1016/j.obhdp.2009.04.002"
+   ],
+   "jak_uzyc_w_ebooku": "R01, pojęcie centralne („resztki uwagi”). Praktyka: doprowadzaj zadanie do naturalnego punktu przed przełączeniem i nie zaglądaj do poczty „na chwilę” w środku bloku. Pisz „pogarsza”, nie „niszczy produktywność o X%”."
+  },
+  {
+   "teza": "Krótka notatka „gdzie skończyłem i jaki jest następny krok”, zrobiona przed przerwaniem pracy, zmniejsza resztki uwagi.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: średnia (jedna publikacja, kilka badań). Leroy i Glomb (2018) pokazały, że przerwanie zadania, gdy spodziewamy się presji czasu po powrocie, zwiększa resztki uwagi i obniża wynik w zadaniu przerywającym. Krótki „plan gotowości do powrotu” (zapisanie stanu pracy i następnego kroku) zmniejszał resztki uwagi i poprawiał wykonanie zadania przerywającego.",
+   "konkretne_liczby": "Organization Science 2018, t. 29(3), s. 380–397. Dokładny czas interwencji i wielkości efektów trzeba sprawdzić w tekście (do weryfikacji).",
+   "zrodla": [
+    "https://doi.org/10.1287/orsc.2017.1184 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R05: protokół „Notatka powrotu” przed każdą przerwą lub spotkaniem: 1) gdzie jestem, 2) następny fizyczny krok, 3) co zostało otwarte. To jedna z najlepiej uzasadnionych mini-technik w całym ebooku."
+  },
+  {
+   "teza": "Każde przełączenie się między zadaniami ma koszt poznawczy (czas i błędy).",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka. Przegląd Monsella (2003) i eksperymenty Rubinsteina, Meyera i Evansa (2001) zgodnie pokazują, że przełączenie wydłuża czas reakcji i zwiększa liczbę błędów. Koszt maleje, gdy jest czas na przygotowanie, ale nie znika całkiem (tzw. koszt rezydualny). Rośnie wraz ze złożonością i nowością reguł zadania. Pomiary dotyczą prostych zadań laboratoryjnych; pojedynczy koszt to ułamki sekundy.",
+   "konkretne_liczby": "Koszt jednego przełączenia w laboratorium: zwykle od ok. 100 ms do kilkuset ms, zależnie od zadania (to rząd wielkości, a nie stała). Rubinstein i in. 2001: 4 eksperymenty, JEP: Human Perception and Performance 27(4):763–797. Monsell 2003: Trends in Cognitive Sciences 7(3):134–140.",
+   "zrodla": [
+    "https://doi.org/10.1016/S1364-6613(03)00028-7",
+    "https://doi.org/10.1037/0096-1523.27.4.763"
+   ],
+   "jak_uzyc_w_ebooku": "R01: pojedyncze przełączenie kosztuje mało, ale w pracy przełączamy się setki razy dziennie, a do tego dochodzą resztki uwagi i czas powrotu do wątku. Stąd sens grupowania podobnych zadań (batching)."
+  },
+  {
+   "teza": "Multitasking/przełączanie zadań zabiera do 40% produktywności.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: wysoka co do pochodzenia liczby. Pochodzi ona z popularnego tekstu APA „Multitasking: Switching costs” (2006): wg Davida Meyera nawet krótkie blokady przy przełączaniu „mogą kosztować nawet 40% produktywnego czasu”. To szacunek eksperta („może”, „nawet”), a nie wynik pomiaru w pracy biurowej. W artykule Rubinstein, Meyer i Evans (2001) takiej liczby nie ma.",
+   "konkretne_liczby": "„Do 40%” to górna granica szacunku w skrajnych przypadkach, nie średnia ani wynik eksperymentu.",
+   "zrodla": [
+    "https://www.apa.org/topics/research/multitasking",
+    "https://doi.org/10.1037/0096-1523.27.4.763"
+   ],
+   "jak_uzyc_w_ebooku": "Najlepiej pominąć. Jeśli już, to tak: „David Meyer szacował, że w skrajnych przypadkach może to być nawet 40% czasu – to szacunek, nie pomiar”. Nie pisz „tracisz 40% produktywności”."
+  },
+  {
+   "teza": "Po przerwaniu potrzeba średnio 23 minut, żeby wrócić do skupienia.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Sformułowanie „średnio 23 minuty i 15 sekund, by wrócić do zadania” pochodzi z wywiadu Glorii Mark dla Fast Company (2008), a nie z tabeli w artykule. Opublikowane dane obserwacyjne (Mark, Gonzalez i Harris, CHI 2005, pracownicy firm IT): 57% „obszarów pracy” było przerywanych, ok. 77% przerwanych wznawiano tego samego dnia, a do powrotu mijało średnio ok. 25 minut. W tym czasie ludzie wykonywali średnio ok. 2 inne zadania. Nie jest to więc czas potrzebny, by odzyskać skupienie po jednym powiadomieniu, tylko czas do powrotu do przerwanego wątku, wypełniony inną pracą. Wcześniej (González & Mark 2004) ludzie spędzali ok. 3 min na jednym zdarzeniu i ok. 11 min w jednym obszarze pracy przed zmianą. Sporą część przerwań (w części badań ok. połowę) ludzie robią sobie sami (Dabbish, Mark, González 2011).",
+   "konkretne_liczby": "23 min 15 s (wywiad, 2008); ok. 25 min 26 s do wznowienia i ok. 2,26 zadania w międzyczasie (CHI 2005); 57% przerwanych obszarów pracy; ok. 77% wznowionych tego samego dnia. Dokładne wartości sprawdzić w PDF przed drukiem.",
+   "zrodla": [
+    "https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching (do weryfikacji)",
+    "https://doi.org/10.1145/1054972.1055017",
+    "https://doi.org/10.1145/985692.985707 (do weryfikacji)",
+    "https://doi.org/10.1145/1978942.1979405 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R01, rozbrojenie mitu: „Nie chodzi o 23 minuty utracone przez jedno powiadomienie. Po przerwaniu wracamy do wątku średnio po ponad 20 minutach, robiąc w międzyczasie co innego”. Dodaj, że często przerywamy się sami: to wstęp do ćwiczenia „licznik przełączeń”."
+  },
+  {
+   "teza": "Przerwania nie zawsze spowalniają pracę, ale wyraźnie podnoszą stres i poczucie wysiłku.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka. Mark, Gudith i Klocke (CHI 2008), 48 osób, zadania typu korespondencja e-mail. Osoby przerywane kończyły zadania szybciej i bez spadku jakości, ale zgłaszały wyraźnie wyższy stres, frustrację, presję czasu i wysiłek (NASA-TLX). Różnice pojawiały się już po ok. 20 minutach pracy z przerwaniami.",
+   "konkretne_liczby": "n=48; ok. 20 minut pracy z przerwaniami wystarczyło, by subiektywne obciążenie wyraźnie wzrosło.",
+   "zrodla": [
+    "https://doi.org/10.1145/1357054.1357072"
+   ],
+   "jak_uzyc_w_ebooku": "R01: koszt przerwań to nie tylko czas, ale też zmęczenie i stres. Uczciwie dodaj, że w krótkich zadaniach wydajność nie spadła; to argument za blokami bez przerwań ze względu na energię i samopoczucie."
+  },
+  {
+   "teza": "Średni czas skupienia na ekranie spadł do 47 sekund (Gloria Mark, „Attention Span”, 2023).",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Liczba jest prawdziwa, ale mierzy coś innego, niż zwykle się sugeruje. Mark mierzyła oprogramowaniem logującym, jak długo ludzie zostają na jednym oknie lub ekranie komputera przed przełączeniem. Średnio: ok. 2,5 min (2004), ok. 75 s (2012), ok. 47 s (2016–2021), mediana ok. 40 s. To czas na jednym ekranie w pracy, a nie „zdolność skupienia” człowieka. Próby liczyły po kilkadziesiąt osób, głównie pracowników wiedzy w USA.",
+   "konkretne_liczby": "2004: ok. 150 s; 2012: ok. 75 s; 2016–2021: średnia ok. 47 s, mediana ok. 40 s.",
+   "zrodla": [
+    "https://www.apa.org/news/podcasts/speaking-of-psychology/attention-spans (do weryfikacji)",
+    "https://doi.org/10.1145/2858036.2858202 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "Wstęp: użyj z precyzyjnym opisem, np. „w badaniach Glorii Mark pracownicy przełączali okno na komputerze średnio co 47 sekund”. Nie pisz „nasz mózg potrafi skupić się tylko 47 sekund”."
+  },
+  {
+   "teza": "Ludzie mają uwagę krótszą niż złota rybka (8 sekund).",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Pewność: wysoka. Liczba pochodzi z raportu marketingowego Microsoft Canada (2015), który powoływał się na stronę Statistic Brain o nieustalonych źródłach. BBC (2017) i badacze uwagi wskazali, że nie ma pomiaru „średniego czasu uwagi” człowieka, bo uwaga zależy od zadania i motywacji. Porównanie z rybą też nie ma podstaw.",
+   "konkretne_liczby": "8 s (człowiek) vs 9 s (złota rybka): obie liczby są bez źródła naukowego.",
+   "zrodla": [
+    "https://www.bbc.com/news/health-38896790 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "Nie używaj jako faktu. Można ją pokazać w ramce „Mity o uwadze” jako przykład liczby, która krąży bez źródła."
+  },
+  {
+   "teza": "Sama obecność smartfona na biurku (nawet wyciszonego) zmniejsza pojemność poznawczą.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Ward, Duke, Gneezy i Bos (2017), łącznie ok. 800 osób w dwóch eksperymentach: telefon na biurku wiązał się z niższą pamięcią roboczą (OSpan) i niższą inteligencją płynną niż telefon w innym pokoju. Efekt był silniejszy u osób mocno zależnych od telefonu. Późniejsze bezpośrednie replikacje (np. Ruiz Pardo & Minda 2022) nie potwierdziły efektu. Metaanalizy z lat 2023–2024 sugerują efekt bardzo mały lub bliski zeru, z oznakami efektu publikacyjnego (do weryfikacji). Efekt samej obecności telefonu jest więc niepewny, a szkodliwość korzystania z niego i powiadomień w trakcie pracy jest dobrze udokumentowana.",
+   "konkretne_liczby": "Ward 2017: ok. 800 uczestników, Journal of the Association for Consumer Research 2(2):140–154. Nowsze metaanalizy: efekt bliski zeru (liczby do weryfikacji).",
+   "zrodla": [
+    "https://doi.org/10.1086/691462",
+    "https://doi.org/10.1016/j.actpsy.2022.103717 (do weryfikacji)",
+    "https://doi.org/10.3390/bs13090751 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03: „odłóż telefon do innego pokoju” zostaje jako tania rada, uzasadniona przede wszystkim usunięciem pokusy i powiadomień. Napisz uczciwie, że efekt „drenażu mózgu” od samej obecności telefonu nie zawsze się replikuje."
+  },
+  {
+   "teza": "Powiadomienia rozpraszają, nawet jeśli ich nie odbierasz, a dostarczanie ich partiami pomaga.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Stothart, Mitchum i Yehnert (2015): samo otrzymanie powiadomienia (bez odczytania) zwiększało liczbę błędów w zadaniu uwagi ciągłej (SART), w skali porównywalnej z aktywnym korzystaniem z telefonu. Kushlev, Proulx i Dunn (2016), n=221, 2 tygodnie: przy włączonych powiadomieniach więcej objawów nieuwagi i nadpobudliwości. Fitz i in. (2019), ok. 237 osób: powiadomienia dostarczane partiami 3 razy dziennie poprawiały uważność, poczucie produktywności, nastrój i kontrolę. Całkowity brak powiadomień zwiększał lęk i FOMO.",
+   "konkretne_liczby": "Stothart 2015: JEP: HPP 41(4):893–897. Kushlev 2016: n=221, 2 tyg. Fitz 2019: partie 3 razy dziennie (szczegóły do weryfikacji).",
+   "zrodla": [
+    "https://doi.org/10.1037/xhp0000100",
+    "https://doi.org/10.1145/2858036.2858359 (do weryfikacji)",
+    "https://doi.org/10.1016/j.chb.2019.07.016 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03, „Tryb Skupienia”: w czasie bloku wszystko wyciszone. Poza blokiem: podsumowanie powiadomień (iOS/Android) 2–3 razy dziennie. Nie każ wyłączać wszystkiego na zawsze, bo może to zwiększyć niepokój."
+  },
+  {
+   "teza": "Osoby intensywnie wykonujące wiele czynności medialnych naraz (heavy media multitaskers) mają gorszą kontrolę uwagi.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Ophir, Nass i Wagner (2009): osoby z dużym multitaskingiem medialnym gorzej filtrowały bodźce i gorzej się przełączały, ale grupy liczyły po ok. 20 osób. Wiradhany i Nieuwenstein (2017): 2 replikacje bez efektu, a w metaanalizie efekt mały (d ok. 0,17). Uncapher i Wagner (2018, przegląd): wyniki mieszane, najczęściej słabsza pamięć robocza i długotrwała. Madore i in. (2020, Nature, n=80): więcej multitaskingu medialnego i chwilowych spadków uwagi wiązało się z gorszym zapamiętywaniem. To korelacje, więc kierunek przyczynowy jest nieznany.",
+   "konkretne_liczby": "Metaanaliza: d ok. 0,17 (do weryfikacji); Madore 2020: n=80.",
+   "zrodla": [
+    "https://doi.org/10.1073/pnas.0903620106",
+    "https://doi.org/10.3758/s13414-017-1408-4 (do weryfikacji)",
+    "https://doi.org/10.1073/pnas.1611612115",
+    "https://doi.org/10.1038/s41586-020-2870-z"
+   ],
+   "jak_uzyc_w_ebooku": "R01/R07: „Osoby, które dużo multitaskują z mediami, wypadają średnio nieco gorzej w testach uwagi, ale nie wiemy, czy to multitasking jest przyczyną”. Nie pisz, że multitasking trwale uszkadza mózg."
+  },
+  {
+   "teza": "Prawie nikt nie potrafi wykonywać dwóch wymagających zadań naraz bez strat.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka co do kierunku, średnia co do konkretnego odsetka. Watson i Strayer (2010): jazda w symulatorze plus zadanie pamięciowe; tylko ok. 2,5% osób (5 z 200) nie miało spadku w żadnym zadaniu. Badania nad przełączaniem zadań pokazują, że to, co nazywamy multitaskingiem, w zadaniach wymagających jest szybkim przełączaniem się z kosztami.",
+   "konkretne_liczby": "5 z 200 osób, czyli ok. 2,5% „supertaskerów” (jedno badanie, specyficzne zadanie).",
+   "zrodla": [
+    "https://doi.org/10.3758/PBR.17.4.479"
+   ],
+   "jak_uzyc_w_ebooku": "R01, ramka „Myślisz, że jesteś wyjątkiem?”. Zaznacz, że to jedno badanie z symulatorem jazdy."
+  },
+  {
+   "teza": "Multitasking (e-maile, telefony) obniża IQ o 10 punktów, bardziej niż marihuana.",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Źródłem jest badanie Glenna Wilsona dla HP (2005, „infomania”): eksperyment na ok. 8 osobach, nieopublikowany w recenzowanym czasopiśmie. Porównanie z marihuaną dorobiły media, a sam autor przestrzegał później przed nadinterpretacją.",
+   "konkretne_liczby": "ok. 8 uczestników; spadek ok. 10 pkt w zadaniach przy rozpraszaniu (bez recenzji naukowej).",
+   "zrodla": [
+    "http://news.bbc.co.uk/2/hi/uk_news/4471607.stm (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "Nie używaj. Ewentualnie w ramce mitów."
+  },
+  {
+   "teza": "Człowiek może wykonywać intensywną, głęboką pracę maksymalnie ok. 4 godziny dziennie (Ericsson 1993).",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: wysoka co do treści badań. Ericsson, Krampe i Tesch-Römer (1993) badali skrzypków berlińskiej Akademii Muzycznej (małe grupy, ok. 10 osób). Najlepsi wykonywali więcej celowej praktyki, rozkładali ją na sesje (głównie przed południem) i więcej spali, także w drzemkach. Autorzy wnioskują, że celowa praktyka jest tak wyczerpująca, że ok. 4 godziny dziennie to praktyczna górna granica. To wniosek z dzienników i literatury o muzykach, sportowcach i pisarzach, a nie eksperyment w pracy umysłowej. Krytyka: Macnamara, Hambrick i Oswald (2014, metaanaliza 88 badań) – praktyka wyjaśnia ok. 12% różnic w poziomie. Macnamara i Maitra (2019) powtórzyli badanie skrzypków: praktyka wyjaśniała ok. 26% wariancji, a najlepsi nie ćwiczyli więcej niż dobrzy (do weryfikacji). Cal Newport w „Deep Work” przyjął te 4 godziny jako heurystykę; początkującym sugeruje ok. 1 godziny.",
+   "konkretne_liczby": "ok. 4 h/dzień (heurystyka z Ericssona). Macnamara 2014: 12% ogółem; gry 26%, muzyka 21%, sport 18%, edukacja 4%, zawody poniżej 1%. Macnamara & Maitra 2019: ok. 26%.",
+   "zrodla": [
+    "https://doi.org/10.1037/0033-295X.100.3.363",
+    "https://doi.org/10.1177/0956797614535810",
+    "https://doi.org/10.1098/rsos.190327 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R02: „1–4 godziny naprawdę głębokiej pracy dziennie to realistyczny cel; zacznij od jednej”. Nie pisz „naukowo udowodnione maksimum 4 h”. Wspomnij o drzemkach i porannych sesjach skrzypków jako ciekawostce."
+  },
+  {
+   "teza": "Dzięki „biologicznym protokołom” zrobisz w 4 godziny to, co konkurencji zajmuje cały dzień (obietnica z obecnej strony sprzedażowej).",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Pewność: wysoka. Żadne badania nie pokazują, że pakiet technik skupienia podwaja produktywność. Efekty pojedynczych interwencji są małe lub umiarkowane: mikroprzerwy poprawiają samopoczucie (d ok. 0,35), a wydajność tylko słabo (d ok. 0,16); intencje implementacyjne zwiększają realizację celów (d ok. 0,65). Taka obietnica może zostać uznana za wprowadzającą w błąd.",
+   "konkretne_liczby": "Brak danych na „2x produktywności”. Dla porównania realne efekty: d 0,16–0,65 dla poszczególnych technik.",
+   "zrodla": [
+    "https://doi.org/10.1371/journal.pone.0272460",
+    "https://doi.org/10.1016/S0065-2601(06)38002-1"
+   ],
+   "jak_uzyc_w_ebooku": "Usuń tę obietnicę z opisu produktu i z ebooka. Zastąp ją czymś sprawdzalnym: „więcej godzin skupionej pracy tygodniowo i mniej rozproszeń – zmierzysz to sam w 30 dni”."
+  },
+  {
+   "teza": "Mózg pracuje w 90-minutowych cyklach (rytm ultradialny, BRAC Kleitmana), więc pracuj w blokach po 90 minut.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Kleitman zaproponował hipotezę BRAC (podstawowego cyklu odpoczynek–aktywność) w latach 60.; podsumował ją w 1982 r. Cykl snu NREM–REM trwa ok. 90 minut (zakres ok. 70–120) i jest dobrze udokumentowany. Badania nad ok. 90-minutowymi wahaniami czujności w ciągu dnia dają niespójne wyniki, a okres bywa zmienny lub nie wychodzi wcale. Nie ma badań, które pokazywałyby, że bloki pracy po 90 minut są optymalne. Ideę spopularyzował m.in. Tony Schwartz (NYT, 2013).",
+   "konkretne_liczby": "Cykl snu ok. 90 min (70–120). Dla czuwania brak stabilnej liczby.",
+   "zrodla": [
+    "https://doi.org/10.1093/sleep/5.4.311",
+    "https://www.nytimes.com/2013/02/10/opinion/sunday/relax-youll-be-more-productive.html (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R02/R04: „blok 60–90 minut to dobra heurystyka: mieści rozgrzewkę i dłuższe skupienie, zanim narośnie zmęczenie – a nie dlatego, że mózg ma 90-minutowy zegar”. Pozwól czytelnikowi dobrać długość bloku (45–120 min)."
+  },
+  {
+   "teza": "Najbardziej produktywni pracują 52 minuty i odpoczywają 17 minut.",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Pewność: średnia. Liczba pochodzi z wpisu firmy DeskTime (2014): dane z aplikacji do śledzenia czasu, korelacja dla najbardziej aktywnych 10% użytkowników, bez recenzji naukowej. Późniejsza analiza firmy podała inne proporcje (podobno ok. 112/26; do weryfikacji).",
+   "konkretne_liczby": "52/17 (2014), później inne proporcje: marketing, nie badanie.",
+   "zrodla": [
+    "https://desktime.com/blog/17-52-ratio-most-productive-people (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "Nie podawaj jako naukowej proporcji. Ewentualnie w ramce mitów obok „90 minut”."
+  },
+  {
+   "teza": "Technika Pomodoro (25 min pracy, 5 min przerwy) poprawia efektywność pracy.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Biwer, Wiradhany, oude Egbrink i de Bruin (2023), 87 studentów, ok. 2-godzinna sesja nauki: przy przerwach planowych (Pomodoro) zmęczenie narastało wolniej, a nastrój i motywacja były lepsze niż przy przerwach robionych „na wyczucie”. Osoby z przerwami samodzielnymi robiły ich mniej, ale dłuższe; ilość wykonanej pracy była podobna (do weryfikacji w pełnym tekście). Poza tym Pomodoro (F. Cirillo, koniec lat 80.) ma mało badań kontrolowanych, a 25 minut nie ma uzasadnienia biologicznego. Badania z lat 2024–2025 porównujące Pomodoro z elastycznymi przerwami (np. „Flowtime”) trzeba jeszcze sprawdzić.",
+   "konkretne_liczby": "n=87; British Journal of Educational Psychology 2023, t. 93 (supl. 2). Brak twardych liczb typu „+X% wydajności”.",
+   "zrodla": [
+    "https://doi.org/10.1111/bjep.12593 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R05: „Pomodoro to dobry start, jeśli odkładasz zadania albo szybko się męczysz; z czasem możesz wydłużać bloki”. Pokaż porównanie Pomodoro vs bloki elastyczne bez obiecywania procentów."
+  },
+  {
+   "teza": "Mikroprzerwy (do 10 minut) poprawiają samopoczucie i wydajność.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: wysoka. Albulescu i in. (2022, metaanaliza, 22 próby, n=2335): mikroprzerwy zwiększają witalność (d=0,36) i zmniejszają zmęczenie (d=0,35). Wpływ na wydajność jest ogólnie mały i nieistotny (d ok. 0,16). Poprawa pojawiała się w zadaniach rutynowych i biurowych, a nie w zadaniach mocno wymagających poznawczo. Dłuższe przerwy dawały większy efekt na wydajność.",
+   "konkretne_liczby": "Witalność d=0,36; zmęczenie d=0,35; wydajność d ok. 0,16 (nieistotne ogółem); 22 próby, 2335 osób.",
+   "zrodla": [
+    "https://doi.org/10.1371/journal.pone.0272460"
+   ],
+   "jak_uzyc_w_ebooku": "R04: przerwy służą temu, żeby utrzymać energię przez cały dzień i się nie wypalić. Nie obiecuj, że „zrobisz więcej” dzięki samym przerwom."
+  },
+  {
+   "teza": "Krótkie spojrzenie na zieleń (np. 40 sekund) odświeża uwagę.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Lee i in. (2015), n=150 studentów: 40 sekund patrzenia na zielony dach (zamiast betonowego) dawało mniej błędów pominięcia i stabilniejsze reakcje w zadaniu SART. To jedno badanie laboratoryjne. Przegląd systematyczny teorii regeneracji uwagi (Ohly i in. 2016) znalazł umiarkowane wsparcie dla kilku miar (np. powtarzanie cyfr, Trail Making B), ale ogólnie dowody są mieszane i słabej jakości.",
+   "konkretne_liczby": "40 s; n=150; Journal of Environmental Psychology 42:182–189.",
+   "zrodla": [
+    "https://doi.org/10.1016/j.jenvp.2015.04.003",
+    "https://doi.org/10.1080/10937404.2016.1196155 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03/R04: „w przerwie spójrz przez okno na zieleń albo wyjdź na zewnątrz – kosztuje niewiele, a może trochę pomóc”. Nie pisz, że to „resetuje mózg”."
+  },
+  {
+   "teza": "Muzyka z tekstem przeszkadza w czytaniu i pisaniu, a muzyka instrumentalna szkodzi znacznie mniej.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka. Vasilev, Kirkby i Angele (2018, bayesowska metaanaliza): mowa w tle i muzyka z tekstem pogarszają rozumienie czytanego tekstu i wydłużają czytanie; muzyka instrumentalna nie ma wyraźnego efektu. Kämpfe i in. (2011, metaanaliza): ogólny efekt muzyki w tle bliski zeru, lekko negatywny dla czytania i pamięci, pozytywny dla nastroju. Znany od lat 70. efekt nieistotnej mowy: zrozumiałe słowa zakłócają pamięć roboczą. Pisanie: mało badań (np. Ransdell & Gilroy 2001 – muzyka obniżała płynność pisania).",
+   "konkretne_liczby": "Efekty małe (rzędu d ok. 0,2) i najwyraźniejsze dla mowy i tekstu piosenek; dokładne wartości do sprawdzenia w metaanalizach.",
+   "zrodla": [
+    "https://doi.org/10.1177/1745691617747398",
+    "https://doi.org/10.1177/0305735610376261 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03: „Do czytania i pisania wybierz ciszę albo znaną muzykę instrumentalną. Słowa piosenki konkurują ze słowami, które czytasz lub piszesz”. Przy pracy rutynowej muzyka może poprawić nastrój."
+  },
+  {
+   "teza": "Słuchanie Mozarta poprawia myślenie („efekt Mozarta”).",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Pewność: wysoka. Pietschnig, Voracek i Formann (2010, metaanaliza ok. 40 badań, ponad 3000 osób): efekt jest mały, wynika głównie z badań jednego zespołu i nie jest swoisty dla Mozarta. Chwilowa poprawa przy dowolnej przyjemnej muzyce tłumaczy się pobudzeniem i nastrojem.",
+   "konkretne_liczby": "Efekt bliski zeru po wyłączeniu laboratorium autorki oryginalnego badania.",
+   "zrodla": [
+    "https://doi.org/10.1016/j.intell.2010.03.001"
+   ],
+   "jak_uzyc_w_ebooku": "R03, ramka mitów: muzyka może poprawić nastrój, ale nie „podnosi IQ”."
+  },
+  {
+   "teza": "Szum tła (kawiarnia, biały szum) pomaga się skupić, a hałas biurowy przeszkadza.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Mehta, Zhu i Cheema (2012): umiarkowany hałas ok. 70 dB (poziom kawiarni) poprawiał wyniki w zadaniach kreatywnych w porównaniu z 50 dB i 85 dB. To pojedyncza seria badań na małych próbach, słabo replikowana. Jahncke i in. (2011): hałas biura open space (ok. 51 vs 39 dB(A); do weryfikacji) dawał gorsze wyniki pamięciowe i większe zmęczenie. Biały i różowy szum: korzyści pokazano głównie u osób z ADHD lub słabą uwagą (Söderlund i in. 2007); u pozostałych brak efektu albo lekko negatywny. Najbardziej przeszkadza zrozumiała mowa.",
+   "konkretne_liczby": "70 dB lepiej niż 50 i 85 dB w zadaniach kreatywnych (Mehta 2012). Open space: ok. 51 vs 39 dB(A) (do weryfikacji).",
+   "zrodla": [
+    "https://doi.org/10.1086/665048",
+    "https://doi.org/10.1016/j.jenvp.2011.07.002 (do weryfikacji)",
+    "https://doi.org/10.1111/j.1469-7610.2007.01749.x (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03: słuchawki z redukcją szumów. Jeśli coś maskuje otoczenie, niech to będzie stały szum (deszcz, szum różowy), a nie rozmowy. Odgłosy kawiarni ewentualnie do burzy mózgów, nie do czytania. Nie obiecuj efektu wszystkim."
+  },
+  {
+   "teza": "Binaural beats (dudnienia różnicowe) synchronizują fale mózgowe i wprowadzają w stan skupienia.",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Garcia-Argibay, Santed i Reales (2019, metaanaliza 22 badań) znaleźli ogólny efekt g ok. 0,45 na pamięć, uwagę, lęk i ból, ale przy dużej niejednorodności i małych próbach. Ingendoh, Posny i Heine (2023, przegląd 14 badań EEG): 5 badań wspiera „dostrajanie fal mózgowych”, 8 mu przeczy, 1 daje wynik mieszany. Mechanizm synchronizacji fal mózgowych nie jest potwierdzony, a efekty behawioralne są niespójne.",
+   "konkretne_liczby": "g ok. 0,45 (metaanaliza 2019, niska jakość badań); w przeglądzie EEG 5 za, 8 przeciw, 1 mieszane.",
+   "zrodla": [
+    "https://doi.org/10.1007/s00426-018-1066-8",
+    "https://doi.org/10.1371/journal.pone.0286023 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03: najwyżej tak: „możesz przetestować na sobie, ale dowody są słabe i niespójne”. Nie pisz o falach beta czy gamma, które wprowadzą w skupienie."
+  },
+  {
+   "teza": "Flow sprzyjają jasny cel, natychmiastowa informacja zwrotna i wyzwanie dopasowane do umiejętności.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Csikszentmihalyi (1975, 1990) oraz Nakamura i Csikszentmihalyi (2002) opisali warunki flow na podstawie wywiadów i metody próbkowania doświadczeń (ESM). Metaanaliza Fonga, Zaleskiego i Leacha (2015): równowaga wyzwania i umiejętności, jasne cele i informacja zwrotna są umiarkowanie powiązane z flow. Powiązanie jest słabsze, niż sugerują popularne opisy, i zależy od sposobu pomiaru.",
+   "konkretne_liczby": "Korelacje umiarkowane (dokładne wartości do sprawdzenia w Fong i in. 2015). Brak liczby typu „X% wydajniej we flow”.",
+   "zrodla": [
+    "https://doi.org/10.1080/17439760.2014.967799 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R02: projektuj zadania pod flow: określ wynik bloku, dopasuj trudność (podziel albo podnieś poprzeczkę), wbuduj szybką informację zwrotną (testy, licznik słów)."
+  },
+  {
+   "teza": "Wejście we flow zajmuje ok. 15 minut, a we flow jesteś 5 razy (500%) bardziej produktywny.",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Pewność: wysoka. „15 minut” pochodzi z książki „Peopleware” (DeMarco & Lister, 1987); to szacunek z doświadczenia programistów, nie pomiar. „5 razy wydajniej” pochodzi z ankiety McKinsey (Cranston & Keller, 2013), w której menedżerowie sami oceniali swoją produktywność. Nie ma badań, które mierzyłyby typowy czas wchodzenia we flow.",
+   "konkretne_liczby": "15 min i 500%: liczby bez podstaw empirycznych.",
+   "zrodla": [
+    "https://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams",
+    "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/increasing-the-meaning-quotient-of-work (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R02: „wiele osób potrzebuje kilkunastu minut rozgrzewki, zanim praca zacznie płynąć” jako obserwacja, nie liczba naukowa. Nie podawaj 500%."
+  },
+  {
+   "teza": "Przewlekłe skracanie snu do 6 godzin pogarsza uwagę tak jak noc bez snu, a ludzie tego nie zauważają.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka. Van Dongen, Maislin, Mullington i Dinges (2003), n=48, przez 14 dni 4, 6 lub 8 godzin w łóżku, plus grupa 3 nocy bez snu. 6 godzin przez 14 dni dawało w teście czujności (PVT) deficyty jak 1 noc bez snu, a 4 godziny jak 2 noce. Subiektywna senność rosła tylko nieznacznie, więc badani nie doceniali swojego spadku. Zalecenia dla dorosłych: co najmniej 7 h (AASM/SRS 2015), 7–9 h (NSF 2015).",
+   "konkretne_liczby": "n=48; 14 dni; 6 h ≈ 1 noc bez snu, 4 h ≈ 2 noce; zalecenie 7–9 h.",
+   "zrodla": [
+    "https://doi.org/10.1093/sleep/26.2.117",
+    "https://doi.org/10.5665/sleep.4716",
+    "https://doi.org/10.1016/j.sleh.2014.12.010"
+   ],
+   "jak_uzyc_w_ebooku": "R04, fundament: „sen to pierwszy protokół skupienia”. Wyraźnie odradzaj wstawanie o 5 kosztem snu; to kłóci się z „Porankiem Zwycięzców” w drugim ebooku, więc trzeba je ujednolicić."
+  },
+  {
+   "teza": "Krótka drzemka (10–20 min) poprawia czujność po południu.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka. Brooks i Lack (2006), małe badanie laboratoryjne po ograniczeniu snu: 10-minutowa drzemka dawała natychmiastową poprawę czujności i wyników, utrzymującą się ok. 2,5 godziny. Drzemka 5-minutowa dawała niewiele, a 20–30-minutowa pomagała dopiero po ustąpieniu inercji sennej.",
+   "konkretne_liczby": "Drzemka 10 min: korzyść przez ok. 155 min; 20–30 min: korzyść opóźniona.",
+   "zrodla": [
+    "https://doi.org/10.1093/sleep/29.6.831"
+   ],
+   "jak_uzyc_w_ebooku": "R04: drzemka 10–20 min wczesnym popołudniem, z budzikiem, jako opcja, nie obowiązek. Dobrze łączy się z historią skrzypków Ericssona."
+  },
+  {
+   "teza": "Kofeina poprawia czujność i uwagę, ale ma koszt dla snu, a u regularnych użytkowników działa słabiej.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka. Przegląd McLellana i in. (2016): dawki 32–300 mg poprawiają czujność, czas reakcji i uwagę ciągłą. EFSA uznaje oświadczenie, że 75 mg kofeiny zwiększa czujność i koncentrację. Bezpieczne dla dorosłych: do 400 mg dziennie i do 200 mg jednorazowo; w ciąży do 200 mg dziennie. U regularnych pijących część efektu to po prostu zniesienie objawów odstawienia (Rogers i in. 2013). Sen: 400 mg nawet 6 h przed snem skracało sen o ponad godzinę (Drake 2013). Metaanaliza Gardinera i in. (2023): kofeina skraca sen średnio o ok. 45 minut; kawę (ok. 107 mg) najlepiej pić co najmniej ok. 8,8 h przed snem.",
+   "konkretne_liczby": "75 mg (EFSA); limit 400 mg/d i 200 mg na raz; −45 min snu; co najmniej ok. 8,8 h przed snem dla kawy; ponad 1 h mniej snu przy 400 mg 6 h przed snem.",
+   "zrodla": [
+    "https://doi.org/10.1016/j.neubiorev.2016.09.001",
+    "https://doi.org/10.2903/j.efsa.2015.4102",
+    "https://doi.org/10.2903/j.efsa.2011.2054 (do weryfikacji)",
+    "https://doi.org/10.5664/jcsm.3170",
+    "https://doi.org/10.1016/j.smrv.2023.101764 (do weryfikacji)",
+    "https://doi.org/10.1007/s00213-012-2889-4 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R04: „kofeina tak: przed blokiem, umiarkowanie i daleko od snu (przy zasypianiu o 23 ostatnia kawa ok. 14)”. Dodaj zastrzeżenie, że to nie porada medyczna (ciąża, nadciśnienie, lęk). Opisz pułapkę „energetyk o 16:00”."
+  },
+  {
+   "teza": "Połączenie kofeiny z L-teaniną poprawia skupienie bardziej niż sama kofeina.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Owen i in. (2008), 50 mg kofeiny + 100 mg L-teaniny: większa dokładność przełączania uwagi i mniejsza podatność na rozproszenie. Haskell i in. (2008): 150 mg + 250 mg. Giesbrecht i in. (2010), 40 mg + 97 mg: lepsza dokładność przełączania i czujność. Przegląd Camfielda i in. (2014, 11 RCT): połączenie poprawia przełączanie uwagi i czujność w ciągu ok. 2 godzin, ale efekty są małe. Część badań prowadzili naukowcy producenta herbaty (do weryfikacji). EFSA (2011) odrzuciła oświadczenia zdrowotne dla L-teaniny dotyczące funkcji poznawczych.",
+   "konkretne_liczby": "Typowe dawki w badaniach: 40–150 mg kofeiny + 97–250 mg L-teaniny; efekty małe, w ciągu 20–90 minut.",
+   "zrodla": [
+    "https://doi.org/10.1179/147683008X301513 (do weryfikacji)",
+    "https://doi.org/10.1111/nure.12120",
+    "https://doi.org/10.2903/j.efsa.2011.2238 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R04: „zielona herbata lub matcha naturalnie łączy kofeinę i L-teaninę, to rozsądna opcja; suplement jest możliwy, ale efekt jest mały”. Nie używaj języka „stack nootropowy”."
+  },
+  {
+   "teza": "Pierwszą kawę trzeba odłożyć na 90–120 minut po przebudzeniu (protokół popularny w podcastach, m.in. A. Hubermana).",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Nie znalazłem RCT pokazujących, że opóźnienie kofeiny po przebudzeniu poprawia czujność lub zapobiega popołudniowemu spadkowi. Uzasadnienie (adenozyna, kortyzol po przebudzeniu) jest spekulacją. Dobrze udokumentowane jest za to, jak ważny jest odstęp kofeiny od snu (Gardiner 2023; Drake 2013).",
+   "konkretne_liczby": "Brak danych dla „90 minut po przebudzeniu”.",
+   "zrodla": [
+    "https://doi.org/10.1016/j.smrv.2023.101764 (do weryfikacji)",
+    "https://doi.org/10.5664/jcsm.3170"
+   ],
+   "jak_uzyc_w_ebooku": "Nie przedstawiaj tego jako protokołu. Zamiast tego zasada: „kofeina daleko od snu, w ilości, która nie psuje Ci nocy”."
+  },
+  {
+   "teza": "Nawet lekkie odwodnienie pogarsza koncentrację; trzeba pić 8 szklanek wody dziennie.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Wittbrodt i Millard-Stafford (2018, metaanaliza 33 badań): odwodnienie o co najmniej 2% masy ciała pogarsza uwagę, funkcje wykonawcze i koordynację. Przy mniejszym odwodnieniu efekty są niepewne. Edmonds i in. (2013): wypicie wody poprawiało czas reakcji u osób spragnionych. EFSA: dorośli potrzebują łącznie ok. 2,0 l (kobiety) i 2,5 l (mężczyźni) wody dziennie, razem z jedzeniem. „8 szklanek” nie ma podstaw naukowych (Valtin 2002).",
+   "konkretne_liczby": "Próg ok. 2% masy ciała; EFSA 2,0/2,5 l łącznie z jedzeniem.",
+   "zrodla": [
+    "https://doi.org/10.1249/MSS.0000000000001682",
+    "https://doi.org/10.3389/fnhum.2013.00363 (do weryfikacji)",
+    "https://doi.org/10.2903/j.efsa.2010.1459",
+    "https://doi.org/10.1152/ajpregu.00365.2002"
+   ],
+   "jak_uzyc_w_ebooku": "R04: „woda na biurku, pij, gdy chce Ci się pić, szczególnie przy upale i po kawie”. Nie obiecuj „+X% koncentracji po szklance wody”."
+  },
+  {
+   "teza": "Medytacja uważności poprawia uwagę.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Mrazek i in. (2013), n=48: 2 tygodnie treningu uważności (8 sesji po 45 minut) poprawiły wynik w teście czytania ze zrozumieniem GRE (o ok. 16 percentyli) i pamięć roboczą oraz zmniejszyły błądzenie myślami. Metaanalizy (np. Sumantry & Stewart 2021) pokazują małe do umiarkowanych efekty na uwagę i funkcje wykonawcze, przy zróżnicowanej jakości badań. Goyal i in. (2014, JAMA Internal Medicine) ocenili dowody dla uwagi jako niskie. Van Dam i in. (2018) przestrzegają przed przesadą w tej dziedzinie.",
+   "konkretne_liczby": "Mrazek 2013: +16 percentyli; ogólnie efekty małe do umiarkowanych.",
+   "zrodla": [
+    "https://doi.org/10.1177/0956797612459659",
+    "https://doi.org/10.1007/s12671-021-01593-w (do weryfikacji)",
+    "https://doi.org/10.1001/jamainternmed.2013.13018",
+    "https://doi.org/10.1177/1745691617709589"
+   ],
+   "jak_uzyc_w_ebooku": "R07: 10 minut dziennie jako trening zauważania rozproszenia i wracania uwagi. Napisz uczciwie: „efekty są realne, ale skromne”."
+  },
+  {
+   "teza": "Spacer poprawia kreatywność.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka (dla myślenia dywergencyjnego). Oppezzo i Schwartz (2014), 4 eksperymenty, n=176: chodzenie, także na bieżni w pokoju, zwiększało płynność myślenia dywergencyjnego (test alternatywnych zastosowań). W eksperymencie 1 poprawiło się ok. 81% osób, średnio o ok. 60%. Efekt utrzymywał się krótko po powrocie do siedzenia. Chodzenie nie pomagało w myśleniu zbieżnym (test RAT). Metaanaliza Changa i in. (2012): jednorazowy wysiłek fizyczny daje małe pozytywne efekty poznawcze.",
+   "konkretne_liczby": "n=176; ok. 81% osób z poprawą; ok. +60% pomysłów; brak efektu dla zadań z jedną poprawną odpowiedzią.",
+   "zrodla": [
+    "https://doi.org/10.1037/a0036577",
+    "https://doi.org/10.1016/j.brainres.2012.02.068 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R04: „spacer do generowania pomysłów (konspekt, burza mózgów), nie do rozwiązywania problemu z jedną poprawną odpowiedzią”. Pomysł: spacerowe spotkanie albo dyktowanie notatek głosowych."
+  },
+  {
+   "teza": "Sprawdzanie e-maili partiami (kilka razy dziennie) zmniejsza stres i zwiększa produktywność.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Kushlev i Dunn (2015), n=124, 2 tygodnie w układzie naprzemiennym: sprawdzanie poczty 3 razy dziennie obniżało codzienny stres. Mark i in. (2016), n=40, logowanie aktywności w pracy: grupowanie poczty nie wiązało się z niższym stresem ani wyższą produktywnością, ale więcej czasu w poczcie oznaczało więcej stresu. Mark, Voida i Cardello (2012), n=13: 5 dni bez e-maila dawało mniej przełączeń, dłuższe skupienie na jednym oknie i niższy stres mierzony zmiennością rytmu serca.",
+   "konkretne_liczby": "3 razy dziennie (Kushlev & Dunn); n=124 / 40 / 13.",
+   "zrodla": [
+    "https://doi.org/10.1016/j.chb.2014.11.005",
+    "https://doi.org/10.1145/2858036.2858262 (do weryfikacji)",
+    "https://doi.org/10.1145/2207676.2207754 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R06: 2–4 stałe okna na pocztę i komunikatory, status lub autoodpowiedź z informacją o dostępności. Napisz uczciwie, że efekt bywa niewielki i zależy od roli (obsługa klienta ≠ twórca)."
+  },
+  {
+   "teza": "Open space zmniejsza bezpośrednią współpracę i utrudnia skupienie.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka. Bernstein i Turban (2018), 2 badania terenowe z identyfikatorami socjometrycznymi: po przejściu do open space rozmowy twarzą w twarz spadły o ok. 70%, a komunikacja elektroniczna wzrosła (e-mail o ok. 20–50% lub więcej). Kim i de Dear (2013), ankiety ok. 42 tys. pracowników: hałas i brak prywatności w open space nie są równoważone łatwiejszą komunikacją.",
+   "konkretne_liczby": "ok. −70% interakcji twarzą w twarz; ok. +20–50% e-maili; ok. 42 tys. ankiet.",
+   "zrodla": [
+    "https://doi.org/10.1098/rstb.2017.0239",
+    "https://doi.org/10.1016/j.jenvp.2013.06.007 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03 oraz R08 („Mam open space”): słuchawki, umówiony sygnał „nie przeszkadzać”, rezerwacja salki, bloki głębokiej pracy z domu."
+  },
+  {
+   "teza": "Prawo Parkinsona („praca rozrasta się, by wypełnić dostępny czas”) uzasadnia timeboxing.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnio-wysoka. „Prawo Parkinsona” to satyryczny esej C. N. Parkinsona w The Economist (1955) o rozroście biurokracji, a nie wynik badań. Pokrewne dane: Bryan i Locke (1967) – osoby z luźniejszym limitem czasu pracowały wolniej, dopasowując tempo do celu. Ariely i Wertenbroch (2002) – równomiernie rozłożone zewnętrzne terminy działają lepiej niż samodzielnie wyznaczone, a te lepiej niż brak terminów. Buehler, Griffin i Ross (1994) – błąd planowania: studenci przewidywali 33,9 dnia na pracę, a potrzebowali 55,5. Sam timeboxing nie ma RCT; wspierają go pośrednio teoria celów i intencje implementacyjne.",
+   "konkretne_liczby": "Prognoza 33,9 dnia vs faktycznie 55,5 dnia (Buehler 1994).",
+   "zrodla": [
+    "https://www.economist.com/news/1955/11/19/parkinsons-law (do weryfikacji)",
+    "https://doi.org/10.1016/0030-5073(67)90021-9 (do weryfikacji)",
+    "https://doi.org/10.1111/1467-9280.00441",
+    "https://doi.org/10.1037/0022-3514.67.3.366"
+   ],
+   "jak_uzyc_w_ebooku": "R05/R06: „Ustal czas i oczekiwany wynik bloku, a do planu dolicz bufor (np. +50%), bo prawie wszyscy nie doceniamy czasu zadań”. Nie nazywaj prawa Parkinsona prawem naukowym."
+  },
+  {
+   "teza": "Zaplanowanie jutra (konkretnie: kiedy, gdzie, jak) zwiększa szanse realizacji i wycisza myśli o niedokończonych sprawach.",
+   "werdykt": "potwierdzona",
+   "co_mowia_badania": "Pewność: wysoka. Gollwitzer i Sheeran (2006, metaanaliza 94 testów, ponad 8000 osób): plany „jeśli X, to zrobię Y” zwiększają realizację celów (d ok. 0,65). Masicampo i Baumeister (2011): zaplanowanie niedokończonego celu zmniejszało natrętne myśli o nim i poprawiało wykonanie innego zadania (badania laboratoryjne, bez dużych replikacji). Scullin i in. (2018), n=57, polisomnografia: 5 minut pisania listy zadań na jutro przed snem skracało zasypianie o ok. 9 minut w porównaniu z pisaniem o zadaniach już wykonanych. Uwaga: klasyczny efekt Zeigarnik (lepsza pamięć zadań niedokończonych) słabo się replikuje.",
+   "konkretne_liczby": "d ok. 0,65; zasypianie ok. 9 min szybciej; 5 minut pisania.",
+   "zrodla": [
+    "https://doi.org/10.1016/S0065-2601(06)38002-1",
+    "https://doi.org/10.1037/a0024192",
+    "https://doi.org/10.1037/xge0000374"
+   ],
+   "jak_uzyc_w_ebooku": "R05 „Zamknięcie dnia w 5 minut” i rozdział „Strategia Generała” w ebooku o nawykach: jedna z najlepiej udokumentowanych technik. Plan pisz w formie „jutro o 9:00 przy biurku otwieram plik X i piszę sekcję Y”."
+  },
+  {
+   "teza": "„Monk mode” (okres skrajnej izolacji od rozproszeń) zwiększa produktywność.",
+   "werdykt": "brak_dowodow",
+   "co_mowia_badania": "Pewność: wysoka. To termin z internetowej kultury self-improvement i nie ma badań nad „monk mode” jako całością. Najbliżej jest „monastyczna” filozofia głębokiej pracy z książki Cala Newporta (książka, nie badanie). Poszczególne składniki mają dowody: ograniczenie mediów społecznościowych (Hunt 2018; Allcott 2020), blokada internetu mobilnego (Castelo 2025), sen, brak powiadomień. Skrajne wersje (izolacja społeczna, skracanie snu) mogą szkodzić.",
+   "konkretne_liczby": "Brak danych dla „monk mode”; dane dla składników podane w osobnych tezach.",
+   "zrodla": [
+    "https://doi.org/10.1257/aer.20190658",
+    "https://doi.org/10.1093/pnasnexus/pgaf017 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R07/R08: zamiast „monk mode” zaproponuj „tydzień ochrony uwagi” z mierzalnymi regułami. Unikaj ascetycznego, militarnego języka i nie łącz tego ze skracaniem snu."
+  },
+  {
+   "teza": "Cyfrowy detoks i ograniczenie mediów społecznościowych poprawiają uwagę i samopoczucie.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Hunt i in. (2018), n=143, 3 tygodnie limitu 10 minut dziennie na platformę: mniejsza samotność i mniej objawów depresji, zwłaszcza u osób z wyższymi wynikami na starcie. Allcott i in. (2020, American Economic Review), dezaktywacja Facebooka na 4 tygodnie: ok. 60 minut dziennie więcej wolnego czasu, mały wzrost dobrostanu (ok. 0,09 SD) i mniejsze korzystanie po eksperymencie. Radtke i in. (2022, przegląd 21 badań): wyniki „digital detox” są mieszane i zależą od formy. Castelo i in. (2025, PNAS Nexus, ok. 467 osób, 2 tygodnie blokady internetu mobilnego): poprawa uwagi ciągłej porównywalna z odwróceniem ok. 10 lat spadku związanego z wiekiem, a także zdrowia psychicznego i dobrostanu; ok. 91% poprawiło się w co najmniej jednym wskaźniku; nie wszyscy wytrwali (szczegóły do weryfikacji).",
+   "konkretne_liczby": "Hunt: 30 min dziennie łącznie, 3 tyg., n=143. Allcott: ok. 60 min/dzień, ok. 0,09 SD. Castelo: 2 tyg., ok. 91% z poprawą w co najmniej jednym wskaźniku.",
+   "zrodla": [
+    "https://doi.org/10.1521/jscp.2018.37.10.751",
+    "https://doi.org/10.1257/aer.20190658",
+    "https://doi.org/10.1177/20501579211028647 (do weryfikacji)",
+    "https://doi.org/10.1093/pnasnexus/pgaf017 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R07 „7 dni cyfrowego minimalizmu”: konkretne limity (np. 30 min dziennie, bez social mediów w telefonie) zamiast całkowitej abstynencji, z pomiarem przed i po."
+  },
+  {
+   "teza": "„Dopamine detox” resetuje poziom dopaminy i przywraca motywację.",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Pewność: wysoka co do mechanizmu. Odpoczynek od bodźców nie „obniża” ani nie „resetuje” dopaminy, a badań nad dopamine detox brak. Autor idei „dopamine fasting” (C. Sepah, 2019) sam podkreślał, że chodzi o ograniczanie impulsywnych zachowań (kontrola bodźców z terapii poznawczo-behawioralnej), a nie o neurochemię.",
+   "konkretne_liczby": "Brak danych.",
+   "zrodla": [
+    "https://www.health.harvard.edu/blog/dopamine-fasting-misunderstanding-science-spawns-a-maladaptive-fad-2020022618917 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R07, ramka: „Nazwa »dopamine detox« to mit, ale idea przerw od bodźców i kontroli bodźców ma sens”."
+  },
+  {
+   "teza": "Blokery stron i aplikacji oraz ustawienia telefonu (np. szary ekran) pomagają się skupić.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Mark, Czerwinski i Iqbal (2018), n=32, tydzień blokowania rozpraszających stron: wyższa samoocena produktywności i skupienia, większa korzyść u osób z niższą samokontrolą (do weryfikacji). Lyngs i in. (2019) przejrzeli ok. 367 narzędzi „cyfrowej samokontroli” i znaleźli mało rzetelnych ocen ich skuteczności. Szary ekran: małe badania na studentach (np. Holte & Ferraro 2020) pokazują skrócenie czasu przed ekranem (do weryfikacji). Mechanizm jest dobrze uzasadniony: zobowiązanie z wyprzedzeniem (precommitment) i kontrola bodźców.",
+   "konkretne_liczby": "n=32 (Mark 2018); ok. 367 narzędzi (Lyngs 2019).",
+   "zrodla": [
+    "https://doi.org/10.1145/3173574.3173666 (do weryfikacji)",
+    "https://doi.org/10.1145/3290605.3300361 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03: blokery jako „architektura otoczenia”, ustawione z wyprzedzeniem na godziny bloków. Proste reguły; nie obiecuj konkretnych procentów."
+  },
+  {
+   "teza": "Najtrudniejszą pracę najlepiej robić rano / wszyscy powinni wstawać wcześnie.",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Pewność: wysoka dla zależności od chronotypu. Przegląd Schmidta i in. (2007): wydajność poznawcza zależy od pory dnia i chronotypu (efekt synchronii; May, Hasher i Stoltzfus 1993). Facer-Childs i in. (2018): osoby o wczesnym chronotypie radziły sobie najlepiej rano, o późnym wieczorem. Roenneberg i in. (2004): chronotyp jest najpóźniejszy ok. 20. roku życia, więc w grupie 18–30 lat „sów” jest więcej. Wieth i Zacks (2011): zadania wymagające wglądu szły lepiej w porze nieoptymalnej. Związek porannego chronotypu z proaktywnością (Randler 2009) to tylko korelacja. „Rano” jest więc dobre dla rannych ptaszków, a nie dla wszystkich.",
+   "konkretne_liczby": "Szczyt „późności” chronotypu ok. 20. r.ż. (Roenneberg 2004). Wielkości efektów pory dnia różnią się zależnie od zadania.",
+   "zrodla": [
+    "https://doi.org/10.1080/02643290701754158",
+    "https://doi.org/10.1186/s40798-018-0162-z (do weryfikacji)",
+    "https://doi.org/10.1016/j.cub.2004.11.039",
+    "https://doi.org/10.1080/13546783.2011.625663 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R04: najtrudniejsza praca w szczycie Twojego chronotypu; zadania kreatywne i eksploracyjne możesz robić poza szczytem; bez dogmatu „wstań o 5”. Ujednolić z „Porankiem Zwycięzców” w ebooku o nawykach."
+  },
+  {
+   "teza": "Optymalna temperatura do pracy umysłowej to ok. 21–22°C.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Seppänen, Fisk i Lei (2006, LBNL, metaanaliza badań biurowych): wydajność była najwyższa ok. 21–22°C i spadała powyżej ok. 24–25°C. To szacunek z niejednorodnych danych. Chang i Kajackaitis (2019), n=543: kobiety lepiej rozwiązywały zadania matematyczne i słowne w cieplejszych temperaturach (+1°C to ok. +1,76% poprawnych odpowiedzi w matematyce), a mężczyźni radzili sobie w nich nieznacznie gorzej. Optimum zależy więc od osoby.",
+   "konkretne_liczby": "Optimum ok. 21–22°C (szacunek); +1,76% na 1°C w matematyce u kobiet (Chang 2019).",
+   "zrodla": [
+    "https://scholar.google.com/scholar?q=Seppanen+Fisk+Lei+2006+Effect+of+temperature+on+task+performance+in+office+environment (link do wyszukiwania; brak pewnego URL raportu LBNL)",
+    "https://doi.org/10.1371/journal.pone.0216362"
+   ],
+   "jak_uzyc_w_ebooku": "R03: „komfort cieplny ok. 20–24°C; dostosuj do siebie (sweter, wentylator)”. Bez jednej magicznej liczby."
+  },
+  {
+   "teza": "Jasne światło (dzienne lub z dużą domieszką niebieskiego) poprawia czujność i koncentrację w pracy.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Viola i in. (2008), n=104 pracowników biurowych, 4 tygodnie: światło wzbogacone w niebieski (17 000 K) zamiast 4000 K poprawiło samoocenę czujności, koncentracji i wydajności oraz jakość snu. Przegląd Soumana i in. (2018): ostre, dzienne efekty światła na czujność są niespójne. Boubekri i in. (2014): pracownicy w biurach z oknami spali średnio o 46 minut dłużej. To, że poranne światło przesuwa zegar biologiczny wcześniej, jest dobrze udokumentowane; wpływ na produktywność jest pośredni.",
+   "konkretne_liczby": "17 000 K vs 4000 K (Viola 2008); +46 min snu przy oknach (Boubekri 2014).",
+   "zrodla": [
+    "https://doi.org/10.5271/sjweh.1268",
+    "https://doi.org/10.1016/j.bbr.2017.09.016 (do weryfikacji)",
+    "https://doi.org/10.5664/jcsm.3780"
+   ],
+   "jak_uzyc_w_ebooku": "R03/R04: biurko przy oknie, dużo światła dziennego rano, ciepłe i przygaszone światło wieczorem. Mów o poprawie samopoczucia i snu, nie o konkretnych procentach produktywności."
+  },
+  {
+   "teza": "Siła woli to ograniczony zasób („bateria”, wyczerpanie ego), zasilany glukozą.",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Pewność: wysoka dla silnej wersji teorii. Hagger i in. (2016, 23 laboratoria, n=2141): efekt d ok. 0,04. Vohs i in. (2021, 36 laboratoriów, n=3531): d ok. 0,06. Vadillo, Gold i Osman (2016): dowody na „glukozę jako paliwo siły woli” są słabe i obciążone efektem publikacyjnym. Samokontrola może słabnąć przy zmęczeniu i spadku motywacji, ale model „baterii” się nie potwierdził.",
+   "konkretne_liczby": "d ok. 0,04 (2016) i ok. 0,06 (2021): praktycznie zero.",
+   "zrodla": [
+    "https://doi.org/10.1177/1745691616652873",
+    "https://doi.org/10.1177/0956797621989733 (do weryfikacji)",
+    "https://doi.org/10.1177/0956797616654911 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03/R05: projektuj otoczenie tak, żeby nie polegać na sile woli, ale uzasadniaj to tym, że nawyki i kontrola bodźców działają niezawodniej, a nie „wyczerpaniem ego”. To samo dotyczy rozdziałów „Architektura Otoczenia” i „Biologiczna Maszyna” w ebooku o nawykach."
+  },
+  {
+   "teza": "Nawyk tworzy się w 21 dni.",
+   "werdykt": "obalona",
+   "co_mowia_badania": "Pewność: wysoka. Lally i in. (2010), n=96, 12 tygodni: mediana czasu do automatyzmu wyniosła 66 dni, z ogromnym rozrzutem (18–254 dni). Opuszczenie pojedynczego dnia nie przekreślało procesu. „21 dni” pochodzi z anegdoty chirurga plastycznego M. Maltza (1960).",
+   "konkretne_liczby": "Mediana 66 dni; zakres 18–254; n=96.",
+   "zrodla": [
+    "https://doi.org/10.1002/ejsp.674"
+   ],
+   "jak_uzyc_w_ebooku": "R08: „Protokół 30 dni to solidny początek, nie gwarancja nawyku na zawsze”. Daj zgodę na pojedyncze potknięcia."
+  },
+  {
+   "teza": "Porządek na biurku poprawia koncentrację.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnia. Vohs, Redden i Rahinel (2013): uporządkowane otoczenie sprzyjało wyborom konwencjonalnym i zdrowszym, a nieporządek większej liczbie kreatywnych pomysłów. Często cytowane badanie McMains i Kastner (2011) dotyczy konkurencji bodźców w korze wzrokowej, a nie biurek. Brak twardych danych, że porządek sam w sobie poprawia skupienie, ale usunięcie z pola widzenia pokus (telefon, przekąski) ma sens jako kontrola bodźców.",
+   "konkretne_liczby": "Brak liczb dla „porządek = +X% koncentracji”.",
+   "zrodla": [
+    "https://doi.org/10.1177/0956797613480186 (do weryfikacji)"
+   ],
+   "jak_uzyc_w_ebooku": "R03: „usuń z pola widzenia rzeczy, które Cię przywołują” zamiast „minimalistyczne biurko podnosi koncentrację”."
+  },
+  {
+   "teza": "Zimny prysznic rano zwiększa energię i produktywność.",
+   "werdykt": "czesciowo",
+   "co_mowia_badania": "Pewność: średnio-wysoka. Buijze i in. (2016), n=3018, 30 dni, 30/60/90 sekund zimnej wody na koniec ciepłego prysznica: o 29% mniej zgłaszanych dni nieobecności z powodu choroby, ale bez zmiany liczby dni choroby. Nie ma badań nad wpływem zimnej wody na skupienie lub głęboką pracę. Zimna woda nie jest wskazana przy chorobach serca.",
+   "konkretne_liczby": "n=3018; −29% nieobecności (samoopis); brak danych o koncentracji.",
+   "zrodla": [
+    "https://doi.org/10.1371/journal.pone.0161749"
+   ],
+   "jak_uzyc_w_ebooku": "Najwyżej opcja dla chętnych, z zastrzeżeniem, że nie ma dowodów na lepsze skupienie, oraz z ostrzeżeniem zdrowotnym. Nie nazywaj tego „biologicznym protokołem skupienia”."
+  }
+ ],
+ "mity_do_unikniecia": [
+  "„Przełączanie zadań zabiera 40% produktywności” – to szacunek Meyera („nawet do 40%”) z tekstu APA, nie wynik pomiaru.",
+  "„Po każdym przerwaniu potrzebujesz 23 minut, by odzyskać skupienie” – liczba z wywiadu; dane mówią o ok. 25 min do powrotu do przerwanego wątku, wypełnionych inną pracą.",
+  "„Mózg skupia się tylko 47 sekund” – 47 s to średni czas na jednym oknie komputera w badaniach Glorii Mark, nie zdolność skupienia.",
+  "„Uwaga człowieka jest krótsza niż złotej rybki (8 s)” – liczba bez źródła (Microsoft Canada 2015 / Statistic Brain).",
+  "„Multitasking obniża IQ o 10 punktów, bardziej niż marihuana” – nierecenzowane badanie na ok. 8 osobach (HP, 2005).",
+  "„Sam widok telefonu wysysa Ci mózg” – efekt Ward 2017 słabo się replikuje; pisz o pokusie i powiadomieniach, nie o drenażu.",
+  "„Mózg pracuje w 90-minutowych cyklach, więc pracuj po 90 minut” – w czuwaniu dowody na rytm ok. 90 min są słabe; to tylko heurystyka.",
+  "„Proporcja 52/17 to naukowy przepis na produktywność” – dane marketingowe z aplikacji DeskTime.",
+  "„Naukowo maksimum to dokładnie 4 godziny głębokiej pracy” – to heurystyka z badań nad muzykami (Ericsson 1993), nie pomiar w pracy umysłowej.",
+  "„Zrobisz w 4 godziny to, co konkurencja przez cały dzień” – brak jakichkolwiek dowodów na podwojenie produktywności; obietnica wprowadzająca w błąd.",
+  "„10 000 godzin czyni mistrza” – praktyka wyjaśnia ok. 12% różnic w poziomie (Macnamara 2014), a liczba była średnią z małej grupy skrzypków.",
+  "„Wejście w flow zajmuje 15 minut” / „we flow jesteś 500% bardziej produktywny” – szacunek z książki „Peopleware” i samoocena z ankiety McKinsey.",
+  "„Binaural beats synchronizują fale mózgowe (beta/gamma) i włączają skupienie” – mechanizm niepotwierdzony, wyniki niespójne.",
+  "„Muzyka Mozarta poprawia myślenie” – efekt Mozarta obalony w metaanalizie.",
+  "„Dopamine detox resetuje dopaminę” – neurochemicznie nonsens; chodzi o kontrolę bodźców.",
+  "„Siła woli to bateria zasilana glukozą” – ego depletion nie zreplikowało się w dużych badaniach wieloośrodkowych (d ok. 0,04–0,06).",
+  "„Nawyk powstaje w 21 dni” – mediana 66 dni, zakres 18–254 (Lally 2010).",
+  "„Pij 8 szklanek wody dziennie, bo nawet lekkie odwodnienie niszczy koncentrację” – próg szkodliwości to ok. 2% masy ciała; liczba 8 szklanek nie ma podstaw.",
+  "„Kawę pij dopiero 90–120 minut po przebudzeniu” – brak RCT; udokumentowany jest odstęp kofeiny od snu.",
+  "„Wszyscy powinni wstawać o 5 rano / poranek zwycięzców” – wydajność zależy od chronotypu; w grupie 18–30 lat dużo jest późnych chronotypów.",
+  "„Krótki sen (5–6 h) da się wytrenować” – 6 h przez 2 tygodnie daje deficyty jak noc bez snu, a ludzie tego nie zauważają (Van Dongen 2003).",
+  "„Prawo Parkinsona to prawo naukowe” – to satyryczny esej z The Economist (1955).",
+  "„Efekt Zeigarnik: niedokończone zadania pamiętasz lepiej” – efekt słabo się replikuje; lepiej opierać się na intencjach implementacyjnych.",
+  "„Monk mode” jako naukowa metoda – brak badań; skrajna izolacja i skracanie snu mogą szkodzić.",
+  "Wszelkie liczby „+X% produktywności” bez źródła z recenzowanego badania, także wymyślone procenty na grafikach i okładce."
+ ],
+ "techniki_z_dowodami": [
+  "1. Sen co najmniej 7 h i regularne pory snu (dowody silne: Van Dongen 2003; zalecenia AASM/SRS i NSF 2015). To fundament każdego innego protokołu.",
+  "2. Planowanie jutra w formie „kiedy–gdzie–jak” (intencje implementacyjne; dowody silne: Gollwitzer & Sheeran 2006, d ok. 0,65) oraz 5-minutowe zamknięcie dnia z listą zadań na jutro (Masicampo & Baumeister 2011; Scullin 2018: zasypianie ok. 9 min szybciej).",
+  "3. Notatka „gotowy do powrotu” przed przerwą lub spotkaniem: gdzie jestem i jaki jest następny krok (dowody umiarkowane: Leroy & Glomb 2018). Bazuje na dobrze udokumentowanych resztkach uwagi (Leroy 2009).",
+  "4. Wyłączenie powiadomień na czas bloku i dostarczanie ich partiami 2–3 razy dziennie (dowody umiarkowane: Stothart 2015; Kushlev i in. 2016; Fitz i in. 2019).",
+  "5. Jedno zadanie na blok i grupowanie płytkich zadań (koszty przełączania: dowody silne – Monsell 2003; Rubinstein i in. 2001).",
+  "6. Ograniczenie mediów społecznościowych i internetu w telefonie limitem, a nie całkowitą abstynencją (dowody umiarkowane: Hunt 2018; Allcott 2020; Castelo i in. 2025).",
+  "7. E-mail i komunikatory w kilku ustalonych oknach (dowody umiarkowane i mieszane: Kushlev & Dunn 2015 – mniej stresu; Mark i in. 2016 – brak efektu na produktywność).",
+  "8. Kofeina w umiarkowanej dawce przed blokiem pracy, daleko od snu (dowody silne dla czujności; ok. 45 min mniej snu, gdy pora jest zła – Gardiner 2023). Opcjonalnie z L-teaniną (np. zielona herbata) – efekt mały (Camfield 2014).",
+  "9. Cisza lub muzyka instrumentalna przy czytaniu i pisaniu; unikanie zrozumiałej mowy w tle i piosenek z tekstem (dowody silne: Vasilev i in. 2018). Słuchawki z redukcją szumów w open space (Bernstein & Turban 2018; Jahncke 2011).",
+  "10. Spacer jako narzędzie do generowania pomysłów (dowody silne dla myślenia dywergencyjnego: Oppezzo & Schwartz 2014).",
+  "11. Krótka drzemka 10–20 min z budzikiem przy niedoborze snu (dowody umiarkowane do silnych: Brooks & Lack 2006).",
+  "12. Regularne przerwy, planowe (Pomodoro) lub mikroprzerwy, głównie dla energii i mniejszego zmęczenia (dowody umiarkowane: Albulescu 2022 – witalność d=0,36; wpływ na wydajność mały; Biwer i in. 2023).",
+  "13. Najtrudniejsza praca w szczycie własnego chronotypu (dowody umiarkowane: Schmidt i in. 2007; Facer-Childs i in. 2018).",
+  "14. Projektowanie zadań pod flow: jasny wynik bloku, trudność dopasowana do umiejętności, szybka informacja zwrotna (dowody umiarkowane: Fong i in. 2015).",
+  "15. Trening uwagi przez medytację uważności, ok. 10 min dziennie (dowody umiarkowane, efekty małe: Mrazek 2013; metaanalizy 2021–2022).",
+  "16. Kontrola bodźców w otoczeniu: telefon w innym pokoju, blokery stron ustawione z wyprzedzeniem, usunięcie pokus z pola widzenia (dowody umiarkowane: mechanizm precommitmentu i kontroli bodźców; Mark i in. 2018; efekt samej obecności telefonu niepewny).",
+  "17. Terminy pośrednie i bufor czasowy przy planowaniu, czyli ochrona przed błędem planowania (dowody silne: Buehler 1994; Ariely & Wertenbroch 2002).",
+  "18. Komfort cieplny ok. 20–24°C i dużo światła dziennego w ciągu dnia (dowody umiarkowane i niespójne: Seppänen 2006; Viola 2008; Boubekri 2014) – jako higiena stanowiska, bez obietnic procentowych."
+ ],
+ "podsumowanie": "WAŻNE ZASTRZEŻENIE METODOLOGICZNE: w tym przebiegu nie mogłem niczego sprawdzić w sieci. WebSearch zwrócił komunikat o wyczerpaniu limitu 200 wyszukiwań na turę, wspólnego dla wszystkich agentów. WebFetch i bezpośrednie pobranie z doi.org zostały zablokowane (DNS/403 na proxy). Baza powstała więc z mojej wiedzy o literaturze (stan do ok. połowy 2026 r.). Przy każdej tezie podałem pewność. Źródła oznaczone „(do weryfikacji)” to DOI lub adresy, których nie jestem w pełni pewien; liczby z dopiskiem „do weryfikacji” też trzeba sprawdzić w oryginale przed składem PDF. Najpewniejsze, kanoniczne pozycje to m.in. Leroy 2009, Monsell 2003, Rubinstein 2001, Mark 2005/2008, Ward 2017, Stothart 2015, Ophir 2009, Ericsson 1993, Macnamara 2014, Albulescu 2022, Lee 2015, Vasilev 2018, Van Dongen 2003, Oppezzo 2014, Kushlev & Dunn 2015, Bernstein & Turban 2018, Gollwitzer & Sheeran 2006, Scullin 2018, Hagger 2016 i Lally 2010. Kolejne wyszukiwania są możliwe w następnej wiadomości użytkownika albo po podniesieniu limitu CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION.\n\nWNIOSKI DLA EBOOKA „Skupienie Absolutne”: (1) Rzetelny ebook o głębokiej pracy da się napisać, ale jego najmocniejsze „protokoły” są mało efektowne: sen, planowanie kiedy–gdzie–jak, notatka powrotu, brak powiadomień, jedno zadanie na blok, ograniczenie social mediów w telefonie, rozsądna kofeina. Wszystkie mają solidne lub umiarkowane dowody. (2) Hasło „biologiczne protokoły” jest ryzykowne, bo przyciąga pseudonaukę (binaural beats, dopamine detox, opóźnianie kawy o 90 minut, zimne prysznice, 90-minutowe cykle). Proponuję „protokoły oparte na badaniach” i w każdym rozdziale ramkę „Co wiemy / czego nie wiemy”. (3) Obietnicę ze strony sprzedażowej („w 4 godziny to, co konkurencji zajmuje cały dzień”) trzeba usunąć: nie ma na nią dowodów, a efekty pojedynczych technik są małe lub umiarkowane. (4) Popularne liczby (40%, 23 minuty, 47 sekund, 4 godziny) można użyć tylko z poprawnym kontekstem, co samo w sobie jest wartością ebooka („rozbrajamy mity”). (5) Trzeba ujednolicić przekaz z ebookiem „Nawyki Żelaznej Dyscypliny”: „Poranek Zwycięzców/Monk Mode” i wczesne wstawanie kłócą się z danymi o śnie i chronotypie, a „siła woli” nie może opierać się na obalonym wyczerpaniu ego. (6) Konspekt w produkty/ebook-skupienie/zrodlo/konspekt.md jest zgodny z tą bazą. Proponowane uzupełnienia: R05 – „Notatka powrotu” (Leroy & Glomb 2018); R04 – drzemka 10–20 min i odstęp kofeiny od snu; R07 – Castelo 2025 i ramka mitów (dopamine detox, 21 dni, złota rybka)."
+}

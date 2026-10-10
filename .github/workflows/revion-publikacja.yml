@@ -1,0 +1,78 @@
+name: "Revion: publikacja postów"
+
+# Co godzinę publikuje posty z folderu kolejka, których godzina już minęła (Facebook + Instagram przez Meta Graph API).
+# Ręcznie (Actions → ta akcja → Run workflow): "sprawdz" testuje połączenie, "na-sucho" pokazuje, co by wyszło.
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      tryb:
+        description: "Co zrobić"
+        type: choice
+        options: [sprawdz, publikuj, na-sucho]
+        default: sprawdz
+
+permissions:
+  contents: write
+
+concurrency:
+  group: revion-publikacja
+  cancel-in-progress: false
+
+jobs:
+  publikacja:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: agent
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+      META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Czy agent jest włączony?
+        id: stan
+        run: echo "wlaczony=$(jq -r '.agent_wlaczony' ../ustawienia.json)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-node@v4
+        if: steps.stan.outputs.wlaczony == 'true' || github.event_name == 'workflow_dispatch'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: agent/package-lock.json
+
+      - name: Instalacja
+        if: steps.stan.outputs.wlaczony == 'true' || github.event_name == 'workflow_dispatch'
+        run: npm ci
+
+      - name: Sprawdź połączenie
+        if: inputs.tryb == 'sprawdz'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node src/sprawdz.mjs
+
+      - name: Publikuj
+        id: publikuj
+        if: (github.event_name == 'schedule' && steps.stan.outputs.wlaczony == 'true') || inputs.tryb == 'publikuj' || inputs.tryb == 'na-sucho'
+        run: node src/publikuj.mjs ${{ inputs.tryb == 'na-sucho' && '--na-sucho' || '' }}
+
+      - name: Zapisz wyniki w repozytorium
+        if: always() && steps.publikuj.outcome != 'skipped' && inputs.tryb != 'na-sucho'
+        working-directory: .
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kolejka
+          if git diff --cached --quiet; then echo "Brak zmian do zapisania."; exit 0; fi
+          git commit -m "Revion: wyniki publikacji"
+          for proba in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 5
+          done
+          exit 1

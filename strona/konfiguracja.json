@@ -1,0 +1,31 @@
+{
+  "_opis": "Dane do generatora strony (studio/src/strona.mjs). Po zmianie: cd studio && node src/strona.mjs",
+  "email": "kontakt@revion.pl",
+  "sprzedawca": { "nazwa": "Jakub Sroczyński", "adres": "ul. Lawendowa 21, 58-500 Jelenia Góra" },
+  "ceny": { "life_os": 47, "pakiet_pro": 69 },
+  "gwarancja_14_dni": true,
+  "strony": { "nawyki": "ok. 70", "skupienie": "ok. 100" },
+  "stripe": {
+    "life_os": "https://buy.stripe.com/5kQ14o3pz1pPbGO4Fh8N200",
+    "pakiet_pro": "#WKLEJ-LINK-STRIPE-PAKIET-PRO-69-ZL"
+  },
+  "obrazy_baza": "https://revion.pl/wp-content/uploads/2026/10/",
+  "zrzuty": {
+    "kokpit": "https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-200408.png",
+    "projekty": "https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-194550.png",
+    "nawyki": "https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-200957.png",
+    "finanse": "https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-200511.png"
+  },
+  "dostawa": {
+    "life_os": "https://adjoining-daphne-47a.notion.site/REVION-LIFE-OS-2fa4d4f618238002b392c93b29ec29c5?source=copy_link",
+    "ebook_nawyki": "https://revion.pl/wp-content/uploads/2026/10/Nawyki-Zelaznej-Dyscypliny-Revion.pdf",
+    "ebook_skupienie": "#WKLEJ-LINK-DO-PDF-SKUPIENIE-ABSOLUTNE",
+    "ikony": "#WKLEJ-LINK-DO-ZIP-IKON"
+  },
+  "mailerlite_strona_zapisu": "#WKLEJ-LINK-DO-STRONY-ZAPISU-MAILERLITE",
+  "linki": {
+    "regulamin": "https://revion.pl/regulamin/",
+    "polityka": "https://revion.pl/polityka-prywatnosci/",
+    "kontakt": "https://revion.pl/kontakt/"
+  }
+}

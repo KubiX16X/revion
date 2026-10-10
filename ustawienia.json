@@ -1,0 +1,44 @@
+{
+  "agent_wlaczony": false,
+  "akceptacja": "pr",
+  "marka": "Revion",
+  "link": "https://revion.pl/#darmowy-ebook",
+  "tekst_linku_instagram": "link w bio",
+  "strefa_czasowa": "Europe/Warsaw",
+  "platformy": [
+    "facebook",
+    "instagram"
+  ],
+  "harmonogram": [
+    {
+      "dzien": "pon",
+      "godzina": "18:30"
+    },
+    {
+      "dzien": "sro",
+      "godzina": "18:30"
+    },
+    {
+      "dzien": "pt",
+      "godzina": "17:00"
+    },
+    {
+      "dzien": "nd",
+      "godzina": "19:00"
+    }
+  ],
+  "max_postow_dziennie": 1,
+  "hashtagi_stale": [
+    "#revion"
+  ],
+  "wyglad": {
+    "tlo": "#05060A",
+    "tlo_jasne": "#0B1120",
+    "tekst": "#FFFFFF",
+    "tekst_ciemny": "#E6EDF5",
+    "akcent": "#00E5FF",
+    "logo_tekst": "REVION"
+  },
+  "model": "claude-opus-5-5",
+  "wersja_graph_api": "v26.0"
+}

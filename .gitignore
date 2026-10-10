@@ -1,0 +1,14 @@
+# zależności
+studio/node_modules/
+# pliki pośrednie renderów (HTML obok PNG/PDF)
+grafiki/**/*.html
+produkty/**/okladka.html
+produkty/**/mockup-3d.html
+produkty/**/*.pdf.html
+# PŁATNE produkty nie trafiają do publicznego repozytorium
+produkty/ebook-skupienie/zrodlo/0*.md
+produkty/ebook-skupienie/*.pdf
+produkty/*/*-Revion.html
+produkty/ikony-notion/neon/
+produkty/ikony-notion/kafel/
+produkty/ikony-notion/*.zip
