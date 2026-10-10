@@ -2,6 +2,7 @@
 
 Dotyczy wszystkich ebooków serii „Biblioteka Revion”. Źródła ebooków to pliki Markdown w `produkty/<ebook>/zrodlo/`,
 składane do PDF poleceniem `cd studio && node src/sklad.mjs ../produkty/<ebook>`.
+Rozdziały płatnych ebooków (`zrodlo/0*.md`, PDF) nie trafiają do publicznego repozytorium (`.gitignore`).
 
 ## Czytelnik
 

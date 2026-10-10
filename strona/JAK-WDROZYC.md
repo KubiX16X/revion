@@ -6,6 +6,24 @@ Kod strony jest gotowy w plikach `strona-glowna-v2.html`, `dostawa-life-os.html`
 > Zanim zaczniesz: zrób kopię obecnej strony (Elementor → przy stronie głównej „Zapisz jako szablon”
 > albo kopia całej witryny w panelu hostingu).
 
+> **Repozytorium na GitHubie jest publiczne.** Prawdziwych linków do płatnych produktów (Notion, PDF, ZIP)
+> nie wpisuj do plików w repozytorium. Podmieniasz je tylko w Elementorze, Stripe i MailerLite
+> (albo daj je mi, wpiszę je do pliku `strona/konfiguracja.lokalna.json`, który nie trafia na GitHuba).
+
+## 0. Nowy link do Life OS w Notion (5 min, zrób najpierw)
+
+Obecny link do szablonu (`…notion.site/REVION-LIFE-OS-2fa4…`) był na starych stronach dostawy i trafił do publicznego
+repozytorium, więc każdy może skopiować szablon bez płacenia. Adres strony w Notion zawiera jej numer, dlatego
+samo ponowne opublikowanie nic nie zmieni. Potrzebna jest kopia:
+
+1. W Notion na stronie „REVION LIFE OS” kliknij **•••** → **Duplicate**. Powstanie kopia z nowym adresem.
+2. W kopii: **Share** → **Publish** → włącz **Publish to web** i **Allow duplicate as template**. Skopiuj nowy link.
+3. W oryginale: **Share** → **Publish** → **Unpublish**. Stary link przestanie działać.
+4. Nowy link wklejasz tylko na stronach dostawy (krok 4) i w mailach w MailerLite
+   (`maile/02-po-zakupie.md`, `maile/03-obecni-klienci.md`), nigdzie publicznie.
+
+Klienci, którzy już skopiowali szablon do swojego Notion, nic nie tracą: ich kopia działa dalej.
+
 ## 1. Obrazy i pliki (20 min)
 
 1. WordPress → **Media → Dodaj nowy**. Wgraj z folderu `strona/obrazy/`:
@@ -15,8 +33,9 @@ Kod strony jest gotowy w plikach `strona-glowna-v2.html`, `dostawa-life-os.html`
    Jeśli adres jest inny (np. inny miesiąc albo dopisek `-1`), napisz do mnie: podmienię adresy w kodzie w minutę.
 3. Wgraj pliki produktów:
    - `Nawyki-Zelaznej-Dyscypliny-Revion.pdf` (darmowy ebook) – pod tą nazwą.
-   - PDF „Skupienie Absolutne” i ZIP z ikonami **zmień przed wgraniem na trudne do zgadnięcia nazwy**,
-     np. `skupienie-absolutne-k7q2m9.pdf` i `ikony-revion-x4p8t1.zip`. Skopiuj ich adresy.
+   - PDF „Skupienie Absolutne” i ZIP z ikonami **zmień przed wgraniem na trudne do zgadnięcia nazwy**:
+     dopisz na końcu nazwy 12 losowych liter i cyfr, które sam wymyślisz (np. wygenerowane w menedżerze haseł).
+     Nie kopiuj żadnego przykładu z instrukcji. Skopiuj adresy plików.
 
 ## 2. Stripe (30 min)
 
@@ -46,9 +65,13 @@ Kod strony jest gotowy w plikach `strona-glowna-v2.html`, `dostawa-life-os.html`
 
 ## 4. Strony dostawy (20 min)
 
-1. Utwórz dwie nowe strony z adresami trudnymi do zgadnięcia, np. `/dostep-lifeos-k7q2/` i `/dostep-pro-m9x4/`.
-2. W pliku `dostawa-pakiet-pro.html` podmień `#WKLEJ-LINK-DO-PDF-SKUPIENIE-ABSOLUTNE` i `#WKLEJ-LINK-DO-ZIP-IKON`
-   na adresy z kroku 1.3. Wklej kod każdej strony w widżet HTML (układ: Elementor Canvas).
+1. Utwórz dwie nowe strony z adresami trudnymi do zgadnięcia: `/dostep-` plus 12 losowych liter i cyfr,
+   które sam wymyślisz (inne dla każdej strony). Nie kopiuj przykładów z instrukcji.
+2. Pobierz pliki `dostawa-life-os.html` i `dostawa-pakiet-pro.html` na komputer i w kopiach podmień:
+   - `#WKLEJ-LINK-NOTION-LIFE-OS` (w obu plikach) → nowy link z kroku 0,
+   - `#WKLEJ-LINK-DO-PDF-SKUPIENIE-ABSOLUTNE` i `#WKLEJ-LINK-DO-ZIP-IKON` (Pakiet Pro) → adresy z kroku 1.3.
+
+   Wklej kod każdej strony w widżet HTML (układ: Elementor Canvas). Zmienionych plików nie wgrywaj na GitHuba.
 3. W ustawieniach SEO obu stron (Yoast albo Rank Math) ustaw **noindex** i nie dodawaj ich do menu.
 4. Stare strony dostawy (7 sztuk) przełącz na **szkic** dopiero po wysłaniu maila do 2 obecnych klientów
    (`maile/03-obecni-klienci.md`).
@@ -84,5 +107,6 @@ W Yoast albo Rank Math dla strony głównej:
 - [ ] E-mail z potwierdzeniem przychodzi (po konfiguracji MailerLite i Make).
 - [ ] Zapis na darmowy ebook: mail z PDF przychodzi.
 - [ ] Udostępnienie linku revion.pl na Messengerze pokazuje obraz `revion-og.jpg`.
+- [ ] Stary link do Life OS (`…REVION-LIFE-OS-2fa4…`) w oknie incognito pokazuje błąd, a nowy działa.
 
 Gdy coś nie działa, napisz do mnie, co widzisz (najlepiej ze zrzutem ekranu).

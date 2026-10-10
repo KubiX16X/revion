@@ -1,0 +1,343 @@
+{
+ "podsumowanie_rynku": "STAN NA 9.10.2026. WebFetch był zablokowany przez sieć (403 na gumroad.com i inne), więc wszystkie dane pochodzą z wyników WebSearch (fragmenty stron). Ceny trzeba sprawdzić na żywych stronach przed publikacją.\n\n1) RYNEK PL ISTNIEJE, ALE JEST MAŁY I ROZDROBNIONY (pewność: średnia-wysoka). Znalazłem ok. 10 polskich sprzedawców szablonów Notion: OnaPlanuje, OgarniamSię, SzablonyNotion.pl, Artur Tomala, PlanujLepiej/Notionistka, Productiv, Karolina Halik, Fibon, Projektownia Cyfrowa (Getly) i kilku twórców z darmowymi szablonami na TikToku. Prawie wszystko to projekty jednoosobowe z małymi katalogami i nie ma wyraźnego lidera. Część rynku stoi albo się zwija: PlanujLepiej ogłasza „zamknięcie/wstrzymanie od 7 października” (bez podanego roku), część produktów Tomali ma status „not currently for sale”, a wiele polskich filmów typu „Notion tour” pochodzi z lat 2020–2021. NIE znalazłem twardych danych o liczbie wyszukiwań „szablon Notion” w Polsce ani liczby wyświetleń hashtagów #notion po polsku (pewność: brak danych). Trzeba to sprawdzić samemu w Planerze słów kluczowych Google i na stronach hashtagów TikToka.\n\n2) CENY (pewność: średnia-wysoka). Szablony „życiowe” i planery kosztują 19–49,90 zł, szablony finansowe 87–159 zł, systemy dla firm 119–497 zł, a kursy Notion 39,99–149 zł. Darmowy lub „zapłać, ile chcesz” szablon jako lead magnet ma prawie każdy: Tomala (Pakiet Startowy 0 zł + newsletter Klub Notion Polska), PlanujLepiej (0–50 zł), Productiv (0 zł+), Fibon (darmowe szablony + konsultacje). Revion za 47 zł mieści się w środku rynku, więc cena NIE jest problemem. Najbliższy bezpośredni konkurent to OnaPlanuje „Planer Notion 2026 All-in-One”: 39 zł w promocji, 89 zł regularnie, 7 sekcji, ponad 50 podszablonów, działa na darmowym planie, dostawa automatyczna mailem.\n\n3) JAK PROMUJĄ SIĘ KONKURENCI. Kanały to:\n- SEO i blog (PlanujLepiej jako „pierwszy polski blog o Notion”, Fibon, Tomala, Halik),\n- newsletter (Klub Notion Polska na Substacku),\n- TikTok: @bartek.notion (SzablonyNotion.pl, filmy z ok. 1 tys. polubień), @halowera i @patrycja.kolowska (darmowe szablony „w bio”),\n- polskie filmy na YouTube „Notion tour + szablon”,\n- program afiliacyjny (Tomala na Gumroad).\nNie widać nikogo, kto regularnie i z dużym zasięgiem robiłby krótkie wideo o Notion po polsku. To szansa.\n\n4) LUKA W POZYCJONOWANIU (pewność: średnia, wniosek z nazw i opisów marek). Większość polskich ofert to estetyczne planery kierowane głównie do kobiet („Ona planuje”, OgarniamSię, „neurospicy” Halik) albo narzędzia B2B (SzablonyNotion, Fibon). Ton Revion („dyscyplina”, system dla młodych mężczyzn 18–30) nie ma widocznego polskiego odpowiednika. To realny wyróżnik, ale tylko jeśli marka będzie wiarygodna.\n\n5) PUNKT ODNIESIENIA ZE ŚWIATA (ceny w USD, bez przeliczania, bo nie mam potwierdzonego kursu).\n- Thomas Frank, Ultimate Brain: 129 USD, w promocji 79 USD.\n- Easlo, Second Brain: 79 USD, w promocji 39 USD, 7 070 sprzedaży na Gumroad. Pakiet „wszystkie szablony” kosztuje 389 USD. Wg Kajabi Easlo zarobił na szablonach ponad 500 tys. USD.\n- Forte Labs, Second Brain: 65 USD, bez zwrotów.\nNotion Marketplace jest zalany klonami (szablony o nazwie „Ultimate Brain” za 4,99–63,24 USD). Przewagą polskiego sprzedawcy jest więc język i lokalne treści, a nie funkcje.\n\n6) RYZYKO PRAWNE I UTRATA ZAUFANIA NA OBECNEJ STRONIE REVION (pewność: wysoka co do zasad, ocenę konkretnego przypadku powinien zrobić prawnik).\n- Licznik resetujący się przy każdym wejściu i komunikat „cena wraca do 197 zł” (ta cena nigdy nie obowiązywała). UOKiK nałożył 100 710 zł kary na Bak Drop (bigotka.pl) właśnie za licznik, który codziennie zaczynał odliczanie od nowa.\n- Przy przecenach trzeba pokazywać najniższą cenę z 30 dni przed obniżką (Omnibus). Konkurenci, np. OgarniamSię i PlanujLepiej, pokazują ją na stronach produktów.\n- Od 1.01.2023 nie wolno publikować fałszywych opinii. Trzeba też informować, czy i jak opinie są weryfikowane. UOKiK już nakłada kary.\nTe elementy trzeba usunąć przed jakąkolwiek promocją.\n\n7) LIMIT DZIAŁALNOŚCI NIEREJESTROWANEJ W 2026: 10 813,50 zł przychodu na kwartał. To ok. 220 sprzedaży po 49 zł. Po przekroczeniu jest 7 dni na wpis do CEIDG.\n\nSZCZERA OCENA. Produkt (polski Life OS w Notion) i cena mają sens. Biznes w obecnym kształcie nie ma szans sprzedawać, bo nie ma dystrybucji: zero profili w social mediach, zero listy mailowej, brak darmowej wersji, brak Pixela i tagów Open Graph. 2 sprzedaże w 6 miesięcy to objaw braku ruchu, a nie złej ceny. Żeby przy cenie 49 zł zarabiać ok. 2 000 zł miesięcznie, potrzeba ok. 41 sprzedaży miesięcznie. To realne dopiero po 3–6 miesiącach regularnych treści (TikTok i Reels, 4–5 filmów tygodniowo), z darmową wersją szablonu i sekwencją maili.",
+ "konkurenci": [
+  {
+   "nazwa": "OnaPlanuje.pl",
+   "url": "https://onaplanuje.pl/",
+   "produkt": "Planer Notion 2026 All-in-One: jeden szablon na finanse, cele, zdrowie, naukę, podróże, lektury i treningi; wg opisu sklepu 7 sekcji i ponad 50 podszablonów. Sklep ma też arkusze Google.",
+   "cena": "39,00 zł w promocji, regularnie 89,00 zł. Jedna z opinii na stronie mówi o zapłaconych 60 zł, więc cena była wcześniej inna.",
+   "uwagi": "Najbardziej bezpośredni konkurent Revion: all-in-one po polsku, tańszy w promocji. Działa na darmowym planie Notion. Po płatności przychodzi automatyczny mail z linkiem i instrukcją, czyli lepsza dostawa niż publiczna strona w Revion. Opinie na stronie są umieszczone przez sprzedawcę. Profili na Instagramie i TikToku nie udało się potwierdzić. Pewność: średnia (dane z fragmentów strony; liczbę 7 sekcji i 50 podszablonów potwierdza tylko jedno wyszukiwanie)."
+  },
+  {
+   "nazwa": "OgarniamSię.pl",
+   "url": "https://ogarniamsie.pl/kategoria-produktu/planer-cyfrowy/planer-online/notion-szablony/",
+   "produkt": "„Ogarniam Ten Rok” (Notion Life Planner: podsumowanie roku i planowanie kolejnego) oraz „Planer studenta” w Notion. Główna działalność marki to fizyczne kalendarze, planery i notesy dla nauczycieli.",
+   "cena": "Ogarniam Ten Rok 49,90 zł; Planer studenta 44,90 zł (z adnotacją o najniższej cenie z 30 dni).",
+   "uwagi": "Marka planerów, dla której Notion jest dodatkiem do papierowej oferty. Stosuje informację o najniższej cenie z 30 dni (Omnibus), co jest dobrym wzorem dla Revion. Cena 44,90–49,90 zł to praktycznie ten sam poziom co Revion. URL produktów: https://ogarniamsie.pl/produkt/notion-life-planner/ i https://ogarniamsie.pl/produkt/planer-studenta-szablon-notion/. Pewność: wysoka co do cen (wyniki z domeny sklepu)."
+  },
+  {
+   "nazwa": "SzablonyNotion.pl (Bartłomiej Bednarczyk, TikTok @bartek.notion)",
+   "url": "https://www.szablonynotion.pl/produkty",
+   "produkt": "Szablony do życia i dla firm oraz kursy: Pakiet dla Początkujących (5 szablonów), Szablon dla Studentów, Finanse osobiste, Planer Podróży, Zarządzanie projektami, System CRM, Firmowa Baza Wiedzy, Kurs Notion 2025, Kurs Formuły Notion (lista oczekujących).",
+   "cena": "Pakiet dla Początkujących 49 zł (na innej podstronie 59 zł); Szablon dla Studentów 24 zł; Planer Podróży 35 zł; Finanse osobiste 87 zł; Zarządzanie projektami, CRM i Baza Wiedzy po 119 zł; Kurs Notion 2025 95 zł.",
+   "uwagi": "Pozycjonowanie konsultanta Notion z ponad 5 latami wdrożeń w firmach (B2B). Promocja: TikTok @bartek.notion (np. „Darmowe Notion Pro dla studentów”, filmy z ok. 1 tys. polubień, tematy finansów i wykresów) i opinie klientów na stronie. Pokazuje, że szablon finansowy po polsku sprzedaje się za 87 zł, czyli więcej niż cały Life OS Revion. Liczby obserwujących nie potwierdziłem. Pewność: średnia-wysoka."
+  },
+  {
+   "nazwa": "Artur Tomala (arturtomala.pl + Gumroad)",
+   "url": "https://arturtomala.pl/szablony",
+   "produkt": "„Szablony Notion po polsku”: Pakiet Startowy (5 szablonów: dziennik, tracker książek, nawyków i wydatków, Zettelkasten), Plan Zajęć, Faktury, Planer Posiłków, Panel Podróżnika, Tracker Osiągnięć, Panel studenta, Pakiet noworoczny, Tracker finansów. Do tego przewodniki o zarabianiu na szablonach i darmowy kurs „Notion w Pigułce”.",
+   "cena": "Pakiet Startowy, Plan Zajęć i Faktury 0 zł; Panel studenta 0 zł+ (10 ocen); Planer Posiłków, Panel Podróżnika i Tracker Osiągnięć po 19 zł; Pakiet noworoczny 49 zł (przekreślone 106 zł); Tracker finansów od 49 zł (obecnie niedostępny); stare produkty po 19–49 zł.",
+   "uwagi": "Najbardziej klasyczny model z lead magnetem: darmowy pakiet startowy, potem newsletter „Klub Notion Polska” (https://notionpolska.substack.com), potem płatne szablony za 19–49 zł. Ma program afiliacyjny na Gumroad (https://arturtomala.gumroad.com/affiliates). Na stronie kursów przedstawia się jako „Polski Ambasador Notion”; tego statusu nie zweryfikowałem. Część produktów jest wycofana, więc aktywność może spadać. Pewność: wysoka co do cen, niska co do aktualnej aktywności."
+  },
+  {
+   "nazwa": "PlanujLepiej.pl / Notionistka (sklep Notionownia)",
+   "url": "https://sklep.planujlepiej.pl/",
+   "produkt": "Finanse Osobiste (przychody, koszty stałe, subskrypcje, inwestycje), Freelancer PRO (system dla soloprzedsiębiorców), KDP Masterplan (Amazon KDP), Portfolio 2.0 z mini kursem, Dziennik nawyków, Dziennik wydatków, Proste zarządzanie projektami.",
+   "cena": "Finanse Osobiste 159 zł (najniższa cena z 30 dni: 99 zł); Freelancer PRO 497 zł; KDP Masterplan 497 zł; Portfolio 2.0 37 zł; Dziennik nawyków PWYW 0–50 zł; Dziennik wydatków PWYW; Proste zarządzanie projektami 0 zł.",
+   "uwagi": "Model SEO: „pierwszy polski blog o Notion” (https://planujlepiej.pl/blog/) z instrukcjami i darmowymi szablonami, które prowadzą do płatnych. Stosuje informację Omnibus o najniższej cenie z 30 dni. Na stronie widnieje komunikat, że od 7 października PlanujLepiej zostaje zamknięte lub wstrzymane (projektowanie w Notion); sklep i blog nadal działają, rok komunikatu nie jest podany. Ten sam autor prowadzi sklep.notionistka.pl (https://sklep.notionistka.pl/). Pewność: wysoka co do cen, średnia co do statusu działalności."
+  },
+  {
+   "nazwa": "Productiv (Gumroad)",
+   "url": "https://productiv.gumroad.com/l/digital_planer_productiv",
+   "produkt": "Digital Planer w Notion (planer dzienny, tygodniowy i miesięczny + wskazówki dla początkujących), Biblioteka w Notion, Tracker nawyków, Tracker Subskrypcji.",
+   "cena": "Digital Planer 39 zł + 23% VAT; Biblioteka 9 zł + VAT; Tracker nawyków 0 zł+ (można zapłacić 0).",
+   "uwagi": "Darmowy tracker nawyków działa jako lead magnet. Sprzedaż przez Gumroad: kupujący widzi kwotę w USD, z konta pobierane są złotówki. VAT jest doliczany, bo Gumroad działa jako sprzedawca rejestrowany (MoR). Kanałów promocji nie potwierdziłem. Pewność: wysoka co do cen."
+  },
+  {
+   "nazwa": "Karolina Halik (karohalik.pl + Gumroad)",
+   "url": "https://karohalik.gumroad.com/l/neurospicy-second-brain-pl",
+   "produkt": "Neurospicy Second Brain w pełnej polskiej wersji (system dla osób neuroróżnorodnych), Planer podróży, osobista instrukcja obsługi i darmowe szablony „Notion dla średniozaawansowanych”.",
+   "cena": "Neurospicy Second Brain PL ok. 35 USD (wg jednego wyniku wyszukiwania); część szablonów jest darmowa.",
+   "uwagi": "Wąska nisza (ADHD, neuroróżnorodność) i blog z cyklem o neuroprzyjaznej produktywności (https://karohalik.pl/szablony-notion/). Model: darmowe szablony i blog prowadzą do płatnego systemu. Pokazuje, że przy wąskiej niszy polski „second brain” może kosztować więcej niż 100 zł. Pewność ceny: niska-średnia (jedno źródło)."
+  },
+  {
+   "nazwa": "Fibon.pl",
+   "url": "https://fibon.pl/szablony-notion/",
+   "produkt": "Darmowe szablony Notion: Zadania i Projekty, Monitor Subskrypcji i Opłat, Monitor Pomysłów i Notatek. Do tego wersje „Pro” i usługi wdrożeniowe Notion (bezpłatna konsultacja wstępna).",
+   "cena": "Szablony darmowe; ceny wersji Pro nie zostały potwierdzone.",
+   "uwagi": "Darmowe szablony i poradnik Notion (blog) działają jako lejek do konsultacji B2B. Jest to dowód, że darmowe polskie szablony do budżetu i subskrypcji już istnieją, więc moduł finansów Revion musi wyraźnie przewyższać darmowe opcje. Pewność: średnia."
+  },
+  {
+   "nazwa": "Projektownia Cyfrowa (Getly)",
+   "url": "https://www.getly.store/store/projektownia-mqjmw133",
+   "produkt": "Szablony Canva i Notion (layouty, plannery, systemy organizacyjne) oraz krótkie e-booki o produktywności. Model podobny do Revion: szablon i e-booki.",
+   "cena": "Nie udało się potwierdzić cen produktów.",
+   "uwagi": "Kontakty na Facebooku, Telegramie i TikToku; sprzedawca deklaruje odpowiedzi po polsku. Getly to globalny marketplace (wg deklaracji twórca zatrzymuje 80% sprzedaży, informacja niezweryfikowana). Pewność: niska."
+  },
+  {
+   "nazwa": "Darmowi twórcy na TikToku i YouTube (@halowera, @patrycja.kolowska, polskie „Notion tour”)",
+   "url": "https://www.tiktok.com/@halowera/video/7059355998024224005",
+   "produkt": "Darmowe szablony do Notion dla studentów i planowania („do pobrania w moim bio”), darmowe plansze i szablony na IG (https://www.tiktok.com/@patrycja.kolowska/video/7118754305737248005), filmy na YouTube typu „Jak organizuję swoje życie w NOTION + szablon” (https://www.youtube.com/watch?v=nazwlnBo9V8).",
+   "cena": "0 zł",
+   "uwagi": "Ustawiają oczekiwanie, że prosty planer jest darmowy, więc płatny produkt musi oferować znacznie więcej (system, finanse, wsparcie, polski onboarding wideo). Format „szablon w bio” lub „wpisz słowo w komentarzu” jest w Polsce sprawdzony: twórczyni budżetowa @budzetzbasia stosuje „Wpisz »szablon« w komentarzu” (https://www.tiktok.com/@budzetzbasia/video/7535430734719307030). Pewność: wysoka co do istnienia, brak danych o zasięgach."
+  },
+  {
+   "nazwa": "Kursy Notion po polsku (punkt odniesienia cenowy)",
+   "url": "https://videopoint.pl/kurs/notion-w-godzine-kurs-video-efektywne-zarzadzanie-czasem-i-projektami-marcin-zelek,vnorto.htm",
+   "produkt": "„Notion w godzinę” (Marcin Zelek, Videopoint), kurs Edugrafia (3,5 h), kurs Strefakursów, Kurs Notion 2025 na SzablonyNotion.pl.",
+   "cena": "Notion w godzinę 39,99 zł (regularnie 89 zł, najniższa z 30 dni 34,90 zł); Edugrafia 59 zł (https://edugrafia.pl/kursy/kurs-notion-organizacja-pracy/); Strefakursów 149 zł (https://strefakursow.pl/kursy/rozwoj_osobisty/kurs_notion_-_zwieksz_produktywnosc_w_domu_i_pracy.html); SzablonyNotion 95 zł.",
+   "uwagi": "Polski klient płaci 40–150 zł za naukę Notion. Krótki kurs wideo wdrożeniowy do Life OS byłby lepszym droższym wariantem niż „VIP wsparcie” za 29 zł. Pewność: średnia (strony mogą być starsze)."
+  },
+  {
+   "nazwa": "GLOBALNIE: Thomas Frank – Ultimate Brain",
+   "url": "https://thomasjfrank.com/brain/",
+   "produkt": "Ultimate Brain: zadania, notatki i projekty (second brain, metoda PARA), tutoriale, dokumentacja, społeczność na Circle. Działa na darmowym planie Notion.",
+   "cena": "129 USD cena katalogowa, 79 USD w promocji (kody SUMMER50/SPRING50 dają -50 USD; ważność na 9.10.2026 niepotwierdzona).",
+   "uwagi": "Wzorzec premium: dużo darmowych treści na YouTube przyciąga do płatnego systemu, a w cenie są dokumentacja i społeczność. Na Notion Marketplace istnieją klony „Ultimate Brain” za 4,99–63,24 USD (https://www.notion.com/templates/ultimate-brain). Pewność: średnia-wysoka."
+  },
+  {
+   "nazwa": "GLOBALNIE: Easlo – Second Brain",
+   "url": "https://www.easlo.co/templates/second-brain",
+   "produkt": "Second Brain i ponad 100 szablonów; pakiet Pro z dostępem do wszystkich obecnych i przyszłych szablonów.",
+   "cena": "Second Brain 79 USD (promocja 39 USD); na Gumroad 79 USD i 7 070 sprzedaży (https://easlo.gumroad.com/l/brain); pakiet Pro 389 USD jednorazowo (wartość 640 USD, https://www.easlo.co/pricing).",
+   "uwagi": "Wg Kajabi (2024) ponad 500 tys. USD przychodu z szablonów i ok. 20 tys. USD miesięcznie w 2022 (https://kajabi.com/blog/can-you-make-money-selling-notion-templates). Zaczynał od niskich cen 19–29 USD i podnosił je wraz z reputacją. Lekcja dla Revion: najpierw opinie i zasięg, potem wyższa cena. Pewność liczb przychodu: niska-średnia (źródła wtórne)."
+  },
+  {
+   "nazwa": "GLOBALNIE: Forte Labs (Tiago Forte) – Second Brain Notion Template",
+   "url": "https://help.fortelabs.com/hc/en-us/articles/43701524655373-How-much-is-the-Second-Brain-Notion-Template-and-where-can-I-purchase-it",
+   "produkt": "Oficjalny szablon Notion do metody „Building a Second Brain”.",
+   "cena": "65 USD, bez zwrotów.",
+   "uwagi": "Szablon sprzedawany jako dodatek do autorskiej metody i książki. Revion może zrobić to samo: e-booki opisują metodę, a Life OS ją wdraża. Pewność: średnia-wysoka."
+  }
+ ],
+ "platformy_sprzedazy": [
+  {
+   "nazwa": "Stripe Payment Links (obecne rozwiązanie Revion)",
+   "url": "https://stripe.com/en-pl/pricing",
+   "koszty": "0 zł abonamentu. Karty z EOG standardowe: 1,5% + 1 zł; karty premium z EOG: 1,9% + 1 zł; karty z UK: 2,5% + 1 zł (stripe.com/en-pl, strona może być nieaktualna). BLIK: 1,6% + 1 zł (wg Kursiarz, który powołuje się na cennik Stripe PL). Przy 49 zł płatności kartą zostaje ok. 47,27 zł. Opcjonalnie Stripe Tax +0,5%. Stripe Managed Payments (Stripe jako sprzedawca rejestrowany, MoR) kosztuje +3,5% ponad standardowe opłaty i jest dostępny w 39 krajach; czy obejmuje Polskę, nie potwierdziłem (https://support.stripe.com/questions/managed-payments-pricing).",
+   "co_zalatwia": "Dostawa: tylko przekierowanie na adres URL po płatności. U Revion są to publiczne strony WordPress, więc każdy, kto zna adres, ma dostęp. Stripe wysyła potwierdzenie płatności, ale nie link do produktu.\nZgoda na utratę prawa odstąpienia: Stripe ma wymagany checkbox akceptacji regulaminu z własnym tekstem (do 1200 znaków, Markdown; https://docs.stripe.com/payments/checkout/customization/policies), w którym można zawrzeć żądanie dostarczenia przed upływem 14 dni i przyjęcie do wiadomości utraty prawa odstąpienia. Nie ma osobnego, dedykowanego checkboxa (zgłoszenie użytkownika bez odpowiedzi Stripe). Potwierdzenie zgody na trwałym nośniku trzeba wysłać samemu, np. mailem z MailerLite przez Zapier lub Make.\nFaktury: domyślnie tylko potwierdzenia płatności; dodatkowe faktury Stripe nie zostały sprawdzone.\nVAT: brak MoR, rozliczasz sam (zwolnienie podmiotowe w PL).\nOmnibus: brak, trzeba pokazać ręcznie na stronie.\nKody rabatowe i cross-sell w Checkout: dostępne (z mojej wiedzy, niezweryfikowane tutaj). Brak klasycznego order bumpa, stąd 8 linków.\nMailerLite: brak natywnej integracji.\nBLIK: Stripe go obsługuje. Wg Stripe BLIK to ponad 65% krajowych płatności online w PL (https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue).",
+   "ocena_dla_revion": "6/10 jako najtańszy procesor płatności na obecnym etapie. Konfiguracja 8 osobnych linków i publicznych stron dostawy jest jednak krucha i myląca. Rekomendacja na teraz:\n1) zostać na Stripe, ale ograniczyć się do 2–3 linków (Life OS, Life OS + ebook, pakiet);\n2) włączyć wymagany checkbox z tekstem zgody;\n3) przez Zapier lub Make wysyłać mail z MailerLite z linkiem i potwierdzeniem zgody (trwały nośnik);\n4) na stronie po płatności nie obiecywać „jednorazowych linków”;\n5) włączyć BLIK.\nPewność: średnia-wysoka."
+  },
+  {
+   "nazwa": "Sellf (self-hosted, Paweł Jurczyk)",
+   "url": "https://github.com/jurczykpawel/sellf",
+   "koszty": "0% prowizji platformy; płacisz tylko opłaty Stripe jak wyżej. Potrzebny własny serwer: autor podaje test bez błędów przy 30 równoczesnych użytkownikach na VPS za 9 USD/rok. Do tego Supabase i czas na wdrożenie oraz utrzymanie. Licencji open source nie potwierdziłem. Stripe Tax opcjonalnie +0,5%.",
+   "co_zalatwia": "Płatności idą bezpośrednio na Twoje konto Stripe (sprzedawcą jesteś Ty).\nFunkcje sprzedażowe: kupony, „zapłać, ile chcesz”, order bumpy, oferty jednorazowe po zakupie (OTO).\nOchrona treści działająca także z WordPressem, panel klienta.\nZgodność: historia cen pod Omnibus, zarządzanie zgodami RODO.\nInterfejs po polsku i angielsku.\nWebhooki do Zapier, Make i n8n, więc MailerLite pośrednio.\nFaktury: niepotwierdzone. Dedykowany checkbox utraty prawa odstąpienia: niepotwierdzony (do sprawdzenia na https://demo.sellf.app).\nVAT: po Twojej stronie.",
+   "ocena_dla_revion": "5/10. Funkcjonalnie najlepiej pasuje do potrzeb Revion (order bump zamiast 8 linków, Omnibus, ochrona treści) za ok. 0 zł. To jednak młody projekt: wydania z października 2026 poprawiały m.in. komunikat „Payment Failed” przy udanej płatności (https://github.com/jurczykpawel/sellf/releases/tag/v2026.10.4) i wymagają umiejętności serwerowych. Dla jednej osoby to dodatkowe ryzyko operacyjne. Warto przetestować na demo, ale wdrażać dopiero po testach. Pewność: średnia."
+  },
+  {
+   "nazwa": "Publigo (GO – chmura / BOX – wtyczka WordPress)",
+   "url": "https://publigo.pl/cennik/",
+   "koszty": "GO (netto miesięcznie): START 97 zł (87 zł przy płatności rocznej, 1 284,12 zł brutto za rok), PLUS 177 zł (157 zł), PRO 297 zł (247 zł). BOX, licencja jednorazowa brutto: START 1 226,31 zł, PLUS 2 210,31 zł, PRO 3 686,31 zł; pierwszy rok wsparcia w cenie, później odnowienia. Brak własnej prowizji, płacisz tylko opłaty bramek. 15 dni okresu próbnego (Kursiarz, dane z 22.08.2026).",
+   "co_zalatwia": "Sprzedaż i dostawa produktów cyfrowych i kursów, komplet polskich bramek płatności (BLIK, Przelewy24).\nIntegracje faktur: inFakt, Fakturownia, iFirma, wFirma, Taxe.\nIntegracja z MailerLite.\nOrder bump, upsell, kody rabatowe i przypomnienia o porzuconych koszykach: tylko w planie PRO (https://poznaj.publigo.pl/articles/226443-jak-uruchomi-funkcj-zwikszenia-sprzeday).\nGotowy checkbox utraty prawa odstąpienia i obsługa Omnibus: nie potwierdziłem w wynikach, do sprawdzenia w okresie próbnym.",
+   "ocena_dla_revion": "2/10 na teraz. Revion nie odlicza VAT, więc płaci kwoty brutto: START to ok. 119 zł miesięcznie, czyli przychód z ok. 3 sprzedaży miesięcznie tylko na platformę. Order bump wymaga PRO (ok. 365 zł brutto miesięcznie). Ma sens dopiero przy kursie wideo i dziesiątkach sprzedaży miesięcznie. Pewność: wysoka co do cen."
+  },
+  {
+   "nazwa": "EasyCart (Easytools)",
+   "url": "https://www.easy.tools/pricing",
+   "koszty": "Plany netto miesięcznie: Starter 99 zł (79 zł przy płatności rocznej), Twórca 199 zł (169 zł), Profesjonalista 399 zł (349 zł). Do tego prowizja 3% / 2% / 1% zależnie od planu oraz opłaty Stripe (ok. 1,5% + 1 zł). Dane z sierpnia 2026. Starsza strona easycart.webflow.io pisze o darmowym korzystaniu do pierwszej sprzedaży i o nowym cenniku od 1.10, więc dane są sprzeczne. 14 dni okresu próbnego.",
+   "co_zalatwia": "Koszyk na jednej stronie, BLIK i Przelewy24 przez Stripe, Tpay.\nOrder bumpy, upselle (https://www.easy.tools/docs/upsells), cross-sell po zakupie, kody rabatowe i promocje.\nIntegracja z MailerLite.\nIntegracja z Fakturownią: automatyczne wystawianie i wysyłka dokumentu (https://www.easy.tools/pl/docs/fakturownia).\nCheckbox utraty prawa odstąpienia i Omnibus: to polska platforma dla twórców, więc to prawdopodobne, ale nie potwierdziłem w źródłach.",
+   "ocena_dla_revion": "4/10 teraz, ok. 8/10 przy 15–20 lub więcej sprzedażach miesięcznie. Funkcjonalnie to najlepiej dopasowany polski koszyk: zastępuje 8 linków jednym koszykiem z order bumpem, daje automatyczny mail i Fakturownię. Przy 2 sprzedażach w pół roku ok. 122 zł brutto miesięcznie plus 3% to jednak czysta strata. Pewność: średnia (cennik w trakcie zmian)."
+  },
+  {
+   "nazwa": "Gumroad",
+   "url": "https://gumroad.com/",
+   "koszty": "0 zł abonamentu. 10% + 0,50 USD od sprzedaży bezpośredniej; źródła są niezgodne, czy opłata za przetwarzanie płatności (ok. 2,9% + 0,30 USD) jest doliczana osobno. 30% od sprzedaży przez marketplace Discover. Wg Kursiarz z e-booka za 39 zł zostaje ok. 30,77 zł (ok. 21% kosztów). Przy 49 zł zostanie szacunkowo 38–40 zł. Możliwe dodatkowe ok. 1–2% za przewalutowanie (https://checkoutpage.com/blog/gumroad-fees).",
+   "co_zalatwia": "Od stycznia 2025 Gumroad działa jako sprzedawca rejestrowany (MoR): nalicza i odprowadza VAT na całym świecie, więc nie trzeba myśleć o OSS.\nAutomatyczna dostawa pliku lub linku mailem i w bibliotece kupującego (trwały nośnik).\nKody rabatowe, program afiliacyjny (używa go Tomala), upsell (z mojej wiedzy).\nCeny można pokazywać w zł (np. Productiv).\nMailerLite: tylko przez Zapier.\nBLIK: nie jest wymieniony w dokumentacji (Kursiarz).\nOmnibus: brak.\nCheckbox utraty prawa odstąpienia: niepotwierdzony.",
+   "ocena_dla_revion": "7/10 jako najprostszy start. Zero konfiguracji, brak ryzyka VAT i działa od razu. Korzystają z niego polscy sprzedawcy szablonów (Tomala, Productiv, Halik). Wady: ok. 20% kosztów przy niskiej cenie, angielski koszyk, prawdopodobnie brak BLIK, czyli metody, którą w Polsce płaci większość ludzi. Dobry plan B, jeśli utrzymanie zestawu Stripe + Zapier + MailerLite + WordPress okaże się za trudne. Pewność: średnia."
+  },
+  {
+   "nazwa": "Lemon Squeezy",
+   "url": "https://www.lemonsqueezy.com/blog/2026-update",
+   "koszty": "5% + 0,50 USD od transakcji, bez abonamentu (źródła wtórne, np. https://dodopayments.com/blogs/lemonsqueezy-review).",
+   "co_zalatwia": "Działa jako MoR (VAT), dostarcza pliki, obsługuje licencje, kody rabatowe i afiliację. Od 2024 należy do Stripe. Oficjalny cel na 2026 to przeniesienie użytkowników do Stripe Managed Payments. Status nowych rejestracji jest niejasny (część źródeł mówi o liście oczekujących). Wg źródeł wtórnych CEO przyznał w styczniu 2026, że wsparcie jest wolniejsze, a aktualizacji jest mniej.",
+   "ocena_dla_revion": "2/10. Nie warto zaczynać na platformie, która jest wygaszana lub migrowana. Jeśli potrzebny jest MoR, lepiej Gumroad albo (po potwierdzeniu dostępności dla PL) Stripe Managed Payments. Pewność: średnia."
+  },
+  {
+   "nazwa": "WooCommerce (na istniejącym WordPressie Revion)",
+   "url": "https://woocommerce.com/",
+   "koszty": "Wtyczka 0 zł; hosting WordPress już jest. Bramka płatności: Stripe (jak wyżej) albo Przelewy24 lub Tpay. Orientacyjnie P24: karty 1,4% + 0,30 zł, BLIK 0,79% przy abonamencie 50 zł miesięcznie; dla mikrosklepów Tpay bywa tańszy, bo nie ma opłaty stałej (blog, nie cennik oficjalny: https://freenance.io/przedsiebiorczosc/przelewy24-vs-tpay-2026-porownanie-bramka-platnosci-prowizje-rejestracja/). Ewentualne płatne wtyczki do zgód i order bumpów.",
+   "co_zalatwia": "Produkty wirtualne i do pobrania, chronione linki z limitem pobrań (wbudowane w WooCommerce, z mojej wiedzy).\nCheckbox utraty prawa odstąpienia przypisany do produktów cyfrowych, z rejestrem akceptacji przy zamówieniu (np. Additional Terms Pro: https://woocommerce.com/de-ch/products/additional-terms-pro/).\nMail z zamówieniem jako potwierdzenie na trwałym nośniku.\nKupony wbudowane, order bump przez wtyczki, BLIK przez bramkę.\nMailerLite i Fakturownia przez wtyczki (z mojej wiedzy).\nOmnibus przez wtyczkę.",
+   "ocena_dla_revion": "7/10 na dłuższą metę. To najtańsza kompletna opcja, bo WordPress już istnieje, a do tego znika problem publicznych stron dostawy. Minusy: kilkanaście godzin konfiguracji, aktualizacje i bezpieczeństwo, zgodność z Elementorem. Dobry kierunek, gdy sprzedaż przekroczy kilka sztuk miesięcznie. Pewność: średnia."
+  },
+  {
+   "nazwa": "Notion Marketplace (kanał dodatkowy)",
+   "url": "https://www.notion.com/help/selling-on-marketplace",
+   "koszty": "8% + 0,40 USD od transakcji (część wersji strony pomocy podaje 10% + 0,40 USD). Ceny tylko w USD, dodatkowy 1% za przewalutowanie. Wypłaty co dwa tygodnie od 20 USD.",
+   "co_zalatwia": "Notion nalicza VAT i sales tax, obsługuje płatność, zwroty i ochronę przed nadużyciami. Dostawa odbywa się bezpośrednio w Notion. Wg archiwalnej wersji strony kupujący może zażądać zwrotu w ciągu 14 dni. Produkt jest widoczny w oficjalnej galerii szablonów.",
+   "ocena_dla_revion": "4/10 jako uzupełnienie. Polski produkt w zatłoczonej globalnej galerii ma małą widoczność, ceny są w USD, a zwroty są możliwe. Warto natomiast wystawić tam darmową wersję lite po polsku jako lead magnet z linkiem do revion.pl. Pewność: średnia-wysoka."
+  },
+  {
+   "nazwa": "heyhey (plan Starter) – polska alternatywa dla porządku",
+   "url": "https://kursiarz.pl/artykul/darmowa-platforma-do-sprzedazy-ebookow",
+   "koszty": "Wg Kursiarz plan Starter kosztuje 0 zł bez karty, z limitem 1 produktu, 3 stron i 50 kontaktów. Z e-booka za 39 zł zostaje 37,38 zł. Uwaga: Kursiarz sam promuje heyhey, więc to konflikt interesów.",
+   "co_zalatwia": "Polska platforma do sprzedaży produktów cyfrowych i kursów z BLIK-iem przez Stripe. Szczegółów dotyczących zgód, faktur i Omnibus nie zweryfikowałem.",
+   "ocena_dla_revion": "3/10. Limit 1 produktu i 50 kontaktów nie wystarcza dla Life OS z e-bookami i lead magnetem. Tylko jako test. Pewność: niska-średnia."
+  }
+ ],
+ "kanaly_pozyskania": [
+  {
+   "kanal": "TikTok (organicznie)",
+   "ocena_1_10": 8,
+   "dlaczego": "Największy zasięg wśród grupy docelowej Revion (18–30). Wg Mediapanelu TikTok wyprzedził Instagram w Polsce w czerwcu 2026; w sierpniu 2026 miał 16,29 mln użytkowników wobec 16,13 mln na Instagramie (https://www.wirtualnemedia.pl/tiktok-instagram-facebook-najpopularniejsze-aplikacje-spolecznosciowe-w-polsce-ilu-internautow-korzysta,7329375665350816a). Polskich twórców Notion jest niewielu (@bartek.notion, @halowera, @patrycja.kolowska), więc nisza po polsku jest mało zatłoczona. Ryzyko: wg Metricool średnie wyświetlenia na post spadły w styczniu i lutym 2026 o 31% rok do roku przy wzroście liczby treści o ok. 80% (https://metricool.com/press-release-tiktok-study-2026/), więc potrzeba regularności (4–5 filmów tygodniowo przez 3 lub więcej miesięcy). Liczb wyświetleń hashtagów #notion i #notionpolska nie udało się potwierdzić.",
+   "przyklady_formatow": "- „Notion setup tour w 30 s”: nagranie ekranu telefonu i laptopa z lektorem.\n- „Jak ogarniam budżet w Notion – pokazuję mój wrzesień”, na prawdziwych lub przykładowych liczbach.\n- „Przed i po”: notatki w telefonie i 3 aplikacje kontra jeden kokpit.\n- „Niedzielny reset tygodnia w Notion”.\n- „POV: ogarniasz sesję na studiach w Notion”.\n- „3 rzeczy, które Notion robi za mnie” (formuły, przyciski, widok Dziś).\n- „Buduję Life OS od zera – dzień 1/30” (budowanie publicznie).\n- Lejek „Wpisz SYSTEM w komentarzu – wyślę darmową wersję”, przetestowany w PL przez @budzetzbasia z „Wpisz »szablon«” (https://www.tiktok.com/@budzetzbasia/video/7535430734719307030).\n- Tematy dyscypliny zgodne z marką: „Monk mode w Notion: mój poranek”, „Tracker nawyków, który nie pozwala mi odpuścić”."
+  },
+  {
+   "kanal": "Instagram Reels (+ karuzele, DM)",
+   "ocena_1_10": 7,
+   "dlaczego": "16,13 mln użytkowników w PL (Mediapanel, sierpień 2026). Te same filmy co na TikToku można publikować bez dodatkowej pracy. Karuzele z poradami zbierają zapisy, a automatyzacje DM po słowie kluczowym działają po polsku (np. CreatorFlow: https://creatorflow.so/pl/for/notion-creators). Nie znalazłem silnego polskiego konta o Notion na IG, więc konkurencja jest mała, ale organiczny zasięg nowego konta zwykle jest niższy niż na TikToku (ocena własna).",
+   "przyklady_formatow": "- Reels z TikToka.\n- Karuzela „5 widoków Notion, które ogarną Ci tydzień” do zapisania.\n- Karuzela „Ile naprawdę wydaję? Mój budżet w Notion krok po kroku”.\n- Stories z ankietą „papier czy aplikacja?”.\n- Automatyczny DM z linkiem do darmowej wersji po słowie „SYSTEM”.\n- Posty collab z twórcami ze świata studenckiego i finansowego."
+  },
+  {
+   "kanal": "YouTube – filmy długie (SEO wideo)",
+   "ocena_1_10": 7,
+   "dlaczego": "Wyszukiwania trwają latami, a polskie filmy „Notion tour + szablon” w wynikach są w dużej części z lat 2020–2021 (np. https://www.youtube.com/watch?v=xi3l8F1jhhA, https://www.youtube.com/watch?v=9h22r-DuBks), więc brakuje aktualnych treści po polsku. YouTube dociera do ok. 25,1 mln użytkowników w PL (raport Social Media 2026: https://media-panel.pl/pl/aktualnosci/raport-social-media-2026-juz-dostepny/). Tak budowali się Thomas Frank i inni liderzy. Minus: duży nakład pracy na jeden film.",
+   "przyklady_formatow": "- „Notion po polsku 2026 – pełny tour mojego Life OS + darmowa wersja”.\n- „Budżet domowy w Notion krok po kroku” (format istnieje: https://www.youtube.com/watch?v=Wn2XADZ9YFs).\n- „Notion dla początkujących 2026 – od zera do systemu w 20 min”.\n- „Habit tracker w Notion, który działa”.\n- „Notion dla studenta: sesja, plan zajęć, notatki”."
+  },
+  {
+   "kanal": "YouTube Shorts",
+   "ocena_1_10": 6,
+   "dlaczego": "Daje zasięg bez dodatkowej pracy (te same pionowe filmy) i kieruje widzów do filmów długich. Odkrywalność jest zwykle niższa niż na TikToku dla nowych kont (ocena własna, bez twardych danych dla PL).",
+   "przyklady_formatow": "Pionowe filmy z TikToka; „1 funkcja Notion dziennie”; krótkie zapowiedzi filmów długich („pełny tour na kanale”)."
+  },
+  {
+   "kanal": "Darmowy lead magnet + e-mail (MailerLite)",
+   "ocena_1_10": 8,
+   "dlaczego": "To kanał, który zamienia ruch z social mediów w sprzedaż. Używa go prawie każdy polski konkurent:\n- Tomala: Pakiet Startowy 0 zł + newsletter Klub Notion Polska (https://notionpolska.substack.com),\n- PlanujLepiej: Dziennik nawyków 0–50 zł,\n- Productiv: tracker nawyków 0 zł+,\n- Fibon: darmowe szablony.\nRevion nie ma dziś na stronie żadnego formularza ani lead magnetu, choć płaci za MailerLite i ma go w polityce prywatności. Bez listy każda sprzedaż zależy od jednorazowej wizyty.",
+   "przyklady_formatow": "- „Life OS Lite” za darmo (kokpit „Dziś” + tracker nawyków) w zamian za e-mail.\n- Ebook o nawykach (35 stron) jako darmowy magnet.\n- 5-dniowy kurs mailowy „Ogarnij tydzień w Notion”.\n- Sekwencja powitalna 5–7 maili: wartość, historia, pokaz pełnej wersji, prawdziwa oferta startowa z terminem i informacją o najniższej cenie z 30 dni.\n- Wersja lite na Notion Marketplace jako dodatkowe źródło zapisów."
+  },
+  {
+   "kanal": "Współprace z twórcami i afiliacja",
+   "ocena_1_10": 6,
+   "dlaczego": "Mikro- i nanotwórcy z niszy studenckiej, finansów osobistych i produktywności mają zaufanie odbiorców. Orientacyjnie na TikToku nano (1–10 tys. obserwujących) kosztuje 25–200 EUR za film, a mikro 200–1 500 EUR; Spark Ads dokładają 20–50% (https://influee.co/pl/blog/tiktok-influencer-rates). Przy produkcie za 49 zł płatne posty rzadko się zwracają, lepszy jest model afiliacyjny: poradniki branżowe sugerują 30–50% prowizji (https://fungies.io/how-to-sell-notion-templates-online-3/). Tomala prowadzi program afiliacyjny na Gumroad. Współprace trzeba oznaczać jako reklamę.",
+   "przyklady_formatow": "- Darmowy dostęp + kod afiliacyjny 30–40% dla 10–20 mikrotwórców (studia, finanse, siłownia, samorozwój).\n- Wspólny film „Testuję polski Life OS przez 7 dni”.\n- Wymiana z twórcami szablonów komplementarnych (np. finanse ↔ nawyki).\n- Gościnne wpisy w newsletterach."
+  },
+  {
+   "kanal": "SEO / blog na revion.pl",
+   "ocena_1_10": 5,
+   "dlaczego": "Pomaga na dłuższą metę, ale efekty widać po miesiącach. Konkurenci już zajmują frazy blogami: PlanujLepiej (https://planujlepiej.pl/blog/), Fibon (https://fibon.pl/blog/poradnik-notion/), arturtomala.pl, karohalik.pl. Wolumenu fraz „szablon Notion”, „Notion po polsku” w PL nie potwierdziłem; trzeba je sprawdzić w Planerze słów kluczowych Google. Strona Revion nie ma dziś meta description ani tagów Open Graph, co trzeba poprawić niezależnie od bloga.",
+   "przyklady_formatow": "Artykuły z osadzonym wideo i darmowym szablonem:\n- „Szablon Notion: budżet domowy po polsku”,\n- „Notion dla studentów – gotowy szablon”,\n- „Habit tracker w Notion po polsku”,\n- „Life OS w Notion – co to jest i jak zacząć”,\n- „Notion vs papierowy planer”."
+  },
+  {
+   "kanal": "Facebook – grupy",
+   "ocena_1_10": 4,
+   "dlaczego": "Nie potwierdziłem istnienia dużej grupy „Notion Polska” na Facebooku. Grupy studenckie, finansowe i o produktywności zwykle zakazują autopromocji, więc ruch da się zbudować tylko wartościowymi wpisami, a nie linkami. Grupa wiekowa 18–30 jest tam mniej aktywna niż na TikToku i Instagramie (ocena własna).",
+   "przyklady_formatow": "Odpowiedzi eksperckie z zrzutem ekranu („tak to ogarniam w Notion”); wpis „rozdaję darmowy szablon budżetu – zostaw komentarz” tylko tam, gdzie regulamin grupy na to pozwala."
+  },
+  {
+   "kanal": "Pinterest",
+   "ocena_1_10": 3,
+   "dlaczego": "Na rynku anglojęzycznym Pinterest działa dla szablonów Notion jak wyszukiwarka: pionowe piny 1200×1800, 3–5 pinów na szablon, pierwszy ruch po ok. 2 miesiącach (https://kupkaike.com/blog/how-to-sell-notion-templates-gumroad-2026). W PL zasięg reklamowy to ok. 2,08 mln (25–34 lata) i 1,72 mln (18–24) (https://affectgroup.com/blog/poland-pinterest-ad-audience-size-by-demographics/, data danych nieznana), a wyszukiwań po polsku jest mało. Grupa docelowa Revion (młodzi mężczyźni) jest tam słabo reprezentowana (ocena własna).",
+   "przyklady_formatow": "Piny z makietami „Polski planer Notion – finanse, nawyki, cele”, „Notion dashboard dark mode”; link do darmowej wersji."
+  },
+  {
+   "kanal": "Reklamy Meta (Facebook / Instagram)",
+   "ocena_1_10": 3,
+   "dlaczego": "Średni CPC w Polsce wynosił ok. 2,9 zł, a CPM ok. 51 zł (listopad 2024, https://www.shopify.com/pl/blog/ile-kosztuje-reklama-na-facebooku). Przy konwersji 1–3% z kliknięcia koszt pozyskania klienta to ok. 97–290 zł wobec ceny 49 zł, więc kampania jest nieopłacalna bez upsellu i listy mailowej. Revion nie ma też Meta Pixela. Ma sens dopiero na etapie 2: promowanie najlepszych organicznych Reels za 10–20 zł dziennie i remarketing na osoby oglądające filmy lub zapisane na liście.",
+   "przyklady_formatow": "Promowanie organicznego Reela, który już zadziałał; remarketing „Wróć po darmową wersję”; reklama lead magnetu zamiast produktu."
+  },
+  {
+   "kanal": "Reddit / Wykop",
+   "ocena_1_10": 2,
+   "dlaczego": "r/Notion ma ponad 400 tys. członków, ale jest anglojęzyczny i zakazuje autopromocji poza wątkiem „Self-promo & Showcase” publikowanym co dwa tygodnie (https://reddit.rtrace.io/r/Notion/comments/1dzv6kc/selfpromo_showcase_promote_your_notion_content; liczba członków: https://gummysearch.com/r/Notion). r/notioncreations zakazuje wpisów typu „skomentuj, wyślę DM” (https://gummysearch.com/r/notioncreations/). Polskiej społeczności Notion na Reddicie nie znalazłem. Na Wykopie autopromocja jest zwykle źle odbierana (ocena własna, niezweryfikowane).",
+   "przyklady_formatow": "Wartościowy wpis „Jak zbudowałem Life OS po polsku – czego się nauczyłem” w wątku showcase; brak bezpośrednich linków sprzedażowych."
+  },
+  {
+   "kanal": "Marketplace (Notion Marketplace, Gumroad Discover)",
+   "ocena_1_10": 3,
+   "dlaczego": "Wystawienie jest darmowe, ale polski produkt w globalnych katalogach ma małą widoczność. Na Notion Marketplace są dziesiątki klonów „Ultimate Brain” (https://www.notion.com/templates/ultimate-brain), a Gumroad Discover pobiera 30% prowizji.",
+   "przyklady_formatow": "Darmowa wersja „Revion Life OS Lite (PL)” w galerii Notion z linkiem do revion.pl."
+  }
+ ],
+ "rekomendacja_cen": "CO SPRZEDAJE SIĘ W PL (ceny z lat 2025–2026, pewność średnia-wysoka)\n\nSzablony Notion:\n- Pojedyncze szablony „życiowe” i planery: 19–49,90 zł. Tomala 19 zł; Productiv 39 zł + VAT; OnaPlanuje 39 zł w promocji (regularnie 89 zł); OgarniamSię 44,90–49,90 zł; SzablonyNotion: pakiet startowy 49 zł, szablon dla studentów 24 zł.\n- Wyspecjalizowane finanse: 87–159 zł (SzablonyNotion 87 zł; PlanujLepiej 159 zł, najniższa cena z 30 dni 99 zł).\n- Systemy dla firm: 119–497 zł.\n- Kursy Notion: 39,99–149 zł.\n- Darmowe lub „zapłać, ile chcesz” wersje jako wejście ma prawie każdy.\n\nE-booki (konkurencja dla niezależnych PDF-ów to wydane książki):\n- „Atomowe nawyki”: e-book 38,49–49,90 zł (https://upolujebooka.pl/oferta,112959,atomowe_nawyki_drobne_zmiany__niezwykle_efekty.html).\n- Fiore „Nawyk samodyscypliny w pracy”: 37 zł (https://woblink.com/ebook/nawyk-samodyscypliny-w-pracy-optymalna-efektywnosc-maksymalne-skupienie-i-motywacja-neil-fiore-380898u).\n- Jarzębowska „Nawyk produktywności”: 18,50–37 zł.\n- Meurisse „Skoncentrowany umysł”: 14,50 zł.\n- „Praca głęboka” Newporta w wersji papierowej: ok. 31–40 zł w Empiku.\nNiezależny PDF bez recenzji nie obroni ceny wyższej niż bestseller.\n\nREKOMENDACJE\n\n1) SZABLON LIFE OS: 49 zł jako stała, uczciwa cena.\n- Usunąć fikcyjne „197 zł” i resetujący się licznik.\n- Po zebraniu 20–30 prawdziwych opinii i nagraniu instrukcji wideo przetestować 59 zł. Konkurencja bierze 87–159 zł za sam moduł finansów, więc 49–59 zł za całość ma dobry stosunek wartości do ceny.\n- Promocje tylko prawdziwe, np. „premiera 39 zł przez 7 dni dla listy mailowej”, z podaniem najniższej ceny z 30 dni.\n\n2) EBOOK O SKUPIENIU (~70 stron): 29 zł jako order bump przy zakupie Life OS, 39 zł osobno.\n- Obecne 59 zł to więcej niż sam szablon i więcej niż „Atomowe nawyki” w części księgarń.\n- Zmienić tytuł z „Deep Work Masterclass”: to tytuł książki Cala Newporta, więc ryzyko pomylenia marek i zarzutu podszywania się.\n\n3) EBOOK O NAWYKACH (~35 stron): 0 zł jako lead magnet w zamian za e-mail. To najważniejsza zmiana, bo Revion nie ma dziś żadnej listy.\n- Alternatywnie bonus przy zakupie, ale wtedy bez fikcyjnej „wartości 29 zł”, której nikt nigdy nie płacił.\n- Jeśli sprzedawany osobno: maksymalnie 19 zł.\n\n4) PAKIET (Life OS + ebook o skupieniu + ebook o nawykach + ikony): 69 zł.\n- Suma cen osobno to 49 + 39 + 19 = 107 zł, czyli prawdziwa, policzalna oszczędność ok. 35%.\n- Ewentualny wariant 79–89 zł z krótkim kursem wideo „wdrożenie Life OS w 30 min” zamiast „VIP wsparcia”. Polacy płacą 40–95 zł za kursy Notion.\n\n5) USUNĄĆ:\n- „Priorytetowe wsparcie VIP” za 29 zł: sugeruje, że produkt jest trudny, a wsparcie techniczne powinno być w cenie.\n- Osobne „50 ikon” za 12 zł: dodać do produktu za darmo.\nZostawić najwyżej 3 ścieżki: 49 zł / 49 zł + bump 29 zł / pakiet 69 zł. To redukuje 8 linków Stripe do 2–3.\n\n6) EKONOMIA\n- Przy 49 zł na Stripe (1,5% + 1 zł) zostaje ok. 47,27 zł. Na Gumroad szacunkowo 38–40 zł (proporcjonalnie do wyliczenia Kursiarz dla 39 zł).\n- Cel 2 000 zł miesięcznie to ok. 41 sprzedaży Life OS albo ok. 29 pakietów.\n- Limit działalności nierejestrowanej w 2026 to 10 813,50 zł na kwartał, czyli ok. 220 sprzedaży po 49 zł albo ok. 156 pakietów po 69 zł w kwartale. Do limitu jest daleko, ale trzeba prowadzić ewidencję.\n\nPewność rekomendacji: średnia. Opiera się na cenach konkurencji, a nie na testach A/B na ruchu Revion, którego dziś praktycznie nie ma.",
+ "zrodla": [
+  "https://onaplanuje.pl/",
+  "https://ogarniamsie.pl/kategoria-produktu/planer-cyfrowy/planer-online/notion-szablony/",
+  "https://ogarniamsie.pl/produkt/notion-life-planner/",
+  "https://ogarniamsie.pl/produkt/planer-studenta-szablon-notion/",
+  "https://www.szablonynotion.pl/",
+  "https://www.szablonynotion.pl/produkty",
+  "https://www.szablonynotion.pl/produkty/kurs-notion-2025",
+  "https://www.tiktok.com/@bartek.notion/video/7171539992769023238",
+  "https://www.tiktok.com/@bartek.notion/video/7221115317672496411",
+  "https://arturtomala.pl/szablony",
+  "https://arturtomala.pl/szablon/pakiet-startowy",
+  "https://arturtomala.pl/kursy",
+  "https://arturtomala.gumroad.com",
+  "https://arturtomala.gumroad.com/l/zisee",
+  "https://arturtomala.gumroad.com/l/jzhpb",
+  "https://arturtomala.gumroad.com/l/sdtdnm",
+  "https://arturtomala.gumroad.com/affiliates",
+  "https://notionpolska.substack.com",
+  "https://sklep.planujlepiej.pl/",
+  "https://sklep.planujlepiej.pl/finanse-osobiste-szablon-notion",
+  "https://sklep.planujlepiej.pl/freelancer-pro",
+  "https://sklep.planujlepiej.pl/dziennik-nawykow",
+  "https://planujlepiej.pl/blog/",
+  "https://sklep.notionistka.pl/",
+  "https://productiv.gumroad.com/l/digital_planer_productiv",
+  "https://productiv.gumroad.com/l/tracker_nawykow_productiv",
+  "https://productiv.gumroad.com/l/Biblioteka_productiv",
+  "https://karohalik.gumroad.com/l/neurospicy-second-brain-pl",
+  "https://karohalik.pl/szablony-notion/",
+  "https://fibon.pl/szablony-notion/",
+  "https://fibon.pl/blog/poradnik-notion/",
+  "https://www.getly.store/store/projektownia-mqjmw133",
+  "https://www.tiktok.com/@halowera/video/7059355998024224005",
+  "https://www.tiktok.com/@patrycja.kolowska/video/7118754305737248005",
+  "https://www.tiktok.com/@budzetzbasia/video/7535430734719307030",
+  "https://www.youtube.com/watch?v=nazwlnBo9V8",
+  "https://www.youtube.com/watch?v=Wn2XADZ9YFs",
+  "https://www.youtube.com/watch?v=xi3l8F1jhhA",
+  "https://www.youtube.com/watch?v=9h22r-DuBks",
+  "https://videopoint.pl/kurs/notion-w-godzine-kurs-video-efektywne-zarzadzanie-czasem-i-projektami-marcin-zelek,vnorto.htm",
+  "https://edugrafia.pl/kursy/kurs-notion-organizacja-pracy/",
+  "https://strefakursow.pl/kursy/rozwoj_osobisty/kurs_notion_-_zwieksz_produktywnosc_w_domu_i_pracy.html",
+  "https://thomasjfrank.com/brain/",
+  "https://www.notion.com/templates/ultimate-brain",
+  "https://www.easlo.co/templates/second-brain",
+  "https://easlo.gumroad.com/l/brain",
+  "https://www.easlo.co/pricing",
+  "https://kajabi.com/blog/can-you-make-money-selling-notion-templates",
+  "https://help.fortelabs.com/hc/en-us/articles/43701524655373-How-much-is-the-Second-Brain-Notion-Template-and-where-can-I-purchase-it",
+  "https://stripe.com/en-pl/pricing",
+  "https://docs.stripe.com/payments/checkout/customization/policies",
+  "https://community.pickaxe.co/t/urgent-missing-explicit-confirmation-for-waiving-the-right-of-withdrawal/8381",
+  "https://support.stripe.com/questions/managed-payments-pricing",
+  "https://docs.stripe.com/payments/managed-payments",
+  "https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue",
+  "https://github.com/jurczykpawel/sellf",
+  "https://github.com/jurczykpawel/sellf/releases/tag/v2026.10.4",
+  "https://publigo.pl/cennik/",
+  "https://poznaj.publigo.pl/articles/210154-jaki-jest-cennik-oprogramowania-publigo",
+  "https://poznaj.publigo.pl/articles/226443-jak-uruchomi-funkcj-zwikszenia-sprzeday",
+  "https://kursiarz.pl/artykul/porownanie-10-polskich-platform-do-produktow-cyfrowych",
+  "https://kursiarz.pl/artykul/darmowa-platforma-do-sprzedazy-ebookow",
+  "https://kursiarz.pl/artykul/ceny-roczne-polskich-platform-do-kursow",
+  "https://www.easy.tools/pricing",
+  "https://easycart.webflow.io/cennik",
+  "https://www.easy.tools/docs/upsells",
+  "https://www.easy.tools/pl/docs/fakturownia",
+  "https://www.easy.tools/features",
+  "https://checkoutpage.com/blog/gumroad-fees",
+  "https://dodopayments.com/blogs/gumroad-fees-explained",
+  "https://www.lemonsqueezy.com/blog/2026-update",
+  "https://dodopayments.com/blogs/lemonsqueezy-review",
+  "https://www.paritydeals.com/stripe-managed-payments-vs-lemon-squeezy-fees/",
+  "https://woocommerce.com/de-ch/products/additional-terms-pro/",
+  "https://freenance.io/przedsiebiorczosc/przelewy24-vs-tpay-2026-porownanie-bramka-platnosci-prowizje-rejestracja/",
+  "https://www.notion.com/help/selling-on-marketplace",
+  "https://direct.money.pl/artykuly/porady/dzialalnosc-nierejestrowana-2026-limit-10-813,50-zl,-po-przekroczeniu-7-dni-na-ceidg",
+  "https://uokik.gov.pl/en/falszywy-licznik-czasu-u-posrednika-ktory-udaje-sklep",
+  "https://www.rp.pl/konsumenci/art44267401-black-red-white-zabka-i-peek-cloppenburg-z-zarzutami-prezesa-uokik",
+  "https://poradnikprzedsiebiorcy.pl/-kary-za-falszywe-opinie-w-internecie",
+  "https://www.wirtualnemedia.pl/tiktok-instagram-facebook-najpopularniejsze-aplikacje-spolecznosciowe-w-polsce-ilu-internautow-korzysta,7329375665350816a",
+  "https://media-panel.pl/pl/aktualnosci/raport-social-media-2026-juz-dostepny/",
+  "https://metricool.com/press-release-tiktok-study-2026/",
+  "https://affectgroup.com/blog/poland-pinterest-ad-audience-size-by-demographics/",
+  "https://kupkaike.com/blog/how-to-sell-notion-templates-gumroad-2026",
+  "https://gummysearch.com/r/Notion",
+  "https://reddit.rtrace.io/r/Notion/comments/1dzv6kc/selfpromo_showcase_promote_your_notion_content",
+  "https://gummysearch.com/r/notioncreations/",
+  "https://www.shopify.com/pl/blog/ile-kosztuje-reklama-na-facebooku",
+  "https://influee.co/pl/blog/tiktok-influencer-rates",
+  "https://influee.co/pl/blog/instagram-influencer-pricing",
+  "https://fungies.io/how-to-sell-notion-templates-online-3/",
+  "https://creatorflow.so/pl/for/notion-creators",
+  "https://upolujebooka.pl/oferta,112959,atomowe_nawyki_drobne_zmiany__niezwykle_efekty.html",
+  "https://woblink.com/ebook/nawyk-samodyscypliny-w-pracy-optymalna-efektywnosc-maksymalne-skupienie-i-motywacja-neil-fiore-380898u",
+  "https://ebooki.swiatczytnikow.pl/ebook/9788328353862,agnieszka-jarzebowska--nawyk-produktywnosci-wszystko-czego-potrzebujesz-aby-osia.html",
+  "https://ebookpoint.pl/ksiazki/skoncentrowany-umysl-siedmiodniowy-plan-podnoszenia-swojego-poziomu-skupienia-podkrec-swoja-produk-thibaut-meurisse,skpsp3.htm",
+  "https://www.empik.com/ksiazki,31,s?author=cal"
+ ]
+}

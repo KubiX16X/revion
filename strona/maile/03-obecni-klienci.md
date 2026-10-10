@@ -44,7 +44,7 @@ Przy Twoim zakupie z [UZUPEŁNIJ: data płatności ze Stripe] obiecałem w preze
 Przez ostatnie tygodnie przejrzałem cały sklep. Ebooki powstały od nowa, z badaniami i źródłami, a sklep ma teraz dwa proste pakiety. W podziękowaniu za zaufanie na samym starcie Revion dostajesz za darmo **wszystko z nowego Pakietu Pro**:
 
 **1. Revion Life OS (szablon Notion).** Link bez zmian. Jeśli masz już kopię na swoim koncie, nic nie musisz robić.
-→ [LINK: Life OS – https://adjoining-daphne-47a.notion.site/REVION-LIFE-OS-2fa4d4f618238002b392c93b29ec29c5?source=copy_link]
+→ [LINK: Life OS – wklej nowy link do szablonu w Notion, patrz strona/JAK-WDROZYC.md, krok 0]
 
 **2. Ebook „Nawyki Żelaznej Dyscypliny” (PDF, ok. 70 stron).** To brakujący prezent, w nowym wydaniu.
 → [LINK: PDF – https://revion.pl/wp-content/uploads/2026/10/Nawyki-Zelaznej-Dyscypliny-Revion.pdf]
@@ -77,7 +77,7 @@ ul. Lawendowa 21, 58-500 Jelenia Góra · kontakt@revion.pl
 
 - **Przeprosiny bez tłumaczenia się.** Klient nie potrzebuje historii o problemach technicznych, tylko działających plików. Jedno zdanie „to mój błąd” buduje więcej zaufania niż akapit wyjaśnień.
 - **Darmowy Pakiet Pro zamiast rabatu na przyszłość.** Przy dwóch osobach koszt jest zerowy (pliki cyfrowe), a gest jest konkretny i natychmiastowy.
-- **Propozycja zwrotu.** Stary sklep nie wysyłał potwierdzenia na trwałym nośniku i nie zbierał zgody na utratę prawa odstąpienia, więc ci klienci najpewniej nadal mogą odstąpić od umowy, a termin mógł się wydłużyć nawet o 12 miesięcy (`research-prawo.json`, punkt 5: „Klientom sprzed zmiany nie odmawiaj zwrotu”). Uczciwa, otwarta propozycja jest lepsza niż spór i reklamacja płatności w Stripe.
-- **Zwrot 29 zł za VIP.** Usługa była nieokreślona (wspólny kod, „omiń kolejkę” przy braku kolejki), a przy usługach prawo odstąpienia działa inaczej niż przy treściach cyfrowych (`research-prawo.json`, punkt 11). Zwrot na życzenie zamyka temat.
+- **Propozycja zwrotu.** Stary sklep nie wysyłał potwierdzenia na trwałym nośniku i nie zbierał zgody na utratę prawa odstąpienia, więc ci klienci najpewniej nadal mogą odstąpić od umowy, a termin mógł się wydłużyć nawet o 12 miesięcy (`strona/dokumenty/research-prawo.json`, punkt 5: „Klientom sprzed zmiany nie odmawiaj zwrotu”). Uczciwa, otwarta propozycja jest lepsza niż spór i reklamacja płatności w Stripe.
+- **Zwrot 29 zł za VIP.** Usługa była nieokreślona (wspólny kod, „omiń kolejkę” przy braku kolejki), a przy usługach prawo odstąpienia działa inaczej niż przy treściach cyfrowych (`strona/dokumenty/research-prawo.json`, punkt 11). Zwrot na życzenie zamyka temat.
 - **Bez prośby o opinię i bez oferty.** Ci klienci nie wyrazili zgody na informacje handlowe. Mail dotyczy wyłącznie ich zamówienia.
 - **Nie piszemy o starym liczniku ani o cenie 197 zł.** Mail dotyczy tego, co klient kupił i co dostaje. Zmiany na stronie mówią same za siebie.

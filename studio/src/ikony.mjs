@@ -61,7 +61,7 @@ async function main() {
   .p{font:500 18px/1.45 'Inter Variable';color:#8A94A6;text-align:right}
   </style></head><body><div class="h"><div><div style="display:flex;align-items:center;gap:14px;margin-bottom:22px">${znak({ rozmiar: 34 })}${napis({ rozmiar: 14 })}</div><div class="t">50 ikon <em>do Notion</em></div></div><div class="p">2 warianty: neon i kafel<br>512 × 512 px, przezroczyste tło</div></div>
   <div class="g">${siatka.map((n, i) => `<div><img src="${pathToFileURL(join(cel, 'kafel', `${String(i + 1).padStart(2, '0')}-${n}.png`)).href}"><span>${n.replace(/-/g, ' ')}</span></div>`).join('')}</div></body></html>`;
-  await htmlDoPng(podglad, join(cel, 'podglad.png'), { szerokosc: 1600, wysokosc: 1100, skala: 2 });
+  await htmlDoPng(podglad, join(cel, 'podglad.png'), { szerokosc: 1600, wysokosc: 1100, skala: 1 });
   rmSync(join(cel, 'podglad.html'));
   for (const w of ['neon', 'kafel']) {
     execFileSync('sh', ['-c', `rm -f '${join(cel, w)}'/*.html`]);

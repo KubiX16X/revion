@@ -68,8 +68,11 @@ node src/generuj.mjs --od 2026-10-19       # tydzień postów (wymaga ANTHROPIC_
 # studio (grafiki, PDF, strona)
 cd studio && npm ci
 node src/okladki.mjs                       # okładki i mockupy 3D
-node src/sklad.mjs ../produkty/ebook-nawyki ../produkty/ebook-skupienie   # PDF-y
-node src/strona.mjs --podglad              # strona z strona/konfiguracja.json (+ podgląd PNG)
+node src/sklad.mjs ../produkty/ebook-nawyki     # PDF darmowego ebooka
+# Skupienie Absolutne: najpierw skopiuj lokalnie rozdziały zrodlo/0*.md (nie ma ich w repozytorium), potem:
+# node src/sklad.mjs ../produkty/ebook-skupienie
+node src/strona.mjs --podglad              # strona z strona/konfiguracja.json (+ podgląd PNG w strona/lokalnie/)
+#   prawdziwe linki do płatnych produktów: strona/konfiguracja.lokalna.json (poza repozytorium)
 node src/profile.mjs && node src/ikony.mjs && node src/eksport-logo.mjs
 ```
 

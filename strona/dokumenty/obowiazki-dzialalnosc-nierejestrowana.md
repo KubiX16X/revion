@@ -3,7 +3,7 @@ NOTKA DLA WŁAŚCICIELA (komentarz HTML)
 
 To wzór przygotowany 10.10.2026 na podstawie przepisów obowiązujących w tym dniu (Prawo przedsiębiorców w brzmieniu
 od 1.01.2026, ustawa o VAT, ustawa o PIT, Ordynacja podatkowa, rozporządzenie MF z 17.12.2024 w sprawie zwolnień
-z kas rejestrujących, Dz.U. 2024 poz. 1902) i ustaleń z research-prawo.json. To nie jest indywidualna porada
+z kas rejestrujących, Dz.U. 2024 poz. 1902) i ustaleń z `strona/dokumenty/research-prawo.json`. To nie jest indywidualna porada
 podatkowa. Przed ważnymi decyzjami (np. przy zbliżaniu się do limitu albo przed sprzedażą za granicę na większą
 skalę) skonsultuj się z księgową lub doradcą podatkowym.
 Ten plik jest dla Ciebie, nie do publikacji. Wzór ewidencji jest w pliku ewidencja-sprzedazy.csv

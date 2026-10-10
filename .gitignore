@@ -12,3 +12,6 @@ produkty/*/*-Revion.html
 produkty/ikony-notion/neon/
 produkty/ikony-notion/kafel/
 produkty/ikony-notion/*.zip
+# prawdziwe linki do płatnych produktów (Notion, PDF, ZIP) i strony z nimi
+strona/konfiguracja.lokalna.json
+strona/lokalnie/

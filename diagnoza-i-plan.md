@@ -111,9 +111,9 @@ Masz już produkt, ebooki, stronę, grafiki i agenta. Gdybyś jednak wolał coś
 |---|---|---|---|---|---|
 | **Revion Student OS** (spin-off) | Studenci: plan zajęć, sesja, notatki, budżet studenta w Notion | 29–39 zł | Największa grupa Notion na TikToku, sezonowość (październik, sesje), łatwo zbudować z Life OS | Niska cena, studenci liczą każdą złotówkę | 7/10 |
 | **Revion Finanse** (Notion + Arkusze Google) | Młodzi dorośli: budżet domowy, oszczędzanie, długi | 49–89 zł | Ludzie płacą więcej za finanse (rynek 87–159 zł), wersja w Arkuszach Google trafia do większej grupy niż Notion | Trzeba zbudować nowy produkt, temat wymaga ostrożności (bez porad inwestycyjnych) | 7/10 |
-| **Mapa Opiekuna** (projekt w tym repozytorium) | Opiekunowie rodzinni: świadczenia i sprawy urzędowe | 67–97 zł | Ogromna wartość dla kupującego (tysiące zł świadczeń), mała konkurencja | Wrażliwa grupa, coroczna aktualizacja przepisów, więcej pracy z ludźmi, mniej „pasywne” | 7/10, ale inny charakter |
+| **Mapa Opiekuna** (osobny projekt w repozytorium KubiX16X/Biznes) | Opiekunowie rodzinni: świadczenia i sprawy urzędowe | 67–97 zł | Ogromna wartość dla kupującego (tysiące zł świadczeń), mała konkurencja | Wrażliwa grupa, coroczna aktualizacja przepisów, więcej pracy z ludźmi, mniej „pasywne” | 7/10, ale inny charakter |
 
-**Ważne:** masz w repozytorium dwa projekty. Przy kilku godzinach tygodniowo nie da się prowadzić obu na pełnych
+**Ważne:** masz dwa projekty (Revion tutaj i Mapa Opiekuna w repozytorium Biznes). Przy kilku godzinach tygodniowo nie da się prowadzić obu na pełnych
 obrotach. Wybierz jeden główny na 90 dni. Jeśli celem jest dochód możliwie pasywny, wybrałbym Revion.
 
 ## Pierwsze 10 TikToków
@@ -139,4 +139,4 @@ Nagrywasz ekran (telefon albo komputer) i mówisz do kamery albo lektorem. Hak w
 - Zarzuty UOKiK dla Samsunga za weryfikację opinii (2026): https://www.wiadomoscihandlowe.pl/handel-i-dystrybucja/samsung-i-weryfikowanie-opinii-uokik-stawia-zarzuty-2531444
 - Działalność nierejestrowana, limit i obowiązki: https://www.biznes.gov.pl/pl/portal/00115
 - Konkurencja i ceny: https://onaplanuje.pl/ · https://ogarniamsie.pl/kategoria-produktu/planer-cyfrowy/planer-online/notion-szablony/ · https://www.szablonynotion.pl/produkty · https://arturtomala.pl/szablony
-- Pełne wyniki researchu (z wszystkimi źródłami): `produkty/*/zrodlo/baza-faktow.json` (nauka) oraz raport prawny i rynkowy w `strona/dokumenty/`.
+- Pełne wyniki researchu (z wszystkimi źródłami): `produkty/*/zrodlo/baza-faktow.json` (nauka) oraz research prawny i rynkowy: `strona/dokumenty/research-prawo.json` i `strona/dokumenty/research-rynek.json`.

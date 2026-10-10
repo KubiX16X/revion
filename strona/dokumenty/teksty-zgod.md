@@ -250,7 +250,7 @@ Strona WWW (w tym strona dostępu) **nie jest trwałym nośnikiem**, bo możesz 
 1. Webhook Stripe `checkout.session.completed`.
 2. Filtr: `consent.terms_of_service = accepted`.
 3. Dopisz wiersz do arkusza Google „Ewidencja i zgody” (data, kwota, produkt, ID płatności, kraj, wartość zgody). To jednocześnie dowód zgody i podstawa ewidencji sprzedaży (plik `ewidencja-sprzedazy.csv`).
-4. MailerLite: dodaj albo zaktualizuj subskrybenta z polami z tabeli i dodaj go do grupy „Klienci – Life OS” albo „Klienci – Pakiet Pro”. Automatyzacja grupy wysyła e-mail D3.
+4. MailerLite: dodaj albo zaktualizuj subskrybenta z polami z tabeli i dodaj go do grupy „Klienci Life OS” albo „Klienci Pakiet Pro” (te same nazwy co w `strona/maile/00-instrukcja-mailerlite.md`, sekcja 9). Automatyzacja grupy wysyła e-mail z dostępem (A1 albo A2 z `strona/maile/02-po-zakupie.md`), oparty na treści D3 poniżej.
 
 **Ważne przy MailerLite:**
 
@@ -276,7 +276,7 @@ TWOJE ZAMÓWIENIE
 • Płatność przez: Stripe
 
 TWÓJ DOSTĘP
-• Revion Life OS (szablon Notion): https://adjoining-daphne-47a.notion.site/REVION-LIFE-OS-2fa4d4f618238002b392c93b29ec29c5 – otwórz i kliknij „Duplicate”
+• Revion Life OS (szablon Notion): [DO UZUPEŁNIENIA: link do szablonu w Notion] – otwórz i kliknij „Duplicate”
 • Ebook „Nawyki Żelaznej Dyscypliny” (PDF, ok. 70 stron): https://revion.pl/wp-content/uploads/2026/10/Nawyki-Zelaznej-Dyscypliny-Revion.pdf
 • [tylko Pakiet Pro] Ebook „Skupienie Absolutne” (PDF, ok. 100 stron): [DO UZUPEŁNIENIA: link do PDF]
 • [tylko Pakiet Pro] 50 ikon do Notion (ZIP, warianty „neon” i „kafel”): [DO UZUPEŁNIENIA: link do ZIP]

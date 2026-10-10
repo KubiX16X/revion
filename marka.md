@@ -93,9 +93,9 @@ Tylko prawdziwe. Badania podawaj z autorem i rokiem.
 - Osoby o wysokiej samokontroli rzadziej przeżywają konflikty z pokusami, a nie częściej je wygrywają
   (Hofmann i in., 2012).
 - Przełączanie się między zadaniami zostawia „resztki uwagi” przy poprzednim zadaniu (Leroy, 2009).
-- Przy pisaniu postów korzystaj z baz faktów: `produkty/ebook-nawyki/zrodlo/baza-faktow.json`
-  i `produkty/ebook-skupienie/zrodlo/baza-faktow.json` (tylko tezy z werdyktem „potwierdzona” lub „czesciowo”,
-  z zastrzeżeniem).
+- W postach używaj tylko faktów z tej listy. Nowy fakt dopisz tutaj (z autorem, rokiem i liczbą osób w badaniu),
+  zanim agent go użyje. Pełne bazy z researchu, do ręcznego sprawdzania: `produkty/ebook-nawyki/zrodlo/baza-faktow.json`
+  i `produkty/ebook-skupienie/zrodlo/baza-faktow.json` (tylko tezy z werdyktem „potwierdzona” lub „czesciowo”).
 
 ## 7. Czego nigdy nie robimy
 

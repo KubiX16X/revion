@@ -1,8 +1,9 @@
 // Strona sprzedażowa Revion v2 (blok HTML do Elementora) + strony dostawy + podglądy PNG.
 // Użycie: node src/strona.mjs [--podglad]
-//   -> strona/strona-glowna-v2.html, dostawa-life-os.html, dostawa-pakiet-pro.html
+//   -> strona/strona-glowna-v2.html, dostawa-life-os.html, dostawa-pakiet-pro.html (z miejscami #WKLEJ-…, do repozytorium)
+//   -> strona/lokalnie/*.html z prawdziwymi linkami, jeśli istnieje strona/konfiguracja.lokalna.json (poza repozytorium)
 // Zasady: bez fałszywych liczników, cen odniesienia i opinii; wszystkie twierdzenia sprawdzalne.
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { REVION, htmlDoPng, zamknij } from './wspolne.mjs';
@@ -10,6 +11,17 @@ import { znak } from './logo.mjs';
 
 const STRONA = join(REVION, 'strona');
 const CFG = JSON.parse(readFileSync(join(STRONA, 'konfiguracja.json'), 'utf8'));
+// Repozytorium jest publiczne: prawdziwe linki do płatnych produktów są tylko w pliku lokalnym (.gitignore).
+const PLIK_LOKALNY = join(STRONA, 'konfiguracja.lokalna.json');
+const LOKALNIE = join(STRONA, 'lokalnie');
+const nadpisz = (baza, zmiany) =>
+  Object.fromEntries(
+    Object.keys({ ...baza, ...zmiany }).map((k) => [
+      k,
+      zmiany[k] && typeof zmiany[k] === 'object' && !Array.isArray(zmiany[k]) ? nadpisz(baza[k] ?? {}, zmiany[k]) : (zmiany[k] ?? baza[k]),
+    ]),
+  );
+const CFG_LOKALNA = existsSync(PLIK_LOKALNY) ? nadpisz(CFG, JSON.parse(readFileSync(PLIK_LOKALNY, 'utf8'))) : null;
 
 const font = (plik) => readFileSync(join(STRONA, 'fonty', plik)).toString('base64');
 const FONTY = [800, 900]
@@ -388,7 +400,7 @@ Bez fałszywego licznika, bez fikcyjnej ceny odniesienia i bez nieudokumentowany
 
 function stronaDostawy(c, wariant) {
   const zasoby = [
-    { ik: 'kokpit', tytul: 'Revion Life OS', opis: 'Szablon Notion. Otwórz i kliknij „Duplicate” w prawym górnym rogu.', link: c.dostawa.life_os, przycisk: 'Otwórz w Notion' },
+    { ik: 'kokpit', tytul: 'Revion Life OS', opis: 'Szablon Notion. Otwórz i kliknij „Duplicate” w prawym górnym rogu.', link: c.dostawa.life_os, przycisk: 'Otwórz w Notion', notion: true },
     { ik: 'wiedza', tytul: 'Nawyki Żelaznej Dyscypliny', opis: `Ebook PDF, ${c.strony.nawyki} stron.`, link: c.dostawa.ebook_nawyki, przycisk: 'Pobierz PDF' },
   ];
   if (wariant === 'pakiet-pro') {
@@ -419,7 +431,7 @@ Ustaw w Elementorze/SEO: noindex, nofollow, wyłącz z mapy strony. Adres strony
     <li>Pobierz ebooki i zapisz je na urządzeniu.</li>
     <li>Zacznij od Inboxu: wrzuć wszystko, co masz w głowie, i wybierz trzy priorytety na dziś.</li>
   </ol>
-  ${zasoby.map((z) => `<div class="karta zasob"><div class="l"><div class="ik">${IK[z.ik]}</div><div><h3 style="margin:0">${z.tytul}</h3><p style="font-size:.92rem">${z.opis}</p></div></div><a class="btn btn-g" href="${z.link}" ${z.link.includes('notion') ? '' : 'download'}>${z.przycisk}</a></div>`).join('\n  ')}
+  ${zasoby.map((z) => `<div class="karta zasob"><div class="l"><div class="ik">${IK[z.ik]}</div><div><h3 style="margin:0">${z.tytul}</h3><p style="font-size:.92rem">${z.opis}</p></div></div><a class="btn btn-g" href="${z.link}" ${z.notion ? '' : 'download'}>${z.przycisk}</a></div>`).join('\n  ')}
   <p style="margin-top:34px;font-size:.92rem">Coś nie działa albo potrzebujesz rachunku? Napisz na <a href="mailto:${esc(c.email)}" class="cyj">${esc(c.email)}</a>. Odpowiadamy w ciągu 24 godzin w dni robocze.</p>
   <p style="margin-top:10px;font-size:.8rem;color:var(--szary2)">Licencja na użytek własny: prosimy nie udostępniać linków publicznie.</p>
 </div></div>`;
@@ -437,41 +449,53 @@ function twardeSpacje(html) {
     .join('');
 }
 
+function zapiszStrony(c, katalog) {
+  mkdirSync(katalog, { recursive: true });
+  writeFileSync(join(katalog, 'strona-glowna-v2.html'), twardeSpacje(stronaGlowna(c)));
+  writeFileSync(join(katalog, 'dostawa-life-os.html'), twardeSpacje(stronaDostawy(c, 'life-os')));
+  writeFileSync(join(katalog, 'dostawa-pakiet-pro.html'), twardeSpacje(stronaDostawy(c, 'pakiet-pro')));
+}
+
 async function main() {
-  mkdirSync(STRONA, { recursive: true });
-  writeFileSync(join(STRONA, 'strona-glowna-v2.html'), twardeSpacje(stronaGlowna(CFG)));
-  writeFileSync(join(STRONA, 'dostawa-life-os.html'), twardeSpacje(stronaDostawy(CFG, 'life-os')));
-  writeFileSync(join(STRONA, 'dostawa-pakiet-pro.html'), twardeSpacje(stronaDostawy(CFG, 'pakiet-pro')));
+  zapiszStrony(CFG, STRONA);
   console.log('Strony zapisane w', STRONA);
+  if (CFG_LOKALNA) {
+    zapiszStrony(CFG_LOKALNA, LOKALNIE);
+    console.log('Wersje z prawdziwymi linkami (poza repozytorium) w', LOKALNIE);
+  }
   if (process.argv.includes('--podglad')) {
     // podgląd lokalny: obrazy z repozytorium zamiast adresów na revion.pl
-    const P = join(REVION, '..', '..', 'tmp');
+    const P = LOKALNIE;
     const podmien = (html) => {
       let h = html;
       for (const [, url] of Object.entries(CFG.zrzuty)) h = h.replaceAll(url, pathToFileURL(join(STRONA, 'obrazy', 'zrzut-zastepczy.webp')).href);
       return h.replaceAll(CFG.obrazy_baza, pathToFileURL(join(STRONA, 'obrazy')).href + '/');
     };
     const cel = process.env.PODGLAD_DIR ?? P;
+    mkdirSync(cel, { recursive: true });
     const opakuj = (html) => `<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;background:#05060A">${podmien(html)}</body></html>`;
     const { chromium } = await import('playwright');
     const b = await chromium.launch();
-    for (const [nazwa, html] of [['strona', twardeSpacje(stronaGlowna(CFG))], ['dostawa', twardeSpacje(stronaDostawy(CFG, 'pakiet-pro'))]]) {
-      const plik = join(cel, `podglad-${nazwa}.html`);
-      writeFileSync(plik, opakuj(html));
-      for (const [tryb, w] of [['desktop', 1440], ['mobile', 390]]) {
-        const p = await b.newPage({ viewport: { width: w, height: 900 }, deviceScaleFactor: 1 });
-        await p.goto(pathToFileURL(plik).href, { waitUntil: 'load' });
-        // przewiń, żeby załadować obrazy z loading="lazy"
-        await p.evaluate(async () => {
-          for (let y = 0; y < document.body.scrollHeight; y += 600) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 40)); }
-          window.scrollTo(0, 0);
-        });
-        await p.waitForTimeout(500);
-        await p.screenshot({ path: join(cel, `podglad-${nazwa}-${tryb}.png`), fullPage: true });
-        await p.close();
+    try {
+      for (const [nazwa, html] of [['strona', twardeSpacje(stronaGlowna(CFG))], ['dostawa', twardeSpacje(stronaDostawy(CFG, 'pakiet-pro'))]]) {
+        const plik = join(cel, `podglad-${nazwa}.html`);
+        writeFileSync(plik, opakuj(html));
+        for (const [tryb, w] of [['desktop', 1440], ['mobile', 390]]) {
+          const p = await b.newPage({ viewport: { width: w, height: 900 }, deviceScaleFactor: 1 });
+          await p.goto(pathToFileURL(plik).href, { waitUntil: 'load' });
+          // przewiń, żeby załadować obrazy z loading="lazy"
+          await p.evaluate(async () => {
+            for (let y = 0; y < document.body.scrollHeight; y += 600) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 40)); }
+            window.scrollTo(0, 0);
+          });
+          await p.waitForTimeout(500);
+          await p.screenshot({ path: join(cel, `podglad-${nazwa}-${tryb}.png`), fullPage: true });
+          await p.close();
+        }
       }
+    } finally {
+      await b.close();
     }
-    await b.close();
     console.log('Podglądy w', cel);
   }
 }

@@ -1,5 +1,5 @@
 // Okładki serii „Biblioteka Revion” (A5, 1748×2480 px = 300 dpi) i mockupy 3D.
-// Użycie: node src/okladki.mjs   -> produkty/<ebook>/okladka.png, mockup-3d.png, grafiki/pakiet-3d.png
+// Użycie: node src/okladki.mjs   -> produkty/<ebook>/okladka.png, mockup-3d.png, grafiki/pakiet-ebookow-3d.png, pakiet-ebookow-3d-przezroczysty.png
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { KOLORY, REVION, cssFontow, htmlDoPng, zamknij } from './wspolne.mjs';

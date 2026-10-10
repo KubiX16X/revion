@@ -16,7 +16,7 @@ Prawo odstąpienia od umowy przy treściach cyfrowych wygasa tylko wtedy, gdy sp
 2. został poinformowany, że traci prawo odstąpienia, i przyjął to do wiadomości,
 3. sprzedawca przesłał mu **potwierdzenie na trwałym nośniku**, obejmujące także tę zgodę.
 
-Punkty 1 i 2 załatwia pole wyboru w Stripe. Punkt 3 to właśnie ten e-mail. Strona WWW nie jest trwałym nośnikiem, a MailerLite nie pozwala dołączać załączników. Dlatego najważniejsze informacje o umowie są **w treści maila**, a regulamin w PDF jest dodatkowo podlinkowany. Bez tego maila klient zachowuje 14 dni na odstąpienie z pełnym zwrotem, a gdy brakuje informacji o prawie odstąpienia, termin wydłuża się nawet o 12 miesięcy (źródło: `research-prawo.json`, punkt 5).
+Punkty 1 i 2 załatwia pole wyboru w Stripe. Punkt 3 to właśnie ten e-mail. Strona WWW nie jest trwałym nośnikiem, a MailerLite nie pozwala dołączać załączników. Dlatego najważniejsze informacje o umowie są **w treści maila**, a regulamin w PDF jest dodatkowo podlinkowany. Bez tego maila klient zachowuje 14 dni na odstąpienie z pełnym zwrotem, a gdy brakuje informacji o prawie odstąpienia, termin wydłuża się nawet o 12 miesięcy (źródło: `strona/dokumenty/research-prawo.json`, punkt 5).
 
 ## Tekst zgody: musi być identyczny w Stripe i w mailu
 
@@ -76,7 +76,7 @@ dziękuję za zakup. Płatność dotarła, a dostęp jest gotowy. **Zachowaj ten
 
 **1. Revion Life OS (szablon Notion).** Otwórz link i kliknij „Duplicate” w prawym górnym rogu. Szablon skopiuje się na Twoje konto Notion (wystarczy darmowe).
 
-**Przycisk:** „Otwórz Life OS w Notion” → [LINK: Life OS – https://adjoining-daphne-47a.notion.site/REVION-LIFE-OS-2fa4d4f618238002b392c93b29ec29c5?source=copy_link]
+**Przycisk:** „Otwórz Life OS w Notion” → [LINK: Life OS – wklej nowy link do szablonu w Notion, patrz strona/JAK-WDROZYC.md, krok 0]
 
 **2. Ebook „Nawyki Żelaznej Dyscypliny” (PDF, ok. 70 stron), w prezencie.**
 
@@ -152,7 +152,7 @@ dziękuję za zakup. Płatność dotarła, a dostęp jest gotowy. **Zachowaj ten
 
 **1. Revion Life OS (szablon Notion).** Otwórz link i kliknij „Duplicate” w prawym górnym rogu. Szablon skopiuje się na Twoje konto Notion (wystarczy darmowe).
 
-**Przycisk:** „Otwórz Life OS w Notion” → [LINK: Life OS – https://adjoining-daphne-47a.notion.site/REVION-LIFE-OS-2fa4d4f618238002b392c93b29ec29c5?source=copy_link]
+**Przycisk:** „Otwórz Life OS w Notion” → [LINK: Life OS – wklej nowy link do szablonu w Notion, patrz strona/JAK-WDROZYC.md, krok 0]
 
 **2. Ebook „Nawyki Żelaznej Dyscypliny” (PDF, ok. 70 stron).**
 
@@ -323,7 +323,7 @@ Finanse, Projekty i Biblioteka wiedzy mogą poczekać do przyszłego tygodnia. N
 **[Tylko w gałęzi Pakiet Pro – wstaw ten akapit przed przyciskiem:]**
 **Bonus dla Pakietu Pro: ikony.** Najedź na tytuł strony i kliknij „Add icon” (albo obecną ikonę) → zakładka „Upload” → wybierz plik PNG z paczki. Wariant „neon” pasuje do jasnego i ciemnego motywu, „kafel” najlepiej wygląda w ciemnym. Zacznij od Kokpitu, Inboxu i Celów, bo te strony otwierasz najczęściej.
 
-**Przycisk:** „Otwórz Life OS” → [LINK: Life OS – https://adjoining-daphne-47a.notion.site/REVION-LIFE-OS-2fa4d4f618238002b392c93b29ec29c5?source=copy_link]
+**Przycisk:** „Otwórz Life OS” → [LINK: Life OS – wklej nowy link do szablonu w Notion, patrz strona/JAK-WDROZYC.md, krok 0]
 
 Coś nie działa albo nie wiesz, gdzie kliknąć? Odpisz na tego maila, najlepiej ze zrzutem ekranu. Odpowiadam w ciągu 24 godzin w dni robocze.
 
@@ -360,7 +360,7 @@ Rano otwierasz Kokpit, a widok „Dziś” pokazuje trzy rzeczy. Nic nie wybiera
 
 **Wieczór bez sił?** Wersja awaryjna: tylko priorytet główny i jego pierwszy krok. 30 sekund.
 
-**Przycisk:** „Otwórz Life OS” → [LINK: Life OS – https://adjoining-daphne-47a.notion.site/REVION-LIFE-OS-2fa4d4f618238002b392c93b29ec29c5?source=copy_link]
+**Przycisk:** „Otwórz Life OS” → [LINK: Life OS – wklej nowy link do szablonu w Notion, patrz strona/JAK-WDROZYC.md, krok 0]
 
 Kuba
 
@@ -443,7 +443,7 @@ Jeśli coś się nie kopiuje, nie wyświetla na telefonie albo nie wiesz, gdzie 
 
 Przypominam, gdzie są Twoje pliki:
 
-**Przycisk:** „Otwórz Life OS” → [LINK: Life OS – https://adjoining-daphne-47a.notion.site/REVION-LIFE-OS-2fa4d4f618238002b392c93b29ec29c5?source=copy_link]
+**Przycisk:** „Otwórz Life OS” → [LINK: Life OS – wklej nowy link do szablonu w Notion, patrz strona/JAK-WDROZYC.md, krok 0]
 
 Ebooki i pozostałe pliki znajdziesz w mailu z potwierdzeniem zamówienia.
 
