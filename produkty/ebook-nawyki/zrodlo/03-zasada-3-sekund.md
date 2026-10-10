@@ -98,7 +98,7 @@ Przykładowa lista może wyglądać tak:
 Różnica między tą listą a planem z rozdziału 02 jest prosta. Plan mówi, co robisz jutro. Lista pierwszych ruchów to stały zestaw startowy na każdy moment wahania.
 
 :::revion Jak to zrobić w Life OS
-W Projektach rozbij duży projekt na małe kroki i zapisz każdy tak, żeby dało się go zacząć na „1”. Wersje 2-minutowe nawyków odhaczaj w codziennej tabelce w sekcji Cele i Nawyki, żeby od razu widzieć, czy nie opuszczasz dwa razy z rzędu.
+W Projektach rozbij duży projekt na małe kroki i zapisz każdy tak, żeby dało się go zacząć na „1”. Wersje 2-minutowe nawyków odhaczaj w codziennej tabelce w module Cele i nawyki, żeby od razu widzieć, czy nie opuszczasz dwa razy z rzędu.
 :::
 
 ## W skrócie

@@ -92,7 +92,7 @@ Przez 2 dni notuj każdy moment, w którym przyłapiesz się na niechcianym zach
 Wyobraź sobie Bartka, freelancera, który wieczorami traci godzinę na telefonie. Audyt pokazuje wzorzec: kanapa, 21:00, telefon w ręce zaraz po kolacji. Bartek przenosi ładowarkę do przedpokoju, a na kanapie zostawia czytnik z rozpoczętą książką. Kotwica brzmi: „Po odłożeniu talerza do zmywarki podłączam telefon w przedpokoju”. Silnej woli potrzebuje teraz tylko raz dziennie, na kilka sekund.
 
 :::revion Jak to zrobić w Life OS
-Zdanie z kotwicą wpisz jako nazwę nawyku w codziennej tabelce w sekcji Cele i Nawyki, np. „Po kawie: 10 fiszek”. Na ekranie głównym telefonu, w miejscu aplikacji, którą właśnie z niego usuwasz, postaw Notion z mobilną wersją Life OS.
+Zdanie z kotwicą wpisz jako nazwę nawyku w codziennej tabelce w module Cele i nawyki, np. „Po kawie: 10 fiszek”. Na ekranie głównym telefonu, w miejscu aplikacji, którą właśnie z niego usuwasz, postaw widżet Notion ze stroną Inbox z Life OS.
 :::
 
 ## W skrócie

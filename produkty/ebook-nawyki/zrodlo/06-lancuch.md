@@ -80,7 +80,7 @@ Wybierz 2–3 nawyki z rozdziałów 01–05. Przy każdym zapisz porę albo kotw
 :::
 
 :::revion Jak to zrobić w Life OS
-Dodaj 2–3 nawyki do codziennej tabelki w sekcji Cele i Nawyki i odhaczaj je wieczorem przy planie na jutro. Poprawkę z kroku 3 przeglądu zapisz jako zadanie z datą, żeby pojawiła się w widoku „Dziś”.
+Wybierz 2–3 nawyki z codziennej tabelki w module Cele i nawyki, pozostałe kolumny zmień albo usuń. Odhaczaj je wieczorem przy planie na jutro. Wnioski z przeglądu wpisz w Przeglądach tygodnia, a poprawkę z kroku 3 dodaj jako zadanie z datą: pojawi się na Głównym Kokpicie w dniu, na który ją zaplanujesz.
 :::
 
 ## W skrócie

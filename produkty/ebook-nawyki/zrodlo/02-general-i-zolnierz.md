@@ -103,7 +103,7 @@ Weź swoją obecną listę zadań i wybierz 5 pozycji, które wiszą na niej naj
 Zobaczysz, że niektóre zadania wisiały tygodniami tylko dlatego, że nie miały pierwszego kroku. Nie brakowało Ci dyscypliny. Brakowało rozkazu, który da się wykonać.
 
 :::revion Jak to zrobić w Life OS
-Wieczorem nadaj trzem wybranym zadaniom jutrzejszą datę, a rano zobaczysz je w widoku „Dziś” jako trzy priorytety. Krok „Zrzut” zrób od razu w Inboxie: to, co nie weszło do trójki, zostaje tam i nie kusi z ekranu.
+Wieczorem nadaj trzem wybranym zadaniom priorytety 1, 2 i 3, a potem jutrzejszą datę. Rano zobaczysz je w sekcji „Dziś” na Głównym Kokpicie. Pierwszy fizyczny krok wpisz w „Notatce powrotu”. Krok „Zrzut” zrób od razu w Inboxie: to, co nie weszło do trójki, zostaje tam i nie kusi z ekranu.
 :::
 
 ## W skrócie

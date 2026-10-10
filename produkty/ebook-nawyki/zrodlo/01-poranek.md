@@ -92,7 +92,7 @@ Czwartego dnia zaznacz moment, w którym pojawił się pierwszy cudzy priorytet:
 :::
 
 :::revion Jak to zrobić w Life OS
-Wieczorem nadaj zadaniu na pierwszy blok jutrzejszą datę i wpisz je jako pierwszy z 3 priorytetów w widoku „Dziś”. Rano zamiast skrzynki otwierasz Główny Kokpit i widzisz tylko zadania na dziś. „Telefon poza sypialnią” dopisz do codziennej tabelki nawyków w sekcji Cele i Nawyki.
+Wieczorem nadaj zadaniu na pierwszy blok priorytet 1, a potem jutrzejszą datę. Rano zamiast skrzynki otwierasz Główny Kokpit i w sekcji „Dziś” widzisz tylko trzy priorytety. Nawyki „Telefon poza sypialnią” i „Sen 7 h+” już czekają w codziennej tabelce w module Cele i nawyki.
 :::
 
 ## W skrócie

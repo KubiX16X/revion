@@ -92,7 +92,7 @@ Czwartego dnia zaznacz dwie–trzy godziny z najwyższymi ocenami (Twój szczyt)
 :::
 
 :::revion Jak to zrobić w Life OS
-Najtrudniejsze zadanie wpisz jako pierwszy z 3 priorytetów w widoku „Dziś”, a w nazwie dopisz godzinę ze swojego szczytu, np. „11:00 – rozdział 3”. W codziennej tabelce nawyków w sekcji Cele i Nawyki dodaj dwa nawyki: „Sen 7 h+” i „Ostatnia kawa o czasie”.
+Najtrudniejsze zadanie oznacz priorytetem 1 i nadaj mu datę, a w nazwie dopisz godzinę ze swojego szczytu, np. „11:00 – rozdział 3”. Nawyki „Sen 7 h+” i „Ostatnia kawa o czasie” już są w codziennej tabelce w module Cele i nawyki. Odhaczaj je wieczorem.
 :::
 
 ## W skrócie

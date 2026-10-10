@@ -74,7 +74,7 @@ Wróć na chwilę do sceny ze wstępu: ambitny plan w poniedziałek, drzemka w c
 Za 30 dni nie musisz być kimś innym. Wystarczy, że trzy rzeczy będą się działy trochę bardziej same niż dziś. Resztę zrobią powtórzenia.
 
 :::revion Jak to zrobić w Life OS
-Jeśli wolisz mieć wszystko w jednym miejscu, zajrzyj do Revion Life OS. Szablon łączy Inbox na wieczorny zrzut, widok „Dziś” z 3 priorytetami, codzienną tabelkę nawyków i cele z postępem. Ten plan możesz wpisać jako projekt rozbity na małe kroki. Działa na darmowym planie Notion, ale zeszyt też wystarczy.
+Jeśli wolisz mieć wszystko w jednym miejscu, zajrzyj do Revion Life OS. Szablon łączy Inbox na wieczorny zrzut, sekcję „Dziś” z 3 priorytetami, codzienną tabelkę nawyków i cele z postępem. Ten plan możesz wpisać jako projekt rozbity na małe kroki. Działa na darmowym planie Notion, ale zeszyt też wystarczy.
 :::
 
 Zacznij od dnia zero. Najlepiej dziś wieczorem.

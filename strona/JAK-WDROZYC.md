@@ -12,19 +12,23 @@ Kod strony jest gotowy w plikach `strona-glowna-v2.html`, `dostawa-life-os.html`
 
 ## 0. Life OS 2.0: opublikuj nowy szablon (20 min, zrób najpierw)
 
-Nowy szablon **„Revion Life OS”** (ciemna okładka „Główny Kokpit”) jest już w Twoim Notion, obok starego
-„REVION LIFE OS”. Ma wszystko, co obiecuje strona i ebooki: widok „Dziś” z trzema priorytetami, Inbox, projekty
+Nowy szablon **„Revion Life OS · Główny Kokpit”** (ciemna okładka) jest już w Twoim Notion, obok starego
+„REVION LIFE OS”. Ma wszystko, co obiecuje strona i ebooki: sekcję „Dziś” z trzema priorytetami, Inbox, projekty
 z paskiem postępu, cele, codzienną tabelkę nawyków, przegląd tygodnia, finanse ze stałymi opłatami i bibliotekę
 wiedzy. Ma też nowy adres, więc przy okazji zamyka problem starego linku, który trafił do publicznego repozytorium.
 
 1. **Przejrzyj nowy szablon (5 min).** Zacznij od strony „Jak zacząć”. Przykładowe wpisy („Przykład: …”) zostaw:
    pokazują kupującym, jak wypełniać system.
-2. **Dwie rzeczy, których nie da się ustawić automatycznie (5 min):**
+2. **Rzeczy, których nie da się ustawić automatycznie (10 min):**
    - Cele i nawyki → codzienna tabelka → strzałka przy **New** → **New template** „Nowy dzień”, w polu „Data”
      wybierz **Today** (instrukcja jest też w szablonie, w rozwijanym bloku pod tabelką).
+   - Okładki stron są teraz pobierane z GitHuba. Na każdej z 8 stron kliknij okładkę → **Change cover** →
+     **Upload** i wskaż ten sam plik z `grafiki/notion/` (wtedy szablon nie zależy od repozytorium).
+   - Zrób 4 zrzuty ekranu nowego szablonu do strony sprzedażowej: `lifeos-kokpit.png`, `lifeos-projekty.png`,
+     `lifeos-nawyki.png`, `lifeos-finanse.png` (szczegóły w kroku 1).
    - Finanse → Transakcje → pod kolumną „Kwota” kliknij **Calculate** → **Sum**. To samo w Budżecie
      pod „Limit wydatków”, jeśli chcesz.
-3. **Opublikuj:** na stronie „Revion Life OS” **Share** → zakładka **Publish** → **Publish**, włącz
+3. **Opublikuj:** na stronie „Revion Life OS · Główny Kokpit” **Share** → zakładka **Publish** → **Publish**, włącz
    **Allow duplicate as template**, wyłącz **Search engine indexing**. Skopiuj link.
 4. **Zanim wyłączysz stary szablon,** podmień link na nowy na wszystkich 7 starych stronach dostawy w Elementorze
    (przycisk „URUCHOM” przy Revion Life OS). Nikt, kto zapłaci w trakcie zmian, nie trafi na martwy link.
