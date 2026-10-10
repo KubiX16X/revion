@@ -10,17 +10,22 @@ Kod strony jest gotowy w plikach `strona-glowna-v2.html`, `dostawa-life-os.html`
 > nie wpisuj do plików w repozytorium. Podmieniasz je tylko w Elementorze, Stripe i MailerLite
 > (albo daj je mi, wpiszę je do pliku `strona/konfiguracja.lokalna.json`, który nie trafia na GitHuba).
 
-## 0. Nowy link do Life OS w Notion (5 min, zrób najpierw)
+## 0. Nowy link do Life OS w Notion (15 min, zrób najpierw)
 
-Obecny link do szablonu (`…notion.site/REVION-LIFE-OS-2fa4…`) był na starych stronach dostawy i trafił do publicznego
-repozytorium, więc każdy może skopiować szablon bez płacenia. Adres strony w Notion zawiera jej numer, dlatego
-samo ponowne opublikowanie nic nie zmieni. Potrzebna jest kopia:
+Obecny link do szablonu (ten ze starych stron dostawy) trafił do publicznego repozytorium, więc każdy może skopiować
+szablon bez płacenia. Adres strony w Notion zawiera jej numer, dlatego samo ponowne opublikowanie nic nie zmieni.
+Potrzebna jest kopia:
 
 1. W Notion na stronie „REVION LIFE OS” kliknij **•••** → **Duplicate**. Powstanie kopia z nowym adresem.
-2. W kopii: **Share** → **Publish** → włącz **Publish to web** i **Allow duplicate as template**. Skopiuj nowy link.
-3. W oryginale: **Share** → **Publish** → **Unpublish**. Stary link przestanie działać.
-4. Nowy link wklejasz tylko na stronach dostawy (krok 4) i w mailach w MailerLite
-   (`maile/02-po-zakupie.md`, `maile/03-obecni-klienci.md`), nigdzie publicznie.
+2. W kopii: **Share** → zakładka **Publish** → **Publish**, a potem włącz opcję kopiowania jako szablon
+   (**Allow duplicate as template**; w starszej wersji Notion: **Publish to web**). Skopiuj nowy link.
+3. **Zanim wyłączysz stary link,** podmień go na nowy na wszystkich 7 starych stronach dostawy w Elementorze
+   (ten sam przycisk „URUCHOM” przy Revion Life OS). Dzięki temu nikt, kto zapłaci w trakcie zmian, nie trafi na
+   martwy link, a obecni klienci mają działający dostęp z zakładek.
+4. Dopiero teraz w oryginale: **Share** → **Publish** → **Unpublish**. Stary link przestanie działać.
+5. Nowy link wklejasz tylko w miejscach dla kupujących: strony dostawy (krok 4), maile potwierdzeń w MailerLite
+   (`maile/02-po-zakupie.md`; albo e-mail D3 z `dokumenty/teksty-zgod.md`, jeśli wysyłasz go z Make) i mail
+   do obecnych klientów wysyłany ręcznie (`maile/03-obecni-klienci.md`). Nigdzie publicznie.
 
 Klienci, którzy już skopiowali szablon do swojego Notion, nic nie tracą: ich kopia działa dalej.
 
@@ -43,7 +48,8 @@ Klienci, którzy już skopiowali szablon do swojego Notion, nic nie tracą: ich 
 2. **Ustawienia → Metody płatności:** włącz BLIK (oraz Google Pay i Apple Pay, jeśli są wyłączone).
 3. **Link „Life OS” (istniejący, 47 zł):** edytuj produkt i ustaw nazwę „Revion Life OS + ebook Nawyki Żelaznej
    Dyscypliny”. W linku płatności:
-   - **Po płatności → Przekieruj na stronę:** adres nowej strony dostawy Life OS (krok 4),
+   - **Po płatności → Przekieruj na stronę:** adres nowej strony dostawy Life OS. Adres powstaje w kroku 4.1,
+     więc najpierw utwórz tam obie strony (mogą być jeszcze puste, jako szkic) i zapisz ich adresy,
    - **Wymagaj akceptacji warunków (terms of service):** włączone, z tekstem z `dokumenty/teksty-zgod.md`.
 4. **Nowy link „Pakiet Pro” (69 zł):** produkt „Revion Pakiet Pro: Life OS + Skupienie Absolutne + 50 ikon”,
    te same ustawienia co wyżej, przekierowanie na stronę dostawy Pakietu Pro. Skopiuj adres linku.
@@ -107,6 +113,6 @@ W Yoast albo Rank Math dla strony głównej:
 - [ ] E-mail z potwierdzeniem przychodzi (po konfiguracji MailerLite i Make).
 - [ ] Zapis na darmowy ebook: mail z PDF przychodzi.
 - [ ] Udostępnienie linku revion.pl na Messengerze pokazuje obraz `revion-og.jpg`.
-- [ ] Stary link do Life OS (`…REVION-LIFE-OS-2fa4…`) w oknie incognito pokazuje błąd, a nowy działa.
+- [ ] Stary link do Life OS (ze starych stron dostawy) w oknie incognito pokazuje błąd, a nowy działa.
 
 Gdy coś nie działa, napisz do mnie, co widzisz (najlepiej ze zrzutem ekranu).

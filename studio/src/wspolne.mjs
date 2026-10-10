@@ -98,7 +98,9 @@ export async function htmlDoPdf(html, plikPdf) {
     await p.waitForFunction(() => window.__sklad === 'gotowe', null, { timeout: 180000 });
     if (bledy.length) throw new Error(`Błędy w składzie: ${bledy.join('; ')}`);
     const strony = await p.evaluate(() => document.querySelectorAll('.pagedjs_page').length);
-    await p.pdf({ path: plikPdf, preferCSSPageSize: true, printBackground: true, tagged: true, outline: true });
+    const pdf = await p.pdf({ preferCSSPageSize: true, printBackground: true, tagged: true, outline: true });
+    // stała data utworzenia (ta sama długość, więc tabela xref się zgadza): ten sam tekst = ten sam plik w repozytorium
+    writeFileSync(plikPdf, Buffer.from(pdf.toString('latin1').replace(/\(D:\d{14}/g, '(D:20261001000000'), 'latin1'));
     return strony;
   } finally {
     await p.close();

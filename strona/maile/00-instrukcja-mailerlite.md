@@ -27,7 +27,7 @@ Dokupienie „Skupienie Absolutne” (29 zł)
 
 - [ ] Skrzynka `kontakt@revion.pl` działa, a Ty regularnie ją czytasz (odpowiedzi na maile trafiają właśnie tam).
 - [ ] Nowy regulamin jest opublikowany na revion.pl, a jego wersja w PDF (z datą w nazwie pliku) leży na serwerze. Regulamin opisuje gwarancję 14 dni i zawiera ten sam tekst zgody co Stripe (sekcja 8).
-- [ ] Pliki są na miejscu i linki działają: Life OS, PDF „Nawyki”, PDF „Skupienie Absolutne”, ZIP z ikonami. Uzupełnij `#WKLEJ-…` w `konfiguracja.json`.
+- [ ] Pliki są na miejscu i linki działają: Life OS, PDF „Nawyki”, PDF „Skupienie Absolutne”, ZIP z ikonami. Prawdziwe linki do płatnych plików (Life OS, PDF „Skupienie”, ZIP) wklejasz tylko w MailerLite i Elementorze (albo podajesz mi do `strona/konfiguracja.lokalna.json`), nigdy do `konfiguracja.json`: repozytorium jest publiczne.
 - [ ] Linki płatności Stripe są gotowe i ustawione (sekcja 8): Life OS 47 zł, Pakiet Pro 69 zł, Skupienie 29 zł (albo dopłata 22 zł, patrz `02-po-zakupie.md`, B4).
 - [ ] MailerLite: domena, nadawca, stopka, pola, grupy, formularz, strona zapisu (sekcje 2–6).
 - [ ] Maile wklejone i automatyzacje zbudowane (sekcja 7), ale **jeszcze niewłączone**.
@@ -347,7 +347,8 @@ Do testów użyj prywatnego Gmaila z dopiskiem, np. `twojadres+revion1@gmail.com
 
 ## 13. Do uzupełnienia przed startem
 
-- [ ] `konfiguracja.json`: `stripe.pakiet_pro`, `dostawa.ebook_skupienie`, `dostawa.ikony`, `mailerlite_strona_zapisu`.
+- [ ] `konfiguracja.json` (publiczne, można wpisać): `stripe.pakiet_pro`, `mailerlite_strona_zapisu`.
+- [ ] Linki do płatnych plików (`dostawa.life_os`, `dostawa.ebook_skupienie`, `dostawa.ikony`): tylko w MailerLite, Elementorze albo `strona/konfiguracja.lokalna.json`, nie w repozytorium.
 - [ ] Link Stripe za 29 zł („Skupienie Absolutne”) albo, zalecane, link dopłaty 22 zł do Pakietu Pro (`02-po-zakupie.md`, B4).
 - [ ] Link do PDF regulaminu z datą wersji (A1, A2, A3) i zgodność regulaminu z mailami: termin zwrotu w gwarancji, skutki zwrotu dla licencji, tekst zgody.
 - [ ] Mail 3 z pliku 01: Twoja prawdziwa historia.

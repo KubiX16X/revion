@@ -160,11 +160,11 @@ dziękuję za zakup. Płatność dotarła, a dostęp jest gotowy. **Zachowaj ten
 
 **3. Ebook „Skupienie Absolutne” (PDF, ok. 100 stron).**
 
-**Przycisk:** „Pobierz ebook (PDF)” → [LINK: PDF Skupienie Absolutne – UZUPEŁNIJ: konfiguracja.json → dostawa.ebook_skupienie]
+**Przycisk:** „Pobierz ebook (PDF)” → [LINK: PDF Skupienie Absolutne – adres pliku z JAK-WDROZYC.md, krok 1.3]
 
 **4. 50 ikon do Notion (paczka ZIP).** W środku dwa warianty: „neon” (przezroczyste tło, pasuje do jasnego i ciemnego motywu) i „kafel” (ciemny kafelek, najlepszy w ciemnym motywie), instrukcja i licencja.
 
-**Przycisk:** „Pobierz ikony (ZIP)” → [LINK: ZIP ikon – UZUPEŁNIJ: konfiguracja.json → dostawa.ikony]
+**Przycisk:** „Pobierz ikony (ZIP)” → [LINK: ZIP ikon – adres pliku z JAK-WDROZYC.md, krok 1.3]
 
 Na start: po skopiowaniu szablonu otwórz Inbox i wrzuć do niego wszystko, co masz w głowie. Potem wybierz trzy priorytety na dziś. Jutro dostaniesz krótki mail „Pierwsze 10 minut w Life OS”.
 
@@ -238,7 +238,7 @@ dziękuję za zakup. Płatność dotarła, a ebook jest gotowy do pobrania. **Za
 
 **Ebook „Skupienie Absolutne” (PDF, ok. 100 stron).**
 
-**Przycisk:** „Pobierz ebook (PDF)” → [LINK: PDF Skupienie Absolutne – UZUPEŁNIJ: konfiguracja.json → dostawa.ebook_skupienie]
+**Przycisk:** „Pobierz ebook (PDF)” → [LINK: PDF Skupienie Absolutne – adres pliku z JAK-WDROZYC.md, krok 1.3]
 
 Na start: przeczytaj wstęp i rozdział 01. Ćwiczenie z rozdziału 01 zrobisz w jeden zwykły dzień pracy.
 

@@ -19,7 +19,7 @@
 
    Kwoty wyliczono z cen na starej stronie: Life OS 47 zł, ikony +12 zł, VIP +29 zł, ebook +59 zł, a wszystkie trzy dodatki razem z Life OS 99 zł. Jeśli płatność w Stripe ma inną kwotę albo inny opis produktu, kieruj się opisem ze Stripe.
 
-2. **Upewnij się, że wszystkie linki działają:** Life OS, oba PDF i ZIP z ikonami (w `konfiguracja.json` dwa z nich to jeszcze `#WKLEJ-…`). Otwórz każdy link w oknie prywatnym przeglądarki.
+2. **Upewnij się, że wszystkie linki działają:** Life OS, oba PDF i ZIP z ikonami (adresy z `strona/JAK-WDROZYC.md`: krok 0 dla Life OS, krok 1.3 dla PDF i ZIP). Otwórz każdy link w oknie prywatnym przeglądarki.
 3. **Wyślij ręcznie, osobno do każdej osoby,** ze skrzynki `kontakt@revion.pl`, a nie jako kampanię MailerLite. To wiadomość o realizacji ich zamówienia, nie newsletter. Nie mamy też ich zgody marketingowej.
 4. **Nie dodawaj tych osób do grup „Klienci Life OS” ani „Klienci Pakiet Pro”.** Uruchomiłoby to automatyzację B, która wysłałaby im potwierdzenie zakupu za 47 albo 69 zł, czyli nieprawdziwe. Jeśli chcesz ich mieć w MailerLite (np. do informacji o aktualizacjach), utwórz osobną grupę *Klienci sprzed zmian* bez żadnej automatyzacji.
 5. **Odpowiedz w ciągu 24 godzin w dni robocze,** jeśli ktoś poprosi o zwrot albo o pomoc. Zwrot zrób w Stripe (Payments → płatność → Refund) i potwierdź go mailem.
@@ -43,17 +43,17 @@ Przy Twoim zakupie z [UZUPEŁNIJ: data płatności ze Stripe] obiecałem w preze
 
 Przez ostatnie tygodnie przejrzałem cały sklep. Ebooki powstały od nowa, z badaniami i źródłami, a sklep ma teraz dwa proste pakiety. W podziękowaniu za zaufanie na samym starcie Revion dostajesz za darmo **wszystko z nowego Pakietu Pro**:
 
-**1. Revion Life OS (szablon Notion).** Link bez zmian. Jeśli masz już kopię na swoim koncie, nic nie musisz robić.
+**1. Revion Life OS (szablon Notion).** Nowy link, poprzedni przestał działać. Jeśli masz już kopię na swoim koncie, nic nie musisz robić.
 → [LINK: Life OS – wklej nowy link do szablonu w Notion, patrz strona/JAK-WDROZYC.md, krok 0]
 
 **2. Ebook „Nawyki Żelaznej Dyscypliny” (PDF, ok. 70 stron).** To brakujący prezent, w nowym wydaniu.
 → [LINK: PDF – https://revion.pl/wp-content/uploads/2026/10/Nawyki-Zelaznej-Dyscypliny-Revion.pdf]
 
 **3. Ebook „Skupienie Absolutne” (PDF, ok. 100 stron).** Protokoły głębokiej pracy: środowisko bez rozproszeń, biologia skupienia, rytuały i plan na 30 dni.
-→ [LINK: PDF Skupienie Absolutne – UZUPEŁNIJ: konfiguracja.json → dostawa.ebook_skupienie]
+→ [LINK: PDF Skupienie Absolutne – adres pliku z JAK-WDROZYC.md, krok 1.3]
 
 **4. 50 ikon do Notion (ZIP).** Dwa warianty: „neon” i „kafel”, instrukcja w środku.
-→ [LINK: ZIP ikon – UZUPEŁNIJ: konfiguracja.json → dostawa.ikony]
+→ [LINK: ZIP ikon – adres pliku z JAK-WDROZYC.md, krok 1.3]
 
 **[DEEP WORK – wstaw, jeśli klient kupił ebook „Deep Work Masterclass”:]** Ebook „Deep Work Masterclass”, który kupiono w starym sklepie, zastępuje „Skupienie Absolutne” z punktu 3. To nowa książka, napisana od zera i pod nową nazwą, z badaniami i źródłami przy każdym rozdziale. Stary plik możesz zachować.
 
