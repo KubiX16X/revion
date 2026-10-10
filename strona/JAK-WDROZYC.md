@@ -10,29 +10,39 @@ Kod strony jest gotowy w plikach `strona-glowna-v2.html`, `dostawa-life-os.html`
 > nie wpisuj do plików w repozytorium. Podmieniasz je tylko w Elementorze, Stripe i MailerLite
 > (albo daj je mi, wpiszę je do pliku `strona/konfiguracja.lokalna.json`, który nie trafia na GitHuba).
 
-## 0. Nowy link do Life OS w Notion (15 min, zrób najpierw)
+## 0. Life OS 2.0: opublikuj nowy szablon (20 min, zrób najpierw)
 
-Obecny link do szablonu (ten ze starych stron dostawy) trafił do publicznego repozytorium, więc każdy może skopiować
-szablon bez płacenia. Adres strony w Notion zawiera jej numer, dlatego samo ponowne opublikowanie nic nie zmieni.
-Potrzebna jest kopia:
+Nowy szablon **„Revion Life OS”** (ciemna okładka „Główny Kokpit”) jest już w Twoim Notion, obok starego
+„REVION LIFE OS”. Ma wszystko, co obiecuje strona i ebooki: widok „Dziś” z trzema priorytetami, Inbox, projekty
+z paskiem postępu, cele, codzienną tabelkę nawyków, przegląd tygodnia, finanse ze stałymi opłatami i bibliotekę
+wiedzy. Ma też nowy adres, więc przy okazji zamyka problem starego linku, który trafił do publicznego repozytorium.
 
-1. W Notion na stronie „REVION LIFE OS” kliknij **•••** → **Duplicate**. Powstanie kopia z nowym adresem.
-2. W kopii: **Share** → zakładka **Publish** → **Publish**, a potem włącz opcję kopiowania jako szablon
-   (**Allow duplicate as template**; w starszej wersji Notion: **Publish to web**). Skopiuj nowy link.
-3. **Zanim wyłączysz stary link,** podmień go na nowy na wszystkich 7 starych stronach dostawy w Elementorze
-   (ten sam przycisk „URUCHOM” przy Revion Life OS). Dzięki temu nikt, kto zapłaci w trakcie zmian, nie trafi na
-   martwy link, a obecni klienci mają działający dostęp z zakładek.
-4. Dopiero teraz w oryginale: **Share** → **Publish** → **Unpublish**. Stary link przestanie działać.
-5. Nowy link wklejasz tylko w miejscach dla kupujących: strony dostawy (krok 4), maile potwierdzeń w MailerLite
+1. **Przejrzyj nowy szablon (5 min).** Zacznij od strony „Jak zacząć”. Przykładowe wpisy („Przykład: …”) zostaw:
+   pokazują kupującym, jak wypełniać system.
+2. **Dwie rzeczy, których nie da się ustawić automatycznie (5 min):**
+   - Cele i nawyki → codzienna tabelka → strzałka przy **New** → **New template** „Nowy dzień”, w polu „Data”
+     wybierz **Today** (instrukcja jest też w szablonie, w rozwijanym bloku pod tabelką).
+   - Finanse → Transakcje → pod kolumną „Kwota” kliknij **Calculate** → **Sum**. To samo w Budżecie
+     pod „Limit wydatków”, jeśli chcesz.
+3. **Opublikuj:** na stronie „Revion Life OS” **Share** → zakładka **Publish** → **Publish**, włącz
+   **Allow duplicate as template**, wyłącz **Search engine indexing**. Skopiuj link.
+4. **Zanim wyłączysz stary szablon,** podmień link na nowy na wszystkich 7 starych stronach dostawy w Elementorze
+   (przycisk „URUCHOM” przy Revion Life OS). Nikt, kto zapłaci w trakcie zmian, nie trafi na martwy link.
+5. Dopiero teraz w starym „REVION LIFE OS”: **Share** → **Publish** → **Unpublish**.
+6. Nowy link wklejasz tylko w miejscach dla kupujących: strony dostawy (krok 4), maile potwierdzeń w MailerLite
    (`maile/02-po-zakupie.md`; albo e-mail D3 z `dokumenty/teksty-zgod.md`, jeśli wysyłasz go z Make) i mail
    do obecnych klientów wysyłany ręcznie (`maile/03-obecni-klienci.md`). Nigdzie publicznie.
 
-Klienci, którzy już skopiowali szablon do swojego Notion, nic nie tracą: ich kopia działa dalej.
+Klienci, którzy skopiowali stary szablon, zachowują swoją kopię. Nową wersję dostaną w mailu do obecnych klientów.
 
 ## 1. Obrazy i pliki (20 min)
 
 1. WordPress → **Media → Dodaj nowy**. Wgraj z folderu `strona/obrazy/`:
    `pakiet-ebookow-3d.webp`, `ebook-nawyki-okladka.webp`, `ebook-skupienie-okladka.webp`, `revion-og.jpg`.
+   Do tego **4 zrzuty ekranu nowego szablonu** (strona obiecuje „prawdziwe zrzuty ekranu”, a stare pokazują stary
+   szablon). Zrób je w Notion w trybie ciemnym, w proporcjach ok. 16:10, i wgraj pod nazwami:
+   `lifeos-kokpit.png` (Główny Kokpit), `lifeos-projekty.png` (Projekty, widok „Według statusu”),
+   `lifeos-nawyki.png` (Cele i nawyki), `lifeos-finanse.png` (Finanse).
 2. Kliknij jeden z wgranych plików i sprawdź jego adres. Strona zakłada adresy w postaci
    `https://revion.pl/wp-content/uploads/2026/10/nazwa-pliku.webp` (WordPress układa pliki według miesiąca wgrania).
    Jeśli adres jest inny (np. inny miesiąc albo dopisek `-1`), napisz do mnie: podmienię adresy w kodzie w minutę.
@@ -113,6 +123,6 @@ W Yoast albo Rank Math dla strony głównej:
 - [ ] E-mail z potwierdzeniem przychodzi (po konfiguracji MailerLite i Make).
 - [ ] Zapis na darmowy ebook: mail z PDF przychodzi.
 - [ ] Udostępnienie linku revion.pl na Messengerze pokazuje obraz `revion-og.jpg`.
-- [ ] Stary link do Life OS (ze starych stron dostawy) w oknie incognito pokazuje błąd, a nowy działa.
+- [ ] Stary szablon (link ze starych stron dostawy) w oknie incognito pokazuje błąd, a nowy Life OS 2.0 się otwiera i ma przycisk Duplicate.
 
 Gdy coś nie działa, napisz do mnie, co widzisz (najlepiej ze zrzutem ekranu).

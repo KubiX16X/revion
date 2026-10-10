@@ -20,10 +20,10 @@
   },
   "obrazy_baza": "https://revion.pl/wp-content/uploads/2026/10/",
   "zrzuty": {
-    "kokpit": "https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-200408.png",
-    "projekty": "https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-194550.png",
-    "nawyki": "https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-200957.png",
-    "finanse": "https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-200511.png"
+    "kokpit": "https://revion.pl/wp-content/uploads/2026/10/lifeos-kokpit.png",
+    "projekty": "https://revion.pl/wp-content/uploads/2026/10/lifeos-projekty.png",
+    "nawyki": "https://revion.pl/wp-content/uploads/2026/10/lifeos-nawyki.png",
+    "finanse": "https://revion.pl/wp-content/uploads/2026/10/lifeos-finanse.png"
   },
   "dostawa": {
     "life_os": "#WKLEJ-LINK-NOTION-LIFE-OS",
