@@ -68,7 +68,7 @@ test('nie publikuje przed czasem ani postów wstrzymanych', async () => {
   assert.equal(g.wywolania.length, 0);
 });
 
-test('limit dzienny: drugi zaległy post czeka do jutra', async () => {
+test('limit dzienny: drugi zaległy post czeka do jutra, do swojej godziny', async () => {
   const a = post('a', '2026-10-12T09:00:00+02:00', {
     status: 'opublikowany',
     wyniki: { facebook: { id: '1', kiedy: '2026-10-12T07:10:00Z' }, instagram: { id: '2', kiedy: '2026-10-12T07:10:00Z' } },
@@ -78,7 +78,7 @@ test('limit dzienny: drugi zaległy post czeka do jutra', async () => {
   const dzis = await uruchom([a, b], g, '2026-10-12T19:00:00+02:00');
   assert.deepEqual(dzis.opublikowane, []);
   assert.equal(b.dane.status, 'zaplanowany');
-  const jutro = await uruchom([a, b], g, '2026-10-13T08:00:00+02:00');
+  const jutro = await uruchom([a, b], g, '2026-10-13T18:47:00+02:00');
   assert.deepEqual(jutro.opublikowane, ['facebook', 'instagram']);
 });
 
@@ -143,6 +143,26 @@ test('nieważny token przerywa i podpowiada, co zrobić', async () => {
   assert.equal(wynik.opublikowane.length, 0);
   assert.ok(wynik.bledy.some((b) => /Token Meta/.test(b)));
   assert.equal(g.wywolania.filter((w) => w.sciezka.startsWith('IG')).length, 0);
+  assert.equal(p.dane.proby, undefined);
+  assert.equal(p.dane.status, 'zaplanowany');
+});
+
+test('post bez brakujących platform nie blokuje kolejki', async () => {
+  const p = post('a', '2026-10-12T18:30:00+02:00');
+  p.dane.wyniki = { facebook: { id: 'F1', kiedy: '2026-10-12T16:30:00Z' }, instagram: { id: 'I1', kiedy: '2026-10-12T16:30:00Z' } };
+  const g = udawaneGraph();
+  await uruchom([p], g, '2026-10-13T18:47:00+02:00');
+  assert.equal(p.dane.status, 'opublikowany');
+  assert.equal(g.wywolania.length, 0);
+});
+
+test('zaległy post z wcześniejszego dnia czeka na swoją godzinę', async () => {
+  const p = post('a', '2026-10-12T18:30:00+02:00');
+  const g = udawaneGraph();
+  const noca = await uruchom([p], g, '2026-10-13T00:17:00+02:00');
+  assert.equal(noca.opublikowane.length, 0);
+  const wieczorem = await uruchom([p], g, '2026-10-13T18:47:00+02:00');
+  assert.ok(wieczorem.opublikowane.length > 0);
 });
 
 test('na sucho: nic nie wysyła i nie zmienia statusu', async () => {

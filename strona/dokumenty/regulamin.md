@@ -85,7 +85,7 @@ Słowa pisane w regulaminie wielką literą oznaczają:
    2. **50 ikon do Notion** w plikach PNG, w dwóch wariantach („neon” i „kafel”), w paczce ZIP z instrukcją;
    3. przyszłe aktualizacje szablonu i ebooków (§ 7).
 3. Ebook „Nawyki Żelaznej Dyscypliny” można też dostać **bezpłatnie** za zapis na Newsletter (§ 13).
-4. Opis Produktów, zrzuty ekranu szablonu i spis zawartości ebooków znajdziesz na Stronie. Zrzuty ekranu pokazują prawdziwy szablon.
+4. Opis Produktów, zrzuty ekranu szablonu i krótki opis zawartości ebooków znajdziesz na Stronie. Zrzuty ekranu pokazują prawdziwy szablon.
 5. **Funkcjonalność i kompatybilność:**
    1. szablon działa w Notion, także na bezpłatnym planie, w przeglądarce oraz w aplikacjach Notion na komputer, iOS i Androida;
    2. ebooki to pliki PDF, które otworzysz na komputerze, tablecie, telefonie i czytniku obsługującym PDF;
@@ -235,7 +235,7 @@ Słowa pisane w regulaminie wielką literą oznaczają:
 ## § 12. Licencja
 
 1. W zakresie, w jakim Treści cyfrowe są utworami w rozumieniu ustawy o prawie autorskim i prawach pokrewnych, prawa do nich należą do Sprzedawcy albo do licencjodawców (np. glify ikon do autorów biblioteki Lucide).
-2. Z chwilą dostarczenia zakupionego Produktu udzielamy Ci niewyłącznej licencji, bez ograniczeń terytorialnych i czasowych. Nie wypowiemy jej, dopóki korzystasz z Treści cyfrowych zgodnie z tym paragrafem. Licencja wygasa, jeśli otrzymasz zwrot pieniędzy (§ 8, § 9 lub § 10).
+2. Z chwilą dostarczenia zakupionego Produktu udzielamy Ci niewyłącznej licencji, bez ograniczeń terytorialnych i czasowych. Nie wypowiemy jej, dopóki korzystasz z Treści cyfrowych zgodnie z tym paragrafem. Licencja wygasa, jeśli odstąpisz od Umowy (§ 8 lub § 10) albo otrzymasz zwrot całej kwoty w ramach Gwarancji zwrotu (§ 9). Obniżenie ceny (§ 10) nie wpływa na licencję.
 3. **Licencja pozwala Ci:**
    1. pobierać pliki i przechowywać je na swoich urządzeniach i w swojej chmurze;
    2. kopiować szablon do swojego konta Notion i dowolnie go zmieniać na własne potrzeby;
@@ -262,7 +262,7 @@ Słowa pisane w regulaminie wielką literą oznaczają:
 2. **Strona.** Umowa o korzystanie ze Strony zostaje zawarta, gdy ją otworzysz, i rozwiązuje się, gdy ją opuścisz.
 3. **Formularz kontaktowy.** Umowa zostaje zawarta, gdy wyślesz wiadomość, i rozwiązuje się, gdy na nią odpowiemy.
 4. **Newsletter:**
-   1. zapisujesz się, podając adres e-mail (i opcjonalnie imię) w formularzu zapisu, zaznaczając zgodę na otrzymywanie Newslettera i klikając link w wiadomości potwierdzającej zapis;
+   1. zapisujesz się, podając adres e-mail (i opcjonalnie imię) w formularzu zapisu, zaznaczając zgodę na otrzymywanie Newslettera i klikając link w wiadomości potwierdzającej zapis, albo wybierając „Tak” w polu „Porady i oferty Revion na e-mail?” na stronie płatności Stripe;
    2. umowa o Newsletter zostaje zawarta na czas nieokreślony w chwili potwierdzenia zapisu;
    3. w pierwszej wiadomości wysyłamy bezpłatny ebook „Nawyki Żelaznej Dyscypliny”. W kolejnych dniach wysyłamy kilka krótkich lekcji, a potem porady oraz informacje o nowościach i ofertach Revion;
    4. Newsletter wysyłamy zwykle nie częściej niż 2 razy w tygodniu, z wyjątkiem serii lekcji w pierwszych dniach po zapisie [DO UZUPEŁNIENIA: potwierdź częstotliwość albo wpisz własną];

@@ -4,7 +4,7 @@ Uczciwie: po 30 dniach nawyki nie będą jeszcze automatyczne. Jak pokazał rozd
 
 ## Dzień zero: przygotuj start
 
-Na przygotowania zarezerwuj pół godziny, najlepiej w weekend przed dniem 1.
+Na przygotowania zarezerwuj pół godziny, najlepiej w weekend przed dniem 1. Przez trzy dni przed dniem 1 zrób audyt pierwszej godziny z rozdziału 01, 2 minuty dziennie: tak poznasz punkt wyjścia, zanim cokolwiek zmienisz.
 
 :::checklista Checklista startowa
 - [ ] Stała pora pobudki na 7 dni w tygodniu i wyliczona z niej pora pójścia do łóżka (rozdział 01).
@@ -27,10 +27,9 @@ Na przygotowania zarezerwuj pół godziny, najlepiej w weekend przed dniem 1.
 ### Tydzień 1: sen i poranek
 
 - **Dni 1–7:** ta sama pora pobudki codziennie, także w sobotę i niedzielę. Telefon śpi poza sypialnią, a Ty zaczynasz od dziennego światła (rozdział 01).
-- **Dni 1–3:** audyt pierwszej godziny, 2 minuty dziennie.
 - **Dni 4–6:** mapa energii z rozdziału 04. Zobaczysz, kiedy masz szczyt, a kiedy zjazd.
 - **Cały tydzień:** godzina policyjna dla kofeiny z rozdziału 04, czyli ostatnia kawa około 9 godzin przed snem. Sen jest fundamentem pozostałych tygodni.
-- **Dzień 7:** pierwszy tygodniowy przegląd w 10 minut (rozdział 06).
+- **Dzień 7:** pierwszy tygodniowy przegląd w 10 minut (rozdział 06). W tym miesiącu nowy nawyk dodajesz według tabeli powyżej, a próg 5 dni na 7 z rozdziału 06 stosujesz od dnia 30.
 
 ### Tydzień 2: Generał wieczorem, Żołnierz rano
 
@@ -44,8 +43,8 @@ Na przygotowania zarezerwuj pół godziny, najlepiej w weekend przed dniem 1.
 
 Nowych nawyków nie dodajesz. Przestawiasz przestrzeń tak, żeby te trzy szły łatwiej.
 
-- **Dzień 15:** „Przemeblowanie w 30 minut” z rozdziału 05. Weekend to dobry moment.
-- **Dni 16–18:** audyt wyzwalaczy. Zapisuj, co popycha Cię do starych nawyków.
+- **Dni 15–17:** audyt wyzwalaczy z rozdziału 05. Zapisuj, co popycha Cię do starych nawyków.
+- **Dzień 18:** „Przemeblowanie w 30 minut” z rozdziału 05, na podstawie audytu.
 - **Dzień 19:** jedna zmiana z audytu, np. wylogowanie z mediów społecznościowych na komputerze albo ekran telefonu w odcieniach szarości.
 - **Dzień 21:** przegląd. Najsłabszemu nawykowi dodaj jedno ułatwienie w otoczeniu.
 

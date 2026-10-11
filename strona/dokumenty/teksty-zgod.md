@@ -9,7 +9,7 @@ go z prawnikiem. Ten plik jest dla Ciebie, nie do publikacji na stronie.
 Najważniejsze: utrata prawa odstąpienia działa tylko wtedy, gdy spełnisz RAZEM trzy warunki:
 (1) wymagany checkbox z tekstem zgody w KAŻDYM linku Stripe, (2) informacja o utracie prawa przed płatnością,
 (3) e-mail z potwierdzeniem i dosłowną treścią zgody wysłany od razu po zakupie. Ciężar dowodu jest po Twojej stronie.
-Jeśli zmienisz tekst zgody, zmień go w trzech miejscach: Stripe, § 8 ust. 3 regulaminu i e-mail z części D.
+Jeśli zmienisz tekst zgody, zmień go wszędzie: Stripe, § 8 ust. 3 regulaminu, e-mail z części D, `maile/02-po-zakupie.md` (A1–A3) i `maile/00-instrukcja-mailerlite.md` (sekcja 8).
 -->
 
 # Teksty zgód i instrukcja wdrożenia
@@ -238,8 +238,8 @@ Strona WWW (w tym strona dostępu) **nie jest trwałym nośnikiem**, bo możesz 
 | `{{email}}` | `customer_details.email` | adres odbiorcy |
 | `{{produkt}}` | `payment_link` (`plink_…`) | w scenariuszu zamień ID linku na „Life OS” albo „Pakiet Pro” |
 | `{{kwota}}` | `amount_total` | kwota w groszach: podziel przez 100 |
-| `{{data_zakupu}}` | `created` | znacznik czasu Unix: zamień na datę i godzinę w strefie Europe/Warsaw |
-| `{{data_konca_gwarancji}}` | `created` + 14 dni | np. w Make: `formatDate(addDays(created; 14); "DD.MM.YYYY")` |
+| `{{data_zakupu}}` | `created` zdarzenia (nie sesji) | znacznik czasu Unix: zamień na datę i godzinę w strefie Europe/Warsaw |
+| `{{data_konca_gwarancji}}` | `created` zdarzenia + 14 dni | np. w Make: `formatDate(addDays(parseDate(created; "X"); 14); "DD.MM.YYYY"; "Europe/Warsaw")` |
 | `{{id_platnosci}}` | `payment_intent` (`pi_…`) albo `id` (`cs_…`) | do ewidencji sprzedaży i identyfikacji wpłaty |
 | `{{zgoda}}` | `consent.terms_of_service` | wysyłaj e-mail tylko, gdy wartość to `accepted`; inaczej powiadom siebie |
 | `{{zgoda_pole}}` | `custom_fields[0].dropdown.value` | `tak`, jeśli używasz pola A2 |
@@ -256,7 +256,7 @@ Strona WWW (w tym strona dostępu) **nie jest trwałym nośnikiem**, bo możesz 
 
 - Kupujący **nie zapisał się na newsletter**. Trzymaj klientów w osobnych grupach i nigdy nie wybieraj ich w kampaniach. Do newslettera trafiają tylko po własnym zapisie przez formularz z części C.
 - MailerLite jest narzędziem do marketingu i jego zasady mogą ograniczać wysyłkę do osób bez zgody marketingowej. Sprawdź to w warunkach MailerLite. Bezpieczniejsza alternatywa to wysyłka e-maila D3 bezpośrednio ze scenariusza Make lub Zapier (moduł e-mail lub SMTP z adresu kontakt@revion.pl) albo przez MailerSend, transakcyjną usługę tej samej firmy.
-- Automatyzacja „dołączył do grupy” może się nie uruchomić przy drugim zakupie tej samej osoby, bo jest już w grupie. Ustaw ponowne wejście do automatyzacji albo usuwaj osobę z grupy po wysyłce.
+- Automatyzacja „dołączył do grupy” nie uruchomi się przy drugim zakupie tej samej osoby, bo jest już w grupie, a ponowne wejście jest wyłączone (`strona/maile/00-instrukcja-mailerlite.md`, sekcja 7). Przy drugim zakupie potwierdzenie wyślij ręcznie (`strona/maile/02-po-zakupie.md`, sekcja (c)). Raz w tygodniu porównuj płatności w Stripe z grupami w MailerLite.
 - Zachowuj kopie wysłanych e-maili (historia w narzędziu i wiersz w arkuszu) przez okres przedawnienia roszczeń.
 
 ### D3. Wzór e-maila

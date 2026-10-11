@@ -39,7 +39,7 @@ Administratorem danych zbieranych przez cookies na revion.pl jest Jakub Sroczyń
 
 1. Przy pierwszej wizycie zobaczysz baner. Możesz zaakceptować wszystkie cookies, odrzucić wszystkie oprócz niezbędnych albo wybrać kategorie w ustawieniach. Odrzucenie jest tak samo proste jak akceptacja.
 2. Dopóki nie wyrazisz zgody, nie zapisujemy cookies analitycznych ani marketingowych.
-3. Zgodę możesz w każdej chwili zmienić lub wycofać przez link **„Ustawienia cookies”** w stopce strony. Wycofanie zgody nie wpływa na zgodność z prawem tego, co działo się przed wycofaniem.
+3. Zgodę możesz w każdej chwili zmienić lub wycofać przez link **„Ustawienia cookies”** w stopce strony (albo przycisk ustawień cookies wtyczki zgód). Wycofanie zgody nie wpływa na zgodność z prawem tego, co działo się przed wycofaniem.
 4. Zapamiętujemy Twój wybór przez [DO UZUPEŁNIENIA: okres ustawiony we wtyczce, np. 12 miesięcy]. Po tym czasie zapytamy ponownie.
 
 ## 4. Lista cookies

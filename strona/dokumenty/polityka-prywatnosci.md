@@ -34,7 +34,7 @@ W sprawach danych osobowych pisz na **kontakt@revion.pl** albo na adres pocztowy
 ## 2. Skąd mamy Twoje dane
 
 - **Od Ciebie:** gdy kupujesz na stronie płatności Stripe, zapisujesz się na newsletter, piszesz do nas e-mailem lub przez formularz kontaktowy.
-- **Od Stripe:** po płatności dostajemy dane, które podałeś na stronie płatności (e-mail, imię i nazwisko, kraj), informację o płatności i o zaznaczeniu zgody. Nie dostajemy pełnego numeru karty.
+- **Od Stripe:** po płatności dostajemy dane, które podałeś na stronie płatności (e-mail, imię i nazwisko, kraj), informację o płatności i o zaznaczeniu zgody oraz Twój wybór w polu zgody na porady i oferty. Nie dostajemy pełnego numeru karty.
 - **Z Twojej przeglądarki:** tylko wtedy, gdy zgodzisz się na pliki cookies analityczne lub marketingowe (Polityka cookies).
 
 ## 3. Po co, na jakiej podstawie i jak długo przetwarzamy dane
@@ -46,7 +46,7 @@ W sprawach danych osobowych pisz na **kontakt@revion.pl** albo na adres pocztowy
 | **Reklamacje, gwarancja zwrotu, odstąpienie od umowy** | dane z umowy, treść zgłoszenia, korespondencja | art. 6 ust. 1 lit. c RODO (obowiązki z ustawy o prawach konsumenta, np. odpowiedź na reklamację w 14 dni) i lit. b (gwarancja zwrotu jako część umowy) | do zakończenia sprawy, a potem do upływu terminu przedawnienia roszczeń |
 | **Rozliczenia podatkowe:** ewidencja sprzedaży, rachunki i faktury | data, kwota, numer płatności, a przy rachunku lub fakturze także imię i nazwisko lub firma i adres | art. 6 ust. 1 lit. c RODO (ustawa o VAT, Ordynacja podatkowa, ustawa o PIT) | 5 lat, licząc od końca roku, w którym upłynął termin zapłaty podatku |
 | **Dowody i obrona przed roszczeniami** (np. dowód zgody przy zakupie) | dane z umowy, zapis zgody ze Stripe, kopia potwierdzenia | art. 6 ust. 1 lit. f RODO (nasz prawnie uzasadniony interes: możliwość wykazania, że działamy zgodnie z prawem) | do upływu terminu przedawnienia roszczeń |
-| **Newsletter i bezpłatny ebook**, w tym sprawdzanie, czy wiadomości są otwierane i klikane | e-mail, imię (opcjonalnie), data, godzina i adres IP zapisu i potwierdzenia, historia otwarć i kliknięć | art. 6 ust. 1 lit. a RODO (zgoda) w związku z art. 398 Prawa komunikacji elektronicznej | do wycofania zgody (wypisania się) |
+| **Newsletter i bezpłatny ebook**, w tym sprawdzanie, czy wiadomości są otwierane i klikane | e-mail, imię (opcjonalnie), data, godzina i adres IP zapisu i potwierdzenia albo data wyboru zgody na stronie płatności Stripe, historia otwarć i kliknięć | art. 6 ust. 1 lit. a RODO (zgoda) w związku z art. 398 Prawa komunikacji elektronicznej | do wycofania zgody (wypisania się) |
 | **Uszanowanie wypisu i dowód zgody** po wypisaniu się z newslettera | e-mail, data zapisu i wypisu | art. 6 ust. 1 lit. f RODO (interes: nie wysyłać więcej wiadomości i móc wykazać, że zgoda była) | do upływu terminu przedawnienia roszczeń |
 | **Odpowiedzi na wiadomości** (e-mail, formularz kontaktowy) | imię, e-mail, treść wiadomości | art. 6 ust. 1 lit. f RODO (interes: odpowiedź na Twoje pytanie), a przy pytaniu przed zakupem lit. b | do zakończenia sprawy, a potem do upływu terminu przedawnienia ewentualnych roszczeń |
 | **Opinie klientów** (jeśli zgodzisz się na publikację) | imię i inicjał nazwiska, treść opinii, data, numer płatności do weryfikacji (nie publikujemy go) | art. 6 ust. 1 lit. a RODO (zgoda na publikację); weryfikacja zakupu: lit. f | do wycofania zgody |

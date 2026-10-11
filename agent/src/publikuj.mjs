@@ -3,7 +3,7 @@
 //
 // Zasady:
 // - publikujemy tylko posty ze statusem "zaplanowany" (status "wstrzymany" = pomiń),
-// - najwyżej max_postow_dziennie na platformę dziennie; zaległe posty schodzą po jednym w kolejne dni,
+// - najwyżej max_postow_dziennie na platformę dziennie; zaległe posty schodzą po jednym dziennie, o swojej godzinie z harmonogramu,
 // - jeśli Facebook się udał, a Instagram nie, następne uruchomienie ponawia tylko Instagram,
 // - przed publikacją sprawdzamy, czy identyczny post już nie wisi na profilu (ochrona przed duplikatem),
 // - po 3 nieudanych próbach post dostaje status "blad" i czeka na człowieka.
@@ -78,7 +78,10 @@ export async function publikujZaplanowane({
       return kiedy && dataLokalna(new Date(kiedy), strefa) === dzisiaj;
     }).length;
 
-  const zalegle = posty.filter((p) => p.dane.status === 'zaplanowany' && Date.parse(p.dane.kiedy) <= teraz.getTime());
+  // post zaległy z wcześniejszego dnia czeka na swoją godzinę (kiedy zapisuje czas lokalny), a nie wychodzi o północy
+  const godzinaTeraz = new Intl.DateTimeFormat('en-GB', { timeZone: strefa, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(teraz);
+  const zalegle = posty.filter((p) => p.dane.status === 'zaplanowany' && Date.parse(p.dane.kiedy) <= teraz.getTime()
+    && (dataLokalna(new Date(p.dane.kiedy), strefa) === dzisiaj || godzinaTeraz >= p.dane.kiedy.slice(11, 16)));
   const wynik = { opublikowane: [], bledy: [], post: null };
   if (!zalegle.length) {
     log('Nic do publikacji w tej chwili.');
@@ -92,6 +95,16 @@ export async function publikujZaplanowane({
     (p) => (post.dane.platformy ?? ustawienia.platformy).includes(p) && ustawienia.platformy.includes(p),
   );
   const brakujace = platformy.filter((p) => !post.dane.wyniki?.[p]?.id);
+  if (!brakujace.length) {
+    // np. właściciel usunął platformę z ustawień: bez tego najstarszy post blokowałby kolejkę na zawsze
+    if (!naSucho) {
+      post.dane.status = 'opublikowany';
+      delete post.dane.blad;
+      zapisz(post);
+    }
+    log(`"${post.dane.id}": wszystkie platformy już opublikowane, oznaczam jako opublikowany.`);
+    return wynik;
+  }
   const dzisPlatformy = brakujace.filter((p) => dzisiajNa(p) < ustawienia.max_postow_dziennie);
   if (!dzisPlatformy.length) {
     log(`"${post.dane.id}": dzienny limit postów osiągnięty, publikacja jutro.`);
@@ -150,14 +163,15 @@ export async function publikujZaplanowane({
         wynik.bledy.push(`${platforma}: ${e.message}`);
         continue;
       }
-      post.dane.proby = (post.dane.proby ?? 0) + 1;
       post.dane.blad = `${platforma}: ${e.message}`;
       wynik.bledy.push(post.dane.blad);
       log(`${platforma}: BŁĄD "${post.dane.id}": ${e.message}`);
       if (e.tokenNiewazny) {
+        // wygasły token to nie wina posta: nie zużywaj prób
         tokenNiewazny = true;
         break;
       }
+      post.dane.proby = (post.dane.proby ?? 0) + 1;
     }
   }
 

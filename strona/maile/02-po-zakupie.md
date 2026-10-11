@@ -22,9 +22,9 @@ Punkty 1 i 2 załatwia pole wyboru w Stripe. Punkt 3 to właśnie ten e-mail. St
 
 W każdym linku płatności Stripe włącz „Require customers to accept your terms of service” i ustaw własny tekst przy polu (Payment link → Options → custom text dla akceptacji regulaminu). Treść:
 
-> Akceptuję [Regulamin](https://revion.pl/regulamin/). Żądam dostarczenia treści cyfrowej natychmiast, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że z chwilą dostarczenia tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego przysługuje mi dobrowolna 14-dniowa gwarancja zwrotu opisana w Regulaminie.
+> Akceptuję [Regulamin](https://revion.pl/regulamin/). Wyrażam zgodę na dostarczenie treści cyfrowych (szablon Notion i pliki PDF/ZIP) od razu po płatności, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że po ich dostarczeniu tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego mam 14 dni od zakupu na zwrot całej kwoty w ramach dobrowolnej gwarancji (§ 9 Regulaminu).
 
-W mailu ten tekst jest cytowany słowo w słowo (bez linku w nawiasie kwadratowym). Jeśli zmienisz go w Stripe, zmień go też we wszystkich trzech potwierdzeniach. Jeśli nowy regulamin zaproponuje inne brzmienie, ujednolić trzeba wszystkie trzy miejsca: Stripe, regulamin i maile.
+To ten sam tekst co w `dokumenty/teksty-zgod.md` (A1) i w § 8 ust. 3 regulaminu. W mailu jest cytowany słowo w słowo (bez linku w nawiasie kwadratowym). Jeśli zmienisz go w Stripe, zmień go też we wszystkich trzech potwierdzeniach. Jeśli nowy regulamin zaproponuje inne brzmienie, ujednolić trzeba wszystkie trzy miejsca: Stripe, regulamin i maile.
 
 ## Pola używane w mailach
 
@@ -101,13 +101,15 @@ Jakub Sroczyński (Revion), ul. Lawendowa 21, 58-500 Jelenia Góra, działalnoś
 
 Przy płatności w formularzu Stripe zostało zaakceptowane oświadczenie:
 
-> „Akceptuję Regulamin. Żądam dostarczenia treści cyfrowej natychmiast, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że z chwilą dostarczenia tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego przysługuje mi dobrowolna 14-dniowa gwarancja zwrotu opisana w Regulaminie.”
+> „Akceptuję Regulamin. Wyrażam zgodę na dostarczenie treści cyfrowych (szablon Notion i pliki PDF/ZIP) od razu po płatności, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że po ich dostarczeniu tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego mam 14 dni od zakupu na zwrot całej kwoty w ramach dobrowolnej gwarancji (§ 9 Regulaminu).”
+
+W polu „Prawo odstąpienia – potwierdzenie” wybrano: „Chcę dostęp od razu; wiem, że tracę prawo odstąpienia”. [UZUPEŁNIJ: usuń to zdanie, jeśli nie dodasz pola A2 z dokumenty/teksty-zgod.md]
 
 Ten e-mail potwierdza tę zgodę i to oświadczenie na trwałym nośniku. Treść cyfrowa została dostarczona od razu po płatności. Dlatego zgodnie z art. 38 ust. 1 pkt 13 ustawy o prawach konsumenta ustawowe prawo odstąpienia od umowy nie przysługuje.
 
 ### Gwarancja zwrotu: 14 dni
 
-Niezależnie od tego masz dobrowolną gwarancję. Do {$gwarancja_do} (14 dni od zakupu) możesz poprosić o zwrot całej kwoty bez podawania przyczyny. Wystarczy mail na kontakt@revion.pl z adresu użytego przy zakupie, np. „Proszę o zwrot, płatność {$nr_zamowienia}”. Pieniądze wrócą tą samą metodą płatności przez Stripe [UZUPEŁNIJ zgodnie z regulaminem: w ciągu 14 dni od zgłoszenia]. Po zwrocie licencja wygasa [UZUPEŁNIJ zgodnie z regulaminem: i prosimy usunąć kopię szablonu i pliki].
+Niezależnie od tego masz dobrowolną gwarancję. Do {$gwarancja_do} (14 dni od zakupu) możesz poprosić o zwrot całej kwoty bez podawania przyczyny. Wystarczy mail na kontakt@revion.pl z adresu użytego przy zakupie, np. „Proszę o zwrot, płatność {$nr_zamowienia}”. Pieniądze wrócą tą samą metodą płatności przez Stripe w ciągu 14 dni od otrzymania wiadomości. Po zwrocie umowa i licencja wygasają, więc prosimy, usuń kopię szablonu i pobrane pliki (§ 9 Regulaminu).
 
 ### Gdy coś nie działa (reklamacje)
 
@@ -185,13 +187,15 @@ Jakub Sroczyński (Revion), ul. Lawendowa 21, 58-500 Jelenia Góra, działalnoś
 
 Przy płatności w formularzu Stripe zostało zaakceptowane oświadczenie:
 
-> „Akceptuję Regulamin. Żądam dostarczenia treści cyfrowej natychmiast, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że z chwilą dostarczenia tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego przysługuje mi dobrowolna 14-dniowa gwarancja zwrotu opisana w Regulaminie.”
+> „Akceptuję Regulamin. Wyrażam zgodę na dostarczenie treści cyfrowych (szablon Notion i pliki PDF/ZIP) od razu po płatności, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że po ich dostarczeniu tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego mam 14 dni od zakupu na zwrot całej kwoty w ramach dobrowolnej gwarancji (§ 9 Regulaminu).”
+
+W polu „Prawo odstąpienia – potwierdzenie” wybrano: „Chcę dostęp od razu; wiem, że tracę prawo odstąpienia”. [UZUPEŁNIJ: usuń to zdanie, jeśli nie dodasz pola A2 z dokumenty/teksty-zgod.md]
 
 Ten e-mail potwierdza tę zgodę i to oświadczenie na trwałym nośniku. Treść cyfrowa została dostarczona od razu po płatności. Dlatego zgodnie z art. 38 ust. 1 pkt 13 ustawy o prawach konsumenta ustawowe prawo odstąpienia od umowy nie przysługuje.
 
 ### Gwarancja zwrotu: 14 dni
 
-Niezależnie od tego masz dobrowolną gwarancję. Do {$gwarancja_do} (14 dni od zakupu) możesz poprosić o zwrot całej kwoty bez podawania przyczyny. Wystarczy mail na kontakt@revion.pl z adresu użytego przy zakupie, np. „Proszę o zwrot, płatność {$nr_zamowienia}”. Pieniądze wrócą tą samą metodą płatności przez Stripe [UZUPEŁNIJ zgodnie z regulaminem: w ciągu 14 dni od zgłoszenia]. Po zwrocie licencja wygasa [UZUPEŁNIJ zgodnie z regulaminem: i prosimy usunąć kopię szablonu i pliki].
+Niezależnie od tego masz dobrowolną gwarancję. Do {$gwarancja_do} (14 dni od zakupu) możesz poprosić o zwrot całej kwoty bez podawania przyczyny. Wystarczy mail na kontakt@revion.pl z adresu użytego przy zakupie, np. „Proszę o zwrot, płatność {$nr_zamowienia}”. Pieniądze wrócą tą samą metodą płatności przez Stripe w ciągu 14 dni od otrzymania wiadomości. Po zwrocie umowa i licencja wygasają, więc prosimy, usuń kopię szablonu i pobrane pliki (§ 9 Regulaminu).
 
 ### Gdy coś nie działa (reklamacje)
 
@@ -220,6 +224,8 @@ Revion
 ---
 
 ## A3 · Potwierdzenie zamówienia: „Skupienie Absolutne” dokupione do Life OS (29 zł)
+
+**Nie włączaj tego maila ani linku 29 zł / 22 zł, dopóki regulamin (§ 2 pkt 7, § 3, § 9 ust. 7), `konfiguracja.json` i `dokumenty/teksty-zgod.md` nie obejmują tej oferty. Dziś regulamin zna tylko Life OS i Pakiet Pro.**
 
 Ten mail jest potrzebny, bo propozycja z dnia 10 (B4) to osobna umowa, więc także ona wymaga potwierdzenia na trwałym nośniku. Wysyła go automatyzacja C po dołączeniu do grupy *Klienci Skupienie (dokupka)*. W Stripe ten link płatności też musi mieć pole akceptacji regulaminu z tym samym tekstem zgody.
 
@@ -259,13 +265,15 @@ Jakub Sroczyński (Revion), ul. Lawendowa 21, 58-500 Jelenia Góra, działalnoś
 
 Przy płatności w formularzu Stripe zostało zaakceptowane oświadczenie:
 
-> „Akceptuję Regulamin. Żądam dostarczenia treści cyfrowej natychmiast, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że z chwilą dostarczenia tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego przysługuje mi dobrowolna 14-dniowa gwarancja zwrotu opisana w Regulaminie.”
+> „Akceptuję Regulamin. Wyrażam zgodę na dostarczenie treści cyfrowych (szablon Notion i pliki PDF/ZIP) od razu po płatności, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że po ich dostarczeniu tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego mam 14 dni od zakupu na zwrot całej kwoty w ramach dobrowolnej gwarancji (§ 9 Regulaminu).”
+
+W polu „Prawo odstąpienia – potwierdzenie” wybrano: „Chcę dostęp od razu; wiem, że tracę prawo odstąpienia”. [UZUPEŁNIJ: usuń to zdanie, jeśli nie dodasz pola A2 z dokumenty/teksty-zgod.md]
 
 Ten e-mail potwierdza tę zgodę i to oświadczenie na trwałym nośniku. Treść cyfrowa została dostarczona od razu po płatności. Dlatego zgodnie z art. 38 ust. 1 pkt 13 ustawy o prawach konsumenta ustawowe prawo odstąpienia od umowy nie przysługuje.
 
 ### Gwarancja zwrotu: 14 dni
 
-Niezależnie od tego do {$gwarancja_do} (14 dni od zakupu) możesz poprosić o zwrot całych 29 zł bez podawania przyczyny. Wystarczy mail na kontakt@revion.pl z adresu użytego przy zakupie. [UZUPEŁNIJ zgodnie z regulaminem: termin zwrotu i skutki dla licencji, jak w A1.]
+Niezależnie od tego do {$gwarancja_do} (14 dni od zakupu) możesz poprosić o zwrot całych 29 zł bez podawania przyczyny. Wystarczy mail na kontakt@revion.pl z adresu użytego przy zakupie. Pieniądze wrócą tą samą metodą płatności przez Stripe w ciągu 14 dni od otrzymania wiadomości. Po zwrocie umowa i licencja wygasają, więc prosimy, usuń pobrany plik.
 
 ### Gdy coś nie działa (reklamacje)
 
@@ -314,9 +322,9 @@ od wczoraj masz Life OS. Dziś pięć kroków na 10 minut. Ustaw minutnik i zacz
 
 **3. Zrzut do Inboxu (3 minuty).** Wpisz do Inboxu wszystko, co nosisz w głowie: zadania, sprawy, pomysły. Jedna rzecz to jeden wpis. Bez porządkowania.
 
-**4. Trzy priorytety (3 minuty).** Z Inboxu wybierz najwyżej trzy rzeczy na dziś albo na jutro i nadaj im datę. Przy każdej zapisz pierwszy fizyczny krok, np. „otwórz plik i napisz trzy zdania”. Od teraz widok „Dziś” w Kokpicie pokazuje tylko je.
+**4. Trzy priorytety (3 minuty).** Z Inboxu wybierz najwyżej trzy rzeczy na dziś. Najpierw nadaj im priorytet 1, 2 i 3, potem dzisiejszą datę. Przy każdej wpisz w „Notatce powrotu” pierwszy fizyczny krok, np. „otwórz plik i napisz trzy zdania”. Od teraz zakładka „3 priorytety” w sekcji „Dziś” na Głównym Kokpicie pokazuje tylko je.
 
-**5. Jeden nawyk (2 minuty).** W sekcji Cele i nawyki zostaw na start jeden albo dwa nawyki, nie dwanaście. Dobry kandydat: „telefon poza sypialnią” z rozdziału 01 ebooka.
+**5. Nawyki (2 minuty).** W codziennej tabelce na stronie Cele i nawyki wybierz na start 2–3 nawyki. Dobry kandydat: „Telefon poza sypialnią” z rozdziału 01 ebooka. Pozostałe kolumny zmień na swoje albo usuń według rozwijanego bloku „Jak zmienić nawyki na swoje” pod tabelką.
 
 Finanse, Projekty i Biblioteka wiedzy mogą poczekać do przyszłego tygodnia. Najpierw niech zadziała codzienny rytm: Inbox, „Dziś”, odhaczanie.
 
@@ -340,7 +348,7 @@ Kuba
 **Temat A:** Wieczorne 5 minut w Life OS
 **Temat B:** Jutro rano nie pytaj siebie „od czego zacząć?”
 
-**Tekst podglądu:** Protokół z rozdziału 02 przełożony na Inbox i widok „Dziś”.
+**Tekst podglądu:** Protokół z rozdziału 02 przełożony na Inbox i sekcję „Dziś”.
 
 **Treść:**
 
@@ -349,16 +357,16 @@ Cześć,
 dziś jeden nawyk, dzięki któremu Life OS staje się codziennym narzędziem, a nie kolejną aplikacją w telefonie. To „Wieczorne 5 minut” z rozdziału 02 ebooka, w wersji dla Life OS:
 
 1. **Zrzut (1 minuta) – Inbox.** Wrzuć wszystko, co krąży Ci po głowie.
-2. **Wybór (1 minuta) – jutrzejsza data.** Najwyżej trzy rzeczy dostają datę na jutro. Pierwsza ma przybliżać Cię do celu.
-3. **Pierwszy krok (2 minuty).** Przy każdej dopisz fizyczną czynność i godzinę startu. Zamiast „Klient z Gdańska”: „Wyślij maila z dwoma terminami rozmowy, 9:15”.
-4. **Jeśli–to (30 sekund).** Jedna przeszkoda i Twoja odpowiedź, np. „Jeśli o 8:30 zadzwoni szef, to po rozmowie wracam do pliku”. Dopisz ją w opisie priorytetu głównego.
-5. **Zamknięcie (30 sekund).** Reszta zostaje w Inboxie albo w projektach. Zamykasz Notion.
+2. **Wybór (1 minuta) – priorytet i jutrzejsza data.** Najwyżej trzy rzeczy dostają numer 1, 2 i 3, a potem datę na jutro. Pierwsza ma przybliżać Cię do celu.
+3. **Pierwszy krok (2 minuty).** Przy każdej dopisz w kolumnie „Notatka powrotu” fizyczną czynność i godzinę startu. Zamiast „Klient z Gdańska”: „Wyślij maila z dwoma terminami rozmowy, 9:15”.
+4. **Jeśli–to (30 sekund).** Jedna przeszkoda i Twoja odpowiedź, np. „Jeśli o 8:30 zadzwoni szef, to po rozmowie wracam do pliku”. Dopisz ją w „Notatce powrotu” priorytetu 1.
+5. **Zamknięcie (30 sekund).** Reszta dostaje datę na później, trafia do projektu albo do kosza. Zamykasz Notion.
 
-Rano otwierasz Kokpit, a widok „Dziś” pokazuje trzy rzeczy. Nic nie wybierasz, tylko czytasz i ruszasz. Plan zmieniasz wyłącznie wtedy, gdy wydarzy się coś nowego. „Nie chce mi się” nie jest nową informacją.
+Rano otwierasz Główny Kokpit, a sekcja „Dziś” pokazuje trzy priorytety. Nic nie wybierasz, tylko czytasz i ruszasz. Plan zmieniasz wyłącznie wtedy, gdy wydarzy się coś nowego. „Nie chce mi się” nie jest nową informacją.
 
-**Kiedy?** Najlepiej o stałej porze: po ostatnich zajęciach, przy zamykaniu laptopa, po wysłaniu ostatniego maila. Planujesz tuż przed snem? Rób to na kartce, żeby telefon został poza sypialnią, a rano przepisz trzy priorytety do „Dziś”. To zajmie minutę.
+**Kiedy?** Najlepiej o stałej porze: po ostatnich zajęciach, przy zamykaniu laptopa, po wysłaniu ostatniego maila. Planujesz tuż przed snem? Rób to na kartce, żeby telefon został poza sypialnią, a rano przepisz trzy priorytety do Life OS. To zajmie minutę.
 
-**Wieczór bez sił?** Wersja awaryjna: tylko priorytet główny i jego pierwszy krok. 30 sekund.
+**Wieczór bez sił?** Wersja awaryjna: tylko priorytet 1 i jego pierwszy krok. 30 sekund.
 
 **Przycisk:** „Otwórz Life OS” → [LINK: Life OS – wklej nowy link do szablonu w Notion, patrz strona/JAK-WDROZYC.md, krok 0]
 
@@ -454,6 +462,8 @@ Kuba
 ---
 
 ## B4 · Dzień 10 · „Skupienie Absolutne” za 29 zł (tylko kupujący Life OS)
+
+**Nie włączaj tego maila ani linku 29 zł / 22 zł, dopóki regulamin (§ 2 pkt 7, § 3, § 9 ust. 7), `konfiguracja.json` i `dokumenty/teksty-zgod.md` nie obejmują tej oferty. Dziś regulamin zna tylko Life OS i Pakiet Pro.**
 
 **Opóźnienie:** 3 dni po B3.
 **Warunek:** gałąź Life OS **i** zgoda marketingowa **i** subskrybent nie jest w grupach *Klienci Pakiet Pro* ani *Klienci Skupienie (dokupka)*. Kupujący Pakiet Pro tego maila nie dostają, bo ebook już mają.

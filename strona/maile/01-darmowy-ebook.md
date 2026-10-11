@@ -206,13 +206,13 @@ Co na to badania? W niewielkim badaniu w laboratorium snu osoby, które przed sn
 Wszystko to zrobisz w zeszycie. Naprawdę. Jeśli jednak wolisz mieć plan, nawyki i projekty w jednym miejscu, tak wygląda to w Revion Life OS:
 
 - **Zrzut** robisz w Inboxie. Wrzucasz sprawę w kilka sekund i wracasz do swoich rzeczy.
-- **Trzy priorytety** dostają jutrzejszą datę. Rano otwierasz Kokpit, a widok „Dziś” pokazuje tylko je.
-- **Parking** to reszta Inboxu i projekty. Nic nie znika, ale nic nie kusi z ekranu.
-- **Nawyki** odhaczasz w codziennej tabelce w sekcji Cele i nawyki. Widać serię i widać przerwę.
+- **Trzy priorytety** dostają numer 1, 2 i 3, a potem jutrzejszą datę. Rano otwierasz Główny Kokpit, a sekcja „Dziś” pokazuje tylko je.
+- **Parking** to projekty i sprawy z datą na później. Nic nie znika, ale nic nie kusi z ekranu.
+- **Nawyki** odhaczasz w codziennej tabelce w sekcji Cele i nawyki. Widać, ile dni z ostatniego tygodnia się udało.
 
-[OBRAZ: zrzut Kokpitu – https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-200408.png – tekst alternatywny: „Kokpit Revion Life OS z widokiem Dziś”]
+[OBRAZ: zrzut Kokpitu – https://revion.pl/wp-content/uploads/2026/10/lifeos-kokpit.png – tekst alternatywny: „Główny Kokpit Revion Life OS z sekcją Dziś”]
 
-[OBRAZ: zrzut śledzenia nawyków – https://revion.pl/wp-content/uploads/2026/02/Zrzut-ekranu-2026-02-07-200957.png – tekst alternatywny: „Codzienna tabelka nawyków w Revion Life OS”]
+[OBRAZ: zrzut śledzenia nawyków – https://revion.pl/wp-content/uploads/2026/10/lifeos-nawyki.png – tekst alternatywny: „Codzienna tabelka nawyków w Revion Life OS”]
 
 To prawdziwe zrzuty z szablonu. Więcej zobaczysz na stronie:
 
@@ -249,7 +249,7 @@ Notion to aplikacja, która łączy notatnik, arkusz i kalendarz. Life OS jest j
 Nie. Life OS działa na darmowym planie Notion. Wystarczy bezpłatne konto.
 
 **„Próbowałem już planerów i aplikacji. Po dwóch tygodniach wszystko leżało.”**
-Zwykle nie chodzi o charakter, tylko o to, że system był za duży albo rozrzucony po kilku miejscach. Life OS nie jest magiczny. Daje jedno miejsce i widok „Dziś” z trzema rzeczami, żeby dnia nie zaczynać od przeglądania wszystkiego. Najlepiej działa z nawykami z ebooka: wieczorny plan i jedna zmiana naraz.
+Zwykle nie chodzi o charakter, tylko o to, że system był za duży albo rozrzucony po kilku miejscach. Life OS nie jest magiczny. Daje jedno miejsce i sekcję „Dziś” z trzema priorytetami, żeby dnia nie zaczynać od przeglądania wszystkiego. Najlepiej działa z nawykami z ebooka: wieczorny plan i jedna zmiana naraz.
 
 **„Czy to działa na telefonie?”**
 Tak. Notion ma aplikacje na iOS i Androida. Zadanie dodane w tramwaju czeka na Ciebie przy biurku.

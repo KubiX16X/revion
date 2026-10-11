@@ -321,7 +321,7 @@ Bez fałszywego licznika, bez fikcyjnej ceny odniesienia i bez nieudokumentowany
   <div>
     <div class="nad">Biblioteka Revion</div>
     <h2>Do systemu dokładamy <span class="metal">wiedzę, jak go używać.</span></h2>
-    <p class="lead">Dwa ebooki oparte na badaniach, bez motywacyjnej waty. Każdy rozdział kończy się protokołem do wdrożenia.</p>
+    <p class="lead">Dwa ebooki oparte na badaniach, bez motywacyjnej waty. Każdy rozdział ma protokół do wdrożenia.</p>
     <div class="ebook"><img src="${img('ebook-nawyki-okladka.webp')}" alt="Okładka ebooka Nawyki Żelaznej Dyscypliny" loading="lazy" width="800" height="1135"><div><span class="plakietka">W prezencie do każdego zamówienia</span><h3>Nawyki Żelaznej Dyscypliny</h3><p>Dyscyplina, która nie zależy od silnej woli: poranek, wieczorne planowanie, energia, otoczenie i plan na 30 dni. ${c.strony.nawyki} stron.</p></div></div>
     <div class="ebook"><img src="${img('ebook-skupienie-okladka.webp')}" alt="Okładka ebooka Skupienie Absolutne" loading="lazy" width="800" height="1135"><div><span class="plakietka">W Pakiecie Pro</span><h3>Skupienie Absolutne</h3><p>Protokoły głębokiej pracy: środowisko bez rozproszeń, biologia skupienia, rytuały i plan na 30 dni. ${c.strony.skupienie} stron.</p></div></div>
   </div>
@@ -392,7 +392,7 @@ Bez fałszywego licznika, bez fikcyjnej ceny odniesienia i bez nieudokumentowany
     Sprzedawca: ${esc(c.sprzedawca.nazwa)}, ${esc(c.sprzedawca.adres)} (działalność nierejestrowana). Kontakt: <a href="mailto:${esc(c.email)}">${esc(c.email)}</a>.<br>
     Notion jest znakiem towarowym Notion Labs, Inc. Revion nie jest powiązany z Notion Labs, Inc.
   </div>
-  <div><a href="${c.linki.regulamin}">Regulamin</a> · <a href="${c.linki.polityka}">Polityka prywatności</a> · <a href="${c.linki.kontakt}">Kontakt</a><br>© 2026 Revion</div>
+  <div><a href="${c.linki.regulamin}">Regulamin</a> · <a href="${c.linki.polityka}">Polityka prywatności</a> · <a href="${c.linki.cookies}">Polityka cookies</a> · <a href="${c.linki.kontakt}">Kontakt</a><br>© 2026 Revion</div>
 </div></footer>
 
 </div>`;
@@ -428,11 +428,12 @@ Ustaw w Elementorze/SEO: noindex, nofollow, wyłącz z mapy strony. Adres strony
   <p class="lead">Zapisz tę stronę w zakładkach. Linki poniżej są Twoim stałym dostępem, także do przyszłych aktualizacji.</p>
   <ol class="kroki2">
     <li>Otwórz Life OS i kliknij „Duplicate”, żeby skopiować go do swojego konta Notion (wystarczy darmowe).</li>
-    <li>Pobierz ebooki i zapisz je na urządzeniu.</li>
+    <li>Pobierz pliki PDF i zapisz je na urządzeniu.</li>
     <li>Zacznij od Inboxu: wrzuć wszystko, co masz w głowie, i wybierz trzy priorytety na dziś.</li>
   </ol>
+  <p style="font-size:.92rem;margin-bottom:8px">Potwierdzenie zakupu z treścią Twojej zgody i warunkami umowy wysłaliśmy na Twój e-mail. Jeśli nie widzisz go w ciągu kilku minut, sprawdź spam albo napisz na <a href="mailto:${esc(c.email)}" class="cyj">${esc(c.email)}</a>.</p>
   ${zasoby.map((z) => `<div class="karta zasob"><div class="l"><div class="ik">${IK[z.ik]}</div><div><h3 style="margin:0">${z.tytul}</h3><p style="font-size:.92rem">${z.opis}</p></div></div><a class="btn btn-g" href="${z.link}" ${z.notion ? '' : 'download'}>${z.przycisk}</a></div>`).join('\n  ')}
-  <p style="margin-top:34px;font-size:.92rem">Coś nie działa albo potrzebujesz rachunku? Napisz na <a href="mailto:${esc(c.email)}" class="cyj">${esc(c.email)}</a>. Odpowiadamy w ciągu 24 godzin w dni robocze.</p>
+  <p style="margin-top:34px;font-size:.92rem">Coś nie działa albo potrzebujesz rachunku? Napisz na <a href="mailto:${esc(c.email)}" class="cyj">${esc(c.email)}</a>. Odpowiadamy zwykle w ciągu 24 godzin w dni robocze.</p>
   <p style="margin-top:10px;font-size:.8rem;color:var(--szary2)">Licencja na użytek własny: prosimy nie udostępniać linków publicznie.</p>
 </div></div>`;
 }

@@ -103,7 +103,7 @@ export function zbudujOpis(post, platforma, ustawienia) {
   if (tagi.length) tekst += `\n\n${tagi.join(' ')}`;
   if (platforma === 'instagram') {
     if (tekst.length > 2200) throw new Error(`Opis na Instagram ma ${tekst.length} znaków (limit 2200)`);
-    if (tagi.length > 30) throw new Error(`Za dużo hashtagów na Instagram: ${tagi.length} (limit 30)`);
+    if (tagi.length > 5) throw new Error(`Za dużo hashtagów na Instagram: ${tagi.length} (limit 5)`);
   }
   return tekst;
 }

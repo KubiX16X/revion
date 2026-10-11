@@ -28,7 +28,7 @@ Dokupienie „Skupienie Absolutne” (29 zł)
 - [ ] Skrzynka `kontakt@revion.pl` działa, a Ty regularnie ją czytasz (odpowiedzi na maile trafiają właśnie tam).
 - [ ] Nowy regulamin jest opublikowany na revion.pl, a jego wersja w PDF (z datą w nazwie pliku) leży na serwerze. Regulamin opisuje gwarancję 14 dni i zawiera ten sam tekst zgody co Stripe (sekcja 8).
 - [ ] Pliki są na miejscu i linki działają: Life OS, PDF „Nawyki”, PDF „Skupienie Absolutne”, ZIP z ikonami. Prawdziwe linki do płatnych plików (Life OS, PDF „Skupienie”, ZIP) wklejasz tylko w MailerLite i Elementorze (albo podajesz mi do `strona/konfiguracja.lokalna.json`), nigdy do `konfiguracja.json`: repozytorium jest publiczne.
-- [ ] Linki płatności Stripe są gotowe i ustawione (sekcja 8): Life OS 47 zł, Pakiet Pro 69 zł, Skupienie 29 zł (albo dopłata 22 zł, patrz `02-po-zakupie.md`, B4).
+- [ ] Linki płatności Stripe są gotowe i ustawione (sekcja 8): Life OS 47 zł, Pakiet Pro 69 zł, Skupienie 29 zł (albo dopłata 22 zł, patrz `02-po-zakupie.md`, B4) tylko po dopisaniu tej oferty do § 3 i § 9 ust. 7 regulaminu.
 - [ ] MailerLite: domena, nadawca, stopka, pola, grupy, formularz, strona zapisu (sekcje 2–6).
 - [ ] Maile wklejone i automatyzacje zbudowane (sekcja 7), ale **jeszcze niewłączone**.
 - [ ] Make połączony ze Stripe i MailerLite (sekcja 9).
@@ -117,15 +117,11 @@ Darmowy plan pozwala na 3 formularze i 1 stronę docelową. Potrzebujesz jednego
 
 - **Nazwa:** „revion.pl – darmowy ebook”. **Grupa:** *Darmowy ebook*.
 - **Pola:** e-mail (wymagany). Imię możesz pominąć: maile nie używają personalizacji imieniem, a każde pole obniża liczbę zapisów.
-- **Pole zgody** (checkbox, niezaznaczony domyślnie, wymagany):
-  > Chcę otrzymać ebook „Nawyki Żelaznej Dyscypliny” i newsletter Revion: porady o nawykach i organizacji oraz informacje o produktach Revion. Wypiszę się w każdej chwili jednym kliknięciem.
-- **Tekst pod przyciskiem:**
-  > Administratorem danych jest Jakub Sroczyński (Revion), ul. Lawendowa 21, 58-500 Jelenia Góra. Adres e-mail przetwarzam, żeby wysyłać newsletter, na podstawie Twojej zgody, do czasu jej wycofania. Dostawcą narzędzia do wysyłki jest MailerLite. Szczegóły i Twoje prawa: polityka prywatności (link).
-- **Przycisk:** „Wyślij mi darmowy ebook”.
+- **Pole zgody** (checkbox, niezaznaczony domyślnie, wymagany), **klauzula pod formularzem** i **napis na przycisku**: skopiuj dosłownie z `strona/dokumenty/teksty-zgod.md`, część C (C1, C2, C3). Przycisk: „Zapisuję się i odbieram ebook”.
 - **Komunikaty systemowe** (błąd adresu, „dziękujemy”) przetłumacz na polski w ustawieniach formularza.
 - **Double opt-in: włącz.** Podwójne potwierdzenie chroni przed literówkami i cudzymi adresami, a jednocześnie jest dowodem zgody.
 
-**Mail z prośbą o potwierdzenie zapisu (double opt-in):**
+**Mail z prośbą o potwierdzenie zapisu (double opt-in):** dosłownie z `strona/dokumenty/teksty-zgod.md`, część C4. Poniżej wersja do porównania; jeśli się różnią, obowiązuje C4.
 
 - Temat: `Potwierdź zapis i odbierz ebook`
 - Treść:
@@ -249,15 +245,16 @@ Bez tych ustawień potwierdzenie z maila A1–A3 nie ma czego potwierdzać.
 2. **Każdy link płatności** (Life OS 47 zł, Pakiet Pro 69 zł, Skupienie 29 zł):
    - **„Require customers to accept your terms of service”: włącz.**
    - **Własny tekst przy polu akceptacji** (custom text dla terms of service acceptance), dosłownie:
-     > Akceptuję [Regulamin](https://revion.pl/regulamin/). Żądam dostarczenia treści cyfrowej natychmiast, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że z chwilą dostarczenia tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego przysługuje mi dobrowolna 14-dniowa gwarancja zwrotu opisana w Regulaminie.
+     > Akceptuję [Regulamin](https://revion.pl/regulamin/). Wyrażam zgodę na dostarczenie treści cyfrowych (szablon Notion i pliki PDF/ZIP) od razu po płatności, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że po ich dostarczeniu tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego mam 14 dni od zakupu na zwrot całej kwoty w ramach dobrowolnej gwarancji (§ 9 Regulaminu).
 
      Jeśli panel nie pokazuje tej opcji, da się ją ustawić przez API Stripe (pole `custom_text.terms_of_service_acceptance`, do 1200 znaków).
+   - **Wymagane pole „Prawo odstąpienia – potwierdzenie”** (zalecane): ustaw dokładnie jak w `dokumenty/teksty-zgod.md`, część A2, jako pierwsze pole, przed polem zgody marketingowej.
    - **Pole niestandardowe na zgodę marketingową** (Add custom field → Dropdown, **opcjonalne**):
      - etykieta: `Porady i oferty Revion na e-mail?` (Stripe ogranicza długość etykiety, ok. 50 znaków),
      - opcja 1: `Tak, chcę dostawać porady i oferty` (wartość: `tak`),
      - opcja 2: `Nie, dziękuję` (wartość: `nie`).
      Nic nie jest wybrane domyślnie. Zgoda jest dobrowolna i nie wpływa na zakup.
-   - **Tekst przy przycisku płatności** (custom text pod przyciskiem):
+   - **Tekst pod przyciskiem płatności** (`custom_text.after_submit`, a nie `submit`: pole `submit` zajmuje tekst A3 z `dokumenty/teksty-zgod.md`):
      > Zgoda na porady i oferty e-mailem jest dobrowolna i możesz ją wycofać w każdej chwili. Administrator danych: Jakub Sroczyński (Revion). Szczegóły: revion.pl/polityka-prywatnosci
    - **Po płatności:** „Don't show confirmation page” → przekierowanie na stronę z dostępem (Life OS: strona z `dostawa-life-os.html`, Pakiet Pro: z `dostawa-pakiet-pro.html`). Strony dostawy mają mieć `noindex` i nie mogą być w mapie strony.
    - **Metody płatności:** włącz te, które obiecuje strona i mail 6 (karta, BLIK, Google Pay, Apple Pay), albo usuń z tekstów te, których nie masz.
@@ -288,8 +285,8 @@ Darmowy plan Make (stan z września 2026 według serwisów branżowych): 1 000 k
    - **Fields:**
      - `pakiet`: `Life OS` / `Pakiet Pro` / `Skupienie` (wpisz na stałe w danej trasie)
      - `nr_zamowienia`: `data.object.payment_intent`
-     - `data_zakupu`: `{{formatDate(now; "DD.MM.YYYY, HH:mm"; "Europe/Warsaw")}}`
-     - `gwarancja_do`: `{{formatDate(addDays(now; 14); "DD.MM.YYYY"; "Europe/Warsaw")}}`
+     - `data_zakupu`: `{{formatDate(parseDate(created; "X"); "DD.MM.YYYY, HH:mm"; "Europe/Warsaw")}}` (`created` zdarzenia Stripe, czyli czas płatności, a nie `now`: ponowione uruchomienie dałoby późniejszą datę)
+     - `gwarancja_do`: `{{formatDate(addDays(parseDate(created; "X"); 14); "DD.MM.YYYY"; "Europe/Warsaw")}}`
      - `zgoda_marketing`: wartość z pola niestandardowego, np. `data.object.custom_fields[1].dropdown.value` (sprawdź w wyniku testu, pod którym numerem jest to pole). Gdy klient nic nie wybrał, wartość jest pusta. Make domyślnie nie wysyła pustych pól, więc nie skasuje wartości zapisanej wcześniej. Sprawdź to na teście: subskrybent z `zgoda_marketing = tak`, który przy kolejnym zakupie nic nie wybierze, ma zachować `tak`.
    - **Groups:** grupa danej trasy (*Klienci Life OS*, *Klienci Pakiet Pro* albo *Klienci Skupienie (dokupka)*).
    - **Status:** nie ustawiaj. Nie wolno „przywracać” na listę osoby, która się wcześniej wypisała.
@@ -349,7 +346,7 @@ Do testów użyj prywatnego Gmaila z dopiskiem, np. `twojadres+revion1@gmail.com
 
 - [ ] `konfiguracja.json` (publiczne, można wpisać): `stripe.pakiet_pro`, `mailerlite_strona_zapisu`.
 - [ ] Linki do płatnych plików (`dostawa.life_os`, `dostawa.ebook_skupienie`, `dostawa.ikony`): tylko w MailerLite, Elementorze albo `strona/konfiguracja.lokalna.json`, nie w repozytorium.
-- [ ] Link Stripe za 29 zł („Skupienie Absolutne”) albo, zalecane, link dopłaty 22 zł do Pakietu Pro (`02-po-zakupie.md`, B4).
+- [ ] Link Stripe za 29 zł („Skupienie Absolutne”) albo, zalecane, link dopłaty 22 zł do Pakietu Pro (`02-po-zakupie.md`, B4). Tylko po dopisaniu tej oferty do § 3 i § 9 ust. 7 regulaminu.
 - [ ] Link do PDF regulaminu z datą wersji (A1, A2, A3) i zgodność regulaminu z mailami: termin zwrotu w gwarancji, skutki zwrotu dla licencji, tekst zgody.
 - [ ] Mail 3 z pliku 01: Twoja prawdziwa historia.
 - [ ] Mail 7 z pliku 01: jak często będzie wychodził newsletter.

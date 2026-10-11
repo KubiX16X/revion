@@ -6,6 +6,11 @@ Kod strony jest gotowy w plikach `strona-glowna-v2.html`, `dostawa-life-os.html`
 > Zanim zaczniesz: zrób kopię obecnej strony (Elementor → przy stronie głównej „Zapisz jako szablon”
 > albo kopia całej witryny w panelu hostingu).
 
+> **Kolejność ma znaczenie:** 0 → 1 → 5 (regulamin) → 5a (maile po zakupie) → 4 (strony dostawy) → 2 (Stripe)
+> → 3 (strona główna) → 6 → 7 → 8. Zgoda w Stripe odwołuje się do nowego regulaminu i do maila z potwierdzeniem,
+> a przekierowanie po płatności musi trafiać na gotową, opublikowaną stronę dostawy. Kroki 0, 1 i część 2
+> (BLIK, wyłączenie starych linków) możesz zrobić od razu.
+
 > **Repozytorium na GitHubie jest publiczne.** Prawdziwych linków do płatnych produktów (Notion, PDF, ZIP)
 > nie wpisuj do plików w repozytorium. Podmieniasz je tylko w Elementorze, Stripe i MailerLite
 > (albo daj je mi, wpiszę je do pliku `strona/konfiguracja.lokalna.json`, który nie trafia na GitHuba).
@@ -62,11 +67,14 @@ Klienci, którzy skopiowali stary szablon, zachowują swoją kopię. Nową wersj
 2. **Ustawienia → Metody płatności:** włącz BLIK (oraz Google Pay i Apple Pay, jeśli są wyłączone).
 3. **Link „Life OS” (istniejący, 47 zł):** edytuj produkt i ustaw nazwę „Revion Life OS + ebook Nawyki Żelaznej
    Dyscypliny”. W linku płatności:
-   - **Po płatności → Przekieruj na stronę:** adres nowej strony dostawy Life OS. Adres powstaje w kroku 4.1,
-     więc najpierw utwórz tam obie strony (mogą być jeszcze puste, jako szkic) i zapisz ich adresy,
-   - **Wymagaj akceptacji warunków (terms of service):** włączone, z tekstem z `dokumenty/teksty-zgod.md`.
+   - **Po płatności → Przekieruj na stronę:** adres nowej strony dostawy Life OS z kroku 4. Zmień przekierowanie
+     dopiero wtedy, gdy ta strona jest opublikowana, ma wklejony kod i wszystkie jej linki działają.
+     Do tego czasu zostaw obecne przekierowanie,
+   - **Wymagaj akceptacji warunków (terms of service):** włączone, z tekstem z `dokumenty/teksty-zgod.md` (A1),
+     z polem A2 i tekstem A3 z tego samego pliku. Włącz to dopiero po kroku 5 (nowy regulamin) i 5a (maile).
 4. **Nowy link „Pakiet Pro” (69 zł):** produkt „Revion Pakiet Pro: Life OS + Skupienie Absolutne + 50 ikon”,
    te same ustawienia co wyżej, przekierowanie na stronę dostawy Pakietu Pro. Skopiuj adres linku.
+   Nie wklejaj go na stronę główną (krok 3), dopóki strona dostawy Pakietu Pro nie jest opublikowana.
 5. **Wyłącz stare linki** (59, 76, 88, 99, 106, 118, 135 zł), żeby nikt nie kupił zestawów, których już nie ma.
 6. Załóż arkusz „historia cen” (data, produkt, cena). Przy przyszłych promocjach musisz podawać najniższą cenę
    z 30 dni przed obniżką, a arkusz to Twój dowód.
@@ -101,9 +109,20 @@ Klienci, którzy skopiowali stary szablon, zachowują swoją kopię. Nową wersj
 1. Zastąp treść stron `/regulamin/` i `/polityka-prywatnosci/` dokumentami z folderu `dokumenty/`
    (edytor WordPressa sam zamieni Markdown na nagłówki i listy po wklejeniu).
 2. Dodaj stronę `/polityka-cookies/`.
-3. Uzupełnij wszystkie miejsca oznaczone `[DO UZUPEŁNIENIA: …]`.
-4. Polecam 30-minutową konsultację z prawnikiem przed publikacją. Dokumenty są przygotowane na podstawie
+3. Dodaj strony `/formularz-reklamacji/` i `/formularz-zwrotu/` z plików `dokumenty/formularz-reklamacji.md`
+   i `dokumenty/formularz-zwrotu.md`.
+4. Gotowy regulamin zapisz jako PDF z datą w nazwie (np. `Regulamin-Revion-2026-10-15.pdf`), wgraj w Media i nie
+   nadpisuj go przy kolejnych zmianach. Adres PDF i stron z formularzami wpisz w regulaminie (§ 5 ust. 10,
+   Załączniki) i w mailach A1–A3.
+5. Uzupełnij wszystkie miejsca oznaczone `[DO UZUPEŁNIENIA: …]`.
+6. Polecam 30-minutową konsultację z prawnikiem przed publikacją. Dokumenty są przygotowane na podstawie
    aktualnych przepisów, ale to wzory, nie porada prawna.
+
+## 5a. Maile po zakupie (60–90 min)
+
+Skonfiguruj MailerLite i Make według `maile/00-instrukcja-mailerlite.md` (sekcje 1–11). Zrób testowy zakup
+w trybie testowym Stripe. Dopiero gdy przychodzi potwierdzenie A1/A2 z dosłownym tekstem zgody, włącz zgodę
+w prawdziwych linkach (krok 2). To potwierdzenie na trwałym nośniku: bez niego klient zachowuje prawo odstąpienia.
 
 ## 6. SEO i udostępnianie linku (10 min)
 

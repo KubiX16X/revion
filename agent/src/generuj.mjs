@@ -43,7 +43,7 @@ export const Tydzien = z.object({
   notatka: z.string().describe('3–5 zdań dla właściciela: plan tygodnia i jeden wniosek z wyników.'),
 });
 
-export const LIMITY = { naglowek: 90, tekst: 280, punkt: 90, punkty: 6, slajdy: 8, opis: 1600, hashtagi: 6 };
+export const LIMITY = { naglowek: 90, tekst: 280, punkt: 90, punkty: 6, slajdy: 8, opis: 1600, hashtagi: 4 };
 
 const SYSTEM = `Jesteś strategiem social media i copywriterem polskiej marki internetowej. Piszesz posty na Facebooka i Instagrama
 (karuzele i pojedyncze grafiki 4:5), które budują zaufanie, zapisy na newsletter i sprzedaż. Piszesz po polsku,
@@ -62,7 +62,7 @@ Zasady treści:
 - Na slajdach bez emoji. W opisie emoji oszczędnie (0–3). **Pogrubienie** rzadko.
 - Opis: pierwsza linia to hak (widać ją przed „więcej”), potem krótkie akapity, na końcu pytanie albo wezwanie.
   Tam, gdzie ma być link do strony lub zapisu, wstaw dokładnie {LINK} (na Facebooku zamieni się w adres,
-  na Instagramie w „link w bio”). Hashtagi podajesz osobno: 3–6 trafnych, polskich, bez znaku spacji.
+  na Instagramie w „link w bio”). Hashtagi podajesz osobno: 3–4 trafne, polskie, bez znaku spacji.
 - Nie powtarzaj tematów z ostatnich postów. Ucz się z wyników: rozwijaj to, co działało, porzucaj to, co nie działało.
 
 Typy slajdów: okladka, tekst, lista, cytat, cta. Cele postów: zasieg, zaufanie, newsletter, sprzedaz.
@@ -280,7 +280,7 @@ async function main() {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(od)) throw new Error('--od w formacie RRRR-MM-DD');
   const brief = readFileSync(join(REVION, 'marka.md'), 'utf8');
   const plikNotatek = join(REVION, 'notatki-do-agenta.md');
-  const notatki = existsSync(plikNotatek) ? readFileSync(plikNotatek, 'utf8') : '';
+  const notatki = existsSync(plikNotatek) ? readFileSync(plikNotatek, 'utf8').replace(/<!--[\s\S]*?-->/g, '') : '';
   try {
     const wynik = await generujTydzien({ klient: new Anthropic(), ustawienia, brief, notatki, posty: wczytajPosty(), od });
     const rel = (p, g) => `./${relative(wynik.katalogTygodnia, join(p.katalog, g))}`;

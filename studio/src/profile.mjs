@@ -104,7 +104,7 @@ async function main() {
       .replace(/width="24"/, '')
       .replace(/height="24"/, '');
   await grafikiProfili({
-    fb: { tytul: 'Mniej chaosu.', akcent: 'Więcej systemu.', podpis: 'Szablony Notion i ebooki, które porządkują dzień, nawyki i finanse.' },
+    fb: { tytul: 'Mniej chaosu.', akcent: 'Więcej systemu.', podpis: 'Szablon do Notion i ebooki, które porządkują dzień, nawyki i finanse.' },
     og: {
       tytul: 'Przestań nosić',
       akcent: 'wszystko w\u00a0głowie.',

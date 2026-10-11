@@ -77,7 +77,7 @@ A woda? Metaanaliza 33 badań pokazała, że odwodnienie pogarsza wyniki, zwłas
 6. **Wieczorem przygaś:** na ostatnie godziny przed snem ciepłe, przyciemnione światło (rozdział 01).
 :::
 
-Wyobraź sobie Olę, studentkę i „sowę”. Magisterkę pisała o 8:00, bo „tak trzeba”, i głównie patrzyła w ekran. Mapa energii pokazała jej szczyt między 11:00 a 13:00 i dołek około 15:30. Ola przenosi pisanie na 11:00, rano odpisuje na maile, a o 15:30 wychodzi z psem. Godzin ma tyle samo, ale więcej z nich zamienia się w strony pracy.
+Wyobraź sobie Olę, studentkę i „sowę”. Magisterkę pisała o 8:00, bo „tak trzeba”, i głównie patrzyła w ekran. Mapa energii pokazała jej szczyt między 11:00 a 13:00 i dołek około 15:30. Ola przenosi pisanie na 11:00. Rano robi krótszy, lżejszy blok na własne sprawy i dopiero potem odpisuje na maile, a o 15:30 wychodzi z psem. Godzin ma tyle samo, ale więcej z nich zamienia się w strony pracy.
 
 :::cwiczenie Mapa energii przez 3 dni
 Przez 3 dni, co 2 godziny od pobudki, oceń swoją energię w skali 1–5 (1 – ledwo działasz, 5 – pełna moc). Obok zanotuj, co mogło na nią wpłynąć: godzinę snu i pobudki, kawy, posiłki, ruch. Jeden wpis zajmuje 30 sekund. Jeśli możesz, niech jeden z tych dni będzie wolny od pracy.

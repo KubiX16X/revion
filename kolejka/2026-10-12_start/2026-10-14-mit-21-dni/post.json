@@ -9,7 +9,7 @@
   "temat": "Mit: nawyk powstaje w 21 dni",
   "filar": "Nawyki i dyscyplina bez ściemy",
   "cel": "zasieg",
-  "opis": "„Nawyk powstaje w 21 dni.” Słyszysz to wszędzie. Problem w tym, że nikt tego nie zbadał.\n\nLiczba pochodzi z książki chirurga plastycznego Maxwella Maltza z 1960 roku: tyle mniej więcej zajmowało pacjentom przyzwyczajenie się do nowego wyglądu.\n\nKiedy naukowcy z University College London sprawdzili to naprawdę (Lally i in., 2010), mediana wyniosła 66 dni. Jednym wystarczyło 18, innym trzeba było 254.\n\nDobra wiadomość: jeden opuszczony dzień nie przekreślał postępów. Więcej w darmowym ebooku: {LINK}\n\nZapisz, żeby nie rzucić nowego nawyku w 22. dniu.",
+  "opis": "„Nawyk powstaje w 21 dni.” Słyszysz to wszędzie. Problem w tym, że ta liczba nie pochodzi z badań.\n\nLiczba pochodzi z książki chirurga plastycznego Maxwella Maltza z 1960 roku: tyle mniej więcej zajmowało pacjentom przyzwyczajenie się do nowego wyglądu.\n\nKiedy naukowcy z University College London sprawdzili to naprawdę (Lally i in., 2010), mediana wyniosła 66 dni. Jednym wystarczyło 18 dni, innym według wyliczeń nawet 254.\n\nDobra wiadomość: jeden opuszczony dzień nie przekreślał postępów. Więcej w darmowym ebooku: {LINK}\n\nZapisz, żeby nie rzucić nowego nawyku w 22. dniu.",
   "hashtagi": [
     "nawyki",
     "samodyscyplina",
@@ -27,13 +27,13 @@
       "typ": "tekst",
       "etykieta": "Skąd ta liczba",
       "naglowek": "Z anegdoty, nie z badań",
-      "tekst": "Maxwell Maltz, chirurg plastyczny, pisał w 1960 roku, że pacjenci przyzwyczajają się do nowego wyglądu po **około 21 dniach**. Nikt nie testował tego jako reguły."
+      "tekst": "Maxwell Maltz, chirurg plastyczny, pisał w 1960 roku, że pacjenci potrzebują **minimum około 21 dni**, żeby przyzwyczaić się do nowego wyglądu. Nikt nie testował tego jako reguły."
     },
     {
       "typ": "tekst",
       "etykieta": "Co mówi badanie",
       "naglowek": "Mediana: ==66 dni==",
-      "tekst": "W badaniu Lally i in. (2010) uczestnicy codziennie powtarzali jedno zachowanie. Czas do automatyzmu wahał się **od 18 do 254 dni**."
+      "tekst": "W badaniu Lally i in. (2010) uczestnicy codziennie powtarzali jedno zachowanie. Czas do automatyzmu wahał się **od 18 do 254 dni** (górna wartość to wyliczenie)."
     },
     {
       "typ": "lista",
@@ -42,7 +42,7 @@
         "Daj sobie 2–3 miesiące, nie 3 tygodnie",
         "Jeden opuszczony dzień nie przekreśla postępu",
         "Nie opuszczaj dwa razy z rzędu",
-        "Odhaczaj, żeby widzieć serię"
+        "Licz dni z ostatnich 30, nie serię"
       ]
     },
     {

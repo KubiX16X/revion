@@ -51,11 +51,15 @@ Przy ✗ jest napisane, co poprawić.
 
 ## 7. Włączenie i pierwszy tydzień (5 min)
 
-1. W `ustawienia.json` zmień `"agent_wlaczony": false` na `"agent_wlaczony": true` → **Commit changes**.
-2. **Actions** → **Revion: posty na kolejny tydzień** → **Run workflow** (pole z datą zostaw puste).
-3. Po kilku minutach w **Pull requests** pojawi się „Revion: posty na tydzień od …” z podglądem grafik,
+1. **Najpierw posty startowe.** W trzech plikach `kolejka/2026-10-12_start/*/post.json` zmień `"kiedy"` na najbliższy
+   poniedziałek, środę i piątek z harmonogramu, np. `"2026-10-26T18:30:00+01:00"` (od 25.10 obowiązuje czas zimowy,
+   czyli `+01:00`). Inaczej wyjdą od razu po włączeniu agenta.
+2. W `ustawienia.json` zmień `"agent_wlaczony": false` na `"agent_wlaczony": true` → **Commit changes**.
+3. **Actions** → **Revion: posty na kolejny tydzień** → **Run workflow**. W polu daty wpisz poniedziałek tygodnia
+   po postach startowych (np. `2026-11-02`).
+4. Po kilku minutach w **Pull requests** pojawi się „Revion: posty na tydzień od …” z podglądem grafik,
    opisami i scenariuszami na TikToka. Przejrzyj i kliknij **Merge**.
-4. Od tej chwili posty wychodzą same o godzinach z harmonogramu. Po pierwszym poście sprawdź go w oknie
+5. Od tej chwili posty wychodzą same o godzinach z harmonogramu. Po pierwszym poście sprawdź go w oknie
    incognito (krok 2, punkt 3).
 
 ## Ustawienia, które możesz zmieniać (`ustawienia.json`)
