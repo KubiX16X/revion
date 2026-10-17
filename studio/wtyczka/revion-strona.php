@@ -18,7 +18,7 @@ define( 'REVION_DIR', plugin_dir_path( __FILE__ ) );
 define( 'REVION_URL', plugin_dir_url( __FILE__ ) );
 define( 'REVION_OPCJE', 'revion_strona' );
 define( 'REVION_STAN', 'revion_strona_stan' );
-require_once REVION_DIR . 'wersja.php'; // REVION_REGULAMIN_PDF, generowane przy budowie
+require_once REVION_DIR . 'wersja.php'; // REVION_REGULAMIN_PDF, REVION_DOMYSLNE, REVION_SLUGI – generowane przy budowie
 
 /** Strony, które wtyczka tworzy przy pierwszym włączeniu. */
 function revion_definicje() {
@@ -55,7 +55,15 @@ function revion_opcje() {
 	foreach ( revion_pola() as $klucz => $pole ) {
 		$domyslne[ $klucz ] = $pole[1];
 	}
-	return wp_parse_args( (array) get_option( REVION_OPCJE, array() ), $domyslne );
+	$opcje = wp_parse_args( (array) get_option( REVION_OPCJE, array() ), $domyslne );
+	// linki wpisane przy budowie wtyczki (wersja.php) uzupełniają puste pola
+	$wbudowane = defined( 'REVION_DOMYSLNE' ) ? (array) json_decode( REVION_DOMYSLNE, true ) : array();
+	foreach ( $wbudowane as $klucz => $wartosc ) {
+		if ( '' === (string) ( $opcje[ $klucz ] ?? '' ) && $wartosc ) {
+			$opcje[ $klucz ] = $wartosc;
+		}
+	}
+	return $opcje;
 }
 
 function revion_stan() {
@@ -134,7 +142,8 @@ function revion_utworz_strone( $d ) {
 		update_post_meta( $id, '_revion_szablon', 'dokument' );
 		return $id;
 	}
-	$slug = $d['slug'] ? $d['slug'] : 'dostep-' . strtolower( wp_generate_password( 12, false, false ) );
+	$slugi = defined( 'REVION_SLUGI' ) ? (array) json_decode( REVION_SLUGI, true ) : array();
+	$slug  = $d['slug'] ? $d['slug'] : ( $slugi[ $d['szablon'] ] ?? 'dostep-' . strtolower( wp_generate_password( 12, false, false ) ) );
 	$id   = wp_insert_post(
 		array(
 			'post_type'    => 'page',

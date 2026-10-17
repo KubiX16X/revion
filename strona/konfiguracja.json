@@ -15,8 +15,8 @@
     "skupienie": "ok. 100"
   },
   "stripe": {
-    "life_os": "#WKLEJ-LINK-STRIPE-LIFE-OS-29-ZL",
-    "pakiet_pro": "#WKLEJ-LINK-STRIPE-PAKIET-PRO-69-ZL"
+    "life_os": "https://buy.stripe.com/4gM5kE8JT3xX26e8Vx8N20e",
+    "pakiet_pro": "https://buy.stripe.com/14AeVegclecB4em1t58N20f"
   },
   "obrazy_baza": "https://revion.pl/wp-content/uploads/2026/10/",
   "zrzuty": {

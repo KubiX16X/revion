@@ -13,6 +13,8 @@ const BUDOWA = join(STRONA, 'lokalnie', 'wtyczka');
 const CEL = join(BUDOWA, 'revion-strona');
 const ZIP = join(STRONA, 'lokalnie', 'revion-strona.zip');
 const CFG = JSON.parse(readFileSync(join(STRONA, 'konfiguracja.json'), 'utf8'));
+const PLIK_LOKALNY = join(STRONA, 'konfiguracja.lokalna.json');
+const LOKALNA = existsSync(PLIK_LOKALNY) ? JSON.parse(readFileSync(PLIK_LOKALNY, 'utf8')) : {};
 
 const dzis = new Date();
 const DATA = `${String(dzis.getDate()).padStart(2, '0')}.${String(dzis.getMonth() + 1).padStart(2, '0')}.${dzis.getFullYear()}`;
@@ -143,7 +145,12 @@ async function main() {
   rmSync(BUDOWA, { recursive: true, force: true });
   mkdirSync(CEL, { recursive: true });
   cpSync(join(STUDIO, 'wtyczka', 'revion-strona.php'), join(CEL, 'revion-strona.php'));
-  writeFileSync(join(CEL, 'wersja.php'), `<?php\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\ndefine( 'REVION_REGULAMIN_PDF', '${PDF_REGULAMINU}' );\n`);
+  const wtyczkaLok = LOKALNA.wtyczka ?? {};
+  const linki = Object.fromEntries(Object.entries(wtyczkaLok.linki ?? {}).filter(([, v]) => /^https:\/\//.test(v)));
+  const php = (o) => JSON.stringify(o).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  writeFileSync(join(CEL, 'wersja.php'), `<?php\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\ndefine( 'REVION_REGULAMIN_PDF', '${PDF_REGULAMINU}' );\ndefine( 'REVION_DOMYSLNE', '${php(linki)}' );\ndefine( 'REVION_SLUGI', '${php(wtyczkaLok.slugi ?? {})}' );\n`);
+  console.log('Wbudowane linki:', Object.keys(linki).join(', ') || 'brak');
+  for (const [k, v] of Object.entries(wtyczkaLok.slugi ?? {})) console.log(`Strona ${k}: https://revion.pl/${v}/`);
   szablony();
   pliki();
   await pdfRegulaminu(dokumenty());

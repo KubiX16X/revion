@@ -299,7 +299,7 @@ przez ostatnie 10 dni pisałem o poranku, o wieczornym planie i o tym, że dyscy
 - przyszłe aktualizacje szablonu,
 - pomoc mailowa przy wdrożeniu.
 
-**Przycisk:** „Kupuję Life OS · 29 zł” → [LINK: nowy link Stripe Life OS za 29 zł]
+**Przycisk:** „Kupuję Life OS · 29 zł” → [LINK: https://buy.stripe.com/4gM5kE8JT3xX26e8Vx8N20e]
 
 **Pakiet Pro – 69 zł**
 
@@ -309,7 +309,7 @@ Wszystko z Life OS, a do tego:
 - 50 ikon do Notion w dwóch wariantach: „neon” (przezroczyste tło) i „kafel” (ciemny kafelek). Glify pochodzą z otwartej biblioteki Lucide, a ikony są dopasowane do stylu Revion,
 - przyszłe aktualizacje szablonu i ebooków.
 
-**Przycisk:** „Kupuję Pakiet Pro · 69 zł” → [LINK: Stripe Pakiet Pro – UZUPEŁNIJ: link z konfiguracja.json → stripe.pakiet_pro]
+**Przycisk:** „Kupuję Pakiet Pro · 69 zł” → [LINK: https://buy.stripe.com/14AeVegclecB4em1t58N20f]
 
 **Który wybrać?**
 Life OS, jeśli chcesz przede wszystkim ogarnąć zadania, nawyki i finanse. Pakiet Pro, jeśli Twoja praca wymaga dłuższego skupienia (nauka, pisanie, projekty dla klientów) i chcesz wiedzieć, jak chronić te godziny przed rozproszeniami.
@@ -326,8 +326,8 @@ Kuba
 
 P.S. Pytanie przed zakupem? Odpisz na tego maila. Odpowiadam w ciągu 24 godzin w dni robocze.
 
-**CTA główne:** Kupuję Life OS · 29 zł → [LINK: nowy link Stripe Life OS za 29 zł]
-**CTA drugie:** Kupuję Pakiet Pro · 69 zł → [LINK: Stripe Pakiet Pro – UZUPEŁNIJ]
+**CTA główne:** Kupuję Life OS · 29 zł → [LINK: https://buy.stripe.com/4gM5kE8JT3xX26e8Vx8N20e]
+**CTA drugie:** Kupuję Pakiet Pro · 69 zł → [LINK: https://buy.stripe.com/14AeVegclecB4em1t58N20f]
 
 > Uwaga techniczna: metody płatności w tekście (karta, BLIK, Google Pay, Apple Pay) muszą być włączone w Stripe. Jeśli któraś nie jest, usuń ją z maila i ze strony.
 
