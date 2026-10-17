@@ -6,7 +6,8 @@
   "scripts": {
     "ebooki": "node src/sklad.mjs ../produkty/ebook-nawyki",
     "grafiki": "node src/okladki.mjs && node src/profile.mjs && node src/ikony.mjs && node src/eksport-logo.mjs",
-    "strona": "node src/strona.mjs"
+    "strona": "node src/strona.mjs",
+    "wtyczka": "node src/wtyczka.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.3.0",

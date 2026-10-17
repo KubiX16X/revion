@@ -28,7 +28,7 @@ Dokupienie „Skupienie Absolutne” (29 zł)
 - [ ] Skrzynka `kontakt@revion.pl` działa, a Ty regularnie ją czytasz (odpowiedzi na maile trafiają właśnie tam).
 - [ ] Nowy regulamin jest opublikowany na revion.pl, a jego wersja w PDF (z datą w nazwie pliku) leży na serwerze. Regulamin opisuje gwarancję 14 dni i zawiera ten sam tekst zgody co Stripe (sekcja 8).
 - [ ] Pliki są na miejscu i linki działają: Life OS, PDF „Nawyki”, PDF „Skupienie Absolutne”, ZIP z ikonami. Prawdziwe linki do płatnych plików (Life OS, PDF „Skupienie”, ZIP) wklejasz tylko w MailerLite i Elementorze (albo podajesz mi do `strona/konfiguracja.lokalna.json`), nigdy do `konfiguracja.json`: repozytorium jest publiczne.
-- [ ] Linki płatności Stripe są gotowe i ustawione (sekcja 8): Life OS 47 zł, Pakiet Pro 69 zł, Skupienie 29 zł (albo dopłata 22 zł, patrz `02-po-zakupie.md`, B4) tylko po dopisaniu tej oferty do § 3 i § 9 ust. 7 regulaminu.
+- [ ] Linki płatności Stripe są gotowe i ustawione (sekcja 8): Life OS 29 zł, Pakiet Pro 69 zł, Skupienie 29 zł (albo dopłata 40 zł, patrz `02-po-zakupie.md`, B4) tylko po dopisaniu tej oferty do § 3 i § 9 ust. 7 regulaminu.
 - [ ] MailerLite: domena, nadawca, stopka, pola, grupy, formularz, strona zapisu (sekcje 2–6).
 - [ ] Maile wklejone i automatyzacje zbudowane (sekcja 7), ale **jeszcze niewłączone**.
 - [ ] Make połączony ze Stripe i MailerLite (sekcja 9).
@@ -96,7 +96,7 @@ Po utworzeniu sprawdź, jak wygląda znacznik pola w edytorze maila (przycisk pe
 | Grupa | Kto w niej jest | Wyzwala |
 |---|---|---|
 | Darmowy ebook | osoby z formularza zapisu (po potwierdzeniu) | automatyzację A |
-| Klienci Life OS | kupujący Life OS za 47 zł (dodaje Make) | automatyzację B |
+| Klienci Life OS | kupujący Life OS za 29 zł (dodaje Make) | automatyzację B |
 | Klienci Pakiet Pro | kupujący Pakiet Pro za 69 zł (dodaje Make) | automatyzację B |
 | Klienci Skupienie (dokupka) | dokupienie ebooka za 29 zł (dodaje Make) | automatyzację C |
 
@@ -235,14 +235,14 @@ Gałęzie warunków w MailerLite nie łączą się z powrotem, dlatego maile B1�
 
 **Kroki:** Email: A3, bez opóźnienia. Koniec.
 
-(Jeśli wybierzesz wariant „dopłata 22 zł do Pakietu Pro”, wyzwalaczem jest grupa *Dopłata do Pro*, a mail A3 zmieniasz zgodnie z `02-po-zakupie.md`, B4.)
+(Jeśli wybierzesz wariant „dopłata 40 zł do Pakietu Pro”, wyzwalaczem jest grupa *Dopłata do Pro*, a mail A3 zmieniasz zgodnie z `02-po-zakupie.md`, B4.)
 
 ## 8. Stripe: przygotowanie linków płatności
 
 Bez tych ustawień potwierdzenie z maila A1–A3 nie ma czego potwierdzać.
 
 1. **Settings → Business → Public details:** nazwa „Revion”, e-mail wsparcia `kontakt@revion.pl`, adres strony, **adres regulaminu** `https://revion.pl/regulamin/` i polityki prywatności. Bez adresu regulaminu Stripe nie pokaże pola akceptacji.
-2. **Każdy link płatności** (Life OS 47 zł, Pakiet Pro 69 zł, Skupienie 29 zł):
+2. **Każdy link płatności** (Life OS 29 zł, Pakiet Pro 69 zł, Skupienie 29 zł):
    - **„Require customers to accept your terms of service”: włącz.**
    - **Własny tekst przy polu akceptacji** (custom text dla terms of service acceptance), dosłownie:
      > Akceptuję [Regulamin](https://revion.pl/regulamin/). Wyrażam zgodę na dostarczenie treści cyfrowych (szablon Notion i pliki PDF/ZIP) od razu po płatności, przed upływem 14 dni na odstąpienie od umowy, i przyjmuję do wiadomości, że po ich dostarczeniu tracę ustawowe prawo odstąpienia od umowy. Niezależnie od tego mam 14 dni od zakupu na zwrot całej kwoty w ramach dobrowolnej gwarancji (§ 9 Regulaminu).
@@ -276,10 +276,10 @@ Darmowy plan Make (stan z września 2026 według serwisów branżowych): 1 000 k
 3. **Router** z trzema trasami. Na każdej trasie filtr (ikona klucza na linii), oba warunki muszą być spełnione:
    - `data.object.payment_status` równe `paid`, **oraz**
    - `data.object.payment_link` równe identyfikatorowi linku:
-     - trasa „Life OS”: `plink_…` linku za 47 zł,
+     - trasa „Life OS”: `plink_…` linku za 29 zł,
      - trasa „Pakiet Pro”: `plink_…` linku za 69 zł,
      - trasa „Skupienie”: `plink_…` linku za 29 zł.
-   - Prostsza alternatywa: filtr po kwocie `data.object.amount_total` (w groszach: `4700`, `6900`, `2900`). Działa, dopóki nie zmienisz cen i nie włączysz kodów rabatowych.
+   - Prostsza alternatywa: filtr po kwocie `data.object.amount_total` (w groszach: `2900` Life OS, `6900` Pakiet Pro). Nie działa, gdy włączysz dokupkę Skupienia za 29 zł (ta sama kwota co Life OS): wtedy filtruj po `payment_link`. Działa też tylko, dopóki nie zmienisz cen i nie włączysz kodów rabatowych.
 4. **Na końcu każdej trasy: MailerLite → „Create/Update a Subscriber”** (połączenie: klucz API z MailerLite, Integrations → API).
    - **Email:** `data.object.customer_details.email`
    - **Fields:**
@@ -346,7 +346,7 @@ Do testów użyj prywatnego Gmaila z dopiskiem, np. `twojadres+revion1@gmail.com
 
 - [ ] `konfiguracja.json` (publiczne, można wpisać): `stripe.pakiet_pro`, `mailerlite_strona_zapisu`.
 - [ ] Linki do płatnych plików (`dostawa.life_os`, `dostawa.ebook_skupienie`, `dostawa.ikony`): tylko w MailerLite, Elementorze albo `strona/konfiguracja.lokalna.json`, nie w repozytorium.
-- [ ] Link Stripe za 29 zł („Skupienie Absolutne”) albo, zalecane, link dopłaty 22 zł do Pakietu Pro (`02-po-zakupie.md`, B4). Tylko po dopisaniu tej oferty do § 3 i § 9 ust. 7 regulaminu.
+- [ ] Link Stripe za 29 zł („Skupienie Absolutne”) albo, zalecane, link dopłaty 40 zł do Pakietu Pro (`02-po-zakupie.md`, B4). Tylko po dopisaniu tej oferty do § 3 i § 9 ust. 7 regulaminu.
 - [ ] Link do PDF regulaminu z datą wersji (A1, A2, A3) i zgodność regulaminu z mailami: termin zwrotu w gwarancji, skutki zwrotu dla licencji, tekst zgody.
 - [ ] Mail 3 z pliku 01: Twoja prawdziwa historia.
 - [ ] Mail 7 z pliku 01: jak często będzie wychodził newsletter.

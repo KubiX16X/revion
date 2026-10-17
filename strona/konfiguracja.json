@@ -6,7 +6,7 @@
     "adres": "ul. Lawendowa 21, 58-500 Jelenia Góra"
   },
   "ceny": {
-    "life_os": 47,
+    "life_os": 29,
     "pakiet_pro": 69
   },
   "gwarancja_14_dni": true,
@@ -15,7 +15,7 @@
     "skupienie": "ok. 100"
   },
   "stripe": {
-    "life_os": "https://buy.stripe.com/5kQ14o3pz1pPbGO4Fh8N200",
+    "life_os": "#WKLEJ-LINK-STRIPE-LIFE-OS-29-ZL",
     "pakiet_pro": "#WKLEJ-LINK-STRIPE-PAKIET-PRO-69-ZL"
   },
   "obrazy_baza": "https://revion.pl/wp-content/uploads/2026/10/",

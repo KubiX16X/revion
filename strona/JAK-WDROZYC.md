@@ -65,8 +65,9 @@ Klienci, którzy skopiowali stary szablon, zachowują swoją kopię. Nową wersj
 
 1. **Ustawienia → Dane publiczne:** wpisz adres regulaminu `https://revion.pl/regulamin/`.
 2. **Ustawienia → Metody płatności:** włącz BLIK (oraz Google Pay i Apple Pay, jeśli są wyłączone).
-3. **Link „Life OS” (istniejący, 47 zł):** edytuj produkt i ustaw nazwę „Revion Life OS + ebook Nawyki Żelaznej
-   Dyscypliny”. W linku płatności:
+3. **Nowy link „Life OS” (29 zł):** cena się zmieniła, a ceny istniejącego linku (47 zł) nie da się zmienić, więc
+   utwórz nowy produkt „Revion Life OS + ebook Nawyki Żelaznej Dyscypliny” za 29 zł i nowy link płatności.
+   Stary link za 47 zł wyłącz dopiero, gdy na stronie jest już nowy. W nowym linku płatności:
    - **Po płatności → Przekieruj na stronę:** adres nowej strony dostawy Life OS z kroku 4. Zmień przekierowanie
      dopiero wtedy, gdy ta strona jest opublikowana, ma wklejony kod i wszystkie jej linki działają.
      Do tego czasu zostaw obecne przekierowanie,
@@ -75,7 +76,7 @@ Klienci, którzy skopiowali stary szablon, zachowują swoją kopię. Nową wersj
 4. **Nowy link „Pakiet Pro” (69 zł):** produkt „Revion Pakiet Pro: Life OS + Skupienie Absolutne + 50 ikon”,
    te same ustawienia co wyżej, przekierowanie na stronę dostawy Pakietu Pro. Skopiuj adres linku.
    Nie wklejaj go na stronę główną (krok 3), dopóki strona dostawy Pakietu Pro nie jest opublikowana.
-5. **Wyłącz stare linki** (59, 76, 88, 99, 106, 118, 135 zł), żeby nikt nie kupił zestawów, których już nie ma.
+5. **Wyłącz stare linki** (47, 59, 76, 88, 99, 106, 118, 135 zł), żeby nikt nie kupił zestawów, których już nie ma.
 6. Załóż arkusz „historia cen” (data, produkt, cena). Przy przyszłych promocjach musisz podawać najniższą cenę
    z 30 dni przed obniżką, a arkusz to Twój dowód.
 

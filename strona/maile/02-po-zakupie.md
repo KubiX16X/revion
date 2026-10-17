@@ -59,7 +59,7 @@ Sprawdź w edytorze MailerLite (przycisk personalizacji), jak dokładnie wygląd
 
 # (a) Potwierdzenia zamówienia
 
-## A1 · Potwierdzenie zamówienia: Life OS (47 zł)
+## A1 · Potwierdzenie zamówienia: Life OS (29 zł)
 
 **Opóźnienie:** natychmiast, pierwszy krok gałęzi „Life OS” w automatyzacji B.
 
@@ -87,7 +87,7 @@ Na start: po skopiowaniu szablonu otwórz Inbox i wrzuć do niego wszystko, co m
 ### Twoje zamówienie
 
 - **Produkt:** Revion Life OS, szablon Notion (6 modułów: Kokpit „Dziś”, Inbox, Projekty, Cele i nawyki, Finanse i budżet, Biblioteka wiedzy), ebook PDF „Nawyki Żelaznej Dyscypliny” w prezencie, przyszłe aktualizacje szablonu, pomoc mailowa przy wdrożeniu.
-- **Cena:** 47,00 zł. Cena końcowa, płatność jednorazowa, bez abonamentu i bez dodatkowych opłat.
+- **Cena:** 29,00 zł. Cena końcowa, płatność jednorazowa, bez abonamentu i bez dodatkowych opłat.
 - **Data zakupu:** {$data_zakupu}
 - **Numer płatności:** {$nr_zamowienia}
 - **Płatność:** przez operatora płatności Stripe.
@@ -225,7 +225,7 @@ Revion
 
 ## A3 · Potwierdzenie zamówienia: „Skupienie Absolutne” dokupione do Life OS (29 zł)
 
-**Nie włączaj tego maila ani linku 29 zł / 22 zł, dopóki regulamin (§ 2 pkt 7, § 3, § 9 ust. 7), `konfiguracja.json` i `dokumenty/teksty-zgod.md` nie obejmują tej oferty. Dziś regulamin zna tylko Life OS i Pakiet Pro.**
+**Nie włączaj tego maila ani linku 29 zł / 40 zł, dopóki regulamin (§ 2 pkt 7, § 3, § 9 ust. 7), `konfiguracja.json` i `dokumenty/teksty-zgod.md` nie obejmują tej oferty. Dziś regulamin zna tylko Life OS i Pakiet Pro.**
 
 Ten mail jest potrzebny, bo propozycja z dnia 10 (B4) to osobna umowa, więc także ona wymaga potwierdzenia na trwałym nośniku. Wysyła go automatyzacja C po dołączeniu do grupy *Klienci Skupienie (dokupka)*. W Stripe ten link płatności też musi mieć pole akceptacji regulaminu z tym samym tekstem zgody.
 
@@ -463,7 +463,7 @@ Kuba
 
 ## B4 · Dzień 10 · „Skupienie Absolutne” za 29 zł (tylko kupujący Life OS)
 
-**Nie włączaj tego maila ani linku 29 zł / 22 zł, dopóki regulamin (§ 2 pkt 7, § 3, § 9 ust. 7), `konfiguracja.json` i `dokumenty/teksty-zgod.md` nie obejmują tej oferty. Dziś regulamin zna tylko Life OS i Pakiet Pro.**
+**Nie włączaj tego maila ani linku 29 zł / 40 zł, dopóki regulamin (§ 2 pkt 7, § 3, § 9 ust. 7), `konfiguracja.json` i `dokumenty/teksty-zgod.md` nie obejmują tej oferty. Dziś regulamin zna tylko Life OS i Pakiet Pro.**
 
 **Opóźnienie:** 3 dni po B3.
 **Warunek:** gałąź Life OS **i** zgoda marketingowa **i** subskrybent nie jest w grupach *Klienci Pakiet Pro* ani *Klienci Skupienie (dokupka)*. Kupujący Pakiet Pro tego maila nie dostają, bo ebook już mają.
@@ -506,16 +506,16 @@ Kuba
 
 ### Uwaga o cenie: rozważ wariant „dopłata do Pakietu Pro”
 
-Przy obecnych cenach klient, który kupi Life OS (47 zł) i dokupi Skupienie (29 zł), zapłaci **76 zł**, czyli **więcej** niż za Pakiet Pro (69 zł), i nie dostanie ikon. Ktoś to w końcu zauważy i poczuje się źle potraktowany. Uczciwsza wersja to **dopłata różnicy do Pakietu Pro: 22 zł** (Skupienie i ikony, łącznie tyle samo co Pro od razu). Jeśli ją wybierzesz:
+Przy obecnych cenach klient, który kupi Life OS (29 zł) i dokupi Skupienie (29 zł), zapłaci **58 zł**, czyli 11 zł mniej niż za Pakiet Pro (69 zł), ale bez ikon. Prostsza oferta to **dopłata różnicy do Pakietu Pro: 40 zł** (Skupienie i ikony, łącznie tyle samo co Pro od razu). Jeśli ją wybierzesz:
 
-1. W Stripe utwórz link „Dopłata do Pakietu Pro” na 22 zł (z tym samym polem akceptacji regulaminu i tekstem zgody).
+1. W Stripe utwórz link „Dopłata do Pakietu Pro” na 40 zł (z tym samym polem akceptacji regulaminu i tekstem zgody).
 2. W Make dodaj tę trasę: grupa *Dopłata do Pro* (wyzwalacz automatyzacji C) oraz grupa *Klienci Pakiet Pro*.
-3. W A3 zmień produkt na „Dopłata do Pakietu Pro: ebook PDF „Skupienie Absolutne” i 50 ikon do Notion (ZIP)”, cenę na 22,00 zł i dodaj link do ZIP z ikonami.
+3. W A3 zmień produkt na „Dopłata do Pakietu Pro: ebook PDF „Skupienie Absolutne” i 50 ikon do Notion (ZIP)”, cenę na 40,00 zł i dodaj link do ZIP z ikonami.
 4. W B4 zamień trzy ostatnie akapity przed podpisem na:
 
-> Masz Life OS za 47 zł. Pakiet Pro kosztuje 69 zł. Możesz dopłacić różnicę, **22 zł**, i dostać to, co mają kupujący Pakiet Pro: ebook „Skupienie Absolutne” i 50 ikon do Notion w dwóch wariantach. Łącznie zapłacisz tyle samo, ile przy zakupie Pakietu Pro od razu. Tu też działa 14-dniowa gwarancja zwrotu.
+> Masz Life OS za 29 zł. Pakiet Pro kosztuje 69 zł. Możesz dopłacić różnicę, **40 zł**, i dostać to, co mają kupujący Pakiet Pro: ebook „Skupienie Absolutne” i 50 ikon do Notion w dwóch wariantach. Łącznie zapłacisz tyle samo, ile przy zakupie Pakietu Pro od razu. Tu też działa 14-dniowa gwarancja zwrotu.
 >
-> **Przycisk:** „Dopłacam do Pakietu Pro · 22 zł” → [LINK: Stripe 22 zł – do utworzenia]
+> **Przycisk:** „Dopłacam do Pakietu Pro · 40 zł” → [LINK: Stripe 40 zł – do utworzenia]
 >
 > To jedyny mail z propozycją zakupu w tej serii. Jeśli nie teraz, nic się nie stanie.
 

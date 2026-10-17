@@ -31,7 +31,7 @@ Ważne:
 
 | Sprzedajesz w kwartale tylko… | Maksymalnie sprzedaży w kwartale | Miesięcznie (średnio) |
 |---|---|---|
-| Life OS po 47 zł | 230 | ok. 76 |
+| Life OS po 29 zł | 372 | ok. 124 |
 | Pakiet Pro po 69 zł | 156 | ok. 52 |
 
 Rocznie daje to maksymalnie ok. **43 254 zł** (4 × 10 813,50 zł), ale tylko przy równej sprzedaży w każdym kwartale.

@@ -27,7 +27,7 @@ Braki do uzupełnienia są oznaczone **[DO UZUPEŁNIENIA: …]**.
 
 ## A. Teksty do Stripe Payment Links
 
-Te same teksty wklej w obu linkach: Life OS (47 zł) i Pakiet Pro (69 zł).
+Te same teksty wklej w obu linkach: Life OS (29 zł) i Pakiet Pro (69 zł).
 
 ### A1. Tekst przy obowiązkowym polu akceptacji regulaminu (terms of service)
 
@@ -68,7 +68,7 @@ Sprzedawca: Jakub Sroczyński (Revion), ul. Lawendowa 21, 58-500 Jelenia Góra, 
 
 Stripe pokazuje je na stronie płatności obok ceny. Ustawiasz je w katalogu produktów (Product catalog → produkt → Description).
 
-**Life OS (47 zł):**
+**Life OS (29 zł):**
 
 ```text
 Szablon Revion Life OS w Notion (6 modułów, działa na darmowym planie Notion) + ebook PDF „Nawyki Żelaznej Dyscypliny” w prezencie + przyszłe aktualizacje szablonu + pomoc mailowa. Treść cyfrowa: dostęp od razu po płatności.
@@ -149,7 +149,7 @@ Odpowiedź zawiera pole `url` (nowy link `https://buy.stripe.com/…`). Stary li
    - [ ] w **Developers → Events** zdarzenie `checkout.session.completed` ma `consent.terms_of_service = "accepted"` i `custom_fields[0].dropdown.value = "tak"`;
    - [ ] e-mail z części D przyszedł w ciągu kilku minut, ma poprawne dane, linki i treść zgody;
    - [ ] wykonaj testowy zwrot (Refund) i sprawdź, jak wygląda dla klienta.
-3. Powtórz test w trybie na żywo jednym prawdziwym zakupem za 47 zł i od razu zwróć sobie pieniądze.
+3. Powtórz test w trybie na żywo jednym prawdziwym zakupem za 29 zł i od razu zwróć sobie pieniądze.
 
 ---
 

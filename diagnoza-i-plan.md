@@ -47,7 +47,7 @@ Nie widzę Twoich statystyk strony ani panelu Stripe, więc liczby przychodów p
 
 ## Ile to może zarabiać
 
-Na każdej sprzedaży przez Stripe (karty z EOG: 1,5% + 1 zł) zostaje ok. **45,30 zł z 47 zł** i **ok. 67 zł z 69 zł**.
+Na każdej sprzedaży przez Stripe (karty z EOG: 1,5% + 1 zł) zostaje ok. **27,55 zł z 29 zł** i **ok. 67 zł z 69 zł**.
 
 Przyjmuję średni koszyk ok. 55 zł (część osób weźmie Pakiet Pro). Widełki konwersji to typowe zakresy dla
 tanich produktów cyfrowych, a nie gwarancja.

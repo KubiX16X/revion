@@ -31,7 +31,7 @@ Zanim opublikujesz:
 Ten regulamin opisuje, jak kupić produkty cyfrowe Revion, jak je dostajesz, jakie masz prawa i jak działają bezpłatne usługi na stronie (newsletter z darmowym ebookiem i formularz kontaktowy). Piszemy możliwie prosto. Jeśli coś jest niejasne, napisz na kontakt@revion.pl.
 
 > **W skrócie** (skrót nie zastępuje regulaminu):
-> - Płacisz raz: Life OS 47 zł albo Pakiet Pro 69 zł. To ceny końcowe, bez abonamentu.
+> - Płacisz raz: Life OS 29 zł albo Pakiet Pro 69 zł. To ceny końcowe, bez abonamentu.
 > - Dostęp dostajesz od razu po płatności, a potwierdzenie zakupu przychodzi na e-mail.
 > - Masz **14 dni od zakupu na zwrot całej kwoty bez podawania przyczyny**. To nasza dobrowolna gwarancja (§ 9).
 > - **Ustawowe** prawo odstąpienia od umowy wygasa po dostarczeniu treści cyfrowej, bo przy płatności prosisz o dostęp od razu (§ 8).
@@ -75,7 +75,7 @@ Słowa pisane w regulaminie wielką literą oznaczają:
 
 ## § 3. Produkty
 
-1. **Life OS – 47 zł** obejmuje:
+1. **Life OS – 29 zł** obejmuje:
    1. szablon **Revion Life OS** w Notion, po polsku, z modułami: Kokpit „Dziś”, Inbox, Projekty, Cele i nawyki, Finanse i budżet, Biblioteka wiedzy;
    2. w prezencie ebook PDF **„Nawyki Żelaznej Dyscypliny”** (ok. 70 stron);
    3. przyszłe aktualizacje szablonu (§ 7);

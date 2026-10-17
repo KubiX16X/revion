@@ -10,7 +10,7 @@ Jednorazowe prośby na najbliższy tydzień (promocja, premiera, temat) wpisuj w
 
 - **Produkty (nazwa, co to jest, cena, link):**
   - **Revion Life OS**: gotowy szablon Notion po polsku, który łączy w jednym pulpicie zadania, nawyki, cele,
-    projekty, finanse i notatki. 47 zł, płatność jednorazowa, https://revion.pl/
+    projekty, finanse i notatki. 29 zł, płatność jednorazowa, https://revion.pl/
   - **Pakiet Pro**: Life OS + ebook „Skupienie Absolutne” (protokoły głębokiej pracy, ok. 100 stron)
     + 50 ikon do Notion. 69 zł, płatność jednorazowa, https://revion.pl/#oferta
   - **Ebook „Nawyki Żelaznej Dyscypliny”** (ok. 70 stron): za darmo w zamian za zapis na newsletter,
@@ -51,7 +51,7 @@ Jednorazowe prośby na najbliższy tydzień (promocja, premiera, temat) wpisuj w
   https://revion.pl/#darmowy-ebook
 - **Co dzieje się po zapisie (seria maili, oferta):**
   Ebook od razu, potem 7 krótkich maili w 14 dni (wartość z ebooka, pokazanie Life OS, odpowiedzi na obiekcje,
-  oferta Life OS 47 zł i Pakietu Pro 69 zł). Szczegóły: `strona/maile/01-darmowy-ebook.md`.
+  oferta Life OS 29 zł i Pakietu Pro 69 zł). Szczegóły: `strona/maile/01-darmowy-ebook.md`.
 
 ## 4. Ton głosu
 

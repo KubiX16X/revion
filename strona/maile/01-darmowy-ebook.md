@@ -17,7 +17,7 @@ Automatyzacja w MailerLite: **„A – Darmowy ebook”**. Konfigurację krok po
 | 3 | 2 dni | 4 | Dlaczego powstał Revion (szablon do uzupełnienia) | brak |
 | 4 | 2 dni | 6 | Wieczorne 5 minut i Life OS od środka (rozdz. 02) | nie jest klientem |
 | 5 | 2 dni | 8 | Szczere odpowiedzi na obiekcje | nie jest klientem |
-| 6 | 2 dni | 10 | Oferta: Life OS 47 zł / Pakiet Pro 69 zł, gwarancja 14 dni | nie jest klientem |
+| 6 | 2 dni | 10 | Oferta: Life OS 29 zł / Pakiet Pro 69 zł, gwarancja 14 dni | nie jest klientem |
 | 7 | 3 dni | 13 | Technika 3–2–1 i miękkie zaproszenie (rozdz. 03) | nie jest klientem |
 
 **„Nie jest klientem”** oznacza, że subskrybent nie należy ani do grupy *Klienci Life OS*, ani do *Klienci Pakiet Pro*. Kto kupi w trakcie serii, przestaje dostawać maile sprzedażowe. Ustawienie warunku opisuje instrukcja w sekcji 7A.
@@ -276,7 +276,7 @@ Kuba
 
 ---
 
-## Mail 6 · dzień 10 · oferta: Life OS 47 zł albo Pakiet Pro 69 zł
+## Mail 6 · dzień 10 · oferta: Life OS 29 zł albo Pakiet Pro 69 zł
 
 **Opóźnienie:** 2 dni po mailu 5.
 **Warunek:** nie jest klientem.
@@ -292,14 +292,14 @@ Cześć,
 
 przez ostatnie 10 dni pisałem o poranku, o wieczornym planie i o tym, że dyscyplina to system. Dziś konkretnie: jeśli chcesz mieć ten system w jednym miejscu, masz do wyboru dwa pakiety.
 
-**Life OS – 47 zł**
+**Life OS – 29 zł**
 
 - szablon Revion Life OS w Notion: Kokpit „Dziś”, Inbox, Projekty, Cele i nawyki, Finanse i budżet, Biblioteka wiedzy,
 - ebook „Nawyki Żelaznej Dyscypliny” w prezencie (ten sam, który już masz, więc nie płacisz za niego drugi raz),
 - przyszłe aktualizacje szablonu,
 - pomoc mailowa przy wdrożeniu.
 
-**Przycisk:** „Kupuję Life OS · 47 zł” → [LINK: Stripe Life OS – https://buy.stripe.com/5kQ14o3pz1pPbGO4Fh8N200]
+**Przycisk:** „Kupuję Life OS · 29 zł” → [LINK: nowy link Stripe Life OS za 29 zł]
 
 **Pakiet Pro – 69 zł**
 
@@ -326,7 +326,7 @@ Kuba
 
 P.S. Pytanie przed zakupem? Odpisz na tego maila. Odpowiadam w ciągu 24 godzin w dni robocze.
 
-**CTA główne:** Kupuję Life OS · 47 zł → [LINK: https://buy.stripe.com/5kQ14o3pz1pPbGO4Fh8N200]
+**CTA główne:** Kupuję Life OS · 29 zł → [LINK: nowy link Stripe Life OS za 29 zł]
 **CTA drugie:** Kupuję Pakiet Pro · 69 zł → [LINK: Stripe Pakiet Pro – UZUPEŁNIJ]
 
 > Uwaga techniczna: metody płatności w tekście (karta, BLIK, Google Pay, Apple Pay) muszą być włączone w Stripe. Jeśli któraś nie jest, usuń ją z maila i ze strony.
