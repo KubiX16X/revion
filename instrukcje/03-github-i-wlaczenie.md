@@ -51,9 +51,8 @@ Przy ✗ jest napisane, co poprawić.
 
 ## 7. Włączenie i pierwszy tydzień (5 min)
 
-1. **Najpierw posty startowe.** W trzech plikach `kolejka/2026-10-12_start/*/post.json` zmień `"kiedy"` na najbliższy
-   poniedziałek, środę i piątek z harmonogramu, np. `"2026-10-26T18:30:00+01:00"` (od 25.10 obowiązuje czas zimowy,
-   czyli `+01:00`). Inaczej wyjdą od razu po włączeniu agenta.
+1. **Posty startowe** są w ręcznym planie na 14 dni (`social/`), więc w kolejce mają status `"wstrzymany"`.
+   Agenta włącz dopiero po tych 14 dniach, żeby posty się nie dublowały.
 2. W `ustawienia.json` zmień `"agent_wlaczony": false` na `"agent_wlaczony": true` → **Commit changes**.
 3. **Actions** → **Revion: posty na kolejny tydzień** → **Run workflow**. W polu daty wpisz poniedziałek tygodnia
    po postach startowych (np. `2026-11-02`).
