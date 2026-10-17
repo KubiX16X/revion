@@ -193,6 +193,8 @@ const modul = (ik, tytul, tekst) => `<div class="karta"><div class="ik">${IK[ik]
 const lista = (punkty, ik = 'ok') => `<ul>${punkty.map((p) => `<li>${IK[ik]}<span>${p}</span></li>`).join('')}</ul>`;
 
 function stronaGlowna(c) {
+  // podpisy galerii zrzutów (zrzuty_podpisy w konfiguracji nadpisują domyślne)
+  const pz = { kokpit: 'Kokpit', projekty: 'Zadania i projekty', nawyki: 'Śledzenie nawyków', finanse: 'Finanse i budżet', ...(c.zrzuty_podpisy ?? {}) };
   const k = c.stripe;
   const gwarancja = c.gwarancja_14_dni;
   return `<!-- ============================================================
@@ -256,10 +258,10 @@ Bez fałszywego licznika, bez fikcyjnej ceny odniesienia i bez nieudokumentowany
 <section id="od-srodka"><div class="w">
   <div class="srodek"><div class="nad">Zobacz od środka</div><h2>Prawdziwe zrzuty ekranu, <span class="metal">nie wizualizacje.</span></h2></div>
   <div class="galeria">
-    <figure class="ekran"><img src="${c.zrzuty.kokpit}" alt="Kokpit" loading="lazy" width="1600" height="1000"><figcaption>Kokpit</figcaption></figure>
-    <figure class="ekran"><img src="${c.zrzuty.projekty}" alt="Zadania i projekty" loading="lazy" width="1600" height="1000"><figcaption>Zadania i projekty</figcaption></figure>
-    <figure class="ekran"><img src="${c.zrzuty.nawyki}" alt="Śledzenie nawyków" loading="lazy" width="1600" height="1000"><figcaption>Śledzenie nawyków</figcaption></figure>
-    <figure class="ekran"><img src="${c.zrzuty.finanse}" alt="Finanse i budżet" loading="lazy" width="1600" height="1000"><figcaption>Finanse i budżet</figcaption></figure>
+    <figure class="ekran"><img src="${c.zrzuty.kokpit}" alt="${pz.kokpit}" loading="lazy" width="1600" height="1000"><figcaption>${pz.kokpit}</figcaption></figure>
+    <figure class="ekran"><img src="${c.zrzuty.projekty}" alt="${pz.projekty}" loading="lazy" width="1600" height="1000"><figcaption>${pz.projekty}</figcaption></figure>
+    <figure class="ekran"><img src="${c.zrzuty.nawyki}" alt="${pz.nawyki}" loading="lazy" width="1600" height="1000"><figcaption>${pz.nawyki}</figcaption></figure>
+    <figure class="ekran"><img src="${c.zrzuty.finanse}" alt="${pz.finanse}" loading="lazy" width="1600" height="1000"><figcaption>${pz.finanse}</figcaption></figure>
   </div>
 </div></section>
 
@@ -371,12 +373,15 @@ Bez fałszywego licznika, bez fikcyjnej ceny odniesienia i bez nieudokumentowany
     <div>
       <div class="nad">Za darmo</div>
       <h2>Nie kupuj w ciemno. <span class="metal">Zacznij od ebooka.</span></h2>
-      <p class="lead">„Nawyki Żelaznej Dyscypliny”: pięć nawyków opartych na badaniach i plan na 30 dni. Wyślemy go na Twój e-mail, a w kolejnych dniach kilka krótkich lekcji o ogarnianiu dnia. Wypiszesz się jednym kliknięciem.</p>
+      ${c.darmowy_ebook_strona ? `<p class="lead">„Nawyki Żelaznej Dyscypliny”: pięć nawyków opartych na badaniach i plan na 30 dni. Pobierasz od razu, bez podawania e-maila.</p>
+      <div class="formularz">
+        <a class="btn btn-g" href="${c.darmowy_ebook_strona}">${IK.mail} Pobierz darmowy ebook</a>
+      </div>` : `<p class="lead">„Nawyki Żelaznej Dyscypliny”: pięć nawyków opartych na badaniach i plan na 30 dni. Wyślemy go na Twój e-mail, a w kolejnych dniach kilka krótkich lekcji o ogarnianiu dnia. Wypiszesz się jednym kliknięciem.</p>
       <div class="formularz">
         <!-- WKLEJ TUTAJ FORMULARZ MAILERLITE (MailerLite → Forms → Embedded forms → kod HTML) -->
         <a class="btn btn-g" href="${c.mailerlite_strona_zapisu}">${IK.mail} Wyślij mi darmowy ebook</a>
         <p class="zgoda">Zapis na newsletter jest dobrowolny. Administratorem danych jest ${esc(c.sprzedawca.nazwa)}. Szczegóły w <a href="${c.linki.polityka}" style="text-decoration:underline">polityce prywatności</a>.</p>
-      </div>
+      </div>`}
     </div>
   </div>
 </div></section>
@@ -396,6 +401,46 @@ Bez fałszywego licznika, bez fikcyjnej ceny odniesienia i bez nieudokumentowany
 </div></footer>
 
 </div>`;
+}
+
+// Strona darmowego ebooka: pobranie od razu, bez zapisu na newsletter
+function stronaEbooka(c) {
+  const punkty = [
+    'Pierwsza godzina dnia bez telefonu i bez pobudki o 5:00',
+    'Wieczorne 5 minut: plan na jutro, zanim skończysz dzień',
+    'Start od 2 minut i zasada „nie opuszczaj dwa razy z rzędu”',
+    'Sen, kawa i szczyt energii',
+    'Otoczenie, które pracuje za Ciebie, oraz plan na 30 dni',
+  ];
+  return `<!-- REVION · DARMOWY EBOOK (bez zapisu) -->
+<style>${CSS}
+.rv .dost{max-width:920px;margin:0 auto;padding:72px 0}
+.rv .eb{display:grid;grid-template-columns:260px 1fr;gap:44px;align-items:center;margin-top:30px}
+.rv .eb img{width:100%;height:auto;border-radius:10px;box-shadow:0 30px 80px rgba(0,0,0,.55)}
+.rv .eb ul{list-style:none;display:grid;gap:10px;margin:0 0 28px;padding:0}
+.rv .eb li{color:#C9D2DE;display:flex;gap:10px;align-items:flex-start}
+.rv .eb li svg{flex:none;width:20px;height:20px;color:var(--cyjan);margin-top:3px}
+@media (max-width:700px){.rv .eb{grid-template-columns:1fr}.rv .eb img{max-width:240px}.rv .eb .btn{width:100%}}
+</style>
+<div class="rv"><div class="w dost">
+  <a href="${c.linki.home}" class="logo" style="margin-bottom:40px;display:inline-flex">${znak({ rozmiar: 30 })}<span>REVION</span></a>
+  <div class="nad">Za darmo, bez zapisu</div>
+  <h1 style="font-size:clamp(2rem,5vw,3.2rem);margin-bottom:16px">Nawyki <span class="metal">Żelaznej Dyscypliny</span></h1>
+  <p class="lead">Ebook PDF, ${c.strony.nawyki} stron. Pięć nawyków opartych na badaniach i plan na 30 dni. Przy każdej liczbie podajemy źródło. Pobierasz od razu, bez podawania e-maila.</p>
+  <div class="eb">
+    <img src="${img('ebook-nawyki-okladka.webp')}" alt="Okładka ebooka Nawyki Żelaznej Dyscypliny" width="800" height="1135">
+    <div>
+      <ul>${punkty.map((p) => `<li>${IK.ok}<span>${p}</span></li>`).join('')}</ul>
+      <a class="btn btn-g" href="${c.dostawa.ebook_nawyki}" download>Pobierz ebook (PDF) ${IK.strzalka}</a>
+    </div>
+  </div>
+  <div class="karta" style="margin-top:56px">
+    <div class="nad">Revion Life OS</div>
+    <h2 style="font-size:clamp(1.4rem,3vw,1.9rem);margin-bottom:10px">Plan, nawyki i projekty <span class="metal">w jednym miejscu.</span></h2>
+    <p style="margin-bottom:20px">Ramki „Jak to zrobić w Life OS” w ebooku pokazują, gdzie co ustawić w gotowym szablonie Notion po polsku. ${c.ceny.life_os} zł raz, bez abonamentu, 14 dni na zwrot pieniędzy.</p>
+    <a class="btn btn-d" href="${c.linki.home}#oferta">Zobacz Life OS</a>
+  </div>
+</div></div>`;
 }
 
 function stronaDostawy(c, wariant) {
@@ -431,6 +476,7 @@ Ustaw w Elementorze/SEO: noindex, nofollow, wyłącz z mapy strony. Adres strony
     <li>Pobierz pliki PDF i zapisz je na urządzeniu.</li>
     <li>Zacznij od Inboxu: wrzuć wszystko, co masz w głowie, i wybierz trzy priorytety na dziś.</li>
   </ol>
+  <!--REVION_KOMUNIKAT-->
   <p style="font-size:.92rem;margin-bottom:8px">Potwierdzenie zakupu z treścią Twojej zgody i warunkami umowy wysłaliśmy na Twój e-mail. Jeśli nie widzisz go w ciągu kilku minut, sprawdź spam albo napisz na <a href="mailto:${esc(c.email)}" class="cyj">${esc(c.email)}</a>.</p>
   ${zasoby.map((z) => `<div class="karta zasob"><div class="l"><div class="ik">${IK[z.ik]}</div><div><h3 style="margin:0">${z.tytul}</h3><p style="font-size:.92rem">${z.opis}</p></div></div><a class="btn btn-g" href="${z.link}" ${z.notion ? '' : 'download'}>${z.przycisk}</a></div>`).join('\n  ')}
   <p style="margin-top:34px;font-size:.92rem">Coś nie działa albo potrzebujesz rachunku? Napisz na <a href="mailto:${esc(c.email)}" class="cyj">${esc(c.email)}</a>. Odpowiadamy zwykle w ciągu 24 godzin w dni robocze.</p>
@@ -455,6 +501,7 @@ function zapiszStrony(c, katalog) {
   writeFileSync(join(katalog, 'strona-glowna-v2.html'), twardeSpacje(stronaGlowna(c)));
   writeFileSync(join(katalog, 'dostawa-life-os.html'), twardeSpacje(stronaDostawy(c, 'life-os')));
   writeFileSync(join(katalog, 'dostawa-pakiet-pro.html'), twardeSpacje(stronaDostawy(c, 'pakiet-pro')));
+  if (c.darmowy_ebook_strona) writeFileSync(join(katalog, 'darmowy-ebook.html'), twardeSpacje(stronaEbooka(c)));
 }
 
 async function main() {
@@ -510,4 +557,4 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     .finally(zamknij);
 }
 
-export { stronaGlowna, stronaDostawy, twardeSpacje, htmlDoPng };
+export { stronaGlowna, stronaDostawy, stronaEbooka, twardeSpacje, htmlDoPng };

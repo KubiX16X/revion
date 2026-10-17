@@ -6,7 +6,7 @@ import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { marked } from 'marked';
 import { REVION, STUDIO, przegladarkaRevion, zamknij } from './wspolne.mjs';
-import { stronaGlowna, stronaDostawy, twardeSpacje } from './strona.mjs';
+import { stronaGlowna, stronaDostawy, stronaEbooka, twardeSpacje } from './strona.mjs';
 
 const STRONA = join(REVION, 'strona');
 const BUDOWA = join(STRONA, 'lokalnie', 'wtyczka');
@@ -27,7 +27,9 @@ const cfg = {
   zrzuty: { kokpit: T('ZRZUT_KOKPIT'), projekty: T('ZRZUT_PROJEKTY'), nawyki: T('ZRZUT_NAWYKI'), finanse: T('ZRZUT_FINANSE') },
   dostawa: { life_os: T('NOTION'), ebook_nawyki: T('PDF_NAWYKI'), ebook_skupienie: T('PDF_SKUPIENIE'), ikony: T('ZIP_IKONY') },
   mailerlite_strona_zapisu: T('MAILERLITE'),
-  linki: { regulamin: T('URL_REGULAMIN'), polityka: T('URL_POLITYKA'), kontakt: T('URL_KONTAKT'), cookies: T('URL_COOKIES') },
+  darmowy_ebook_strona: T('URL_EBOOK'),
+  zrzuty_podpisy: LOKALNA.wtyczka?.podpisy ?? {},
+  linki: { regulamin: T('URL_REGULAMIN'), polityka: T('URL_POLITYKA'), kontakt: T('URL_KONTAKT'), cookies: T('URL_COOKIES'), home: T('URL_HOME') },
 };
 
 const sprawdz = (html, nazwa) => {
@@ -50,6 +52,8 @@ function szablony() {
     const html = twardeSpacje(stronaDostawy(cfg, w)).replaceAll(CFG.obrazy_baza, T('OBRAZY'));
     writeFileSync(join(CEL, 'szablony', `dostawa-${w}.html`), sprawdz(html, w));
   }
+  const ebook = twardeSpacje(stronaEbooka(cfg)).replaceAll(CFG.obrazy_baza, T('OBRAZY'));
+  writeFileSync(join(CEL, 'szablony', 'ebook.html'), sprawdz(ebook, 'ebook'));
   cpSync(join(STUDIO, 'wtyczka', 'szablony', 'szkielet.php'), join(CEL, 'szablony', 'szkielet.php'));
 }
 
@@ -68,6 +72,12 @@ const DOKUMENTY = {
   ],
   'polityka-prywatnosci': [
     ['[DO UZUPEŁNIENIA: data publikacji]', DATA],
+    [/\n\| \*\*Statystyki strony\*\* \(analityka\)[^\n]*/, ''],
+    [/\n\| \*\*Reklama i mierzenie jej skuteczności\*\* \(Meta Pixel\)[^\n]*/, ''],
+    [/\n\| \[DO UZUPEŁNIENIA: Make \(Celonis\)[^\n]*/, ''],
+    [/\n\| \*\*Meta Platforms Ireland Limited\*\*[^\n]*/, ''],
+    [/\n- \*\*Meta Pixel\*\* \(tylko po Twojej zgodzie\)[^\n]*/, ''],
+    ['Dotyczy to w szczególności Stripe (Stripe, Inc., USA), Meta (Meta Platforms, Inc., USA), Google (USA, jeśli używamy Google Analytics), narzędzia do automatyzacji (Zapier, Inc., USA albo podwykonawcy Make) oraz podwykonawców MailerLite.', 'Dotyczy to w szczególności Stripe (Stripe, Inc., USA) oraz podwykonawców MailerLite.'],
     ['[DO UZUPEŁNIENIA: nazwa i kraj podmiotu z umowy powierzenia w panelu MailerLite, zwykle MailerLite Limited, Irlandia]', 'MailerLite Limited (Irlandia)'],
     [/\n\| \[DO UZUPEŁNIENIA: Google Ireland Limited[^\n]*/, ''],
     [/\n\| \[DO UZUPEŁNIENIA: biuro rachunkowe[^\n]*/, ''],
@@ -75,7 +85,17 @@ const DOKUMENTY = {
   ],
   'polityka-cookies': [
     ['[DO UZUPEŁNIENIA: data publikacji]', DATA],
-    [/\n\| \[DO UZUPEŁNIENIA: _ga, _ga_\*[^\n]*/, ''],
+    [/## 2\. Jakich cookies używamy[\s\S]*?## 5\. Strony innych firm/, `## 2. Jakich cookies używamy
+
+Na revion.pl nie używamy cookies analitycznych ani marketingowych (np. Google Analytics, Meta Pixel). Strona może zapisywać tylko pliki niezbędne do jej działania i bezpieczeństwa. Takie pliki nie wymagają zgody (art. 399 Prawa komunikacji elektronicznej), dlatego nie wyświetlamy banera zgód.
+
+## 3. Zmiany
+
+Jeśli włączymy statystyki albo reklamy (np. Meta Pixel), najpierw dodamy baner zgód i zaktualizujemy tę politykę. Takie pliki zapiszemy dopiero po Twojej zgodzie.
+
+## 4. Strony innych firm`],
+    ['## 6. Ustawienia przeglądarki', '## 5. Ustawienia przeglądarki'],
+    [' formularz zapisu **MailerLite** albo', ''],
   ],
   'formularz-reklamacji': [],
   'formularz-zwrotu': [],
@@ -145,10 +165,11 @@ async function main() {
   rmSync(BUDOWA, { recursive: true, force: true });
   mkdirSync(CEL, { recursive: true });
   cpSync(join(STUDIO, 'wtyczka', 'revion-strona.php'), join(CEL, 'revion-strona.php'));
+  cpSync(join(STUDIO, 'wtyczka', 'znak-wodny.php'), join(CEL, 'znak-wodny.php'));
   const wtyczkaLok = LOKALNA.wtyczka ?? {};
-  const linki = Object.fromEntries(Object.entries(wtyczkaLok.linki ?? {}).filter(([, v]) => /^https:\/\//.test(v)));
+  const linki = Object.fromEntries(Object.entries(wtyczkaLok.linki ?? {}).filter(([, v]) => /^(https:\/\/|wtyczka:)/.test(v)));
   const php = (o) => JSON.stringify(o).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-  writeFileSync(join(CEL, 'wersja.php'), `<?php\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\ndefine( 'REVION_REGULAMIN_PDF', '${PDF_REGULAMINU}' );\ndefine( 'REVION_DOMYSLNE', '${php(linki)}' );\ndefine( 'REVION_SLUGI', '${php(wtyczkaLok.slugi ?? {})}' );\n`);
+  writeFileSync(join(CEL, 'wersja.php'), `<?php\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\ndefine( 'REVION_REGULAMIN_PDF', '${PDF_REGULAMINU}' );\ndefine( 'REVION_DOMYSLNE', '${php(linki)}' );\ndefine( 'REVION_SLUGI', '${php(wtyczkaLok.slugi ?? {})}' );\ndefine( 'REVION_PRO_GROSZE', ${Math.round(CFG.ceny.pakiet_pro * 100)} );\n`);
   console.log('Wbudowane linki:', Object.keys(linki).join(', ') || 'brak');
   for (const [k, v] of Object.entries(wtyczkaLok.slugi ?? {})) console.log(`Strona ${k}: https://revion.pl/${v}/`);
   szablony();

@@ -36,6 +36,8 @@
     "regulamin": "https://revion.pl/regulamin/",
     "polityka": "https://revion.pl/polityka-prywatnosci/",
     "kontakt": "https://revion.pl/kontakt/",
-    "cookies": "https://revion.pl/polityka-cookies/"
-  }
+    "cookies": "https://revion.pl/polityka-cookies/",
+    "home": "https://revion.pl/"
+  },
+  "darmowy_ebook_strona": "https://revion.pl/darmowy-ebook/"
 }

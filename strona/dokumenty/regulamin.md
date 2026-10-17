@@ -90,7 +90,7 @@ Słowa pisane w regulaminie wielką literą oznaczają:
    1. szablon działa w Notion, także na bezpłatnym planie, w przeglądarce oraz w aplikacjach Notion na komputer, iOS i Androida;
    2. ebooki to pliki PDF, które otworzysz na komputerze, tablecie, telefonie i czytniku obsługującym PDF;
    3. ikony to pliki PNG, które wgrywasz w Notion jako ikony stron.
-6. Treści cyfrowe nie mają technicznych zabezpieczeń (DRM).
+6. Treści cyfrowe nie mają technicznych zabezpieczeń (DRM), które ograniczałyby korzystanie z nich. Pliki z Pakietu Pro (PDF i ZIP) mogą być oznaczone znakiem wodnym z Twoim adresem e-mail, datą i numerem zakupu. Oznaczenie nie ogranicza korzystania z plików, a służy ochronie przed ich nielegalnym rozpowszechnianiem.
 7. Ebooki mają charakter edukacyjny i poradnikowy. Nie zastępują porady lekarza, psychologa ani innego specjalisty.
 8. Glify ikon pochodzą z biblioteki Lucide udostępnionej na licencji ISC. Jej treść jest dołączona do paczki ikon.
 9. Notion jest znakiem towarowym Notion Labs, Inc. Revion nie jest powiązany z Notion Labs, Inc. Do korzystania z szablonu potrzebujesz własnego konta w Notion. Korzystanie z Notion podlega warunkom Notion Labs, Inc.

@@ -297,7 +297,7 @@ Odpowiadamy za zgodność produktu z umową przez 2 lata od dostarczenia. Napisz
 NAJWAŻNIEJSZE INFORMACJE O UMOWIE
 • Sprzedawca: Jakub Sroczyński (Revion), ul. Lawendowa 21, 58-500 Jelenia Góra; działalność nierejestrowana (bez wpisu do CEIDG); e-mail: kontakt@revion.pl [DO UZUPEŁNIENIA: telefon, jeśli go udostępniasz].
 • Co kupiłeś(-aś): [DO UZUPEŁNIENIA w każdej z dwóch wersji e-maila: Life OS – szablon Revion Life OS w Notion (Kokpit „Dziś”, Inbox, Projekty, Cele i nawyki, Finanse i budżet, Biblioteka wiedzy), ebook „Nawyki Żelaznej Dyscypliny” w prezencie, przyszłe aktualizacje szablonu, pomoc mailowa. Pakiet Pro – to samo oraz ebook „Skupienie Absolutne”, 50 ikon do Notion i aktualizacje ebooków.]
-• Wymagania: konto w Notion (wystarczy darmowe), przeglądarka albo aplikacja Notion (komputer, iOS, Android), program do plików PDF; w Pakiecie Pro także rozpakowanie pliku ZIP. Pliki nie mają zabezpieczeń DRM.
+• Wymagania: konto w Notion (wystarczy darmowe), przeglądarka albo aplikacja Notion (komputer, iOS, Android), program do plików PDF; w Pakiecie Pro także rozpakowanie pliku ZIP. Pliki nie mają zabezpieczeń DRM; pliki z Pakietu Pro są oznaczone znakiem wodnym z Twoim adresem e-mail.
 • Dostawa: od razu po płatności, przez stronę dostępu i ten e-mail, bez opłat.
 • Aktualizacje: nowe wersje bez dopłaty pod tymi samymi linkami (§ 7 Regulaminu). Pomoc: kontakt@revion.pl, zwykle w ciągu 24 godzin w dni robocze.
 • Licencja: na użytek własny jednej osoby. Prosimy nie udostępniać linków ani plików (§ 12 Regulaminu).
